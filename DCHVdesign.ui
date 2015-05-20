@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>349</width>
-    <height>653</height>
+    <width>658</width>
+    <height>692</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -398,52 +398,46 @@
     </layout>
    </item>
    <item>
-    <widget class="QPushButton" name="pushButton">
-     <property name="text">
-      <string>Submit Changes</string>
+    <layout class="QHBoxLayout" name="horizontalLayout" stretch="0,0">
+     <property name="sizeConstraint">
+      <enum>QLayout::SetDefaultConstraint</enum>
      </property>
-    </widget>
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="text">
+        <string>Submit Changes</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
    </item>
   </layout>
-  <zorder>Sector_2</zorder>
-  <zorder>SuperLayer</zorder>
-  <zorder>Layer</zorder>
-  <zorder>Crate</zorder>
-  <zorder>Wire</zorder>
-  <zorder>SupplyBoard</zorder>
-  <zorder>DistributionBoard</zorder>
-  <zorder>Subslot</zorder>
-  <zorder>Quad</zorder>
-  <zorder>Doublet</zorder>
-  <zorder>TransformerBoard</zorder>
-  <zorder>TransformerSlot</zorder>
-  <zorder>label</zorder>
-  <zorder>label_2</zorder>
-  <zorder>pushButton</zorder>
-  <zorder>WireType</zorder>
-  <zorder>Sector</zorder>
-  <zorder>label_3</zorder>
-  <zorder>label_4</zorder>
-  <zorder>label_5</zorder>
-  <zorder>label_6</zorder>
-  <zorder>label_7</zorder>
-  <zorder>label_8</zorder>
-  <zorder>label_9</zorder>
-  <zorder>label_10</zorder>
-  <zorder>label_11</zorder>
-  <zorder>label_12</zorder>
-  <zorder>label_13</zorder>
-  <zorder>listView</zorder>
-  <zorder>listView_2</zorder>
-  <zorder>listView_4</zorder>
-  <zorder>listView_5</zorder>
-  <zorder>listView_8</zorder>
-  <zorder>listView_3</zorder>
-  <zorder>listView_7</zorder>
-  <zorder>listView_6</zorder>
-  <zorder>listView_9</zorder>
-  <zorder>listView_10</zorder>
-  <zorder>listView_11</zorder>
  </widget>
  <resources/>
  <connections>
@@ -454,12 +448,12 @@
    <slot>setValue(int)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>141</x>
-     <y>236</y>
+     <x>198</x>
+     <y>327</y>
     </hint>
     <hint type="destinationlabel">
-     <x>141</x>
-     <y>266</y>
+     <x>198</x>
+     <y>366</y>
     </hint>
    </hints>
   </connection>
