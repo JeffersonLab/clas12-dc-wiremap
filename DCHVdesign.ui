@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DVHVstatus</class>
+ <widget class="QFrame" name="DVHVstatus">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>824</width>
+    <height>581</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>DCHV Status</string>
+  </property>
+  <property name="frameShape">
+   <enum>QFrame::StyledPanel</enum>
+  </property>
+  <property name="frameShadow">
+   <enum>QFrame::Raised</enum>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>0</y>
+     <width>531</width>
+     <height>581</height>
+    </rect>
+   </property>
+   <property name="currentIndex">
+    <number>2</number>
+   </property>
+   <widget class="QWidget" name="tab">
+    <attribute name="title">
+     <string>Crates</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="tab_2">
+    <attribute name="title">
+     <string>Translation Board</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="tab_3">
+    <attribute name="title">
+     <string>Wires</string>
+    </attribute>
+   </widget>
+   <widget class="QWidget" name="tab_4">
+    <attribute name="title">
+     <string>Distribution Board</string>
+    </attribute>
+   </widget>
+  </widget>
+  <widget class="QSpinBox" name="Sector_2">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>70</y>
+     <width>64</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="minimum">
+    <number>1</number>
+   </property>
+   <property name="maximum">
+    <number>6</number>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="SuperLayer">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>100</y>
+     <width>64</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="minimum">
+    <number>1</number>
+   </property>
+   <property name="maximum">
+    <number>6</number>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="Layer">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>130</y>
+     <width>64</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="minimum">
+    <number>1</number>
+   </property>
+   <property name="maximum">
+    <number>6</number>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="Crate">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>190</y>
+     <width>64</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="minimum">
+    <number>1</number>
+   </property>
+   <property name="maximum">
+    <number>4</number>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="Wire">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>160</y>
+     <width>64</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="minimum">
+    <number>1</number>
+   </property>
+   <property name="maximum">
+    <number>1024</number>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="SupplyBoard">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>220</y>
+     <width>64</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="minimum">
+    <number>1</number>
+   </property>
+   <property name="maximum">
+    <number>4</number>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="DistributionBoard">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>280</y>
+     <width>64</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="minimum">
+    <number>1</number>
+   </property>
+   <property name="maximum">
+    <number>7</number>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="Subslot">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>250</y>
+     <width>64</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="minimum">
+    <number>1</number>
+   </property>
+   <property name="maximum">
+    <number>10</number>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="Quad">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>310</y>
+     <width>64</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="minimum">
+    <number>1</number>
+   </property>
+   <property name="maximum">
+    <number>4</number>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="Doublet">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>340</y>
+     <width>83</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Foward</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Backwards</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QSpinBox" name="TransformerBoard">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>370</y>
+     <width>64</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="minimum">
+    <number>1</number>
+   </property>
+   <property name="maximum">
+    <number>7</number>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="TransformerSlot">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>400</y>
+     <width>64</width>
+     <height>33</height>
+    </rect>
+   </property>
+   <property name="minimum">
+    <number>1</number>
+   </property>
+   <property name="maximum">
+    <number>8</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>10</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Search Engine</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Wire Type</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>440</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Submit Changes</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="WireType">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>40</y>
+     <width>83</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>Sense</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Field</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Guard</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="Sector">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>70</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sector</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Super Layer</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>130</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Layer</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>160</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Wire</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>190</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Crate</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>220</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Supply Board</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>250</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Subslot</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>280</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Distrib. Board</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>310</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Quad</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_11">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>340</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Doublet</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_12">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>370</y>
+     <width>81</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Trans. Board</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_13">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>400</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Trans. Slot</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_14">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>10</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Possibilities</string>
+   </property>
+  </widget>
+  <widget class="QListView" name="listView">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>70</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QListView" name="listView_2">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>100</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QListView" name="listView_4">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>130</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QListView" name="listView_5">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>160</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QListView" name="listView_6">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>280</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QListView" name="listView_3">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>220</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QListView" name="listView_7">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>250</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QListView" name="listView_8">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>190</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QListView" name="listView_9">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>310</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QListView" name="listView_10">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>370</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QListView" name="listView_11">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>400</y>
+     <width>51</width>
+     <height>31</height>
+    </rect>
+   </property>
+  </widget>
+  <zorder>tabWidget</zorder>
+  <zorder>Sector_2</zorder>
+  <zorder>SuperLayer</zorder>
+  <zorder>Layer</zorder>
+  <zorder>Crate</zorder>
+  <zorder>Wire</zorder>
+  <zorder>SupplyBoard</zorder>
+  <zorder>DistributionBoard</zorder>
+  <zorder>Subslot</zorder>
+  <zorder>Quad</zorder>
+  <zorder>Doublet</zorder>
+  <zorder>TransformerBoard</zorder>
+  <zorder>TransformerSlot</zorder>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>WireType</zorder>
+  <zorder>Sector</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_7</zorder>
+  <zorder>label_8</zorder>
+  <zorder>label_9</zorder>
+  <zorder>label_10</zorder>
+  <zorder>label_11</zorder>
+  <zorder>label_12</zorder>
+  <zorder>label_13</zorder>
+  <zorder>label_14</zorder>
+  <zorder>listView</zorder>
+  <zorder>listView_2</zorder>
+  <zorder>listView_4</zorder>
+  <zorder>listView_5</zorder>
+  <zorder>listView_8</zorder>
+  <zorder>listView_3</zorder>
+  <zorder>listView_7</zorder>
+  <zorder>listView_6</zorder>
+  <zorder>listView_9</zorder>
+  <zorder>listView_10</zorder>
+  <zorder>listView_11</zorder>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>SupplyBoard</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>Subslot</receiver>
+   <slot>setValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>141</x>
+     <y>236</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>141</x>
+     <y>266</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
