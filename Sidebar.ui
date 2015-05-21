@@ -188,7 +188,7 @@
    <item row="0" column="3">
     <widget class="QLabel" name="header_nopts">
      <property name="sizePolicy">
-      <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
        <horstretch>0</horstretch>
        <verstretch>0</verstretch>
       </sizepolicy>
@@ -524,7 +524,7 @@
    <item row="2" column="3">
     <widget class="QLabel" name="wire_type_nopts">
      <property name="sizePolicy">
-      <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+      <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
        <horstretch>0</horstretch>
        <verstretch>0</verstretch>
       </sizepolicy>
