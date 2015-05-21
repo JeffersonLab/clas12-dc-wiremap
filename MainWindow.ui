@@ -16,25 +16,31 @@
   <widget class="QWidget" name="centralwidget">
    <layout class="QHBoxLayout" name="horizontalLayout">
     <item>
-     <widget class="QWidget" name="sidebar_holder" native="true">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-     </widget>
+     <widget class="QWidget" name="sidebar_holder" native="true"/>
     </item>
     <item>
      <widget class="QTabWidget" name="display_tabs">
-      <widget class="QWidget" name="tab">
+      <property name="currentIndex">
+       <number>3</number>
+      </property>
+      <widget class="QWidget" name="crates_tab_holder">
        <attribute name="title">
-        <string>Tab 1</string>
+        <string>Crates</string>
        </attribute>
       </widget>
-      <widget class="QWidget" name="tab_2">
+      <widget class="QWidget" name="translation_board_tab_holder">
        <attribute name="title">
-        <string>Tab 2</string>
+        <string>Translation Boards</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="wire_tab_holder">
+       <attribute name="title">
+        <string>Wires</string>
+       </attribute>
+      </widget>
+      <widget class="QWidget" name="distrib_board_tab_holder">
+       <attribute name="title">
+        <string>Distribution Board</string>
        </attribute>
       </widget>
      </widget>
