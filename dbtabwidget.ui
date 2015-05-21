@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TabWidget</class>
+ <widget class="QTabWidget" name="TabWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TabWidget</string>
+  </property>
+  <property name="currentIndex">
+   <number>3</number>
+  </property>
+  <widget class="QWidget" name="sector1_tab">
+   <attribute name="title">
+    <string>Sector 1</string>
+   </attribute>
+  </widget>
+  <widget class="QWidget" name="sector2_tab">
+   <attribute name="title">
+    <string>Sector 2</string>
+   </attribute>
+  </widget>
+  <widget class="QWidget" name="sector3_tab">
+   <attribute name="title">
+    <string>Sector 3</string>
+   </attribute>
+  </widget>
+  <widget class="QWidget" name="sector4_tab">
+   <attribute name="title">
+    <string>Sector 4</string>
+   </attribute>
+  </widget>
+  <widget class="QWidget" name="tab_4">
+   <attribute name="title">
+    <string>Page</string>
+   </attribute>
+  </widget>
+  <widget class="QWidget" name="tab_5">
+   <attribute name="title">
+    <string>Page</string>
+   </attribute>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
