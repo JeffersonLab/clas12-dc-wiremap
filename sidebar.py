@@ -15,20 +15,18 @@ class MainWindow(QtGui.QMainWindow):
     def __init__(self):
         super(MainWindow, self).__init__()
 
-        #print('init sidebar...')
-        #self.sidebar = Sidebar(self)
+        self.central_widget = QtGui.QWidget(self)
+        self.setCentralWidget(self.central_widget)
 
-        print('hbox...')
         hbox = QtGui.QHBoxLayout()
-        hbox.addWidget(Sidebar())
+        self.sidebar = Sidebar()
+        hbox.addWidget(self.sidebar)
         hbox.addStretch(1)
 
-        print('vbox...')
-        vbox = QtGui.QVBoxLayout()
+        vbox = QtGui.QVBoxLayout(self.central_widget)
         vbox.addLayout(hbox)
         vbox.addStretch(1)
 
-        print('show...')
         self.show()
         self.updating = False
 
