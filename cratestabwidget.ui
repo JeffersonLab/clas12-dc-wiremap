@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>crate4_tabwidget</class>
+ <widget class="QTabWidget" name="crate4_tabwidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TabWidget</string>
+  </property>
+  <property name="currentIndex">
+   <number>3</number>
+  </property>
+  <widget class="QWidget" name="crate1_tabwidget">
+   <attribute name="title">
+    <string>Crate 1</string>
+   </attribute>
+  </widget>
+  <widget class="QWidget" name="crate2_tabwidget">
+   <attribute name="title">
+    <string>Crate 2</string>
+   </attribute>
+  </widget>
+  <widget class="QWidget" name="crate3_tabwidget_2">
+   <attribute name="title">
+    <string>Crate 3</string>
+   </attribute>
+  </widget>
+  <widget class="QWidget" name="tab_2">
+   <attribute name="title">
+    <string>Crate 4</string>
+   </attribute>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
