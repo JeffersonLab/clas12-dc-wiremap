@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>400</width>
+    <width>486</width>
     <height>300</height>
    </rect>
   </property>
@@ -14,7 +14,7 @@
    <string>TabWidget</string>
   </property>
   <property name="currentIndex">
-   <number>3</number>
+   <number>5</number>
   </property>
   <widget class="QWidget" name="sector1_tab">
    <attribute name="title">
@@ -36,14 +36,14 @@
     <string>Sector 4</string>
    </attribute>
   </widget>
-  <widget class="QWidget" name="tab_4">
+  <widget class="QWidget" name="sector5_tab">
    <attribute name="title">
-    <string>Page</string>
+    <string>Sector 5</string>
    </attribute>
   </widget>
-  <widget class="QWidget" name="tab_5">
+  <widget class="QWidget" name="sector6_tab">
    <attribute name="title">
-    <string>Page</string>
+    <string>Sector 6</string>
    </attribute>
   </widget>
  </widget>
