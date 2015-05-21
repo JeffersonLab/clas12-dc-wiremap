@@ -40,7 +40,7 @@
       </widget>
       <widget class="QWidget" name="distrib_board_tab_holder">
        <attribute name="title">
-        <string>Distribution Board</string>
+        <string>Distribution Boards</string>
        </attribute>
       </widget>
      </widget>
