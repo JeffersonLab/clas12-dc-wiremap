@@ -16,7 +16,13 @@ class MainWindow(QtGui.QMainWindow):
         super(MainWindow, self).__init__()
         uic.loadUi('MainWindow.ui',self)
 
-        self.sidebar = Sidebar(self.sidebar_holder)
+        self.sidebar = Sidebar()
+
+        vbox = QtGui.QVBoxLayout()
+        vbox.addWidget(self.sidebar)
+        vbox.addStretch(1)
+
+        self.sidebar_holder.setLayout(vbox)
 
         self.show()
         self.updating = False
