@@ -687,6 +687,34 @@
    </item>
   </layout>
  </widget>
+ <tabstops>
+  <tabstop>wire_type</tabstop>
+  <tabstop>sector</tabstop>
+  <tabstop>superlayer</tabstop>
+  <tabstop>layer</tabstop>
+  <tabstop>wire</tabstop>
+  <tabstop>crate</tabstop>
+  <tabstop>supply_board</tabstop>
+  <tabstop>subslot</tabstop>
+  <tabstop>distribution_board</tabstop>
+  <tabstop>quad</tabstop>
+  <tabstop>doublet</tabstop>
+  <tabstop>translation_board</tabstop>
+  <tabstop>translation_slot</tabstop>
+  <tabstop>wire_type_fixed</tabstop>
+  <tabstop>sector_fixed</tabstop>
+  <tabstop>superlayer_fixed</tabstop>
+  <tabstop>layer_fixed</tabstop>
+  <tabstop>wire_fixed</tabstop>
+  <tabstop>crate_fixed</tabstop>
+  <tabstop>supply_board_fixed</tabstop>
+  <tabstop>subslot_fixed</tabstop>
+  <tabstop>distribution_board_fixed</tabstop>
+  <tabstop>quad_fixed</tabstop>
+  <tabstop>doublet_fixed</tabstop>
+  <tabstop>translation_board_fixed</tabstop>
+  <tabstop>translation_slot_fixed</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>
