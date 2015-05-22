@@ -9,12 +9,15 @@ def fn():
 class Sidebar(QtGui.QWidget):
     def __init__(self,parent=None):
         super(QtGui.QWidget, self).__init__(parent)
-        uic.loadUi('Sidebar.ui',self)
+        uic.loadUi('Sidebar.ui',self)  
+    def update_parameters(self):
+        pass 
 class dbtabwidget(QtGui.QTabWidget):
     def __init__(self, parent=None):
         super(QtGui.QWidget, self).__init__(parent)
         uic.loadUi('dbtabwidget.ui',self)
 
+  
 class MainWindow(QtGui.QMainWindow):
     def __init__(self):
         super(MainWindow, self).__init__()
