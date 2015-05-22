@@ -1434,8 +1434,8 @@ border-width: 3px </string>
      <rect>
       <x>270</x>
       <y>130</y>
-      <width>96</width>
-      <height>48</height>
+      <width>91</width>
+      <height>41</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout_9">
@@ -3746,6 +3746,390 @@ border-width: 3px </string>
     </hint>
     <hint type="destinationlabel">
      <x>233</x>
+     <y>376</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sup3_subslot1</sender>
+   <signal>clicked()</signal>
+   <receiver>radioButton_65</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>317</x>
+     <y>184</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>305</x>
+     <y>173</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sup3_subslot1</sender>
+   <signal>clicked()</signal>
+   <receiver>radioButton_66</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>317</x>
+     <y>184</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>281</x>
+     <y>173</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sup3_subslot1</sender>
+   <signal>clicked()</signal>
+   <receiver>radioButton_67</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>317</x>
+     <y>184</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>173</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sup3_subslot1</sender>
+   <signal>clicked()</signal>
+   <receiver>radioButton_68</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>317</x>
+     <y>184</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>281</x>
+     <y>196</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sup3_subslot1</sender>
+   <signal>clicked()</signal>
+   <receiver>radioButton_69</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>317</x>
+     <y>184</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>196</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sup3_subslot1</sender>
+   <signal>clicked()</signal>
+   <receiver>radioButton_70</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>317</x>
+     <y>184</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>353</x>
+     <y>173</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sup3_subslot1</sender>
+   <signal>clicked()</signal>
+   <receiver>radioButton_71</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>317</x>
+     <y>184</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>305</x>
+     <y>196</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sup3_subslot1</sender>
+   <signal>clicked()</signal>
+   <receiver>radioButton_72</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>317</x>
+     <y>184</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>353</x>
+     <y>196</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sup3_subslot2</sender>
+   <signal>clicked()</signal>
+   <receiver>radioButton_33</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>317</x>
+     <y>275</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>305</x>
+     <y>263</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sup3_subslot2</sender>
+   <signal>clicked()</signal>
+   <receiver>radioButton_34</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>317</x>
+     <y>275</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>281</x>
+     <y>263</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sup3_subslot2</sender>
+   <signal>clicked()</signal>
+   <receiver>radioButton_35</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>317</x>
+     <y>275</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>263</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sup3_subslot2</sender>
+   <signal>clicked()</signal>
+   <receiver>radioButton_36</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>317</x>
+     <y>275</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>281</x>
+     <y>286</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sup3_subslot2</sender>
+   <signal>clicked()</signal>
+   <receiver>radioButton_37</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>317</x>
+     <y>275</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>286</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sup3_subslot2</sender>
+   <signal>clicked()</signal>
+   <receiver>radioButton_38</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>317</x>
+     <y>275</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>353</x>
+     <y>263</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sup3_subslot2</sender>
+   <signal>clicked()</signal>
+   <receiver>radioButton_39</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>317</x>
+     <y>275</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>305</x>
+     <y>286</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sup3_subslot2</sender>
+   <signal>clicked()</signal>
+   <receiver>radioButton_40</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>317</x>
+     <y>275</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>353</x>
+     <y>286</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sup3_subslot3</sender>
+   <signal>clicked()</signal>
+   <receiver>radioButton_41</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>317</x>
+     <y>365</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>305</x>
+     <y>353</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sup3_subslot3</sender>
+   <signal>clicked()</signal>
+   <receiver>radioButton_42</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>317</x>
+     <y>365</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>281</x>
+     <y>353</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sup3_subslot3</sender>
+   <signal>clicked()</signal>
+   <receiver>radioButton_43</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>317</x>
+     <y>365</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>353</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sup3_subslot3</sender>
+   <signal>clicked()</signal>
+   <receiver>radioButton_44</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>317</x>
+     <y>365</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>281</x>
+     <y>376</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sup3_subslot3</sender>
+   <signal>clicked()</signal>
+   <receiver>radioButton_45</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>317</x>
+     <y>365</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>376</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sup3_subslot3</sender>
+   <signal>clicked()</signal>
+   <receiver>radioButton_46</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>317</x>
+     <y>365</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>353</x>
+     <y>353</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sup3_subslot3</sender>
+   <signal>clicked()</signal>
+   <receiver>radioButton_47</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>317</x>
+     <y>365</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>305</x>
+     <y>376</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sup3_subslot3</sender>
+   <signal>clicked()</signal>
+   <receiver>radioButton_48</receiver>
+   <slot>click()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>317</x>
+     <y>365</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>353</x>
      <y>376</y>
     </hint>
    </hints>
