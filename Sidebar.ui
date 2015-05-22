@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>338</width>
+    <width>331</width>
     <height>538</height>
    </rect>
   </property>
@@ -15,7 +15,7 @@
   </property>
   <layout class="QGridLayout" name="gridLayout">
    <item row="9" column="2">
-    <widget class="QCheckBox" name="subslot_fixed">
+    <widget class="FixedCheckBox" name="subslot_fixed">
      <property name="layoutDirection">
       <enum>Qt::LeftToRight</enum>
      </property>
@@ -39,6 +39,9 @@
      <property name="alignment">
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
+     <property name="buddy">
+      <cstring>doublet</cstring>
+     </property>
     </widget>
    </item>
    <item row="6" column="0">
@@ -48,6 +51,9 @@
      </property>
      <property name="alignment">
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+     <property name="buddy">
+      <cstring>wire</cstring>
      </property>
     </widget>
    </item>
@@ -74,17 +80,20 @@
     </widget>
    </item>
    <item row="14" column="0">
-    <widget class="QLabel" name="translation_board_label">
+    <widget class="QLabel" name="trans_board_label">
      <property name="text">
       <string>Trans. Board</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
+     <property name="buddy">
+      <cstring>trans_board</cstring>
+     </property>
     </widget>
    </item>
    <item row="5" column="2">
-    <widget class="QCheckBox" name="layer_fixed">
+    <widget class="FixedCheckBox" name="layer_fixed">
      <property name="layoutDirection">
       <enum>Qt::LeftToRight</enum>
      </property>
@@ -121,7 +130,7 @@
     </widget>
    </item>
    <item row="6" column="2">
-    <widget class="QCheckBox" name="wire_fixed">
+    <widget class="FixedCheckBox" name="wire_fixed">
      <property name="layoutDirection">
       <enum>Qt::LeftToRight</enum>
      </property>
@@ -138,10 +147,13 @@
      <property name="alignment">
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
+     <property name="buddy">
+      <cstring>layer</cstring>
+     </property>
     </widget>
    </item>
    <item row="2" column="2">
-    <widget class="QCheckBox" name="wire_type_fixed">
+    <widget class="FixedCheckBox" name="wire_type_fixed">
      <property name="layoutDirection">
       <enum>Qt::LeftToRight</enum>
      </property>
@@ -154,7 +166,7 @@
     </widget>
    </item>
    <item row="15" column="2">
-    <widget class="QCheckBox" name="translation_slot_fixed">
+    <widget class="FixedCheckBox" name="trans_slot_fixed">
      <property name="layoutDirection">
       <enum>Qt::LeftToRight</enum>
      </property>
@@ -212,6 +224,9 @@
      <property name="alignment">
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
+     <property name="buddy">
+      <cstring>sector</cstring>
+     </property>
     </widget>
    </item>
    <item row="7" column="1">
@@ -259,7 +274,7 @@
     </widget>
    </item>
    <item row="7" column="2">
-    <widget class="QCheckBox" name="crate_fixed">
+    <widget class="FixedCheckBox" name="crate_fixed">
      <property name="layoutDirection">
       <enum>Qt::LeftToRight</enum>
      </property>
@@ -269,7 +284,7 @@
     </widget>
    </item>
    <item row="14" column="2">
-    <widget class="QCheckBox" name="translation_board_fixed">
+    <widget class="FixedCheckBox" name="trans_board_fixed">
      <property name="layoutDirection">
       <enum>Qt::LeftToRight</enum>
      </property>
@@ -279,7 +294,7 @@
     </widget>
    </item>
    <item row="11" column="2">
-    <widget class="QCheckBox" name="quad_fixed">
+    <widget class="FixedCheckBox" name="quad_fixed">
      <property name="layoutDirection">
       <enum>Qt::LeftToRight</enum>
      </property>
@@ -289,7 +304,7 @@
     </widget>
    </item>
    <item row="15" column="1">
-    <widget class="QSpinBox" name="translation_slot">
+    <widget class="QSpinBox" name="trans_slot">
      <property name="specialValueText">
       <string>-</string>
      </property>
@@ -341,10 +356,13 @@
      <property name="alignment">
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
+     <property name="buddy">
+      <cstring>quad</cstring>
+     </property>
     </widget>
    </item>
    <item row="10" column="2">
-    <widget class="QCheckBox" name="distribution_board_fixed">
+    <widget class="FixedCheckBox" name="distr_box_type_fixed">
      <property name="layoutDirection">
       <enum>Qt::LeftToRight</enum>
      </property>
@@ -361,7 +379,7 @@
     </widget>
    </item>
    <item row="4" column="2">
-    <widget class="QCheckBox" name="superlayer_fixed">
+    <widget class="FixedCheckBox" name="superlayer_fixed">
      <property name="layoutDirection">
       <enum>Qt::LeftToRight</enum>
      </property>
@@ -400,7 +418,7 @@
     </widget>
    </item>
    <item row="14" column="1">
-    <widget class="QSpinBox" name="translation_board">
+    <widget class="QSpinBox" name="trans_board">
      <property name="specialValueText">
       <string>-</string>
      </property>
@@ -416,12 +434,15 @@
     </widget>
    </item>
    <item row="15" column="0">
-    <widget class="QLabel" name="translation_slot_label">
+    <widget class="QLabel" name="trans_slot_label">
      <property name="text">
       <string>Trans. Slot</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+     <property name="buddy">
+      <cstring>trans_slot</cstring>
      </property>
     </widget>
    </item>
@@ -439,7 +460,7 @@
     </widget>
    </item>
    <item row="3" column="2">
-    <widget class="QCheckBox" name="sector_fixed">
+    <widget class="FixedCheckBox" name="sector_fixed">
      <property name="layoutDirection">
       <enum>Qt::LeftToRight</enum>
      </property>
@@ -456,10 +477,13 @@
      <property name="alignment">
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
+     <property name="buddy">
+      <cstring>supply_board</cstring>
+     </property>
     </widget>
    </item>
    <item row="13" column="2">
-    <widget class="QCheckBox" name="doublet_fixed">
+    <widget class="FixedCheckBox" name="doublet_fixed">
      <property name="layoutDirection">
       <enum>Qt::LeftToRight</enum>
      </property>
@@ -476,10 +500,13 @@
      <property name="alignment">
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
+     <property name="buddy">
+      <cstring>subslot</cstring>
+     </property>
     </widget>
    </item>
    <item row="14" column="3">
-    <widget class="QLabel" name="translation_board_nopts">
+    <widget class="QLabel" name="trans_board_nopts">
      <property name="text">
       <string>7</string>
      </property>
@@ -493,15 +520,21 @@
      <property name="alignment">
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
+     <property name="buddy">
+      <cstring>wire_type</cstring>
+     </property>
     </widget>
    </item>
    <item row="10" column="0">
-    <widget class="QLabel" name="distribution_board_label">
+    <widget class="QLabel" name="distr_box_type_label">
      <property name="text">
       <string>Distrib. Board</string>
      </property>
      <property name="alignment">
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+     </property>
+     <property name="buddy">
+      <cstring>distr_box_type</cstring>
      </property>
     </widget>
    </item>
@@ -552,7 +585,7 @@
     </widget>
    </item>
    <item row="10" column="3">
-    <widget class="QLabel" name="distribution_board_nopts">
+    <widget class="QLabel" name="distr_box_type_nopts">
      <property name="text">
       <string>2</string>
      </property>
@@ -580,7 +613,7 @@
     </widget>
    </item>
    <item row="15" column="3">
-    <widget class="QLabel" name="translation_slot_nopts">
+    <widget class="QLabel" name="trans_slot_nopts">
      <property name="text">
       <string>2</string>
      </property>
@@ -609,7 +642,7 @@
     </widget>
    </item>
    <item row="8" column="2">
-    <widget class="QCheckBox" name="supply_board_fixed">
+    <widget class="FixedCheckBox" name="supply_board_fixed">
      <property name="layoutDirection">
       <enum>Qt::LeftToRight</enum>
      </property>
@@ -626,6 +659,9 @@
      <property name="alignment">
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
+     <property name="buddy">
+      <cstring>superlayer</cstring>
+     </property>
     </widget>
    </item>
    <item row="7" column="0">
@@ -636,10 +672,13 @@
      <property name="alignment">
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
+     <property name="buddy">
+      <cstring>crate</cstring>
+     </property>
     </widget>
    </item>
    <item row="10" column="1">
-    <widget class="QComboBox" name="distribution_board">
+    <widget class="QComboBox" name="distr_box_type">
      <property name="sizePolicy">
       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
        <horstretch>0</horstretch>
@@ -687,6 +726,16 @@
    </item>
   </layout>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>FixedCheckBox</class>
+   <extends>QCheckBox</extends>
+   <header>fixedcheckbox.h</header>
+   <slots>
+    <slot>setCheckByValue(int)</slot>
+   </slots>
+  </customwidget>
+ </customwidgets>
  <tabstops>
   <tabstop>wire_type</tabstop>
   <tabstop>sector</tabstop>
@@ -696,11 +745,11 @@
   <tabstop>crate</tabstop>
   <tabstop>supply_board</tabstop>
   <tabstop>subslot</tabstop>
-  <tabstop>distribution_board</tabstop>
+  <tabstop>distr_box_type</tabstop>
   <tabstop>quad</tabstop>
   <tabstop>doublet</tabstop>
-  <tabstop>translation_board</tabstop>
-  <tabstop>translation_slot</tabstop>
+  <tabstop>trans_board</tabstop>
+  <tabstop>trans_slot</tabstop>
   <tabstop>wire_type_fixed</tabstop>
   <tabstop>sector_fixed</tabstop>
   <tabstop>superlayer_fixed</tabstop>
@@ -709,12 +758,432 @@
   <tabstop>crate_fixed</tabstop>
   <tabstop>supply_board_fixed</tabstop>
   <tabstop>subslot_fixed</tabstop>
-  <tabstop>distribution_board_fixed</tabstop>
+  <tabstop>distr_box_type_fixed</tabstop>
   <tabstop>quad_fixed</tabstop>
   <tabstop>doublet_fixed</tabstop>
-  <tabstop>translation_board_fixed</tabstop>
-  <tabstop>translation_slot_fixed</tabstop>
+  <tabstop>trans_board_fixed</tabstop>
+  <tabstop>trans_slot_fixed</tabstop>
  </tabstops>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>superlayer</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>superlayer_fixed</receiver>
+   <slot>setCheckByValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>370</x>
+     <y>331</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>475</x>
+     <y>334</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>distr_box_type</sender>
+   <signal>currentIndexChanged(int)</signal>
+   <receiver>distr_box_type_fixed</receiver>
+   <slot>setCheckByValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>395</x>
+     <y>565</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>462</x>
+     <y>565</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>wire_type</sender>
+   <signal>currentIndexChanged(int)</signal>
+   <receiver>wire_type_fixed</receiver>
+   <slot>setCheckByValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>409</x>
+     <y>258</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>454</x>
+     <y>258</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>subslot</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>subslot_fixed</receiver>
+   <slot>setCheckByValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>387</x>
+     <y>530</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>457</x>
+     <y>530</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>trans_board</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>trans_board_fixed</receiver>
+   <slot>setCheckByValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>371</x>
+     <y>678</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>454</x>
+     <y>680</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>supply_board</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>supply_board_fixed</receiver>
+   <slot>setCheckByValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>396</x>
+     <y>488</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>463</x>
+     <y>489</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>layer</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>layer_fixed</receiver>
+   <slot>setCheckByValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>398</x>
+     <y>373</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>452</x>
+     <y>373</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>quad_fixed</receiver>
+   <slot>setCheckByValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>386</x>
+     <y>598</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>472</x>
+     <y>602</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>doublet</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>doublet_fixed</receiver>
+   <slot>setCheckByValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>384</x>
+     <y>642</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>470</x>
+     <y>641</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>trans_slot</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>trans_slot_fixed</receiver>
+   <slot>setCheckByValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>393</x>
+     <y>718</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>480</x>
+     <y>720</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sector</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>sector_fixed</receiver>
+   <slot>setCheckByValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>375</x>
+     <y>293</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>457</x>
+     <y>296</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>wire</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>wire_fixed</receiver>
+   <slot>setCheckByValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>362</x>
+     <y>409</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>463</x>
+     <y>412</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>crate</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>crate_fixed</receiver>
+   <slot>setCheckByValue(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>390</x>
+     <y>447</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>472</x>
+     <y>453</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>wire_type</sender>
+   <signal>currentIndexChanged(int)</signal>
+   <receiver>Sidebar</receiver>
+   <slot>update_parameters()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>247</x>
+     <y>257</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-52</x>
+     <y>255</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sector</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>Sidebar</receiver>
+   <slot>update_parameters()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>250</x>
+     <y>292</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-30</x>
+     <y>291</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>superlayer</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>Sidebar</receiver>
+   <slot>update_parameters()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>241</x>
+     <y>334</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-13</x>
+     <y>331</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>layer</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>Sidebar</receiver>
+   <slot>update_parameters()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>241</x>
+     <y>373</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-34</x>
+     <y>369</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>wire</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>Sidebar</receiver>
+   <slot>update_parameters()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>250</x>
+     <y>414</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-34</x>
+     <y>406</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>crate</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>Sidebar</receiver>
+   <slot>update_parameters()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>255</x>
+     <y>450</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-21</x>
+     <y>449</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>supply_board</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>Sidebar</receiver>
+   <slot>update_parameters()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>254</x>
+     <y>488</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-40</x>
+     <y>486</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>subslot</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>Sidebar</receiver>
+   <slot>update_parameters()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>267</x>
+     <y>532</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-107</x>
+     <y>526</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>distr_box_type</sender>
+   <signal>currentIndexChanged(int)</signal>
+   <receiver>Sidebar</receiver>
+   <slot>update_parameters()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>238</x>
+     <y>565</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-60</x>
+     <y>565</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>Sidebar</receiver>
+   <slot>update_parameters()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>249</x>
+     <y>601</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-87</x>
+     <y>601</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>doublet</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>Sidebar</receiver>
+   <slot>update_parameters()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>257</x>
+     <y>641</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-19</x>
+     <y>637</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>trans_board</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>Sidebar</receiver>
+   <slot>update_parameters()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>255</x>
+     <y>680</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-25</x>
+     <y>680</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>trans_slot</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>Sidebar</receiver>
+   <slot>update_parameters()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>255</x>
+     <y>721</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-20</x>
+     <y>721</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>update_parameters()</slot>
+ </slots>
 </ui>
