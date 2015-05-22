@@ -1,6 +1,6 @@
 import itertools as it
 
-from dc_tables import (CalibrationDCHVCrate,
+from .dc_tables import (CalibrationDCHVCrate,
     CalibrationDCHVSupplyBoard, CalibrationDCHVSubslot,
     CalibrationDCHVDoublet, CalibrationDCHVTranslationBoard,
     CalibrationDCWire)
