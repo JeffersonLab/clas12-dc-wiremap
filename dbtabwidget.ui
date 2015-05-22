@@ -652,8 +652,8 @@
      <rect>
       <x>90</x>
       <y>60</y>
-      <width>731</width>
-      <height>191</height>
+      <width>806</width>
+      <height>239</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout">
@@ -1618,10 +1618,10 @@
    <widget class="QWidget" name="verticalLayoutWidget_3">
     <property name="geometry">
      <rect>
-      <x>50</x>
-      <y>20</y>
-      <width>751</width>
-      <height>411</height>
+      <x>60</x>
+      <y>10</y>
+      <width>681</width>
+      <height>421</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_77">
@@ -3653,8 +3653,6 @@
      </item>
     </layout>
    </widget>
-   <zorder></zorder>
-   <zorder>verticalLayoutWidget_3</zorder>
   </widget>
   <widget class="QWidget" name="sector5_tab">
    <attribute name="title">
