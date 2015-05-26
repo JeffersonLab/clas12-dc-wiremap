@@ -14,7 +14,7 @@
    <string>TabWidget</string>
   </property>
   <property name="currentIndex">
-   <number>3</number>
+   <number>1</number>
   </property>
   <widget class="QWidget" name="crate1_tabwidget">
    <attribute name="title">
@@ -2880,7 +2880,7 @@
                  <string notr="true">background-color: rgb(81, 171, 56)</string>
                 </property>
                 <property name="text">
-                 <string>Subslot 3</string>
+                 <string>Subslot 1</string>
                 </property>
                </widget>
               </item>
@@ -3129,7 +3129,7 @@
                  <string notr="true">background-color: rgb(81, 171, 56)</string>
                 </property>
                 <property name="text">
-                 <string>Subslot 1</string>
+                 <string>Subslot 3</string>
                 </property>
                </widget>
               </item>
@@ -3230,39 +3230,326 @@
      </item>
      <item>
       <widget class="QFrame" name="frame_5">
+       <property name="palette">
+        <palette>
+         <active>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>50</red>
+             <green>170</green>
+             <blue>13</blue>
+            </color>
+           </brush>
+          </colorrole>
+          <colorrole role="Base">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>50</red>
+             <green>170</green>
+             <blue>13</blue>
+            </color>
+           </brush>
+          </colorrole>
+          <colorrole role="Window">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>50</red>
+             <green>170</green>
+             <blue>13</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </active>
+         <inactive>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>50</red>
+             <green>170</green>
+             <blue>13</blue>
+            </color>
+           </brush>
+          </colorrole>
+          <colorrole role="Base">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>50</red>
+             <green>170</green>
+             <blue>13</blue>
+            </color>
+           </brush>
+          </colorrole>
+          <colorrole role="Window">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>50</red>
+             <green>170</green>
+             <blue>13</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </inactive>
+         <disabled>
+          <colorrole role="Button">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>50</red>
+             <green>170</green>
+             <blue>13</blue>
+            </color>
+           </brush>
+          </colorrole>
+          <colorrole role="Base">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>50</red>
+             <green>170</green>
+             <blue>13</blue>
+            </color>
+           </brush>
+          </colorrole>
+          <colorrole role="Window">
+           <brush brushstyle="SolidPattern">
+            <color alpha="255">
+             <red>50</red>
+             <green>170</green>
+             <blue>13</blue>
+            </color>
+           </brush>
+          </colorrole>
+         </disabled>
+        </palette>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(50, 170, 13);
+</string>
+       </property>
        <property name="frameShape">
         <enum>QFrame::StyledPanel</enum>
        </property>
        <property name="frameShadow">
         <enum>QFrame::Raised</enum>
        </property>
-       <layout class="QVBoxLayout" name="verticalLayout_20">
+       <layout class="QVBoxLayout" name="verticalLayout_19">
         <item>
-         <widget class="QPushButton" name="pushButton">
+         <widget class="QPushButton" name="pushButton_97">
+          <property name="palette">
+           <palette>
+            <active>
+             <colorrole role="Button">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>119</red>
+                <green>200</green>
+                <blue>27</blue>
+               </color>
+              </brush>
+             </colorrole>
+             <colorrole role="Base">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>119</red>
+                <green>200</green>
+                <blue>27</blue>
+               </color>
+              </brush>
+             </colorrole>
+             <colorrole role="Window">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>119</red>
+                <green>200</green>
+                <blue>27</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </active>
+            <inactive>
+             <colorrole role="Button">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>119</red>
+                <green>200</green>
+                <blue>27</blue>
+               </color>
+              </brush>
+             </colorrole>
+             <colorrole role="Base">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>119</red>
+                <green>200</green>
+                <blue>27</blue>
+               </color>
+              </brush>
+             </colorrole>
+             <colorrole role="Window">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>119</red>
+                <green>200</green>
+                <blue>27</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </inactive>
+            <disabled>
+             <colorrole role="Button">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>119</red>
+                <green>200</green>
+                <blue>27</blue>
+               </color>
+              </brush>
+             </colorrole>
+             <colorrole role="Base">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>119</red>
+                <green>200</green>
+                <blue>27</blue>
+               </color>
+              </brush>
+             </colorrole>
+             <colorrole role="Window">
+              <brush brushstyle="SolidPattern">
+               <color alpha="255">
+                <red>119</red>
+                <green>200</green>
+                <blue>27</blue>
+               </color>
+              </brush>
+             </colorrole>
+            </disabled>
+           </palette>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(119, 200, 27)
+</string>
+          </property>
           <property name="text">
            <string>Supply Board 2</string>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QFrame" name="frame_16">
+         <widget class="QFrame" name="frame_101">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(104, 206, 48)</string>
+          </property>
           <property name="frameShape">
            <enum>QFrame::StyledPanel</enum>
           </property>
           <property name="frameShadow">
            <enum>QFrame::Raised</enum>
           </property>
-          <layout class="QVBoxLayout" name="verticalLayout_21">
+          <layout class="QVBoxLayout" name="verticalLayout_50">
            <item>
-            <widget class="QWidget" name="widget_10" native="true">
-             <layout class="QVBoxLayout" name="verticalLayout_19">
+            <widget class="QWidget" name="widget_150" native="true">
+             <layout class="QVBoxLayout" name="verticalLayout_173">
               <item>
-               <widget class="QPushButton" name="pushButton_3">
+               <widget class="QPushButton" name="pushButton_98">
                 <property name="sizePolicy">
                  <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
                   <horstretch>0</horstretch>
                   <verstretch>0</verstretch>
                  </sizepolicy>
+                </property>
+                <property name="palette">
+                 <palette>
+                  <active>
+                   <colorrole role="Button">
+                    <brush brushstyle="SolidPattern">
+                     <color alpha="255">
+                      <red>81</red>
+                      <green>171</green>
+                      <blue>56</blue>
+                     </color>
+                    </brush>
+                   </colorrole>
+                   <colorrole role="Base">
+                    <brush brushstyle="SolidPattern">
+                     <color alpha="255">
+                      <red>81</red>
+                      <green>171</green>
+                      <blue>56</blue>
+                     </color>
+                    </brush>
+                   </colorrole>
+                   <colorrole role="Window">
+                    <brush brushstyle="SolidPattern">
+                     <color alpha="255">
+                      <red>81</red>
+                      <green>171</green>
+                      <blue>56</blue>
+                     </color>
+                    </brush>
+                   </colorrole>
+                  </active>
+                  <inactive>
+                   <colorrole role="Button">
+                    <brush brushstyle="SolidPattern">
+                     <color alpha="255">
+                      <red>81</red>
+                      <green>171</green>
+                      <blue>56</blue>
+                     </color>
+                    </brush>
+                   </colorrole>
+                   <colorrole role="Base">
+                    <brush brushstyle="SolidPattern">
+                     <color alpha="255">
+                      <red>81</red>
+                      <green>171</green>
+                      <blue>56</blue>
+                     </color>
+                    </brush>
+                   </colorrole>
+                   <colorrole role="Window">
+                    <brush brushstyle="SolidPattern">
+                     <color alpha="255">
+                      <red>81</red>
+                      <green>171</green>
+                      <blue>56</blue>
+                     </color>
+                    </brush>
+                   </colorrole>
+                  </inactive>
+                  <disabled>
+                   <colorrole role="Button">
+                    <brush brushstyle="SolidPattern">
+                     <color alpha="255">
+                      <red>81</red>
+                      <green>171</green>
+                      <blue>56</blue>
+                     </color>
+                    </brush>
+                   </colorrole>
+                   <colorrole role="Base">
+                    <brush brushstyle="SolidPattern">
+                     <color alpha="255">
+                      <red>81</red>
+                      <green>171</green>
+                      <blue>56</blue>
+                     </color>
+                    </brush>
+                   </colorrole>
+                   <colorrole role="Window">
+                    <brush brushstyle="SolidPattern">
+                     <color alpha="255">
+                      <red>81</red>
+                      <green>171</green>
+                      <blue>56</blue>
+                     </color>
+                    </brush>
+                   </colorrole>
+                  </disabled>
+                 </palette>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(81, 171, 56)</string>
                 </property>
                 <property name="text">
                  <string>Subslot 1</string>
@@ -3270,30 +3557,23 @@
                </widget>
               </item>
               <item>
-               <widget class="QWidget" name="widget_16" native="true">
-                <layout class="QGridLayout" name="gridLayout_29">
-                 <item row="1" column="1">
-                  <widget class="QRadioButton" name="radioButton_222">
-                   <property name="text">
-                    <string/>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="1" column="2">
-                  <widget class="QRadioButton" name="radioButton_217">
-                   <property name="text">
-                    <string/>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
+               <widget class="QWidget" name="widget_151" native="true">
+                <property name="styleSheet">
+                 <string notr="true"/>
+                </property>
+                <layout class="QGridLayout" name="gridLayout_99">
                  <item row="0" column="1">
-                  <widget class="QRadioButton" name="radioButton_220">
+                  <widget class="QRadioButton" name="radioButton_777">
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="autoExclusive">
+                    <bool>false</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="1">
+                  <widget class="QRadioButton" name="radioButton_778">
                    <property name="text">
                     <string/>
                    </property>
@@ -3303,7 +3583,7 @@
                   </widget>
                  </item>
                  <item row="0" column="2">
-                  <widget class="QRadioButton" name="radioButton_218">
+                  <widget class="QRadioButton" name="radioButton_779">
                    <property name="text">
                     <string/>
                    </property>
@@ -3313,7 +3593,17 @@
                   </widget>
                  </item>
                  <item row="0" column="3">
-                  <widget class="QRadioButton" name="radioButton_223">
+                  <widget class="QRadioButton" name="radioButton_780">
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="autoExclusive">
+                    <bool>false</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="2">
+                  <widget class="QRadioButton" name="radioButton_781">
                    <property name="text">
                     <string/>
                    </property>
@@ -3323,17 +3613,7 @@
                   </widget>
                  </item>
                  <item row="0" column="4">
-                  <widget class="QRadioButton" name="radioButton_221">
-                   <property name="text">
-                    <string/>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="1" column="3">
-                  <widget class="QRadioButton" name="radioButton_219">
+                  <widget class="QRadioButton" name="radioButton_782">
                    <property name="text">
                     <string/>
                    </property>
@@ -3343,7 +3623,140 @@
                   </widget>
                  </item>
                  <item row="1" column="4">
-                  <widget class="QRadioButton" name="radioButton_224">
+                  <widget class="QRadioButton" name="radioButton_783">
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="autoExclusive">
+                    <bool>false</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="1" column="3">
+                  <widget class="QRadioButton" name="radioButton_784">
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="autoExclusive">
+                    <bool>false</bool>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QFrame" name="frame_102">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(104, 206, 48)</string>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_51">
+           <item>
+            <widget class="QWidget" name="widget_152" native="true">
+             <layout class="QVBoxLayout" name="verticalLayout_174">
+              <item>
+               <widget class="QPushButton" name="pushButton_99">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(81, 171, 56)</string>
+                </property>
+                <property name="text">
+                 <string>Subslot 2</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QWidget" name="widget_153" native="true">
+                <layout class="QGridLayout" name="gridLayout_100">
+                 <item row="0" column="1">
+                  <widget class="QRadioButton" name="radioButton_785">
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="autoExclusive">
+                    <bool>false</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="2">
+                  <widget class="QRadioButton" name="radioButton_786">
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="autoExclusive">
+                    <bool>false</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="2" column="1">
+                  <widget class="QRadioButton" name="radioButton_787">
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="autoExclusive">
+                    <bool>false</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="2" column="2">
+                  <widget class="QRadioButton" name="radioButton_788">
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="autoExclusive">
+                    <bool>false</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="3">
+                  <widget class="QRadioButton" name="radioButton_789">
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="autoExclusive">
+                    <bool>false</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="4">
+                  <widget class="QRadioButton" name="radioButton_790">
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="autoExclusive">
+                    <bool>false</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="2" column="3">
+                  <widget class="QRadioButton" name="radioButton_791">
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="autoExclusive">
+                    <bool>false</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="2" column="4">
+                  <widget class="QRadioButton" name="radioButton_792">
                    <property name="text">
                     <string/>
                    </property>
@@ -3363,34 +3776,50 @@
         </item>
         <item>
          <widget class="QFrame" name="frame_22">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(104, 206, 48)</string>
+          </property>
           <property name="frameShape">
            <enum>QFrame::StyledPanel</enum>
           </property>
           <property name="frameShadow">
            <enum>QFrame::Raised</enum>
           </property>
-          <layout class="QVBoxLayout" name="verticalLayout_22">
+          <layout class="QVBoxLayout" name="verticalLayout_175">
            <item>
-            <widget class="QWidget" name="widget_11" native="true">
-             <layout class="QVBoxLayout" name="verticalLayout_50">
+            <widget class="QWidget" name="widget_154" native="true">
+             <layout class="QVBoxLayout" name="verticalLayout_176">
               <item>
-               <widget class="QPushButton" name="pushButton_5">
+               <widget class="QPushButton" name="pushButton_100">
                 <property name="sizePolicy">
                  <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
                   <horstretch>0</horstretch>
                   <verstretch>0</verstretch>
                  </sizepolicy>
                 </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(81, 171, 56)</string>
+                </property>
                 <property name="text">
-                 <string>Subslot 2</string>
+                 <string>Subslot 3</string>
                 </property>
                </widget>
               </item>
               <item>
-               <widget class="QWidget" name="widget_17" native="true">
-                <layout class="QGridLayout" name="gridLayout_30">
+               <widget class="QWidget" name="widget_155" native="true">
+                <layout class="QGridLayout" name="gridLayout_101">
+                 <item row="1" column="2">
+                  <widget class="QRadioButton" name="radioButton_793">
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="autoExclusive">
+                    <bool>false</bool>
+                   </property>
+                  </widget>
+                 </item>
                  <item row="1" column="1">
-                  <widget class="QRadioButton" name="radioButton_231">
+                  <widget class="QRadioButton" name="radioButton_794">
                    <property name="text">
                     <string/>
                    </property>
@@ -3400,37 +3829,7 @@
                   </widget>
                  </item>
                  <item row="0" column="1">
-                  <widget class="QRadioButton" name="radioButton_228">
-                   <property name="text">
-                    <string/>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="1" column="2">
-                  <widget class="QRadioButton" name="radioButton_227">
-                   <property name="text">
-                    <string/>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="0" column="2">
-                  <widget class="QRadioButton" name="radioButton_230">
-                   <property name="text">
-                    <string/>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item row="0" column="3">
-                  <widget class="QRadioButton" name="radioButton_226">
+                  <widget class="QRadioButton" name="radioButton_795">
                    <property name="text">
                     <string/>
                    </property>
@@ -3440,7 +3839,17 @@
                   </widget>
                  </item>
                  <item row="1" column="3">
-                  <widget class="QRadioButton" name="radioButton_225">
+                  <widget class="QRadioButton" name="radioButton_796">
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="autoExclusive">
+                    <bool>false</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="2">
+                  <widget class="QRadioButton" name="radioButton_797">
                    <property name="text">
                     <string/>
                    </property>
@@ -3450,7 +3859,17 @@
                   </widget>
                  </item>
                  <item row="1" column="4">
-                  <widget class="QRadioButton" name="radioButton_229">
+                  <widget class="QRadioButton" name="radioButton_798">
+                   <property name="text">
+                    <string/>
+                   </property>
+                   <property name="autoExclusive">
+                    <bool>false</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item row="0" column="3">
+                  <widget class="QRadioButton" name="radioButton_799">
                    <property name="text">
                     <string/>
                    </property>
@@ -3460,7 +3879,7 @@
                   </widget>
                  </item>
                  <item row="0" column="4">
-                  <widget class="QRadioButton" name="radioButton_232">
+                  <widget class="QRadioButton" name="radioButton_800">
                    <property name="text">
                     <string/>
                    </property>
@@ -3478,42 +3897,15 @@
           </layout>
          </widget>
         </item>
-        <item>
-         <widget class="QFrame" name="frame_17">
-          <property name="frameShape">
-           <enum>QFrame::StyledPanel</enum>
-          </property>
-          <property name="frameShadow">
-           <enum>QFrame::Raised</enum>
-          </property>
-          <layout class="QVBoxLayout" name="verticalLayout_29">
-           <item>
-            <widget class="QWidget" name="widget_20" native="true">
-             <layout class="QVBoxLayout" name="verticalLayout_51">
-              <item>
-               <widget class="QPushButton" name="pushButton_7">
-                <property name="sizePolicy">
-                 <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
-                  <horstretch>0</horstretch>
-                  <verstretch>0</verstretch>
-                 </sizepolicy>
-                </property>
-                <property name="text">
-                 <string>Subslot 3</string>
-                </property>
-               </widget>
-              </item>
-             </layout>
-            </widget>
-           </item>
-          </layout>
-         </widget>
-        </item>
        </layout>
       </widget>
      </item>
      <item>
       <widget class="QFrame" name="frame_4">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(50, 170, 13);
+</string>
+       </property>
        <property name="frameShape">
         <enum>QFrame::StyledPanel</enum>
        </property>
@@ -3523,6 +3915,10 @@
        <layout class="QVBoxLayout" name="verticalLayout_16">
         <item>
          <widget class="QPushButton" name="pushButton_15">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(119, 200, 27)
+</string>
+          </property>
           <property name="text">
            <string>Supply Board 3</string>
           </property>
@@ -3532,6 +3928,9 @@
          <layout class="QVBoxLayout" name="verticalLayout">
           <item>
            <widget class="QFrame" name="frame_25">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(104, 206, 48)</string>
+            </property>
             <property name="frameShape">
              <enum>QFrame::StyledPanel</enum>
             </property>
@@ -3549,6 +3948,9 @@
                     <horstretch>0</horstretch>
                     <verstretch>0</verstretch>
                    </sizepolicy>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(81, 171, 56)</string>
                   </property>
                   <property name="text">
                    <string>Subslot 1</string>
@@ -3649,6 +4051,9 @@
           </item>
           <item>
            <widget class="QFrame" name="frame_26">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(104, 206, 48)</string>
+            </property>
             <property name="frameShape">
              <enum>QFrame::StyledPanel</enum>
             </property>
@@ -3666,6 +4071,9 @@
                     <horstretch>0</horstretch>
                     <verstretch>0</verstretch>
                    </sizepolicy>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(81, 171, 56)</string>
                   </property>
                   <property name="text">
                    <string>Subslot 2</string>
@@ -3766,6 +4174,9 @@
           </item>
           <item>
            <widget class="QFrame" name="frame_27">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(104, 206, 48)</string>
+            </property>
             <property name="frameShape">
              <enum>QFrame::StyledPanel</enum>
             </property>
@@ -3783,6 +4194,9 @@
                     <horstretch>0</horstretch>
                     <verstretch>0</verstretch>
                    </sizepolicy>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(81, 171, 56)</string>
                   </property>
                   <property name="text">
                    <string>Subslot 3</string>
@@ -3887,42 +4301,56 @@
       </widget>
      </item>
      <item>
-      <widget class="QFrame" name="frame_3">
+      <widget class="QFrame" name="frame_16">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(50, 170, 13);
+</string>
+       </property>
        <property name="frameShape">
         <enum>QFrame::StyledPanel</enum>
        </property>
        <property name="frameShadow">
         <enum>QFrame::Raised</enum>
        </property>
-       <layout class="QVBoxLayout" name="verticalLayout_12">
+       <layout class="QVBoxLayout" name="verticalLayout_20">
         <item>
-         <widget class="QPushButton" name="pushButton_16">
+         <widget class="QPushButton" name="pushButton_101">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(119, 200, 27)
+</string>
+          </property>
           <property name="text">
            <string>Supply Board 4</string>
           </property>
          </widget>
         </item>
         <item>
-         <layout class="QVBoxLayout" name="verticalLayout_6">
+         <layout class="QVBoxLayout" name="verticalLayout_21">
           <item>
-           <widget class="QFrame" name="frame_28">
+           <widget class="QFrame" name="frame_103">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(104, 206, 48)</string>
+            </property>
             <property name="frameShape">
              <enum>QFrame::StyledPanel</enum>
             </property>
             <property name="frameShadow">
              <enum>QFrame::Raised</enum>
             </property>
-            <layout class="QVBoxLayout" name="verticalLayout_47">
+            <layout class="QVBoxLayout" name="verticalLayout_177">
              <item>
-              <widget class="QWidget" name="widget_57" native="true">
-               <layout class="QVBoxLayout" name="verticalLayout_15">
+              <widget class="QWidget" name="widget_156" native="true">
+               <layout class="QVBoxLayout" name="verticalLayout_22">
                 <item>
-                 <widget class="QPushButton" name="pushButton_30">
+                 <widget class="QPushButton" name="pushButton_102">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
                     <horstretch>0</horstretch>
                     <verstretch>0</verstretch>
                    </sizepolicy>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(81, 171, 56)</string>
                   </property>
                   <property name="text">
                    <string>Subslot 1</string>
@@ -3930,20 +4358,10 @@
                  </widget>
                 </item>
                 <item>
-                 <widget class="QWidget" name="widget_58" native="true">
-                  <layout class="QGridLayout" name="gridLayout_54">
-                   <item row="1" column="1">
-                    <widget class="QRadioButton" name="radioButton_423">
-                     <property name="text">
-                      <string/>
-                     </property>
-                     <property name="autoExclusive">
-                      <bool>false</bool>
-                     </property>
-                    </widget>
-                   </item>
-                   <item row="0" column="2">
-                    <widget class="QRadioButton" name="radioButton_422">
+                 <widget class="QWidget" name="widget_157" native="true">
+                  <layout class="QGridLayout" name="gridLayout_102">
+                   <item row="1" column="2">
+                    <widget class="QRadioButton" name="radioButton_801">
                      <property name="text">
                       <string/>
                      </property>
@@ -3953,7 +4371,7 @@
                     </widget>
                    </item>
                    <item row="0" column="1">
-                    <widget class="QRadioButton" name="radioButton_420">
+                    <widget class="QRadioButton" name="radioButton_802">
                      <property name="text">
                       <string/>
                      </property>
@@ -3962,8 +4380,8 @@
                      </property>
                     </widget>
                    </item>
-                   <item row="1" column="2">
-                    <widget class="QRadioButton" name="radioButton_419">
+                   <item row="1" column="1">
+                    <widget class="QRadioButton" name="radioButton_803">
                      <property name="text">
                       <string/>
                      </property>
@@ -3973,7 +4391,7 @@
                     </widget>
                    </item>
                    <item row="0" column="3">
-                    <widget class="QRadioButton" name="radioButton_418">
+                    <widget class="QRadioButton" name="radioButton_804">
                      <property name="text">
                       <string/>
                      </property>
@@ -3982,8 +4400,8 @@
                      </property>
                     </widget>
                    </item>
-                   <item row="0" column="4">
-                    <widget class="QRadioButton" name="radioButton_417">
+                   <item row="0" column="2">
+                    <widget class="QRadioButton" name="radioButton_805">
                      <property name="text">
                       <string/>
                      </property>
@@ -3993,7 +4411,7 @@
                     </widget>
                    </item>
                    <item row="1" column="3">
-                    <widget class="QRadioButton" name="radioButton_421">
+                    <widget class="QRadioButton" name="radioButton_806">
                      <property name="text">
                       <string/>
                      </property>
@@ -4003,7 +4421,17 @@
                     </widget>
                    </item>
                    <item row="1" column="4">
-                    <widget class="QRadioButton" name="radioButton_424">
+                    <widget class="QRadioButton" name="radioButton_807">
+                     <property name="text">
+                      <string/>
+                     </property>
+                     <property name="autoExclusive">
+                      <bool>false</bool>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="4">
+                    <widget class="QRadioButton" name="radioButton_808">
                      <property name="text">
                       <string/>
                      </property>
@@ -4022,24 +4450,30 @@
            </widget>
           </item>
           <item>
-           <widget class="QFrame" name="frame_29">
+           <widget class="QFrame" name="frame_104">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(104, 206, 48)</string>
+            </property>
             <property name="frameShape">
              <enum>QFrame::StyledPanel</enum>
             </property>
             <property name="frameShadow">
              <enum>QFrame::Raised</enum>
             </property>
-            <layout class="QVBoxLayout" name="verticalLayout_48">
+            <layout class="QVBoxLayout" name="verticalLayout_178">
              <item>
-              <widget class="QWidget" name="widget_59" native="true">
-               <layout class="QVBoxLayout" name="verticalLayout_17">
+              <widget class="QWidget" name="widget_158" native="true">
+               <layout class="QVBoxLayout" name="verticalLayout_29">
                 <item>
-                 <widget class="QPushButton" name="pushButton_31">
+                 <widget class="QPushButton" name="pushButton_103">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
                     <horstretch>0</horstretch>
                     <verstretch>0</verstretch>
                    </sizepolicy>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(81, 171, 56)</string>
                   </property>
                   <property name="text">
                    <string>Subslot 2</string>
@@ -4047,30 +4481,10 @@
                  </widget>
                 </item>
                 <item>
-                 <widget class="QWidget" name="widget_60" native="true">
-                  <layout class="QGridLayout" name="gridLayout_55">
-                   <item row="1" column="1">
-                    <widget class="QRadioButton" name="radioButton_431">
-                     <property name="text">
-                      <string/>
-                     </property>
-                     <property name="autoExclusive">
-                      <bool>false</bool>
-                     </property>
-                    </widget>
-                   </item>
-                   <item row="1" column="2">
-                    <widget class="QRadioButton" name="radioButton_427">
-                     <property name="text">
-                      <string/>
-                     </property>
-                     <property name="autoExclusive">
-                      <bool>false</bool>
-                     </property>
-                    </widget>
-                   </item>
-                   <item row="0" column="2">
-                    <widget class="QRadioButton" name="radioButton_430">
+                 <widget class="QWidget" name="widget_159" native="true">
+                  <layout class="QGridLayout" name="gridLayout_103">
+                   <item row="0" column="3">
+                    <widget class="QRadioButton" name="radioButton_809">
                      <property name="text">
                       <string/>
                      </property>
@@ -4080,7 +4494,7 @@
                     </widget>
                    </item>
                    <item row="0" column="1">
-                    <widget class="QRadioButton" name="radioButton_428">
+                    <widget class="QRadioButton" name="radioButton_810">
                      <property name="text">
                       <string/>
                      </property>
@@ -4089,8 +4503,28 @@
                      </property>
                     </widget>
                    </item>
-                   <item row="0" column="5">
-                    <widget class="QRadioButton" name="radioButton_425">
+                   <item row="1" column="2">
+                    <widget class="QRadioButton" name="radioButton_811">
+                     <property name="text">
+                      <string/>
+                     </property>
+                     <property name="autoExclusive">
+                      <bool>false</bool>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="0" column="2">
+                    <widget class="QRadioButton" name="radioButton_812">
+                     <property name="text">
+                      <string/>
+                     </property>
+                     <property name="autoExclusive">
+                      <bool>false</bool>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="1">
+                    <widget class="QRadioButton" name="radioButton_813">
                      <property name="text">
                       <string/>
                      </property>
@@ -4100,7 +4534,17 @@
                     </widget>
                    </item>
                    <item row="0" column="4">
-                    <widget class="QRadioButton" name="radioButton_426">
+                    <widget class="QRadioButton" name="radioButton_814">
+                     <property name="text">
+                      <string/>
+                     </property>
+                     <property name="autoExclusive">
+                      <bool>false</bool>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="1" column="3">
+                    <widget class="QRadioButton" name="radioButton_815">
                      <property name="text">
                       <string/>
                      </property>
@@ -4110,17 +4554,7 @@
                     </widget>
                    </item>
                    <item row="1" column="4">
-                    <widget class="QRadioButton" name="radioButton_432">
-                     <property name="text">
-                      <string/>
-                     </property>
-                     <property name="autoExclusive">
-                      <bool>false</bool>
-                     </property>
-                    </widget>
-                   </item>
-                   <item row="1" column="5">
-                    <widget class="QRadioButton" name="radioButton_429">
+                    <widget class="QRadioButton" name="radioButton_816">
                      <property name="text">
                       <string/>
                      </property>
@@ -4139,24 +4573,30 @@
            </widget>
           </item>
           <item>
-           <widget class="QFrame" name="frame_30">
+           <widget class="QFrame" name="frame_105">
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(104, 206, 48)</string>
+            </property>
             <property name="frameShape">
              <enum>QFrame::StyledPanel</enum>
             </property>
             <property name="frameShadow">
              <enum>QFrame::Raised</enum>
             </property>
-            <layout class="QVBoxLayout" name="verticalLayout_49">
+            <layout class="QVBoxLayout" name="verticalLayout_179">
              <item>
-              <widget class="QWidget" name="widget_61" native="true">
-               <layout class="QVBoxLayout" name="verticalLayout_18">
+              <widget class="QWidget" name="widget_160" native="true">
+               <layout class="QVBoxLayout" name="verticalLayout_180">
                 <item>
-                 <widget class="QPushButton" name="pushButton_32">
+                 <widget class="QPushButton" name="pushButton_104">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
                     <horstretch>0</horstretch>
                     <verstretch>0</verstretch>
                    </sizepolicy>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background-color: rgb(81, 171, 56)</string>
                   </property>
                   <property name="text">
                    <string>Subslot 3</string>
@@ -4164,30 +4604,10 @@
                  </widget>
                 </item>
                 <item>
-                 <widget class="QWidget" name="widget_62" native="true">
-                  <layout class="QGridLayout" name="gridLayout_56">
-                   <item row="0" column="3">
-                    <widget class="QRadioButton" name="radioButton_440">
-                     <property name="text">
-                      <string/>
-                     </property>
-                     <property name="autoExclusive">
-                      <bool>false</bool>
-                     </property>
-                    </widget>
-                   </item>
-                   <item row="1" column="2">
-                    <widget class="QRadioButton" name="radioButton_435">
-                     <property name="text">
-                      <string/>
-                     </property>
-                     <property name="autoExclusive">
-                      <bool>false</bool>
-                     </property>
-                    </widget>
-                   </item>
-                   <item row="0" column="1">
-                    <widget class="QRadioButton" name="radioButton_436">
+                 <widget class="QWidget" name="widget_161" native="true">
+                  <layout class="QGridLayout" name="gridLayout_104">
+                   <item row="2" column="2">
+                    <widget class="QRadioButton" name="radioButton_817">
                      <property name="text">
                       <string/>
                      </property>
@@ -4197,7 +4617,7 @@
                     </widget>
                    </item>
                    <item row="1" column="1">
-                    <widget class="QRadioButton" name="radioButton_439">
+                    <widget class="QRadioButton" name="radioButton_818">
                      <property name="text">
                       <string/>
                      </property>
@@ -4206,8 +4626,8 @@
                      </property>
                     </widget>
                    </item>
-                   <item row="0" column="2">
-                    <widget class="QRadioButton" name="radioButton_438">
+                   <item row="1" column="2">
+                    <widget class="QRadioButton" name="radioButton_819">
                      <property name="text">
                       <string/>
                      </property>
@@ -4216,8 +4636,8 @@
                      </property>
                     </widget>
                    </item>
-                   <item row="0" column="4">
-                    <widget class="QRadioButton" name="radioButton_437">
+                   <item row="2" column="1">
+                    <widget class="QRadioButton" name="radioButton_820">
                      <property name="text">
                       <string/>
                      </property>
@@ -4227,7 +4647,7 @@
                     </widget>
                    </item>
                    <item row="1" column="3">
-                    <widget class="QRadioButton" name="radioButton_433">
+                    <widget class="QRadioButton" name="radioButton_821">
                      <property name="text">
                       <string/>
                      </property>
@@ -4237,7 +4657,27 @@
                     </widget>
                    </item>
                    <item row="1" column="4">
-                    <widget class="QRadioButton" name="radioButton_434">
+                    <widget class="QRadioButton" name="radioButton_822">
+                     <property name="text">
+                      <string/>
+                     </property>
+                     <property name="autoExclusive">
+                      <bool>false</bool>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="3">
+                    <widget class="QRadioButton" name="radioButton_823">
+                     <property name="text">
+                      <string/>
+                     </property>
+                     <property name="autoExclusive">
+                      <bool>false</bool>
+                     </property>
+                    </widget>
+                   </item>
+                   <item row="2" column="4">
+                    <widget class="QRadioButton" name="radioButton_824">
                      <property name="text">
                       <string/>
                      </property>
@@ -4280,6 +4720,10 @@
        <property name="acceptDrops">
         <bool>true</bool>
        </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(50, 170, 13);
+</string>
+       </property>
        <property name="frameShape">
         <enum>QFrame::StyledPanel</enum>
        </property>
@@ -4292,6 +4736,10 @@
         </property>
         <item>
          <widget class="QPushButton" name="pushButton_17">
+          <property name="styleSheet">
+           <string notr="true">background-color: rgb(119, 200, 27)
+</string>
+          </property>
           <property name="text">
            <string>Supply Board 5</string>
           </property>
@@ -4308,6 +4756,10 @@
           <layout class="QGridLayout" name="gridLayout_19">
            <item row="1" column="0">
             <widget class="QFrame" name="frame_32">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(104, 206, 48)
+</string>
+             </property>
              <property name="frameShape">
               <enum>QFrame::StyledPanel</enum>
              </property>
@@ -4325,6 +4777,9 @@
                      <horstretch>0</horstretch>
                      <verstretch>0</verstretch>
                     </sizepolicy>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(81, 171, 56)</string>
                    </property>
                    <property name="text">
                     <string>Subslot 3</string>
@@ -4425,6 +4880,9 @@
            </item>
            <item row="2" column="0">
             <widget class="QFrame" name="frame_33">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(104, 206, 48)</string>
+             </property>
              <property name="frameShape">
               <enum>QFrame::StyledPanel</enum>
              </property>
@@ -4442,6 +4900,10 @@
                      <horstretch>0</horstretch>
                      <verstretch>0</verstretch>
                     </sizepolicy>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(81, 171, 56)
+</string>
                    </property>
                    <property name="text">
                     <string>Subslot 5</string>
@@ -4542,6 +5004,9 @@
            </item>
            <item row="0" column="1">
             <widget class="QFrame" name="frame_34">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(104, 206, 48)</string>
+             </property>
              <property name="frameShape">
               <enum>QFrame::StyledPanel</enum>
              </property>
@@ -4559,6 +5024,10 @@
                      <horstretch>0</horstretch>
                      <verstretch>0</verstretch>
                     </sizepolicy>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(81, 171, 56)
+</string>
                    </property>
                    <property name="text">
                     <string>Subslot 2</string>
@@ -4659,6 +5128,9 @@
            </item>
            <item row="1" column="1">
             <widget class="QFrame" name="frame_35">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(104, 206, 48)</string>
+             </property>
              <property name="frameShape">
               <enum>QFrame::StyledPanel</enum>
              </property>
@@ -4676,6 +5148,9 @@
                      <horstretch>0</horstretch>
                      <verstretch>0</verstretch>
                     </sizepolicy>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(81, 171, 56)</string>
                    </property>
                    <property name="text">
                     <string>Subslot 4</string>
@@ -4776,6 +5251,9 @@
            </item>
            <item row="2" column="1">
             <widget class="QFrame" name="frame_36">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(104, 206, 48)</string>
+             </property>
              <property name="frameShape">
               <enum>QFrame::StyledPanel</enum>
              </property>
@@ -4793,6 +5271,9 @@
                      <horstretch>0</horstretch>
                      <verstretch>0</verstretch>
                     </sizepolicy>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(81, 171, 56)</string>
                    </property>
                    <property name="text">
                     <string>Subslot 6</string>
@@ -4893,6 +5374,9 @@
            </item>
            <item row="0" column="0">
             <widget class="QFrame" name="frame_37">
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(104, 206, 48)</string>
+             </property>
              <property name="frameShape">
               <enum>QFrame::StyledPanel</enum>
              </property>
@@ -4910,6 +5394,9 @@
                      <horstretch>0</horstretch>
                      <verstretch>0</verstretch>
                     </sizepolicy>
+                   </property>
+                   <property name="styleSheet">
+                    <string notr="true">background-color: rgb(81, 171, 56)</string>
                    </property>
                    <property name="text">
                     <string>Subslot 1</string>
@@ -5031,10 +5518,10 @@
     <zorder>frame_6</zorder>
     <zorder>pushButton_2</zorder>
     <zorder>frame_2</zorder>
-    <zorder>frame_5</zorder>
     <zorder>frame_4</zorder>
-    <zorder>frame_3</zorder>
     <zorder>horizontalSpacer</zorder>
+    <zorder>frame_5</zorder>
+    <zorder>frame_16</zorder>
    </widget>
   </widget>
   <widget class="QWidget" name="crate3_tabwidget_2">
