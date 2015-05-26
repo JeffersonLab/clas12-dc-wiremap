@@ -23,7 +23,7 @@ class DistrBoardsTab(QtGui.QTabWidget):
 class CrateTab(QtGui.QTabWidget):
     def __init__(self, parent=None):
         super(QtGui.QTabWidget, self).__init__(parent)
-        uic.loadUi('cratestabwidget.ui', self)
+        uic.loadUi('CrateTab.ui', self)
 
 class MainWindow(QtGui.QMainWindow):
     def __init__(self):
