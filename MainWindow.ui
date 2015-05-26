@@ -21,14 +21,14 @@
     <item>
      <widget class="QTabWidget" name="display_tabs">
       <property name="currentIndex">
-       <number>3</number>
+       <number>0</number>
       </property>
-      <widget class="QWidget" name="crates_tab_holder">
+      <widget class="QWidget" name="crate_tab_holder">
        <attribute name="title">
         <string>Crates</string>
        </attribute>
       </widget>
-      <widget class="QWidget" name="translation_board_tab_holder">
+      <widget class="QWidget" name="trans_board_tab_holder">
        <attribute name="title">
         <string>Translation Boards</string>
        </attribute>
@@ -38,7 +38,7 @@
         <string>Wires</string>
        </attribute>
       </widget>
-      <widget class="QWidget" name="distrib_board_tab_holder">
+      <widget class="QWidget" name="distr_board_tab_holder">
        <attribute name="title">
         <string>Distribution Boards</string>
        </attribute>
