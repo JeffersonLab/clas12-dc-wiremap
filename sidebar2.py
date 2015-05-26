@@ -11,6 +11,9 @@ class Sidebar(QtGui.QWidget):
         super(QtGui.QWidget, self).__init__(parent)
         uic.loadUi('Sidebar.ui',self)
 
+    def update_parameters(self):
+        pass
+
 class MainWindow(QtGui.QMainWindow):
     def __init__(self):
         super(MainWindow, self).__init__()
