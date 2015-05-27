@@ -6,54 +6,49 @@ from PyQt4 import QtGui, uic
 def fn():
     return rand.randint(0,7)
 
-class Sidebar(QtGui.QWidget):
+class SidebarWid(QtGui.QWidget):
     def __init__(self,parent=None):
         super(QtGui.QWidget, self).__init__(parent)
-        uic.loadUi('Sidebar.ui',self)  
-    def update_parameters(self):
-        pass 
-class dbtabwidget(QtGui.QTabWidget):
-    def __init__(self, parent=None):
-        super(QtGui.QWidget, self).__init__(parent)
-        uic.loadUi('dbtabwidget.ui',self)
-        
-# object constructor class
-class cratestabwidget(QtGui.QTabWidget):
-    def __init__(self, parent=None):
-        #Setting the inheritance
-        super(QtGui.QWidget, self).__init__(parent)
-        # loading the specific ui
-        uic.loadUi('cratestabwidget.ui', self)
+        uic.loadUi('Sidebar.ui',self)
+
     def update_parameters(self):
         pass
-  
+
+class DistrBoardsTab(QtGui.QTabWidget):
+    def __init__(self, parent=None):
+        super(QtGui.QTabWidget, self).__init__(parent)
+        uic.loadUi('DBTab.ui',self)
+
+# object constructor class
+class CrateTab(QtGui.QTabWidget):
+    def __init__(self, parent=None):
+        super(QtGui.QTabWidget, self).__init__(parent)
+        uic.loadUi('CrateTab.ui', self)
+
 class MainWindow(QtGui.QMainWindow):
     def __init__(self):
         super(MainWindow, self).__init__()
         uic.loadUi('MainWindow.ui',self)
-        
+
         #creating an instance of each object
-        self.sidebar = Sidebar()
-        self.dboard = dbtabwidget()
-        self.crate = cratestabwidget()
+        self.sidebar = SidebarWid()
+        self.distr_board = DistrBoardsTab()
+        self.crate = CrateTab()
 
-        vbox = QtGui.QVBoxLayout()
-        vbox.addWidget(self.sidebar)
-        vbox.addStretch(1)
+        sidebar_vbox = QtGui.QVBoxLayout()
+        sidebar_vbox.addWidget(self.sidebar)
+        sidebar_vbox.addStretch(1)
+        self.sidebar_holder.setLayout(sidebar_vbox)
 
-        newbox = QtGui.QVBoxLayout()     
-        newbox.addWidget(self.dboard)
-        newbox.addStretch(1)
-        
-        # create a vertical box that will contain the object instance
-        cratebox = QtGui.QVBoxLayout()
-        cratebox.addWidget(self.crate)
-        cratebox.addStretch(1)
- 
-        # attach the respective layouts to their designated spots in the MainWindow.ui
-        self.sidebar_holder.setLayout(vbox)
-        self.distrib_board_tab_holder.setLayout(newbox)
-        self.crates_tab_holder.setLayout(cratebox)
+        distr_board_vbox = QtGui.QVBoxLayout()
+        distr_board_vbox.addWidget(self.distr_board)
+        distr_board_vbox.addStretch(1)
+        self.distr_board_tab_holder.setLayout(distr_board_vbox)
+
+        crate_vbox = QtGui.QVBoxLayout()
+        crate_vbox.addWidget(self.crate)
+        crate_vbox.addStretch(1)
+        self.crate_tab_holder.setLayout(crate_vbox)
 
         self.show()
         self.updating = False
@@ -61,10 +56,6 @@ class MainWindow(QtGui.QMainWindow):
     def update_parameters(self):
         if not self.updating:
             self.updating = True
-            self.item1value.setValue(fn())
-            self.item2value.setValue(fn())
-            self.item1info.setText('fixed? '+str(fn()))
-            self.item2info.setText('fixed? '+str(fn()))
             self.updating = False
 
 if __name__ == '__main__':
