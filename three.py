@@ -17,7 +17,7 @@ class SidebarWid(QtGui.QWidget):
 class DistrBoardsTab(QtGui.QTabWidget):
     def __init__(self, parent=None):
         super(QtGui.QTabWidget, self).__init__(parent)
-        uic.loadUi('dbtabwidget.ui',self)
+        uic.loadUi('DBTab.ui',self)
 
 # object constructor class
 class CrateTab(QtGui.QTabWidget):
