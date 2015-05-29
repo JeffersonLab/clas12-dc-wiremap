@@ -7575,6 +7575,16 @@
       <item>
        <layout class="QVBoxLayout" name="verticalLayout_79">
         <item>
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>Doublet Status</string>
+          </property>
+          <property name="alignment">
+           <set>Qt::AlignCenter</set>
+          </property>
+         </widget>
+        </item>
+        <item>
          <layout class="QHBoxLayout" name="horizontalLayout_6">
           <item>
            <layout class="QVBoxLayout" name="verticalLayout_6">
@@ -7640,7 +7650,7 @@
              </widget>
             </item>
             <item>
-             <widget class="QPushButton" name="box41_3">
+             <widget class="QPushButton" name="boxf1">
               <property name="text">
                <string>Box 1</string>
               </property>
@@ -7666,7 +7676,7 @@
                  <string notr="true"/>
                 </property>
                 <property name="text">
-                 <string>quad 1</string>
+                 <string>Quad 1</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
@@ -7716,7 +7726,7 @@
                  </sizepolicy>
                 </property>
                 <property name="text">
-                 <string>quad 2</string>
+                 <string>Quad 2</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
@@ -7763,7 +7773,7 @@
                  </sizepolicy>
                 </property>
                 <property name="text">
-                 <string>quad 3</string>
+                 <string>Quad 3</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
@@ -7811,7 +7821,7 @@
              </widget>
             </item>
             <item>
-             <widget class="QPushButton" name="box42_3">
+             <widget class="QPushButton" name="boxf2">
               <property name="text">
                <string>Box 2</string>
               </property>
@@ -7834,7 +7844,7 @@
                  </sizepolicy>
                 </property>
                 <property name="text">
-                 <string>quad 1</string>
+                 <string>Quad 1</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
@@ -7884,7 +7894,7 @@
                  </sizepolicy>
                 </property>
                 <property name="text">
-                 <string>quad 2</string>
+                 <string>Quad 2</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
@@ -7931,7 +7941,7 @@
                  </sizepolicy>
                 </property>
                 <property name="text">
-                 <string>quad 3</string>
+                 <string>Quad 3</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
@@ -7979,7 +7989,7 @@
              </widget>
             </item>
             <item>
-             <widget class="QPushButton" name="box43_3">
+             <widget class="QPushButton" name="boxf3">
               <property name="text">
                <string>Box 3</string>
               </property>
@@ -8005,7 +8015,7 @@
                  <string notr="true"/>
                 </property>
                 <property name="text">
-                 <string>quad 1</string>
+                 <string>Quad 1</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
@@ -8055,7 +8065,7 @@
                  </sizepolicy>
                 </property>
                 <property name="text">
-                 <string>quad 2</string>
+                 <string>Quad 2</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
@@ -8102,7 +8112,7 @@
                  </sizepolicy>
                 </property>
                 <property name="text">
-                 <string>quad 3</string>
+                 <string>Quad 3</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
@@ -8150,7 +8160,7 @@
              </widget>
             </item>
             <item>
-             <widget class="QPushButton" name="box44_3">
+             <widget class="QPushButton" name="boxf4">
               <property name="text">
                <string>Box 4</string>
               </property>
@@ -8176,7 +8186,7 @@
                  <string notr="true"/>
                 </property>
                 <property name="text">
-                 <string>quad 1</string>
+                 <string>Quad 1</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
@@ -8226,7 +8236,7 @@
                  </sizepolicy>
                 </property>
                 <property name="text">
-                 <string>quad 2</string>
+                 <string>Quad 2</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
@@ -8273,7 +8283,7 @@
                  </sizepolicy>
                 </property>
                 <property name="text">
-                 <string>quad 3</string>
+                 <string>Quad 3</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
@@ -8321,7 +8331,7 @@
              </widget>
             </item>
             <item>
-             <widget class="QPushButton" name="box45_3">
+             <widget class="QPushButton" name="boxf5">
               <property name="text">
                <string>Box 5</string>
               </property>
@@ -8347,7 +8357,7 @@
                  <string notr="true"/>
                 </property>
                 <property name="text">
-                 <string>quad 1</string>
+                 <string>Quad 1</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
@@ -8397,7 +8407,7 @@
                  </sizepolicy>
                 </property>
                 <property name="text">
-                 <string>quad 2</string>
+                 <string>Quad 2</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
@@ -8444,7 +8454,7 @@
                  </sizepolicy>
                 </property>
                 <property name="text">
-                 <string>quad 3</string>
+                 <string>Quad 3</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
@@ -8492,7 +8502,7 @@
              </widget>
             </item>
             <item>
-             <widget class="QPushButton" name="box46_3">
+             <widget class="QPushButton" name="boxf6">
               <property name="text">
                <string>Box 6</string>
               </property>
@@ -8518,7 +8528,7 @@
                  <string notr="true"/>
                 </property>
                 <property name="text">
-                 <string>quad 1</string>
+                 <string>Quad 1</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
@@ -8568,7 +8578,7 @@
                  </sizepolicy>
                 </property>
                 <property name="text">
-                 <string>quad 2</string>
+                 <string>Quad 2</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
@@ -8615,7 +8625,7 @@
                  </sizepolicy>
                 </property>
                 <property name="text">
-                 <string>quad 3</string>
+                 <string>Quad 3</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
@@ -8673,7 +8683,7 @@
           <item>
            <layout class="QVBoxLayout" name="verticalLayout_135">
             <item>
-             <widget class="QPushButton" name="box47_3">
+             <widget class="QPushButton" name="boxb1">
               <property name="text">
                <string>Box 1</string>
               </property>
@@ -8699,7 +8709,7 @@
                  <string notr="true"/>
                 </property>
                 <property name="text">
-                 <string>quad 1</string>
+                 <string>Quad 1</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
@@ -8749,7 +8759,7 @@
                  </sizepolicy>
                 </property>
                 <property name="text">
-                 <string>quad 2</string>
+                 <string>Quad 2</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
@@ -8796,7 +8806,7 @@
                  </sizepolicy>
                 </property>
                 <property name="text">
-                 <string>quad 3</string>
+                 <string>Quad 3</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
@@ -8834,7 +8844,7 @@
           <item>
            <layout class="QVBoxLayout" name="verticalLayout_139">
             <item>
-             <widget class="QPushButton" name="box48_3">
+             <widget class="QPushButton" name="boxb2">
               <property name="text">
                <string>Box 2</string>
               </property>
@@ -8857,7 +8867,7 @@
                  </sizepolicy>
                 </property>
                 <property name="text">
-                 <string>quad 1</string>
+                 <string>Quad 1</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
@@ -8907,7 +8917,7 @@
                  </sizepolicy>
                 </property>
                 <property name="text">
-                 <string>quad 2</string>
+                 <string>Quad 2</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
@@ -8954,7 +8964,7 @@
                  </sizepolicy>
                 </property>
                 <property name="text">
-                 <string>quad 3</string>
+                 <string>Quad 3</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
@@ -8992,7 +9002,7 @@
           <item>
            <layout class="QVBoxLayout" name="verticalLayout_175">
             <item>
-             <widget class="QPushButton" name="box49_3">
+             <widget class="QPushButton" name="boxb3">
               <property name="text">
                <string>Box 3</string>
               </property>
@@ -9018,7 +9028,7 @@
                  <string notr="true"/>
                 </property>
                 <property name="text">
-                 <string>quad 1</string>
+                 <string>Quad 1</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
@@ -9068,7 +9078,7 @@
                  </sizepolicy>
                 </property>
                 <property name="text">
-                 <string>quad 2</string>
+                 <string>Quad 2</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
@@ -9115,7 +9125,7 @@
                  </sizepolicy>
                 </property>
                 <property name="text">
-                 <string>quad 3</string>
+                 <string>Quad 3</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
@@ -9153,7 +9163,7 @@
           <item>
            <layout class="QVBoxLayout" name="verticalLayout_179">
             <item>
-             <widget class="QPushButton" name="box410_3">
+             <widget class="QPushButton" name="boxb4">
               <property name="text">
                <string>Box 4</string>
               </property>
@@ -9179,7 +9189,7 @@
                  <string notr="true"/>
                 </property>
                 <property name="text">
-                 <string>quad 1</string>
+                 <string>Quad 1</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
@@ -9229,7 +9239,7 @@
                  </sizepolicy>
                 </property>
                 <property name="text">
-                 <string>quad 2</string>
+                 <string>Quad 2</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
@@ -9276,7 +9286,7 @@
                  </sizepolicy>
                 </property>
                 <property name="text">
-                 <string>quad 3</string>
+                 <string>Quad 3</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
@@ -9314,7 +9324,7 @@
           <item>
            <layout class="QVBoxLayout" name="verticalLayout_195">
             <item>
-             <widget class="QPushButton" name="box411_3">
+             <widget class="QPushButton" name="boxb5">
               <property name="text">
                <string>Box 5</string>
               </property>
@@ -9340,7 +9350,7 @@
                  <string notr="true"/>
                 </property>
                 <property name="text">
-                 <string>quad 1</string>
+                 <string>Quad 1</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
@@ -9390,7 +9400,7 @@
                  </sizepolicy>
                 </property>
                 <property name="text">
-                 <string>quad 2</string>
+                 <string>Quad 2</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
@@ -9437,7 +9447,7 @@
                  </sizepolicy>
                 </property>
                 <property name="text">
-                 <string>quad 3</string>
+                 <string>Quad 3</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
@@ -9475,7 +9485,7 @@
           <item>
            <layout class="QVBoxLayout" name="verticalLayout_249">
             <item>
-             <widget class="QPushButton" name="box412_3">
+             <widget class="QPushButton" name="boxb6">
               <property name="text">
                <string>Box 6</string>
               </property>
@@ -9501,7 +9511,7 @@
                  <string notr="true"/>
                 </property>
                 <property name="text">
-                 <string>quad 1</string>
+                 <string>Quad 1</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
@@ -9551,7 +9561,7 @@
                  </sizepolicy>
                 </property>
                 <property name="text">
-                 <string>quad 2</string>
+                 <string>Quad 2</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
@@ -9598,7 +9608,7 @@
                  </sizepolicy>
                 </property>
                 <property name="text">
-                 <string>quad 3</string>
+                 <string>Quad 3</string>
                 </property>
                 <property name="checkable">
                  <bool>true</bool>
