@@ -41,7 +41,7 @@ class CrateTab(QtGui.QTabWidget):
         buttons = self.get_buttons()
                         
         print(buttons)
-        #print('SB1,SS2,CH3:',buttons[0][1][2])
+        print('SB1,SS2,CH3:',buttons[0][1][2])
         
 class MainWindow(QtGui.QMainWindow):
     def __init__(self):
