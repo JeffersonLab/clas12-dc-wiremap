@@ -7618,9 +7618,15 @@
                <rect>
                 <x>10</x>
                 <y>0</y>
-                <width>95</width>
+                <width>71</width>
                 <height>31</height>
                </rect>
+              </property>
+              <property name="maximumSize">
+               <size>
+                <width>200</width>
+                <height>16777215</height>
+               </size>
               </property>
               <property name="text">
                <string>Update</string>
@@ -8978,7 +8984,7 @@
                  <number>0</number>
                 </property>
                 <item>
-                 <widget class="QPushButton" name="quad463_3">
+                 <widget class="QPushButton" name="quad563">
                   <property name="sizePolicy">
                    <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
                     <horstretch>0</horstretch>
@@ -12219,22 +12225,6 @@
   <connection>
    <sender>slayer46</sender>
    <signal>pressed()</signal>
-   <receiver>box46</receiver>
-   <slot>click()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>824</x>
-     <y>77</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>824</x>
-     <y>114</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>slayer46</sender>
-   <signal>pressed()</signal>
    <receiver>box412</receiver>
    <slot>click()</slot>
    <hints>
@@ -13065,386 +13055,402 @@
    </hints>
   </connection>
   <connection>
-   <sender>quad432</sender>
-   <signal>pressed()</signal>
-   <receiver>d434</receiver>
-   <slot>click()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>428</x>
-     <y>220</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>467</x>
-     <y>249</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>quad433</sender>
-   <signal>pressed()</signal>
-   <receiver>d435</receiver>
-   <slot>click()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>428</x>
-     <y>288</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>467</x>
-     <y>285</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>quad433</sender>
-   <signal>pressed()</signal>
-   <receiver>d436</receiver>
-   <slot>click()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>428</x>
-     <y>288</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>467</x>
-     <y>317</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>quad441</sender>
-   <signal>pressed()</signal>
-   <receiver>d441</receiver>
-   <slot>click()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>552</x>
-     <y>152</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>591</x>
-     <y>149</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>quad441</sender>
-   <signal>pressed()</signal>
-   <receiver>d442</receiver>
-   <slot>click()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>552</x>
-     <y>152</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>591</x>
-     <y>181</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>quad442</sender>
-   <signal>pressed()</signal>
-   <receiver>d443</receiver>
-   <slot>click()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>552</x>
-     <y>220</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>591</x>
-     <y>217</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>quad442</sender>
-   <signal>pressed()</signal>
-   <receiver>d444</receiver>
-   <slot>click()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>552</x>
-     <y>220</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>591</x>
-     <y>249</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>quad443</sender>
-   <signal>pressed()</signal>
-   <receiver>d445</receiver>
-   <slot>click()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>552</x>
-     <y>288</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>591</x>
-     <y>285</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>quad443</sender>
-   <signal>pressed()</signal>
-   <receiver>d446</receiver>
-   <slot>click()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>552</x>
-     <y>288</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>591</x>
-     <y>317</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>quad451</sender>
-   <signal>pressed()</signal>
-   <receiver>d451</receiver>
-   <slot>click()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>675</x>
-     <y>152</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>714</x>
-     <y>149</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>quad451</sender>
-   <signal>pressed()</signal>
-   <receiver>d452</receiver>
-   <slot>click()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>675</x>
-     <y>152</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>714</x>
-     <y>181</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>quad452</sender>
-   <signal>pressed()</signal>
-   <receiver>d453</receiver>
-   <slot>click()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>675</x>
-     <y>220</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>714</x>
-     <y>217</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>quad452</sender>
-   <signal>pressed()</signal>
-   <receiver>d454</receiver>
-   <slot>click()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>675</x>
-     <y>220</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>714</x>
-     <y>249</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>quad453</sender>
-   <signal>pressed()</signal>
-   <receiver>d455</receiver>
-   <slot>click()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>675</x>
-     <y>288</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>714</x>
-     <y>285</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>quad453</sender>
-   <signal>pressed()</signal>
-   <receiver>d456</receiver>
-   <slot>click()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>675</x>
-     <y>288</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>714</x>
-     <y>317</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>quad461</sender>
-   <signal>pressed()</signal>
-   <receiver>d461</receiver>
-   <slot>click()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>798</x>
-     <y>152</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>837</x>
-     <y>149</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>quad461</sender>
-   <signal>pressed()</signal>
-   <receiver>d462</receiver>
-   <slot>click()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>798</x>
-     <y>152</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>837</x>
-     <y>181</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>quad462</sender>
-   <signal>pressed()</signal>
-   <receiver>d463</receiver>
-   <slot>click()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>798</x>
-     <y>220</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>837</x>
-     <y>217</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>quad462</sender>
-   <signal>pressed()</signal>
-   <receiver>d464</receiver>
-   <slot>click()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>798</x>
-     <y>220</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>837</x>
-     <y>249</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>quad463</sender>
-   <signal>pressed()</signal>
-   <receiver>d465</receiver>
-   <slot>click()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>798</x>
-     <y>288</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>837</x>
-     <y>285</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>quad463</sender>
-   <signal>pressed()</signal>
-   <receiver>d466</receiver>
-   <slot>click()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>798</x>
-     <y>288</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>837</x>
-     <y>317</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>fbox1_2</sender>
-   <signal>clicked(bool)</signal>
-   <receiver>forward_2</receiver>
-   <slot>update()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>219</x>
-     <y>179</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>97</x>
-     <y>267</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>fbox2_2</sender>
-   <signal>clicked(bool)</signal>
-   <receiver>forward_2</receiver>
-   <slot>update()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>339</x>
-     <y>179</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>98</x>
-     <y>258</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
    <sender>forward_2</sender>
    <signal>clicked(bool)</signal>
    <receiver>fbox1_2</receiver>
    <slot>setChecked(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>77</x>
-     <y>172</y>
+     <x>94</x>
+     <y>188</y>
     </hint>
     <hint type="destinationlabel">
-     <x>219</x>
+     <x>130</x>
+     <y>166</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>229</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>142</x>
+     <y>218</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>87</x>
+     <y>275</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>155</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad413_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>85</x>
+     <y>350</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>147</x>
+     <y>355</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_f_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>104</x>
+     <y>205</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>193</x>
+     <y>203</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_f_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>107</x>
+     <y>235</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>197</x>
+     <y>234</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_f_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>96</x>
+     <y>256</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>194</x>
+     <y>273</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_f_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>74</x>
+     <y>307</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>201</x>
+     <y>307</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_f_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>100</x>
+     <y>332</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>198</x>
+     <y>331</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_f_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>86</x>
+     <y>377</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>194</x>
+     <y>373</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fbox1_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>164</x>
+     <y>174</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>166</x>
+     <y>195</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fbox1_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>146</x>
+     <y>175</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>146</x>
+     <y>256</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fbox1_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad413_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>179</x>
+     <y>176</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>162</x>
+     <y>330</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fbox1_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_f_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>205</x>
+     <y>163</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>201</x>
+     <y>196</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fbox1_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_f_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>214</x>
+     <y>174</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>200</x>
+     <y>244</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fbox1_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_f_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>212</x>
+     <y>173</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>197</x>
+     <y>259</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fbox1_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_f_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>190</x>
      <y>179</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>190</x>
+     <y>291</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fbox1_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_f_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>212</x>
+     <y>179</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>212</x>
+     <y>329</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fbox1_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_f_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>149</x>
+     <y>168</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>191</x>
+     <y>369</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_f_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>142</x>
+     <y>200</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>186</x>
+     <y>204</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_f_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>137</x>
+     <y>240</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>192</x>
+     <y>239</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_f_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>133</x>
+     <y>293</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>181</x>
+     <y>270</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_f_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>170</x>
+     <y>312</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>207</x>
+     <y>311</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad413_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_f_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>167</x>
+     <y>374</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>202</x>
+     <y>346</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad413_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_f_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>143</x>
+     <y>370</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>198</x>
+     <y>375</y>
     </hint>
    </hints>
   </connection>
@@ -13456,11 +13462,1083 @@
    <hints>
     <hint type="sourcelabel">
      <x>87</x>
+     <y>253</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>256</x>
+     <y>153</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad421_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>66</x>
+     <y>290</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>276</x>
+     <y>201</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad422_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>80</x>
+     <y>166</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>259</x>
+     <y>262</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad423_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>87</x>
      <y>153</y>
     </hint>
     <hint type="destinationlabel">
-     <x>246</x>
-     <y>151</y>
+     <x>277</x>
+     <y>346</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_f_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>62</x>
+     <y>385</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>310</x>
+     <y>371</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_f_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>97</x>
+     <y>347</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>319</x>
+     <y>341</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_f_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>66</x>
+     <y>319</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>325</x>
+     <y>298</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_f_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>78</x>
+     <y>238</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>312</x>
+     <y>274</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad421_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>55</x>
+     <y>195</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>282</x>
+     <y>246</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_f_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>59</x>
+     <y>173</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>309</x>
+     <y>229</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_f_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>67</x>
+     <y>170</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>300</x>
+     <y>205</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fbox2_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad421_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>303</x>
+     <y>167</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>288</x>
+     <y>187</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fbox2_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad422_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>331</x>
+     <y>170</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>287</x>
+     <y>263</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fbox2_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad423_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>317</x>
+     <y>174</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>286</x>
+     <y>340</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad421_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_f_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>287</x>
+     <y>208</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>313</x>
+     <y>208</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad421_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_f_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>265</x>
+     <y>220</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>323</x>
+     <y>228</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad422_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_f_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>264</x>
+     <y>278</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>323</x>
+     <y>256</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad422_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_f_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>276</x>
+     <y>291</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>294</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad423_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_f_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>289</x>
+     <y>353</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>327</x>
+     <y>338</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad423_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_f_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>285</x>
+     <y>371</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>324</x>
+     <y>378</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fbox2_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_f_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>287</x>
+     <y>167</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>320</x>
+     <y>198</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fbox2_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_f_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>306</x>
+     <y>173</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>314</x>
+     <y>225</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fbox2_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_f_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>273</x>
+     <y>170</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>313</x>
+     <y>269</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fbox2_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_f_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>265</x>
+     <y>170</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>321</x>
+     <y>304</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fbox2_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_f_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>309</x>
+     <y>168</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>331</x>
+     <y>328</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fbox2_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_f_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>324</x>
+     <y>165</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>328</x>
+     <y>374</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>fbox1_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>fbox1_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>203</x>
+     <y>161</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>199</x>
+     <y>167</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>147</x>
+     <y>94</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>141</x>
+     <y>221</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>173</x>
+     <y>91</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>141</x>
+     <y>260</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad413_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>177</x>
+     <y>89</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>160</x>
+     <y>352</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_f_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>215</x>
+     <y>105</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>202</x>
+     <y>196</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_f_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>224</x>
+     <y>89</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>207</x>
+     <y>234</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_f_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>184</x>
+     <y>89</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>209</x>
+     <y>257</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_f_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>177</x>
+     <y>89</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>204</x>
+     <y>291</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_f_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>127</x>
+     <y>100</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>194</x>
+     <y>347</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_f_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>224</x>
+     <y>112</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>200</x>
+     <y>371</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>fbox2_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>295</x>
+     <y>112</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>295</x>
+     <y>169</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>fbox2_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>242</x>
+     <y>101</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>255</x>
+     <y>172</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad421_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>333</x>
+     <y>92</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>272</x>
+     <y>220</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad422_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>279</x>
+     <y>88</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>260</x>
+     <y>278</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad423_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>274</x>
+     <y>91</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>259</x>
+     <y>372</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_f_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>344</x>
+     <y>106</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>328</x>
+     <y>207</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_f_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>335</x>
+     <y>112</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>335</x>
+     <y>239</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_f_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>316</x>
+     <y>93</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>337</x>
+     <y>256</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_f_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>317</x>
+     <y>93</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>319</x>
+     <y>311</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_f_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>276</x>
+     <y>94</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>320</x>
+     <y>357</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_f_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>305</x>
+     <y>92</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>313</x>
+     <y>338</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>fbox1_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>164</x>
+     <y>109</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>128</x>
+     <y>171</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_f_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>421</x>
+     <y>98</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>440</x>
+     <y>360</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_f_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>416</x>
+     <y>109</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>431</x>
+     <y>330</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_f_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>460</x>
+     <y>104</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>438</x>
+     <y>288</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_f_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>395</x>
+     <y>107</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>436</x>
+     <y>261</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_f_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>378</x>
+     <y>102</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>437</x>
+     <y>231</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_f_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>367</x>
+     <y>108</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>428</x>
+     <y>205</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>boxf3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>399</x>
+     <y>101</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>402</x>
+     <y>163</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad431_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>415</x>
+     <y>105</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>406</x>
+     <y>224</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad432_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>417</x>
+     <y>90</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>389</x>
+     <y>279</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad433_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>418</x>
+     <y>102</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>399</x>
+     <y>327</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad421_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>boxf3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>265</x>
+     <y>204</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>390</x>
+     <y>164</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad431_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>78</x>
+     <y>188</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>388</x>
+     <y>209</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad432_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>80</x>
+     <y>228</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>385</x>
+     <y>262</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad433_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>81</x>
+     <y>375</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>390</x>
+     <y>362</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_f_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>92</x>
+     <y>163</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>437</x>
+     <y>188</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_f_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>201</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>432</x>
+     <y>236</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_f_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>83</x>
+     <y>266</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>447</x>
+     <y>270</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_f_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>78</x>
+     <y>290</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>444</x>
+     <y>307</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_f_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>77</x>
+     <y>346</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>453</x>
+     <y>339</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_f_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>72</x>
+     <y>373</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>453</x>
+     <y>376</y>
     </hint>
    </hints>
   </connection>
@@ -13471,12 +14549,652 @@
    <slot>setChecked(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>83</x>
-     <y>209</y>
+     <x>93</x>
+     <y>253</y>
     </hint>
     <hint type="destinationlabel">
-     <x>460</x>
+     <x>386</x>
+     <y>152</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad431_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_f_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>396</x>
+     <y>212</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>437</x>
+     <y>203</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad431_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_f_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>392</x>
+     <y>235</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>444</x>
+     <y>243</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad432_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_f_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>391</x>
+     <y>275</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>444</x>
+     <y>267</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad432_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_f_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>397</x>
+     <y>295</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>445</x>
+     <y>308</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad433_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_f_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>399</x>
+     <y>338</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>434</x>
+     <y>343</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad433_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_f_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>399</x>
+     <y>376</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>437</x>
+     <y>377</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxf3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_f_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>429</x>
+     <y>172</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>434</x>
+     <y>194</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxf3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_f_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>454</x>
+     <y>176</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>452</x>
+     <y>231</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxf3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_f_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>428</x>
+     <y>176</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>440</x>
+     <y>271</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxf3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_f_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>426</x>
+     <y>154</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>429</x>
+     <y>305</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxf3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_f_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>375</x>
+     <y>173</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>448</x>
+     <y>348</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxf3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_f_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>415</x>
+     <y>153</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>449</x>
+     <y>370</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxf3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad431_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>389</x>
      <y>179</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>389</x>
+     <y>216</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxf3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad432_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>384</x>
+     <y>163</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>393</x>
+     <y>285</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxf3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad433_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>391</x>
+     <y>173</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>370</x>
+     <y>336</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad441_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_f_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>539</x>
+     <y>190</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>558</x>
+     <y>202</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad441_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_f_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>511</x>
+     <y>218</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>557</x>
+     <y>225</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad442_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_f_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>525</x>
+     <y>283</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>563</x>
+     <y>275</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad442_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_f_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>514</x>
+     <y>297</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>551</x>
+     <y>298</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad443_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_f_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>502</x>
+     <y>340</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>550</x>
+     <y>346</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad443_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_f_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>516</x>
+     <y>373</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>560</x>
+     <y>374</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxf4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad441_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>523</x>
+     <y>168</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>520</x>
+     <y>193</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxf4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad442_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>535</x>
+     <y>172</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>521</x>
+     <y>263</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxf4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad443_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>499</x>
+     <y>173</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>505</x>
+     <y>347</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxf4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_f_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>546</x>
+     <y>167</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>549</x>
+     <y>209</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxf4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_f_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>531</x>
+     <y>171</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>563</x>
+     <y>231</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxf4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_f_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>568</x>
+     <y>157</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>567</x>
+     <y>273</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxf4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_f_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>494</x>
+     <y>169</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>564</x>
+     <y>296</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxf4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_f_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>557</x>
+     <y>179</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>557</x>
+     <y>338</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxf4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_f_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>575</x>
+     <y>172</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>552</x>
+     <y>378</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>boxf4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>575</x>
+     <y>91</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>571</x>
+     <y>173</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad441_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>497</x>
+     <y>94</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>497</x>
+     <y>200</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad442_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>538</x>
+     <y>88</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>508</x>
+     <y>258</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad443_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>529</x>
+     <y>88</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>504</x>
+     <y>354</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_f_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>585</x>
+     <y>107</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>558</x>
+     <y>201</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_f_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>552</x>
+     <y>91</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>562</x>
+     <y>242</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_f_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>529</x>
+     <y>94</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>563</x>
+     <y>292</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_f_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>546</x>
+     <y>92</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>558</x>
+     <y>273</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_f_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>544</x>
+     <y>104</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>570</x>
+     <y>348</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_f_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>544</x>
+     <y>91</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>565</x>
+     <y>379</y>
     </hint>
    </hints>
   </connection>
@@ -13487,12 +15205,156 @@
    <slot>setChecked(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>91</x>
+     <x>81</x>
+     <y>162</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>502</x>
+     <y>171</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad441_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>80</x>
+     <y>194</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>513</x>
+     <y>199</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad442_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>81</x>
      <y>227</y>
     </hint>
     <hint type="destinationlabel">
-     <x>580</x>
-     <y>179</y>
+     <x>513</x>
+     <y>288</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad443_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>73</x>
+     <y>367</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>520</x>
+     <y>351</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_f_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>65</x>
+     <y>204</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>564</x>
+     <y>204</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_f_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>95</x>
+     <y>185</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>570</x>
+     <y>227</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_f_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>56</x>
+     <y>231</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>572</x>
+     <y>276</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_f_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>59</x>
+     <y>282</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>572</x>
+     <y>310</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_f_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>75</x>
+     <y>346</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>564</x>
+     <y>334</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_f_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>90</x>
+     <y>378</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>560</x>
+     <y>379</y>
     </hint>
    </hints>
   </connection>
@@ -13503,12 +15365,972 @@
    <slot>setChecked(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>85</x>
-     <y>265</y>
+     <x>58</x>
+     <y>170</y>
     </hint>
     <hint type="destinationlabel">
-     <x>700</x>
+     <x>637</x>
+     <y>161</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad451_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_f_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>644</x>
+     <y>218</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>678</x>
+     <y>202</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad451_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_f_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>632</x>
+     <y>235</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>677</x>
+     <y>239</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad452_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_f_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>652</x>
+     <y>273</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>667</x>
+     <y>273</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad452_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_f_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>637</x>
+     <y>304</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>677</x>
+     <y>308</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad453_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_f_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>646</x>
+     <y>354</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>673</x>
+     <y>332</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad453_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_f_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>639</x>
+     <y>369</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>676</x>
+     <y>375</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxf5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad451_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>640</x>
+     <y>174</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>641</x>
+     <y>193</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxf5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad452_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>656</x>
+     <y>177</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>643</x>
+     <y>273</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxf5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad453_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>621</x>
+     <y>176</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>620</x>
+     <y>341</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxf5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_f_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>694</x>
+     <y>172</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>697</x>
+     <y>197</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxf5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_f_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>659</x>
+     <y>177</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>668</x>
+     <y>227</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxf5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_f_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>659</x>
      <y>179</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>663</x>
+     <y>268</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxf5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_f_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>676</x>
+     <y>165</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>679</x>
+     <y>303</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxf5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_f_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>660</x>
+     <y>170</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>696</x>
+     <y>336</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxf5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_f_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>669</x>
+     <y>168</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>682</x>
+     <y>374</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>boxf5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>621</x>
+     <y>87</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>619</x>
+     <y>165</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad451_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>651</x>
+     <y>90</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>636</x>
+     <y>212</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad452_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>657</x>
+     <y>88</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>650</x>
+     <y>277</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad453_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>665</x>
+     <y>87</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>628</x>
+     <y>343</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_f_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>697</x>
+     <y>92</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>670</x>
+     <y>199</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_f_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>688</x>
+     <y>103</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>693</x>
+     <y>221</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_f_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>708</x>
+     <y>96</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>684</x>
+     <y>257</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_f_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>605</x>
+     <y>105</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>694</x>
+     <y>296</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_f_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>651</x>
+     <y>98</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>689</x>
+     <y>338</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_f_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>646</x>
+     <y>98</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>692</x>
+     <y>375</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>boxf5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>74</x>
+     <y>154</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>668</x>
+     <y>169</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad451_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>65</x>
+     <y>188</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>651</x>
+     <y>220</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad452_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>61</x>
+     <y>250</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>645</x>
+     <y>285</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad453_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>76</x>
+     <y>365</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>641</x>
+     <y>379</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_f_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>67</x>
+     <y>235</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>695</x>
+     <y>208</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_f_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>70</x>
+     <y>203</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>694</x>
+     <y>243</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_f_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>65</x>
+     <y>280</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>693</x>
+     <y>272</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_f_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>76</x>
+     <y>293</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>687</x>
+     <y>329</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_f_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>70</x>
+     <y>314</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>673</x>
+     <y>308</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_f_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>65</x>
+     <y>378</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>684</x>
+     <y>369</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad461_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_f_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>780</x>
+     <y>233</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>794</x>
+     <y>209</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad461_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_f_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>764</x>
+     <y>203</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>797</x>
+     <y>234</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad462_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_f_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>766</x>
+     <y>263</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>801</x>
+     <y>273</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad462_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_f_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>762</x>
+     <y>289</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>804</x>
+     <y>298</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad563</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_f_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>761</x>
+     <y>350</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>811</x>
+     <y>344</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad563</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_f_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>758</x>
+     <y>374</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>806</x>
+     <y>373</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxf6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad461_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>748</x>
+     <y>158</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>754</x>
+     <y>197</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxf6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad462_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>772</x>
+     <y>171</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>761</x>
+     <y>262</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxf6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad563</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>737</x>
+     <y>166</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>743</x>
+     <y>332</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxf6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_f_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>808</x>
+     <y>169</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>808</x>
+     <y>201</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxf6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_f_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>775</x>
+     <y>176</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>794</x>
+     <y>236</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxf6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_f_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>818</x>
+     <y>166</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>806</x>
+     <y>271</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxf6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_f_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>731</x>
+     <y>176</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>796</x>
+     <y>297</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxf6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_f_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>818</x>
+     <y>174</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>800</x>
+     <y>339</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxf6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_f_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>812</x>
+     <y>171</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>791</x>
+     <y>375</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>boxf6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>763</x>
+     <y>90</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>771</x>
+     <y>157</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad461_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>802</x>
+     <y>93</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>752</x>
+     <y>200</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad462_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>736</x>
+     <y>92</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>739</x>
+     <y>263</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad563</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>757</x>
+     <y>90</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>750</x>
+     <y>354</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_f_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>820</x>
+     <y>102</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>816</x>
+     <y>205</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_f_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>779</x>
+     <y>112</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>782</x>
+     <y>237</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_f_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>781</x>
+     <y>89</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>803</x>
+     <y>258</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_f_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>728</x>
+     <y>92</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>811</x>
+     <y>307</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_f_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>763</x>
+     <y>94</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>797</x>
+     <y>337</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_f_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>791</x>
+     <y>88</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>803</x>
+     <y>371</y>
     </hint>
    </hints>
   </connection>
@@ -13519,28 +16341,3692 @@
    <slot>setChecked(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>97</x>
-     <y>275</y>
+     <x>73</x>
+     <y>164</y>
     </hint>
     <hint type="destinationlabel">
-     <x>728</x>
-     <y>154</y>
+     <x>759</x>
+     <y>170</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad461_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>76</x>
+     <y>184</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>749</x>
+     <y>221</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad462_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>54</x>
+     <y>203</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>738</x>
+     <y>272</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad563</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>77</x>
+     <y>349</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>766</x>
+     <y>338</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad441_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_f_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>509</x>
+     <y>204</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>804</x>
+     <y>193</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_f_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>66</x>
+     <y>247</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>806</x>
+     <y>233</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_f_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>97</x>
+     <y>299</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>809</x>
+     <y>271</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_f_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>60</x>
+     <y>274</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>813</x>
+     <y>307</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_f_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>90</x>
+     <y>334</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>808</x>
+     <y>336</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_f_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>83</x>
+     <y>357</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>817</x>
+     <y>374</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sl2_f_5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_f_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>311</x>
+     <y>345</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>809</x>
+     <y>196</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>boxb1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>145</x>
+     <y>110</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>142</x>
+     <y>426</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_b_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>133</x>
+     <y>112</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>193</x>
+     <y>640</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_b_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>124</x>
+     <y>106</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>193</x>
+     <y>601</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_b_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>136</x>
+     <y>100</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>190</x>
+     <y>581</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_b_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>124</x>
+     <y>105</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>192</x>
+     <y>552</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_b_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>150</x>
+     <y>97</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>189</x>
+     <y>507</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_b_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>140</x>
+     <y>98</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>195</x>
+     <y>472</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>boxb1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>145</x>
+     <y>97</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>185</x>
+     <y>440</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad471_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>190</x>
+     <y>106</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>166</x>
+     <y>487</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad472_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>162</x>
+     <y>97</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>139</x>
+     <y>547</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad473_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>153</x>
+     <y>97</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>153</x>
+     <y>627</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>boxb1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>105</x>
+     <y>430</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>155</x>
+     <y>444</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad471_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>88</x>
+     <y>505</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>148</x>
+     <y>499</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad472_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>63</x>
+     <y>572</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>175</x>
+     <y>568</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad473_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>78</x>
+     <y>626</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>139</x>
+     <y>642</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_b_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>93</x>
+     <y>462</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>212</x>
+     <y>466</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_b_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>77</x>
+     <y>426</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>207</x>
+     <y>476</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_b_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>66</x>
+     <y>520</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>201</x>
+     <y>501</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_b_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>547</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>204</x>
+     <y>540</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_b_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>80</x>
+     <y>583</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>195</x>
+     <y>567</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_b_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>75</x>
+     <y>605</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>190</x>
+     <y>604</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_b_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>70</x>
+     <y>625</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>204</x>
+     <y>651</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad471_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>128</x>
+     <y>450</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>130</x>
+     <y>485</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad472_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>172</x>
+     <y>432</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>162</x>
+     <y>554</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad473_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>202</x>
+     <y>452</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>177</x>
+     <y>637</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_b_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>180</x>
+     <y>433</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>208</x>
+     <y>471</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_b_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>179</x>
+     <y>431</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>203</x>
+     <y>493</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_b_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>172</x>
+     <y>433</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>208</x>
+     <y>547</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_b_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>151</x>
+     <y>435</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>196</x>
+     <y>577</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_b_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>187</x>
+     <y>431</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>199</x>
+     <y>619</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb1</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_b_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>182</x>
+     <y>424</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>187</x>
+     <y>645</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad471_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_b_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>165</x>
+     <y>473</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>200</x>
+     <y>476</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad471_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_b_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>154</x>
+     <y>503</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>197</x>
+     <y>506</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad472_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_b_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>164</x>
+     <y>558</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>199</x>
+     <y>543</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad472_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_b_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>171</x>
+     <y>572</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>198</x>
+     <y>574</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad473_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_b_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>166</x>
+     <y>625</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>184</x>
+     <y>614</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad473_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl1_b_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>159</x>
+     <y>651</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>207</x>
+     <y>645</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_b_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>267</x>
+     <y>98</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>311</x>
+     <y>633</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_b_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>266</x>
+     <y>93</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>306</x>
+     <y>611</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_b_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>317</x>
+     <y>112</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>564</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_b_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>277</x>
+     <y>96</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>317</x>
+     <y>545</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_b_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>265</x>
+     <y>97</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>321</x>
+     <y>499</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_b_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>294</x>
+     <y>112</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>309</x>
+     <y>474</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>boxb2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>259</x>
+     <y>97</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>295</x>
+     <y>440</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad481_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>281</x>
+     <y>446</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>260</x>
+     <y>484</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad482_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>273</x>
+     <y>448</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>280</x>
+     <y>562</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad483_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>256</x>
+     <y>445</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>265</x>
+     <y>616</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_b_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>303</x>
+     <y>450</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>314</x>
+     <y>476</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_b_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>295</x>
+     <y>435</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>514</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_b_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>323</x>
+     <y>437</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>322</x>
+     <y>541</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_b_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>307</x>
+     <y>440</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>320</x>
+     <y>573</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_b_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>266</x>
+     <y>434</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>309</x>
+     <y>601</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_b_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>252</x>
+     <y>444</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>311</x>
+     <y>636</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad481_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_b_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>269</x>
+     <y>491</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>324</x>
+     <y>473</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad481_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_b_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>277</x>
+     <y>500</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>323</x>
+     <y>504</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad482_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_b_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>264</x>
+     <y>554</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>318</x>
+     <y>549</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad482_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_b_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>281</x>
+     <y>566</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>324</x>
+     <y>575</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad483_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_b_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>278</x>
+     <y>611</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>334</x>
+     <y>606</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad483_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_b_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>289</x>
+     <y>622</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>639</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>boxb2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>43</x>
+     <y>481</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>273</x>
+     <y>436</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad481_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>65</x>
+     <y>583</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>262</x>
+     <y>488</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad482_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>70</x>
+     <y>557</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>248</x>
+     <y>551</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad483_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>64</x>
+     <y>649</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>274</x>
+     <y>630</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>boxb2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>68</x>
+     <y>466</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>280</x>
+     <y>436</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_b_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>72</x>
+     <y>493</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>479</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_b_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>62</x>
+     <y>494</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>320</x>
+     <y>499</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad482_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>63</x>
+     <y>528</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>297</x>
+     <y>537</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_b_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>55</x>
+     <y>559</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>314</x>
+     <y>598</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_b_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>73</x>
+     <y>549</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>322</x>
+     <y>562</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_b_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>60</x>
+     <y>611</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>329</x>
+     <y>618</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_b_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>75</x>
+     <y>650</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>327</x>
+     <y>650</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_b_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>445</x>
+     <y>102</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>435</x>
+     <y>645</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_b_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>435</x>
+     <y>105</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>453</x>
+     <y>611</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_b_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>438</x>
+     <y>112</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>438</x>
+     <y>584</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_b_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>420</x>
+     <y>107</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>437</x>
+     <y>538</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_b_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>412</x>
+     <y>107</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>444</x>
+     <y>504</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_b_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>419</x>
+     <y>108</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>436</x>
+     <y>478</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>boxb3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>408</x>
+     <y>105</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>423</x>
+     <y>449</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad491_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>405</x>
+     <y>112</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>396</x>
+     <y>482</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad492_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>416</x>
+     <y>109</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>397</x>
+     <y>550</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad493_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>395</x>
+     <y>105</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>394</x>
+     <y>618</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>boxb3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>443</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>374</x>
+     <y>444</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sl1_b_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_b_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>200</x>
+     <y>530</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>328</x>
+     <y>543</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl2_b_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>75</x>
+     <y>538</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>330</x>
+     <y>544</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>boxb4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>91</x>
+     <y>434</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>498</x>
+     <y>448</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad4101_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>73</x>
+     <y>533</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>509</x>
+     <y>489</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad4102_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>61</x>
+     <y>558</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>504</x>
+     <y>563</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad4103_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>56</x>
+     <y>616</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>510</x>
+     <y>624</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_b_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>53</x>
+     <y>515</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>551</x>
+     <y>481</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_b_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>84</x>
+     <y>503</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>557</x>
+     <y>507</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_b_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>75</x>
+     <y>572</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>549</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_b_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>82</x>
+     <y>571</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>565</x>
+     <y>574</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_b_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>71</x>
+     <y>606</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>611</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_b_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>73</x>
+     <y>599</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>552</x>
+     <y>647</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad491_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>81</x>
+     <y>476</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>383</x>
+     <y>492</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad492_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>81</x>
+     <y>568</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>383</x>
+     <y>562</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad493_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>54</x>
+     <y>608</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>379</x>
+     <y>636</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_b_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>72</x>
+     <y>511</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>446</x>
+     <y>481</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_b_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>72</x>
+     <y>470</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>442</x>
+     <y>512</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_b_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>62</x>
+     <y>504</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>449</x>
+     <y>546</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_b_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>73</x>
+     <y>556</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>433</x>
+     <y>577</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_b_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>44</x>
+     <y>569</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>427</x>
+     <y>609</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_b_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>74</x>
+     <y>621</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>442</x>
+     <y>646</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad491_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>376</x>
+     <y>447</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>373</x>
+     <y>478</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad492_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>384</x>
+     <y>429</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>379</x>
+     <y>549</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad493_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>400</x>
+     <y>440</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>395</x>
+     <y>618</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_b_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>436</x>
+     <y>436</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>448</x>
+     <y>642</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_b_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>409</x>
+     <y>434</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>445</x>
+     <y>612</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_b_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>385</x>
+     <y>430</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>450</x>
+     <y>583</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_b_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>425</x>
+     <y>431</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>444</x>
+     <y>547</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_b_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>424</x>
+     <y>425</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>441</x>
+     <y>513</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_b_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>418</x>
+     <y>434</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>431</x>
+     <y>480</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad491_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_b_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>397</x>
+     <y>478</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>446</x>
+     <y>473</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad491_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_b_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>390</x>
+     <y>491</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>436</x>
+     <y>504</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad492_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_b_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>399</x>
+     <y>563</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>433</x>
+     <y>547</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad492_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_b_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>407</x>
+     <y>545</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>442</x>
+     <y>580</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad493_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_b_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>396</x>
+     <y>623</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>441</x>
+     <y>612</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad493_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl3_b_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>396</x>
+     <y>636</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>438</x>
+     <y>654</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_b_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>543</x>
+     <y>102</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>572</x>
+     <y>640</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_b_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>556</x>
+     <y>97</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>574</x>
+     <y>620</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_b_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>535</x>
+     <y>100</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>571</x>
+     <y>573</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_b_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>551</x>
+     <y>98</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>567</x>
+     <y>575</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_b_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>503</x>
+     <y>103</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>569</x>
+     <y>542</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_b_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>520</x>
+     <y>97</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>507</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_b_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>488</x>
+     <y>105</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>559</x>
+     <y>481</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad4103_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>498</x>
+     <y>101</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>496</x>
+     <y>618</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad4102_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>519</x>
+     <y>107</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>507</x>
+     <y>550</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad4101_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>516</x>
+     <y>103</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>517</x>
+     <y>493</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>boxb4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>517</x>
+     <y>100</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>498</x>
+     <y>441</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad4101_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>528</x>
+     <y>434</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>525</x>
+     <y>509</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad4102_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>536</x>
+     <y>442</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>511</x>
+     <y>549</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad4103_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>538</x>
+     <y>436</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>527</x>
+     <y>625</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_b_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>539</x>
+     <y>445</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>563</x>
+     <y>476</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_b_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>522</x>
+     <y>441</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>565</x>
+     <y>511</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_b_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>514</x>
+     <y>440</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>546</x>
+     <y>532</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_b_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>502</x>
+     <y>444</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>549</x>
+     <y>568</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_b_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>503</x>
+     <y>441</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>561</x>
+     <y>614</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb4</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_b_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>489</x>
+     <y>432</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>572</x>
+     <y>642</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad4103_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_b_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>511</x>
+     <y>611</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>564</x>
+     <y>609</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad4103_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_b_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>514</x>
+     <y>634</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>544</x>
+     <y>648</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad4102_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_b_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>500</x>
+     <y>569</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>554</x>
+     <y>541</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad4102_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_b_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>523</x>
+     <y>554</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>563</x>
+     <y>582</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad4101_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_b_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>520</x>
+     <y>471</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>560</x>
+     <y>469</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad4101_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl4_b_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>524</x>
+     <y>508</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>556</x>
+     <y>513</y>
     </hint>
    </hints>
   </connection>
   <connection>
    <sender>update</sender>
-   <signal>clicked()</signal>
+   <signal>clicked(bool)</signal>
    <receiver>TabWidget</receiver>
    <slot>status_changed()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>66</x>
+     <x>54</x>
+     <y>96</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>-2</x>
+     <y>78</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>boxb5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>670</x>
+     <y>90</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>661</x>
+     <y>438</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad4111_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>631</x>
+     <y>95</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>641</x>
+     <y>486</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad4112_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>628</x>
      <y>94</y>
     </hint>
     <hint type="destinationlabel">
-     <x>7</x>
-     <y>78</y>
+     <x>621</x>
+     <y>548</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad4113_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>623</x>
+     <y>102</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>643</x>
+     <y>634</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_b_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>642</x>
+     <y>98</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>675</x>
+     <y>647</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_b_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>628</x>
+     <y>91</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>681</x>
+     <y>606</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_b_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>610</x>
+     <y>99</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>683</x>
+     <y>567</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_b_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>623</x>
+     <y>100</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>673</x>
+     <y>542</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_b_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>631</x>
+     <y>100</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>681</x>
+     <y>509</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_b_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>628</x>
+     <y>103</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>685</x>
+     <y>475</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>boxb5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>73</x>
+     <y>456</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>626</x>
+     <y>445</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad4111_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>70</x>
+     <y>495</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>626</x>
+     <y>494</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_b_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>67</x>
+     <y>526</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>668</x>
+     <y>562</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad4113_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>65</x>
+     <y>555</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>635</x>
+     <y>626</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_b_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>47</x>
+     <y>466</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>676</x>
+     <y>475</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_b_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>86</x>
+     <y>494</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>680</x>
+     <y>514</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_b_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>101</x>
+     <y>553</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>692</x>
+     <y>537</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_b_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>83</x>
+     <y>569</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>690</x>
+     <y>576</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_b_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>68</x>
+     <y>602</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>685</x>
+     <y>607</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_b_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>74</x>
+     <y>614</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>686</x>
+     <y>632</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad4111_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_b_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>640</x>
+     <y>475</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>682</x>
+     <y>468</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad4111_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_b_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>653</x>
+     <y>502</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>686</x>
+     <y>513</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad4112_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_b_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>653</x>
+     <y>560</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>696</x>
+     <y>542</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad4112_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_b_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>653</x>
+     <y>575</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>686</x>
+     <y>581</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad4113_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_b_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>626</x>
+     <y>632</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>672</x>
+     <y>621</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad4113_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_b_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>641</x>
+     <y>619</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>684</x>
+     <y>644</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad4111_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>640</x>
+     <y>432</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>636</x>
+     <y>485</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad4112_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>649</x>
+     <y>442</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>645</x>
+     <y>534</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad4113_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>615</x>
+     <y>451</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>657</x>
+     <y>626</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_b_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>670</x>
+     <y>441</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>684</x>
+     <y>472</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_b_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>621</x>
+     <y>441</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>673</x>
+     <y>516</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_b_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>640</x>
+     <y>440</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>679</x>
+     <y>549</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_b_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>619</x>
+     <y>444</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>665</x>
+     <y>584</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_b_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>612</x>
+     <y>445</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>679</x>
+     <y>613</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb5</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl5_b_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>665</x>
+     <y>441</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>683</x>
+     <y>640</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad4121_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>748</x>
+     <y>426</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>751</x>
+     <y>469</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad4122_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>755</x>
+     <y>448</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>750</x>
+     <y>547</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad4123_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>766</x>
+     <y>447</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>762</x>
+     <y>626</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_b_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>777</x>
+     <y>446</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>799</x>
+     <y>484</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_b_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>817</x>
+     <y>441</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>812</x>
+     <y>513</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_b_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>736</x>
+     <y>442</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>790</x>
+     <y>541</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_b_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>735</x>
+     <y>447</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>788</x>
+     <y>574</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_b_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>763</x>
+     <y>448</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>791</x>
+     <y>603</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>boxb6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_b_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>789</x>
+     <y>438</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>807</x>
+     <y>629</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad4121_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_b_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>750</x>
+     <y>480</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>787</x>
+     <y>474</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad4121_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_b_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>773</x>
+     <y>497</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>792</x>
+     <y>507</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad4122_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_b_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>772</x>
+     <y>561</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>794</x>
+     <y>542</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad4122_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_b_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>769</x>
+     <y>564</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>798</x>
+     <y>571</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad4123_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_b_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>770</x>
+     <y>621</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>792</x>
+     <y>619</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>quad4123_3</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_b_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>772</x>
+     <y>626</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>794</x>
+     <y>650</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>boxb6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>758</x>
+     <y>89</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>762</x>
+     <y>445</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad4121_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>775</x>
+     <y>93</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>769</x>
+     <y>502</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad4122_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>789</x>
+     <y>96</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>748</x>
+     <y>550</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad4123_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>768</x>
+     <y>96</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>773</x>
+     <y>601</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_b_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>822</x>
+     <y>99</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>808</x>
+     <y>486</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_b_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>779</x>
+     <y>99</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>810</x>
+     <y>506</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_b_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>804</x>
+     <y>112</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>804</x>
+     <y>541</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_b_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>815</x>
+     <y>92</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>795</x>
+     <y>586</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_b_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>813</x>
+     <y>99</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>809</x>
+     <y>613</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer6</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_b_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>820</x>
+     <y>89</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>811</x>
+     <y>648</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_b_6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>67</x>
+     <y>631</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>811</x>
+     <y>647</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_b_5</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>59</x>
+     <y>617</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>807</x>
+     <y>616</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_b_4</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>61</x>
+     <y>569</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>809</x>
+     <y>584</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_b_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>60</x>
+     <y>583</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>802</x>
+     <y>547</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_b_2</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>80</x>
+     <y>519</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>806</x>
+     <y>513</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_b_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>77</x>
+     <y>553</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>810</x>
+     <y>481</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>boxb6</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>70</x>
+     <y>515</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>763</x>
+     <y>444</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad4121_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>44</x>
+     <y>519</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>742</x>
+     <y>494</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad4122_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>93</x>
+     <y>527</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>762</x>
+     <y>533</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad4123_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>87</x>
+     <y>627</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>744</x>
+     <y>625</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>forward_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>sl6_f_1</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>79</x>
+     <y>182</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>816</x>
+     <y>190</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>Backward</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad4112_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>51</x>
+     <y>503</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>631</x>
+     <y>546</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad481_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>260</x>
+     <y>105</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>249</x>
+     <y>482</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad482_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>260</x>
+     <y>112</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>260</x>
+     <y>549</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>slayer2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>quad483_3</receiver>
+   <slot>setChecked(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>271</x>
+     <y>108</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>285</x>
+     <y>615</y>
     </hint>
    </hints>
   </connection>
