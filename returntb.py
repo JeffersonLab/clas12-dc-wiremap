@@ -4,44 +4,35 @@ from PyQt4 import QtGui, uic
 
 from clas12_wiremap import initialize_session, dc_fill_tables, dc_find_connections
 
-class CrateTab(QtGui.QTabWidget):
+class TBTab(QtGui.QTabWidget):
     def __init__(self, parent=None):
         super(QtGui.QTabWidget, self).__init__(parent)
-        uic.loadUi('CrateTab.ui', self)
+        uic.loadUi('TBTab.ui', self)
     def get_buttons(self):               
                  
-        fmt = 'SB{supply_board}_subslot{subslot}_{channel}'
+        fmt = 'sl{super_layer}_{board}'
         
         buttons = []
-        for crate in [1]:
-            for supply_board in range(1,6):
+        for sector in [2]:
+            for super_layer in range(1,7):
          
-                if supply_board < 5:
-                    subslots = range(1,4)
-                else:
-                    subslots = range(1,7)
+                b_buttons = []
+                for board in range(1,13):
+                    opts = {
+                                'super_layer' : super_layer,
+                                'board' : board}
+                    b = getattr(self,fmt.format(**opts))
                     
-                ss_buttons = []
-                for subslot in subslots:
-                    
-                    ch_buttons = []
-                    for channel in range(1,9):
-                        opts = {
-                            'supply_board' : supply_board,
-                            'subslot' : subslot,
-                            'channel' : channel}
-                        b = getattr(self,fmt.format(**opts))
-                        
-                        ch_buttons += [b.isChecked()]
-                    ss_buttons += [ch_buttons]
-                buttons += [ss_buttons]
+                    b_buttons += [b.isChecked()]
+                buttons += [b_buttons]      
+         
         return buttons
         
     def status_changed(self):
-        buttons = self.get_buttons()
-                        
+        
+        buttons = self.get_buttons()                        
         print(buttons)
-        print('SB1,SS2,CH3:',buttons[0][1][2])
+    
         
 class MainWindow(QtGui.QMainWindow):
     def __init__(self):
@@ -51,7 +42,7 @@ class MainWindow(QtGui.QMainWindow):
         self.setCentralWidget(self.central_widget)
 
         hbox = QtGui.QHBoxLayout()
-        self.trial = CrateTab()
+        self.trial = TBTab()
         hbox.addWidget(self.trial)
         hbox.addStretch(1)
 
