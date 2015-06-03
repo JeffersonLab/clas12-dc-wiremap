@@ -46,19 +46,47 @@
           </property>
           <layout class="QHBoxLayout" name="horizontalLayout">
            <item>
-            <widget class="QPushButton" name="wholeCrate1">
-             <property name="sizePolicy">
-              <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-               <horstretch>0</horstretch>
-               <verstretch>0</verstretch>
-              </sizepolicy>
+            <widget class="QFrame" name="frame">
+             <property name="frameShape">
+              <enum>QFrame::StyledPanel</enum>
              </property>
-             <property name="text">
-              <string>Crate 1</string>
+             <property name="frameShadow">
+              <enum>QFrame::Raised</enum>
              </property>
-             <property name="checkable">
-              <bool>true</bool>
-             </property>
+             <layout class="QVBoxLayout" name="verticalLayout">
+              <item>
+               <widget class="QPushButton" name="pushButton">
+                <property name="text">
+                 <string>Update</string>
+                </property>
+                <property name="checkable">
+                 <bool>false</bool>
+                </property>
+                <property name="checked">
+                 <bool>false</bool>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="wholeCrate1">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <property name="text">
+                 <string>Crate 1</string>
+                </property>
+                <property name="checkable">
+                 <bool>true</bool>
+                </property>
+                <property name="checked">
+                 <bool>true</bool>
+                </property>
+               </widget>
+              </item>
+             </layout>
             </widget>
            </item>
            <item>
@@ -260,6 +288,9 @@
                 <property name="checkable">
                  <bool>true</bool>
                 </property>
+                <property name="checked">
+                 <bool>true</bool>
+                </property>
                </widget>
               </item>
               <item>
@@ -370,6 +401,9 @@
                    <property name="checkable">
                     <bool>true</bool>
                    </property>
+                   <property name="checked">
+                    <bool>true</bool>
+                   </property>
                   </widget>
                  </item>
                  <item>
@@ -383,6 +417,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -392,6 +429,9 @@
                      <widget class="QRadioButton" name="SB1_subslot1_5">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -403,6 +443,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -412,6 +455,9 @@
                      <widget class="QRadioButton" name="SB1_subslot1_3">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -423,6 +469,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -432,6 +481,9 @@
                      <widget class="QRadioButton" name="SB1_subslot1_4">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -443,6 +495,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -452,6 +507,9 @@
                      <widget class="QRadioButton" name="SB1_subslot1_7">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -481,6 +539,9 @@
                    <property name="checkable">
                     <bool>true</bool>
                    </property>
+                   <property name="checked">
+                    <bool>true</bool>
+                   </property>
                   </widget>
                  </item>
                  <item>
@@ -490,6 +551,9 @@
                      <widget class="QRadioButton" name="SB1_subslot2_1">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -501,6 +565,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -510,6 +577,9 @@
                      <widget class="QRadioButton" name="SB1_subslot2_5">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -521,6 +591,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -530,6 +603,9 @@
                      <widget class="QRadioButton" name="SB1_subslot2_3">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -541,6 +617,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -551,6 +630,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -560,6 +642,9 @@
                      <widget class="QRadioButton" name="SB1_subslot2_4">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -589,6 +674,9 @@
                    <property name="checkable">
                     <bool>true</bool>
                    </property>
+                   <property name="checked">
+                    <bool>true</bool>
+                   </property>
                   </widget>
                  </item>
                  <item>
@@ -598,6 +686,9 @@
                      <widget class="QRadioButton" name="SB1_subslot3_6">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -609,6 +700,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -618,6 +712,9 @@
                      <widget class="QRadioButton" name="SB1_subslot3_1">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -629,6 +726,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -638,6 +738,9 @@
                      <widget class="QRadioButton" name="SB1_subslot3_2">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -649,6 +752,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -659,6 +765,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -668,6 +777,9 @@
                      <widget class="QRadioButton" name="SB1_subslot3_4">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -882,6 +994,9 @@
                 <property name="checkable">
                  <bool>true</bool>
                 </property>
+                <property name="checked">
+                 <bool>true</bool>
+                </property>
                </widget>
               </item>
               <item>
@@ -992,6 +1107,9 @@
                    <property name="checkable">
                     <bool>true</bool>
                    </property>
+                   <property name="checked">
+                    <bool>true</bool>
+                   </property>
                   </widget>
                  </item>
                  <item>
@@ -1005,6 +1123,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -1014,6 +1135,9 @@
                      <widget class="QRadioButton" name="SB2_subslot1_5">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -1025,6 +1149,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -1034,6 +1161,9 @@
                      <widget class="QRadioButton" name="SB2_subslot1_3">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -1045,6 +1175,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -1054,6 +1187,9 @@
                      <widget class="QRadioButton" name="SB2_subslot1_4">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -1065,6 +1201,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -1074,6 +1213,9 @@
                      <widget class="QRadioButton" name="SB2_subslot1_7">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -1103,6 +1245,9 @@
                    <property name="checkable">
                     <bool>true</bool>
                    </property>
+                   <property name="checked">
+                    <bool>true</bool>
+                   </property>
                   </widget>
                  </item>
                  <item>
@@ -1112,6 +1257,9 @@
                      <widget class="QRadioButton" name="SB2_subslot2_6">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -1123,6 +1271,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -1132,6 +1283,9 @@
                      <widget class="QRadioButton" name="SB2_subslot2_1">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -1143,6 +1297,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -1152,6 +1309,9 @@
                      <widget class="QRadioButton" name="SB2_subslot2_2">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -1163,6 +1323,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -1173,6 +1336,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -1182,6 +1348,9 @@
                      <widget class="QRadioButton" name="SB2_subslot2_4">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -1211,6 +1380,9 @@
                    <property name="checkable">
                     <bool>true</bool>
                    </property>
+                   <property name="checked">
+                    <bool>true</bool>
+                   </property>
                   </widget>
                  </item>
                  <item>
@@ -1220,6 +1392,9 @@
                      <widget class="QRadioButton" name="SB2_subslot3_1">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -1231,6 +1406,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -1240,6 +1418,9 @@
                      <widget class="QRadioButton" name="SB2_subslot3_5">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -1251,6 +1432,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -1260,6 +1444,9 @@
                      <widget class="QRadioButton" name="SB2_subslot3_3">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -1271,6 +1458,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -1281,6 +1471,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -1290,6 +1483,9 @@
                      <widget class="QRadioButton" name="SB2_subslot3_8">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -1322,6 +1518,9 @@
                 <property name="checkable">
                  <bool>true</bool>
                 </property>
+                <property name="checked">
+                 <bool>true</bool>
+                </property>
                </widget>
               </item>
               <item>
@@ -1341,6 +1540,9 @@
                    <property name="checkable">
                     <bool>true</bool>
                    </property>
+                   <property name="checked">
+                    <bool>true</bool>
+                   </property>
                   </widget>
                  </item>
                  <item>
@@ -1350,6 +1552,9 @@
                      <widget class="QRadioButton" name="SB3_subslot1_6">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -1361,6 +1566,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -1370,6 +1578,9 @@
                      <widget class="QRadioButton" name="SB3_subslot1_5">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -1381,6 +1592,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -1390,6 +1604,9 @@
                      <widget class="QRadioButton" name="SB3_subslot1_2">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -1401,6 +1618,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -1411,6 +1631,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -1420,6 +1643,9 @@
                      <widget class="QRadioButton" name="SB3_subslot1_4">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -1449,6 +1675,9 @@
                    <property name="checkable">
                     <bool>true</bool>
                    </property>
+                   <property name="checked">
+                    <bool>true</bool>
+                   </property>
                   </widget>
                  </item>
                  <item>
@@ -1458,6 +1687,9 @@
                      <widget class="QRadioButton" name="SB3_subslot2_3">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -1469,6 +1701,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -1478,6 +1713,9 @@
                      <widget class="QRadioButton" name="SB3_subslot2_6">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -1489,6 +1727,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -1498,6 +1739,9 @@
                      <widget class="QRadioButton" name="SB3_subslot2_5">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -1509,6 +1753,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -1519,6 +1766,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -1528,6 +1778,9 @@
                      <widget class="QRadioButton" name="SB3_subslot2_8">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -1557,6 +1810,9 @@
                    <property name="checkable">
                     <bool>true</bool>
                    </property>
+                   <property name="checked">
+                    <bool>true</bool>
+                   </property>
                   </widget>
                  </item>
                  <item>
@@ -1566,6 +1822,9 @@
                      <widget class="QRadioButton" name="SB3_subslot3_6">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -1577,6 +1836,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -1586,6 +1848,9 @@
                      <widget class="QRadioButton" name="SB3_subslot3_2">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -1597,6 +1862,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -1606,6 +1874,9 @@
                      <widget class="QRadioButton" name="SB3_subslot3_3">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -1617,6 +1888,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -1627,6 +1901,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -1636,6 +1913,9 @@
                      <widget class="QRadioButton" name="SB3_subslot3_8">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -1668,6 +1948,9 @@
                 <property name="checkable">
                  <bool>true</bool>
                 </property>
+                <property name="checked">
+                 <bool>true</bool>
+                </property>
                </widget>
               </item>
               <item>
@@ -1687,6 +1970,9 @@
                    <property name="checkable">
                     <bool>true</bool>
                    </property>
+                   <property name="checked">
+                    <bool>true</bool>
+                   </property>
                   </widget>
                  </item>
                  <item>
@@ -1696,6 +1982,9 @@
                      <widget class="QRadioButton" name="SB4_subslot1_6">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -1707,6 +1996,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -1716,6 +2008,9 @@
                      <widget class="QRadioButton" name="SB4_subslot1_5">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -1727,6 +2022,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -1736,6 +2034,9 @@
                      <widget class="QRadioButton" name="SB4_subslot1_2">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -1747,6 +2048,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -1757,6 +2061,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -1766,6 +2073,9 @@
                      <widget class="QRadioButton" name="SB4_subslot1_4">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -1795,6 +2105,9 @@
                    <property name="checkable">
                     <bool>true</bool>
                    </property>
+                   <property name="checked">
+                    <bool>true</bool>
+                   </property>
                   </widget>
                  </item>
                  <item>
@@ -1804,6 +2117,9 @@
                      <widget class="QRadioButton" name="SB4_subslot2_3">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -1815,6 +2131,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -1824,6 +2143,9 @@
                      <widget class="QRadioButton" name="SB4_subslot2_6">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -1835,6 +2157,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -1844,6 +2169,9 @@
                      <widget class="QRadioButton" name="SB4_subslot2_5">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -1855,6 +2183,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -1865,6 +2196,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -1874,6 +2208,9 @@
                      <widget class="QRadioButton" name="SB4_subslot2_8">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -1903,6 +2240,9 @@
                    <property name="checkable">
                     <bool>true</bool>
                    </property>
+                   <property name="checked">
+                    <bool>true</bool>
+                   </property>
                   </widget>
                  </item>
                  <item>
@@ -1912,6 +2252,9 @@
                      <widget class="QRadioButton" name="SB4_subslot3_6">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -1923,6 +2266,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -1932,6 +2278,9 @@
                      <widget class="QRadioButton" name="SB4_subslot3_2">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -1943,6 +2292,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -1952,6 +2304,9 @@
                      <widget class="QRadioButton" name="SB4_subslot3_3">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -1963,6 +2318,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -1973,6 +2331,9 @@
                       <property name="text">
                        <string/>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
                       </property>
@@ -1982,6 +2343,9 @@
                      <widget class="QRadioButton" name="SB4_subslot3_8">
                       <property name="text">
                        <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
                       </property>
                       <property name="autoExclusive">
                        <bool>false</bool>
@@ -2026,6 +2390,9 @@
                 <property name="checkable">
                  <bool>true</bool>
                 </property>
+                <property name="checked">
+                 <bool>true</bool>
+                </property>
                </widget>
               </item>
               <item>
@@ -2054,6 +2421,9 @@
                       <property name="checkable">
                        <bool>true</bool>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                      </widget>
                     </item>
                     <item>
@@ -2063,6 +2433,9 @@
                         <widget class="QRadioButton" name="SB5_subslot2_5">
                          <property name="text">
                           <string/>
+                         </property>
+                         <property name="checked">
+                          <bool>true</bool>
                          </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
@@ -2074,6 +2447,9 @@
                          <property name="text">
                           <string/>
                          </property>
+                         <property name="checked">
+                          <bool>true</bool>
+                         </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
                          </property>
@@ -2083,6 +2459,9 @@
                         <widget class="QRadioButton" name="SB5_subslot2_1">
                          <property name="text">
                           <string/>
+                         </property>
+                         <property name="checked">
+                          <bool>true</bool>
                          </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
@@ -2094,6 +2473,9 @@
                          <property name="text">
                           <string/>
                          </property>
+                         <property name="checked">
+                          <bool>true</bool>
+                         </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
                          </property>
@@ -2103,6 +2485,9 @@
                         <widget class="QRadioButton" name="SB5_subslot2_3">
                          <property name="text">
                           <string/>
+                         </property>
+                         <property name="checked">
+                          <bool>true</bool>
                          </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
@@ -2114,6 +2499,9 @@
                          <property name="text">
                           <string/>
                          </property>
+                         <property name="checked">
+                          <bool>true</bool>
+                         </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
                          </property>
@@ -2124,6 +2512,9 @@
                          <property name="text">
                           <string/>
                          </property>
+                         <property name="checked">
+                          <bool>true</bool>
+                         </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
                          </property>
@@ -2133,6 +2524,9 @@
                         <widget class="QRadioButton" name="SB5_subslot2_8">
                          <property name="text">
                           <string/>
+                         </property>
+                         <property name="checked">
+                          <bool>true</bool>
                          </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
@@ -2162,6 +2556,9 @@
                       <property name="checkable">
                        <bool>true</bool>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                      </widget>
                     </item>
                     <item>
@@ -2171,6 +2568,9 @@
                         <widget class="QRadioButton" name="SB5_subslot1_5">
                          <property name="text">
                           <string/>
+                         </property>
+                         <property name="checked">
+                          <bool>true</bool>
                          </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
@@ -2182,6 +2582,9 @@
                          <property name="text">
                           <string/>
                          </property>
+                         <property name="checked">
+                          <bool>true</bool>
+                         </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
                          </property>
@@ -2191,6 +2594,9 @@
                         <widget class="QRadioButton" name="SB5_subslot1_1">
                          <property name="text">
                           <string/>
+                         </property>
+                         <property name="checked">
+                          <bool>true</bool>
                          </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
@@ -2202,6 +2608,9 @@
                          <property name="text">
                           <string/>
                          </property>
+                         <property name="checked">
+                          <bool>true</bool>
+                         </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
                          </property>
@@ -2211,6 +2620,9 @@
                         <widget class="QRadioButton" name="SB5_subslot1_3">
                          <property name="text">
                           <string/>
+                         </property>
+                         <property name="checked">
+                          <bool>true</bool>
                          </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
@@ -2222,6 +2634,9 @@
                          <property name="text">
                           <string/>
                          </property>
+                         <property name="checked">
+                          <bool>true</bool>
+                         </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
                          </property>
@@ -2232,6 +2647,9 @@
                          <property name="text">
                           <string/>
                          </property>
+                         <property name="checked">
+                          <bool>true</bool>
+                         </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
                          </property>
@@ -2241,6 +2659,9 @@
                         <widget class="QRadioButton" name="SB5_subslot1_8">
                          <property name="text">
                           <string/>
+                         </property>
+                         <property name="checked">
+                          <bool>true</bool>
                          </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
@@ -2270,6 +2691,9 @@
                       <property name="checkable">
                        <bool>true</bool>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                      </widget>
                     </item>
                     <item>
@@ -2279,6 +2703,9 @@
                         <widget class="QRadioButton" name="SB5_subslot3_5">
                          <property name="text">
                           <string/>
+                         </property>
+                         <property name="checked">
+                          <bool>true</bool>
                          </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
@@ -2290,6 +2717,9 @@
                          <property name="text">
                           <string/>
                          </property>
+                         <property name="checked">
+                          <bool>true</bool>
+                         </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
                          </property>
@@ -2299,6 +2729,9 @@
                         <widget class="QRadioButton" name="SB5_subslot3_1">
                          <property name="text">
                           <string/>
+                         </property>
+                         <property name="checked">
+                          <bool>true</bool>
                          </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
@@ -2310,6 +2743,9 @@
                          <property name="text">
                           <string/>
                          </property>
+                         <property name="checked">
+                          <bool>true</bool>
+                         </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
                          </property>
@@ -2319,6 +2755,9 @@
                         <widget class="QRadioButton" name="SB5_subslot3_3">
                          <property name="text">
                           <string/>
+                         </property>
+                         <property name="checked">
+                          <bool>true</bool>
                          </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
@@ -2330,6 +2769,9 @@
                          <property name="text">
                           <string/>
                          </property>
+                         <property name="checked">
+                          <bool>true</bool>
+                         </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
                          </property>
@@ -2340,6 +2782,9 @@
                          <property name="text">
                           <string/>
                          </property>
+                         <property name="checked">
+                          <bool>true</bool>
+                         </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
                          </property>
@@ -2349,6 +2794,9 @@
                         <widget class="QRadioButton" name="SB5_subslot3_8">
                          <property name="text">
                           <string/>
+                         </property>
+                         <property name="checked">
+                          <bool>true</bool>
                          </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
@@ -2378,6 +2826,9 @@
                       <property name="checkable">
                        <bool>true</bool>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                      </widget>
                     </item>
                     <item>
@@ -2387,6 +2838,9 @@
                         <widget class="QRadioButton" name="SB5_subslot5_5">
                          <property name="text">
                           <string/>
+                         </property>
+                         <property name="checked">
+                          <bool>true</bool>
                          </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
@@ -2398,6 +2852,9 @@
                          <property name="text">
                           <string/>
                          </property>
+                         <property name="checked">
+                          <bool>true</bool>
+                         </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
                          </property>
@@ -2407,6 +2864,9 @@
                         <widget class="QRadioButton" name="SB5_subslot5_1">
                          <property name="text">
                           <string/>
+                         </property>
+                         <property name="checked">
+                          <bool>true</bool>
                          </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
@@ -2418,6 +2878,9 @@
                          <property name="text">
                           <string/>
                          </property>
+                         <property name="checked">
+                          <bool>true</bool>
+                         </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
                          </property>
@@ -2427,6 +2890,9 @@
                         <widget class="QRadioButton" name="SB5_subslot5_3">
                          <property name="text">
                           <string/>
+                         </property>
+                         <property name="checked">
+                          <bool>true</bool>
                          </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
@@ -2438,6 +2904,9 @@
                          <property name="text">
                           <string/>
                          </property>
+                         <property name="checked">
+                          <bool>true</bool>
+                         </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
                          </property>
@@ -2448,6 +2917,9 @@
                          <property name="text">
                           <string/>
                          </property>
+                         <property name="checked">
+                          <bool>true</bool>
+                         </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
                          </property>
@@ -2457,6 +2929,9 @@
                         <widget class="QRadioButton" name="SB5_subslot5_8">
                          <property name="text">
                           <string/>
+                         </property>
+                         <property name="checked">
+                          <bool>true</bool>
                          </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
@@ -2486,6 +2961,9 @@
                       <property name="checkable">
                        <bool>true</bool>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                      </widget>
                     </item>
                     <item>
@@ -2495,6 +2973,9 @@
                         <widget class="QRadioButton" name="SB5_subslot6_5">
                          <property name="text">
                           <string/>
+                         </property>
+                         <property name="checked">
+                          <bool>true</bool>
                          </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
@@ -2506,6 +2987,9 @@
                          <property name="text">
                           <string/>
                          </property>
+                         <property name="checked">
+                          <bool>true</bool>
+                         </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
                          </property>
@@ -2515,6 +2999,9 @@
                         <widget class="QRadioButton" name="SB5_subslot6_1">
                          <property name="text">
                           <string/>
+                         </property>
+                         <property name="checked">
+                          <bool>true</bool>
                          </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
@@ -2526,6 +3013,9 @@
                          <property name="text">
                           <string/>
                          </property>
+                         <property name="checked">
+                          <bool>true</bool>
+                         </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
                          </property>
@@ -2535,6 +3025,9 @@
                         <widget class="QRadioButton" name="SB5_subslot6_3">
                          <property name="text">
                           <string/>
+                         </property>
+                         <property name="checked">
+                          <bool>true</bool>
                          </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
@@ -2546,6 +3039,9 @@
                          <property name="text">
                           <string/>
                          </property>
+                         <property name="checked">
+                          <bool>true</bool>
+                         </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
                          </property>
@@ -2556,6 +3052,9 @@
                          <property name="text">
                           <string/>
                          </property>
+                         <property name="checked">
+                          <bool>true</bool>
+                         </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
                          </property>
@@ -2565,6 +3064,9 @@
                         <widget class="QRadioButton" name="SB5_subslot6_8">
                          <property name="text">
                           <string/>
+                         </property>
+                         <property name="checked">
+                          <bool>true</bool>
                          </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
@@ -2597,6 +3099,9 @@
                       <property name="checkable">
                        <bool>true</bool>
                       </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
                      </widget>
                     </item>
                     <item>
@@ -2606,6 +3111,9 @@
                         <widget class="QRadioButton" name="SB5_subslot4_5">
                          <property name="text">
                           <string/>
+                         </property>
+                         <property name="checked">
+                          <bool>true</bool>
                          </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
@@ -2617,6 +3125,9 @@
                          <property name="text">
                           <string/>
                          </property>
+                         <property name="checked">
+                          <bool>true</bool>
+                         </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
                          </property>
@@ -2626,6 +3137,9 @@
                         <widget class="QRadioButton" name="SB5_subslot4_1">
                          <property name="text">
                           <string/>
+                         </property>
+                         <property name="checked">
+                          <bool>true</bool>
                          </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
@@ -2637,6 +3151,9 @@
                          <property name="text">
                           <string/>
                          </property>
+                         <property name="checked">
+                          <bool>true</bool>
+                         </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
                          </property>
@@ -2646,6 +3163,9 @@
                         <widget class="QRadioButton" name="SB5_subslot4_3">
                          <property name="text">
                           <string/>
+                         </property>
+                         <property name="checked">
+                          <bool>true</bool>
                          </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
@@ -2657,6 +3177,9 @@
                          <property name="text">
                           <string/>
                          </property>
+                         <property name="checked">
+                          <bool>true</bool>
+                         </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
                          </property>
@@ -2667,6 +3190,9 @@
                          <property name="text">
                           <string/>
                          </property>
+                         <property name="checked">
+                          <bool>true</bool>
+                         </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
                          </property>
@@ -2676,6 +3202,9 @@
                         <widget class="QRadioButton" name="SB5_subslot4_8">
                          <property name="text">
                           <string/>
+                         </property>
+                         <property name="checked">
+                          <bool>true</bool>
                          </property>
                          <property name="autoExclusive">
                           <bool>false</bool>
@@ -2708,13 +3237,13 @@
             </spacer>
            </item>
           </layout>
-          <zorder>wholeCrate1</zorder>
           <zorder>frame_2</zorder>
           <zorder>frame_4</zorder>
           <zorder>frame_5</zorder>
           <zorder>frame_16</zorder>
           <zorder>horizontalSpacer</zorder>
           <zorder>frame_6</zorder>
+          <zorder>frame</zorder>
          </widget>
         </item>
         <item>
@@ -2754,5 +3283,26 @@
   </widget>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Crate</receiver>
+   <slot>status_changed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>67</x>
+     <y>81</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>31</x>
+     <y>2</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>status_changed()</slot>
+  <slot>slot2()</slot>
+ </slots>
 </ui>
