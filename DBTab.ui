@@ -14383,22 +14383,6 @@
    </hints>
   </connection>
   <connection>
-   <sender>quad421_3</sender>
-   <signal>clicked(bool)</signal>
-   <receiver>boxf3</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>265</x>
-     <y>204</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>390</x>
-     <y>164</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
    <sender>forward_2</sender>
    <signal>clicked(bool)</signal>
    <receiver>quad431_3</receiver>
@@ -17819,22 +17803,6 @@
     <hint type="destinationlabel">
      <x>374</x>
      <y>444</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>sl1_b_3</sender>
-   <signal>clicked(bool)</signal>
-   <receiver>sl2_b_3</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>200</x>
-     <y>530</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>328</x>
-     <y>543</y>
     </hint>
    </hints>
   </connection>
