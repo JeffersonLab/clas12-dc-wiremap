@@ -60,10 +60,10 @@
                  <string>Update</string>
                 </property>
                 <property name="checkable">
-                 <bool>true</bool>
+                 <bool>false</bool>
                 </property>
                 <property name="checked">
-                 <bool>true</bool>
+                 <bool>false</bool>
                 </property>
                </widget>
               </item>
@@ -3283,5 +3283,26 @@
   </widget>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Crate</receiver>
+   <slot>status_changed()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>67</x>
+     <y>81</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>31</x>
+     <y>2</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>status_changed()</slot>
+  <slot>slot2()</slot>
+ </slots>
 </ui>
