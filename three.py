@@ -2,28 +2,14 @@ from __future__ import print_function, division
 
 from numpy import random as rand
 from PyQt4 import QtGui, uic
+#fix file names
+from db_tab import DBTab
+from tb_tab import TBTab
+from crate_tab import CrateTab
+from sidebar_view import SidebarWid
 
 def fn():
     return rand.randint(0,7)
-
-class SidebarWid(QtGui.QWidget):
-    def __init__(self,parent=None):
-        super(QtGui.QWidget, self).__init__(parent)
-        uic.loadUi('Sidebar.ui',self)
-
-    def update_parameters(self):
-        pass
-
-class DistrBoardsTab(QtGui.QTabWidget):
-    def __init__(self, parent=None):
-        super(QtGui.QTabWidget, self).__init__(parent)
-        uic.loadUi('DBTab.ui',self)
-
-# object constructor class
-class CrateTab(QtGui.QTabWidget):
-    def __init__(self, parent=None):
-        super(QtGui.QTabWidget, self).__init__(parent)
-        uic.loadUi('CrateTab.ui', self)
 
 class MainWindow(QtGui.QMainWindow):
     def __init__(self):
@@ -32,18 +18,24 @@ class MainWindow(QtGui.QMainWindow):
 
         #creating an instance of each object
         self.sidebar = SidebarWid()
-        self.distr_board = DistrBoardsTab()
+        self.dboard = DBTab()
         self.crate = CrateTab()
+        self.tboard = TBTab()
 
         sidebar_vbox = QtGui.QVBoxLayout()
         sidebar_vbox.addWidget(self.sidebar)
         sidebar_vbox.addStretch(1)
-        self.sidebar_holder.setLayout(sidebar_vbox)
+        self.sidebar_holder.setLayout(sidebar_vbox)          
 
-        distr_board_vbox = QtGui.QVBoxLayout()
-        distr_board_vbox.addWidget(self.distr_board)
-        distr_board_vbox.addStretch(1)
-        self.distr_board_tab_holder.setLayout(distr_board_vbox)
+        dboard_vbox = QtGui.QVBoxLayout()
+        dboard_vbox.addWidget(self.dboard)
+        dboard_vbox.addStretch(1)
+        self.distr_board_tab_holder.setLayout(dboard_vbox)
+        
+        tboard_vbox = QtGui.QVBoxLayout()
+        tboard_vbox.addWidget(self.tboard)
+        tboard_vbox.addStretch(1)
+        self.trans_board_tab_holder.setLayout(tboard_vbox)
 
         crate_vbox = QtGui.QVBoxLayout()
         crate_vbox.addWidget(self.crate)
