@@ -4,28 +4,34 @@ from PyQt4 import QtGui, uic
 
 from clas12_wiremap import initialize_session, dc_fill_tables, dc_find_connections
 
-class TBTab(QtGui.QTabWidget):
+class DBTab(QtGui.QTabWidget):
     def __init__(self, parent=None):
         super(QtGui.QTabWidget, self).__init__(parent)
-        uic.loadUi('TBTab.ui', self)
+        uic.loadUi('DBTab.ui', self)
     def get_buttons(self):               
                  
-        fmt = 'sl{super_layer}_{board}'
+        fmt = 'sl{super_layer}_{direction}_{doublet}'
         
         buttons = []
-        for sector in [2]:
+        for sector in [5]:
             for super_layer in range(1,7):
          
-                b_buttons = []
-                for board in range(1,13):
-                    opts = {
-                                'super_layer' : super_layer,
-                                'board' : board}
-                    b = getattr(self,fmt.format(**opts))
+                d_buttons = []
+                for direction in ['f','b']:
                     
-                    b_buttons += [b.isChecked()]
-                buttons += [b_buttons]      
-         
+                                           
+                    db_buttons = []
+                    for doublet in range(1,7):
+                            
+                        opts = {
+                                'super_layer' : super_layer,
+                                'direction' : direction,
+                                'doublet' : doublet}
+                        b = getattr(self,fmt.format(**opts))
+                            
+                        db_buttons += [b.isChecked()]               
+                    d_buttons += [db_buttons]
+                buttons += [d_buttons]
         return buttons
         
     def status_changed(self):
@@ -42,7 +48,7 @@ class MainWindow(QtGui.QMainWindow):
         self.setCentralWidget(self.central_widget)
 
         hbox = QtGui.QHBoxLayout()
-        self.trial = TBTab()
+        self.trial = DBTab()
         hbox.addWidget(self.trial)
         hbox.addStretch(1)
 

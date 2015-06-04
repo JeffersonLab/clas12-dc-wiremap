@@ -1,5 +1,22 @@
-from __future__ import print_function, division
+from __future__ import print_function, division, unicode_literals
 
+from PyQt4 import QtGui, uic
+
+from clas12_wiremap import initialize_session, dc_fill_tables, dc_find_connections
+
+import sys
+import os
+import random
+from matplotlib.backends import qt4_compat
+use_pyside = qt4_compat.QT_API == qt4_compat.QT_API_PYSIDE
+if use_pyside:
+    from PySide import QtGui, QtCore
+else:
+    from PyQt4 import QtGui, QtCore
+
+from numpy import arange, sin, pi
+from matplotlib.backends.backend_qt4agg import FigureCanvasQTAgg as FigureCanvas
+from matplotlib.figure import Figure
 from numpy import random as rand
 from PyQt4 import QtGui, uic
 #fix file names
@@ -7,6 +24,7 @@ from db_tab import DBTab
 from tb_tab import TBTab
 from crate_tab import CrateTab
 from sidebar_view import SidebarWid
+from mpl_canvas import MplCanvasStatic
 
 def fn():
     return rand.randint(0,7)
@@ -21,6 +39,12 @@ class MainWindow(QtGui.QMainWindow):
         self.dboard = DBTab()
         self.crate = CrateTab()
         self.tboard = TBTab()
+        self.mpl = MplCanvasStatic()
+        
+        mpl_vbox = QtGui.QVBoxLayout()
+        mpl_vbox.addWidget(self.mpl)
+        mpl_vbox.addStretch(1)
+        self.wire_view_holder.setLayout(mpl_vbox)
 
         sidebar_vbox = QtGui.QVBoxLayout()
         sidebar_vbox.addWidget(self.sidebar)
