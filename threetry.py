@@ -24,7 +24,7 @@ from db_tab import DBTab
 from tb_tab import TBTab
 from crate_tab import CrateTab
 from sidebar_view import SidebarWid
-from mpl import Mpl
+from mpl_canvas import MplCanvasStatic
 
 def fn():
     return rand.randint(0,7)
@@ -39,7 +39,7 @@ class MainWindow(QtGui.QMainWindow):
         self.dboard = DBTab()
         self.crate = CrateTab()
         self.tboard = TBTab()
-        self.mpl = Mpl()
+        self.mpl = MplCanvasStatic()
         
         mpl_vbox = QtGui.QVBoxLayout()
         mpl_vbox.addWidget(self.mpl)

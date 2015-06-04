@@ -21,7 +21,7 @@
     <item>
      <widget class="QTabWidget" name="display_tabs">
       <property name="currentIndex">
-       <number>0</number>
+       <number>2</number>
       </property>
       <widget class="QWidget" name="crate_tab_holder">
        <attribute name="title">
@@ -34,6 +34,9 @@
        </attribute>
       </widget>
       <widget class="QWidget" name="wire_tab_holder">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
        <attribute name="title">
         <string>Wires</string>
        </attribute>
@@ -44,6 +47,9 @@
        </attribute>
       </widget>
      </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="wire_view_holder" native="true"/>
     </item>
    </layout>
   </widget>
