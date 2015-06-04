@@ -44,7 +44,7 @@ class MainWindow(QtGui.QMainWindow):
         mpl_vbox = QtGui.QVBoxLayout()
         mpl_vbox.addWidget(self.mpl)
         mpl_vbox.addStretch(1)
-        self.wire_view_holder.setLayout(mpl_vbox)
+        self.wire_tab_holder.setLayout(mpl_vbox)
 
         sidebar_vbox = QtGui.QVBoxLayout()
         sidebar_vbox.addWidget(self.sidebar)
