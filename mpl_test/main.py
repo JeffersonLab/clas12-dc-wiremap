@@ -10,7 +10,7 @@ if use_pyside:
 else:
     from PyQt4 import QtGui, QtCore, uic
 
-from mpl_canvas import MplCanvasStatic
+from mpl import MplCanvasStatic
 
 class MainWindow(QtGui.QMainWindow):
     def __init__(self):
