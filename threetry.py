@@ -92,20 +92,26 @@ class MainWindow(QtGui.QMainWindow):
                         ct.clicked.connect(ch.setChecked)
                         
                         #if ss is off and ch is clicked turn on ss(parent)
+                        if ss.setChecked == False:
+                            ch.clicked.connect(ss.setChecked)                            
                             #if sb is off and ss is clicked turn on sb(parent)
+                            if sb.setChecked == False:
+                                ss.clicked.connect(sb.setChecked)
                                 #if ct is off and sb is clicked turn on ct(parent)
-                                
+                                if ct.setChecked == False: 
+                                    sb.clicked.connect(ct.setChecked)
+                                    
                         #if sb is off and ss is clicked turn on sb(parent)
+                        if sb.setChecked == False:
+                            ss.clicked.connect(sb.setChecked)
                             #if ct is off and sb is clicked turn on ct(parent)
+                            if ct.setChecked == False: 
+                                sb.clicked.connect(ct.setChecked)
                             
                         #if ct is off and sb is clicked turn on ct(parent)
-                        
-                        #ch.clicked(true).connect(ss.setChecked(true))
-                        #ss.clicked.connect(sb.setChecked)
-                        #ch.clicked.connect(sb.setChecked)
-                        #sb.clicked.connect(ct.setChecked)
-                        #ss.clicked.connect(ct.setChecked)
-                        #ch.clicked.connect(ct.setChecked)
+                        if ct.setChecked == False: 
+                             sb.clicked.connect(ct.setChecked)
+
                         
             self.show()
             self.updating = False
