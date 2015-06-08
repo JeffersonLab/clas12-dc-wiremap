@@ -7,8 +7,10 @@ from clas12_wiremap import initialize_session, dc_fill_tables, dc_find_connectio
 class CrateTab(QtGui.QTabWidget):
     def __init__(self, parent=None):
         super(QtGui.QTabWidget, self).__init__(parent)
-        uic.loadUi('CrateTab.ui', self) 
-    def get_buttons(self):               
+        uic.loadUi('CrateTab.ui', self)
+        
+ 
+    def get_button_statuses(self):               
                  
         fmt = 'SB{supply_board}_subslot{subslot}_{channel}' #format of object names
         
