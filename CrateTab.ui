@@ -14,7 +14,7 @@
    <string>TabWidget</string>
   </property>
   <property name="currentIndex">
-   <number>3</number>
+   <number>1</number>
   </property>
   <widget class="QWidget" name="crate1_tabwidget">
    <attribute name="title">
@@ -5802,7 +5802,7 @@
                      <widget class="QWidget" name="widget_73" native="true">
                       <layout class="QGridLayout" name="gridLayout_68">
                        <item row="1" column="1">
-                        <widget class="QRadioButton" name="SB5_subslot1_10">
+                        <widget class="QRadioButton" name="crate2_SB5_subslot1_5">
                          <property name="text">
                           <string/>
                          </property>
@@ -7023,7 +7023,7 @@
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_92">
                        <item>
-                        <widget class="QPushButton" name="SB1_subslot2_36">
+                        <widget class="QPushButton" name="crate3_SB1_subslot2">
                          <property name="text">
                           <string>Subslot 2</string>
                          </property>
@@ -7158,7 +7158,7 @@
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_93">
                        <item>
-                        <widget class="QPushButton" name="SB1_subslot3_36">
+                        <widget class="QPushButton" name="crate3_SB1_subslot3">
                          <property name="text">
                           <string>Subslot 3</string>
                          </property>
@@ -7729,7 +7729,7 @@
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_190">
                        <item>
-                        <widget class="QPushButton" name="SB2_subslot2_36">
+                        <widget class="QPushButton" name="crate3_SB2_subslot2">
                          <property name="text">
                           <string>Subslot 2</string>
                          </property>
@@ -7864,7 +7864,7 @@
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_191">
                        <item>
-                        <widget class="QPushButton" name="SB2_subslot3_36">
+                        <widget class="QPushButton" name="crate3_SB2_subslot3">
                          <property name="text">
                           <string>Subslot 3</string>
                          </property>
@@ -8159,7 +8159,7 @@
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_97">
                        <item>
-                        <widget class="QPushButton" name="SB3_subslot2_36">
+                        <widget class="QPushButton" name="crate3_SB3_subslot2">
                          <property name="text">
                           <string>Subslot 2</string>
                          </property>
@@ -8294,7 +8294,7 @@
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_98">
                        <item>
-                        <widget class="QPushButton" name="SB3_subslot3_36">
+                        <widget class="QPushButton" name="crate3_SB3_subslot3">
                          <property name="text">
                           <string>Subslot 3</string>
                          </property>
@@ -8589,7 +8589,7 @@
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_101">
                        <item>
-                        <widget class="QPushButton" name="SB4_subslot2_36">
+                        <widget class="QPushButton" name="crate3_SB4_subslot2">
                          <property name="text">
                           <string>Subslot 2</string>
                          </property>
@@ -8724,7 +8724,7 @@
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_192">
                        <item>
-                        <widget class="QPushButton" name="SB4_subslot3_36">
+                        <widget class="QPushButton" name="crate3_SB4_subslot3">
                          <property name="text">
                           <string>Subslot 3</string>
                          </property>
@@ -8902,7 +8902,7 @@
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_103">
                           <item>
-                           <widget class="QPushButton" name="SB5_subslot2_36">
+                           <widget class="QPushButton" name="crate3_SB5_subslot2">
                             <property name="styleSheet">
                              <string notr="true"/>
                             </property>
@@ -9175,7 +9175,7 @@
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_105">
                           <item>
-                           <widget class="QPushButton" name="SB5_subslot3_36">
+                           <widget class="QPushButton" name="crate3_SB5_subslot3">
                             <property name="text">
                              <string>Subslot 3</string>
                             </property>
@@ -9310,7 +9310,7 @@
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_106">
                           <item>
-                           <widget class="QPushButton" name="SB5_subslot5_36">
+                           <widget class="QPushButton" name="crate3_SB5_subslot5">
                             <property name="text">
                              <string>Subslot 5</string>
                             </property>
@@ -9445,7 +9445,7 @@
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_107">
                           <item>
-                           <widget class="QPushButton" name="SB5_subslot6_36">
+                           <widget class="QPushButton" name="crate3_SB5_subslot6">
                             <property name="text">
                              <string>Subslot 6</string>
                             </property>
@@ -9580,7 +9580,7 @@
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_108">
                           <item>
-                           <widget class="QPushButton" name="SB5_subslot4_36">
+                           <widget class="QPushButton" name="crate3_SB5_subslot4">
                             <property name="autoFillBackground">
                              <bool>false</bool>
                             </property>
@@ -10182,7 +10182,7 @@
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_59">
                        <item>
-                        <widget class="QPushButton" name="SB1_subslot2_18">
+                        <widget class="QPushButton" name="crate3_SB6_subslot2">
                          <property name="text">
                           <string>Subslot 2</string>
                          </property>
@@ -10317,7 +10317,7 @@
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_60">
                        <item>
-                        <widget class="QPushButton" name="SB1_subslot3_18">
+                        <widget class="QPushButton" name="crate3_SB6_subslot3">
                          <property name="text">
                           <string>Subslot 3</string>
                          </property>
@@ -10888,7 +10888,7 @@
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_182">
                        <item>
-                        <widget class="QPushButton" name="SB2_subslot2_18">
+                        <widget class="QPushButton" name="crate3_SB7_subslot2">
                          <property name="text">
                           <string>Subslot 2</string>
                          </property>
@@ -11023,7 +11023,7 @@
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_183">
                        <item>
-                        <widget class="QPushButton" name="SB2_subslot3_18">
+                        <widget class="QPushButton" name="crate3_SB7_subslot3">
                          <property name="text">
                           <string>Subslot 3</string>
                          </property>
@@ -11318,7 +11318,7 @@
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_33">
                        <item>
-                        <widget class="QPushButton" name="SB3_subslot2_18">
+                        <widget class="QPushButton" name="crate3_SB8_subslot2">
                          <property name="text">
                           <string>Subslot 2</string>
                          </property>
@@ -11453,7 +11453,7 @@
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_34">
                        <item>
-                        <widget class="QPushButton" name="SB3_subslot3_18">
+                        <widget class="QPushButton" name="crate3_SB8_subslot3">
                          <property name="text">
                           <string>Subslot 3</string>
                          </property>
@@ -11748,7 +11748,7 @@
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_37">
                        <item>
-                        <widget class="QPushButton" name="SB4_subslot2_18">
+                        <widget class="QPushButton" name="crate3_SB9_subslot2">
                          <property name="text">
                           <string>Subslot 2</string>
                          </property>
@@ -11883,7 +11883,7 @@
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_184">
                        <item>
-                        <widget class="QPushButton" name="SB4_subslot3_18">
+                        <widget class="QPushButton" name="crate3_SB9_subslot3">
                          <property name="text">
                           <string>Subslot 3</string>
                          </property>
@@ -12061,7 +12061,7 @@
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_74">
                           <item>
-                           <widget class="QPushButton" name="SB5_subslot2_18">
+                           <widget class="QPushButton" name="crate3_SB10_subslot2">
                             <property name="styleSheet">
                              <string notr="true"/>
                             </property>
@@ -12334,7 +12334,7 @@
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_76">
                           <item>
-                           <widget class="QPushButton" name="SB5_subslot3_18">
+                           <widget class="QPushButton" name="crate3_SB10_subslot3">
                             <property name="text">
                              <string>Subslot 3</string>
                             </property>
@@ -12469,7 +12469,7 @@
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_77">
                           <item>
-                           <widget class="QPushButton" name="SB5_subslot5_18">
+                           <widget class="QPushButton" name="crate3_SB10_subslot5">
                             <property name="text">
                              <string>Subslot 5</string>
                             </property>
@@ -12604,7 +12604,7 @@
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_78">
                           <item>
-                           <widget class="QPushButton" name="SB5_subslot6_18">
+                           <widget class="QPushButton" name="crate3_SB10_subslot6">
                             <property name="text">
                              <string>Subslot 6</string>
                             </property>
@@ -12739,7 +12739,7 @@
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_79">
                           <item>
-                           <widget class="QPushButton" name="SB5_subslot4_18">
+                           <widget class="QPushButton" name="crate3_SB10_subslot4">
                             <property name="autoFillBackground">
                              <bool>false</bool>
                             </property>
@@ -12937,7 +12937,7 @@
           <property name="geometry">
            <rect>
             <x>0</x>
-            <y>-118</y>
+            <y>-195</y>
             <width>1272</width>
             <height>882</height>
            </rect>
@@ -13109,7 +13109,7 @@
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_111">
                        <item>
-                        <widget class="QPushButton" name="crate3_SB1_2">
+                        <widget class="QPushButton" name="crate4_SB1">
                          <property name="palette">
                           <palette>
                            <active>
@@ -13222,7 +13222,7 @@
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_112">
                           <item>
-                           <widget class="QPushButton" name="crate3_SB1_subslot1_2">
+                           <widget class="QPushButton" name="crate4_SB1_subslot1">
                             <property name="palette">
                              <palette>
                               <active>
@@ -13451,7 +13451,7 @@
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_113">
                           <item>
-                           <widget class="QPushButton" name="SB1_subslot2_45">
+                           <widget class="QPushButton" name="crate4_SB1_subslot2">
                             <property name="text">
                              <string>Subslot 2</string>
                             </property>
@@ -13586,7 +13586,7 @@
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_114">
                           <item>
-                           <widget class="QPushButton" name="SB1_subslot3_45">
+                           <widget class="QPushButton" name="crate4_SB1_subslot3">
                             <property name="text">
                              <string>Subslot 3</string>
                             </property>
@@ -13815,7 +13815,7 @@
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_115">
                        <item>
-                        <widget class="QPushButton" name="crate3_SB2_2">
+                        <widget class="QPushButton" name="crate4_SB2">
                          <property name="palette">
                           <palette>
                            <active>
@@ -13928,7 +13928,7 @@
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_193">
                           <item>
-                           <widget class="QPushButton" name="crate3_SB2_subslot1_2">
+                           <widget class="QPushButton" name="crate4_SB2_subslot1">
                             <property name="palette">
                              <palette>
                               <active>
@@ -14157,7 +14157,7 @@
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_194">
                           <item>
-                           <widget class="QPushButton" name="SB2_subslot2_45">
+                           <widget class="QPushButton" name="crate4_SB2_subslot2">
                             <property name="text">
                              <string>Subslot 2</string>
                             </property>
@@ -14292,7 +14292,7 @@
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_195">
                           <item>
-                           <widget class="QPushButton" name="SB2_subslot3_45">
+                           <widget class="QPushButton" name="crate4_SB2_subslot3">
                             <property name="text">
                              <string>Subslot 3</string>
                             </property>
@@ -14430,7 +14430,7 @@
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_116">
                        <item>
-                        <widget class="QPushButton" name="crate3_SB3_2">
+                        <widget class="QPushButton" name="crate4_SB3">
                          <property name="text">
                           <string>Supply Board 3</string>
                          </property>
@@ -14452,7 +14452,7 @@
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_117">
                           <item>
-                           <widget class="QPushButton" name="crate3_SB3_subslot1_2">
+                           <widget class="QPushButton" name="crate4_SB3_subslot1">
                             <property name="text">
                              <string>Subslot 1</string>
                             </property>
@@ -14587,7 +14587,7 @@
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_118">
                           <item>
-                           <widget class="QPushButton" name="SB3_subslot2_45">
+                           <widget class="QPushButton" name="crate4_SB3_subslot2">
                             <property name="text">
                              <string>Subslot 2</string>
                             </property>
@@ -14722,7 +14722,7 @@
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_119">
                           <item>
-                           <widget class="QPushButton" name="SB3_subslot3_45">
+                           <widget class="QPushButton" name="crate4_SB3_subslot3">
                             <property name="text">
                              <string>Subslot 3</string>
                             </property>
@@ -14860,7 +14860,7 @@
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_120">
                        <item>
-                        <widget class="QPushButton" name="crate3_SB4_2">
+                        <widget class="QPushButton" name="crate4_SB4">
                          <property name="text">
                           <string>Supply Board 4</string>
                          </property>
@@ -14882,7 +14882,7 @@
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_121">
                           <item>
-                           <widget class="QPushButton" name="crate3_SB4_subslot1_2">
+                           <widget class="QPushButton" name="crate4_SB4_subslot1">
                             <property name="text">
                              <string>Subslot 1</string>
                             </property>
@@ -15017,7 +15017,7 @@
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_122">
                           <item>
-                           <widget class="QPushButton" name="SB4_subslot2_45">
+                           <widget class="QPushButton" name="crate4_SB4_subslot2">
                             <property name="text">
                              <string>Subslot 2</string>
                             </property>
@@ -15152,7 +15152,7 @@
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_196">
                           <item>
-                           <widget class="QPushButton" name="SB4_subslot3_45">
+                           <widget class="QPushButton" name="crate4_SB4_subslot3">
                             <property name="text">
                              <string>Subslot 3</string>
                             </property>
@@ -15302,7 +15302,7 @@
                         <enum>QLayout::SetMaximumSize</enum>
                        </property>
                        <item>
-                        <widget class="QPushButton" name="crate3_SB5_2">
+                        <widget class="QPushButton" name="crate4_SB5">
                          <property name="text">
                           <string>Supply Board 5</string>
                          </property>
@@ -15330,7 +15330,7 @@
                             </property>
                             <layout class="QVBoxLayout" name="verticalLayout_124">
                              <item>
-                              <widget class="QPushButton" name="SB5_subslot2_45">
+                              <widget class="QPushButton" name="crate4_SB5_subslot2">
                                <property name="styleSheet">
                                 <string notr="true"/>
                                </property>
@@ -15468,7 +15468,7 @@
                             </property>
                             <layout class="QVBoxLayout" name="verticalLayout_125">
                              <item>
-                              <widget class="QPushButton" name="crate3_SB5_subslot1_2">
+                              <widget class="QPushButton" name="crate4_SB5_subslot1">
                                <property name="text">
                                 <string>Subslot 1</string>
                                </property>
@@ -15603,7 +15603,7 @@
                             </property>
                             <layout class="QVBoxLayout" name="verticalLayout_126">
                              <item>
-                              <widget class="QPushButton" name="SB5_subslot3_45">
+                              <widget class="QPushButton" name="crate4_SB5_subslot3">
                                <property name="text">
                                 <string>Subslot 3</string>
                                </property>
@@ -15738,7 +15738,7 @@
                             </property>
                             <layout class="QVBoxLayout" name="verticalLayout_127">
                              <item>
-                              <widget class="QPushButton" name="SB5_subslot5_45">
+                              <widget class="QPushButton" name="crate4_SB5_subslot5">
                                <property name="text">
                                 <string>Subslot 5</string>
                                </property>
@@ -15873,7 +15873,7 @@
                             </property>
                             <layout class="QVBoxLayout" name="verticalLayout_128">
                              <item>
-                              <widget class="QPushButton" name="SB5_subslot6_45">
+                              <widget class="QPushButton" name="crate4_SB5_subslot6">
                                <property name="text">
                                 <string>Subslot 6</string>
                                </property>
@@ -16008,7 +16008,7 @@
                             </property>
                             <layout class="QVBoxLayout" name="verticalLayout_129">
                              <item>
-                              <widget class="QPushButton" name="SB5_subslot4_45">
+                              <widget class="QPushButton" name="crate4_SB5_subslot4">
                                <property name="autoFillBackground">
                                 <bool>false</bool>
                                </property>
@@ -16268,7 +16268,7 @@
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_42">
                        <item>
-                        <widget class="QPushButton" name="crate3_SB6_2">
+                        <widget class="QPushButton" name="crate4_SB6">
                          <property name="palette">
                           <palette>
                            <active>
@@ -16381,7 +16381,7 @@
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_61">
                           <item>
-                           <widget class="QPushButton" name="crate3_SB6_subslot1_2">
+                           <widget class="QPushButton" name="crate4_SB6_subslot1">
                             <property name="palette">
                              <palette>
                               <active>
@@ -16610,7 +16610,7 @@
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_80">
                           <item>
-                           <widget class="QPushButton" name="SB1_subslot2_27">
+                           <widget class="QPushButton" name="crate4_SB6_subslot2">
                             <property name="text">
                              <string>Subslot 2</string>
                             </property>
@@ -16745,7 +16745,7 @@
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_81">
                           <item>
-                           <widget class="QPushButton" name="SB1_subslot3_27">
+                           <widget class="QPushButton" name="crate4_SB6_subslot3">
                             <property name="text">
                              <string>Subslot 3</string>
                             </property>
@@ -16974,7 +16974,7 @@
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_43">
                        <item>
-                        <widget class="QPushButton" name="crate3_SB7_2">
+                        <widget class="QPushButton" name="crate4_SB7">
                          <property name="palette">
                           <palette>
                            <active>
@@ -17087,7 +17087,7 @@
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_185">
                           <item>
-                           <widget class="QPushButton" name="crate3_SB7_subslot1_2">
+                           <widget class="QPushButton" name="crate4_SB7_subslot1">
                             <property name="palette">
                              <palette>
                               <active>
@@ -17316,7 +17316,7 @@
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_186">
                           <item>
-                           <widget class="QPushButton" name="SB2_subslot2_27">
+                           <widget class="QPushButton" name="crate4_SB7_subslot2">
                             <property name="text">
                              <string>Subslot 2</string>
                             </property>
@@ -17451,7 +17451,7 @@
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_187">
                           <item>
-                           <widget class="QPushButton" name="SB2_subslot3_27">
+                           <widget class="QPushButton" name="crate4_SB7_subslot3">
                             <property name="text">
                              <string>Subslot 3</string>
                             </property>
@@ -17589,7 +17589,7 @@
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_44">
                        <item>
-                        <widget class="QPushButton" name="crate3_SB8_2">
+                        <widget class="QPushButton" name="crate4_SB8">
                          <property name="text">
                           <string>Supply Board 8</string>
                          </property>
@@ -17611,7 +17611,7 @@
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_45">
                           <item>
-                           <widget class="QPushButton" name="crate3_SB8_subslot1_2">
+                           <widget class="QPushButton" name="crate4_SB8_subslot1">
                             <property name="text">
                              <string>Subslot 1</string>
                             </property>
@@ -17746,7 +17746,7 @@
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_46">
                           <item>
-                           <widget class="QPushButton" name="SB3_subslot2_27">
+                           <widget class="QPushButton" name="crate4_SB8_subslot2">
                             <property name="text">
                              <string>Subslot 2</string>
                             </property>
@@ -17881,7 +17881,7 @@
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_47">
                           <item>
-                           <widget class="QPushButton" name="SB3_subslot3_27">
+                           <widget class="QPushButton" name="crate4_SB8_subslot3">
                             <property name="text">
                              <string>Subslot 3</string>
                             </property>
@@ -18019,7 +18019,7 @@
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_48">
                        <item>
-                        <widget class="QPushButton" name="crate3_SB9_2">
+                        <widget class="QPushButton" name="crate4_SB9">
                          <property name="text">
                           <string>Supply Board 9</string>
                          </property>
@@ -18041,7 +18041,7 @@
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_49">
                           <item>
-                           <widget class="QPushButton" name="crate3_SB9_subslot1_2">
+                           <widget class="QPushButton" name="crate4_SB9_subslot1">
                             <property name="text">
                              <string>Subslot 1</string>
                             </property>
@@ -18176,7 +18176,7 @@
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_50">
                           <item>
-                           <widget class="QPushButton" name="SB4_subslot2_27">
+                           <widget class="QPushButton" name="crate4_SB9_subslot2">
                             <property name="text">
                              <string>Subslot 2</string>
                             </property>
@@ -18311,7 +18311,7 @@
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_188">
                           <item>
-                           <widget class="QPushButton" name="SB4_subslot3_27">
+                           <widget class="QPushButton" name="crate4_SB9_subslot3">
                             <property name="text">
                              <string>Subslot 3</string>
                             </property>
@@ -18461,7 +18461,7 @@
                         <enum>QLayout::SetMaximumSize</enum>
                        </property>
                        <item>
-                        <widget class="QPushButton" name="crate3_SB10_2">
+                        <widget class="QPushButton" name="crate4_SB10">
                          <property name="text">
                           <string>Supply Board 10</string>
                          </property>
@@ -18489,7 +18489,7 @@
                             </property>
                             <layout class="QVBoxLayout" name="verticalLayout_82">
                              <item>
-                              <widget class="QPushButton" name="SB5_subslot2_27">
+                              <widget class="QPushButton" name="crate4_SB10_subslot2">
                                <property name="styleSheet">
                                 <string notr="true"/>
                                </property>
@@ -18627,7 +18627,7 @@
                             </property>
                             <layout class="QVBoxLayout" name="verticalLayout_83">
                              <item>
-                              <widget class="QPushButton" name="crate3_SB10_subslot1_2">
+                              <widget class="QPushButton" name="crate4_SB10_subslot1">
                                <property name="text">
                                 <string>Subslot 1</string>
                                </property>
@@ -18762,7 +18762,7 @@
                             </property>
                             <layout class="QVBoxLayout" name="verticalLayout_84">
                              <item>
-                              <widget class="QPushButton" name="SB5_subslot3_27">
+                              <widget class="QPushButton" name="crate4_SB10_subslot3">
                                <property name="text">
                                 <string>Subslot 3</string>
                                </property>
@@ -18897,7 +18897,7 @@
                             </property>
                             <layout class="QVBoxLayout" name="verticalLayout_85">
                              <item>
-                              <widget class="QPushButton" name="SB5_subslot5_27">
+                              <widget class="QPushButton" name="crate4_SB10_subslot5">
                                <property name="text">
                                 <string>Subslot 5</string>
                                </property>
@@ -19032,7 +19032,7 @@
                             </property>
                             <layout class="QVBoxLayout" name="verticalLayout_86">
                              <item>
-                              <widget class="QPushButton" name="SB5_subslot6_27">
+                              <widget class="QPushButton" name="crate4_SB10_subslot6">
                                <property name="text">
                                 <string>Subslot 6</string>
                                </property>
@@ -19167,7 +19167,7 @@
                             </property>
                             <layout class="QVBoxLayout" name="verticalLayout_87">
                              <item>
-                              <widget class="QPushButton" name="SB5_subslot4_27">
+                              <widget class="QPushButton" name="crate4_SB10_subslot4">
                                <property name="autoFillBackground">
                                 <bool>false</bool>
                                </property>
