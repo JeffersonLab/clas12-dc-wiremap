@@ -1,46 +1,39 @@
 from __future__ import print_function, division
 
-from numpy import random as rand
-from PyQt4 import QtGui, uic
-#fix file names
-from db_tab import DBTab
-from tb_tab import TBTab
-from crate_tab import CrateTab
-from sidebar_view import SidebarWid
+import os
 
-def fn():
-    return rand.randint(0,7)
+from clas12_wiremap.ui import QtGui, uic
+from clas12_wiremap.ui import Sidebar, CrateTab, DBTab, TBTab
 
 class MainWindow(QtGui.QMainWindow):
     def __init__(self):
         super(MainWindow, self).__init__()
-        uic.loadUi('MainWindow.ui',self)
+        curdir = os.path.dirname(os.path.realpath(__file__))
+        uic.loadUi(os.path.join(curdir,'MainWindow.ui'), self)
 
-        #creating an instance of each object
-        self.sidebar = SidebarWid()
-        self.dboard = DBTab()
-        self.crate = CrateTab()
-        self.tboard = TBTab()
-
+        self.sidebar = Sidebar()
         sidebar_vbox = QtGui.QVBoxLayout()
         sidebar_vbox.addWidget(self.sidebar)
         sidebar_vbox.addStretch(1)
-        self.sidebar_holder.setLayout(sidebar_vbox)          
+        self.sidebar_holder.setLayout(sidebar_vbox)
 
-        dboard_vbox = QtGui.QVBoxLayout()
-        dboard_vbox.addWidget(self.dboard)
-        dboard_vbox.addStretch(1)
-        self.distr_board_tab_holder.setLayout(dboard_vbox)
-        
-        tboard_vbox = QtGui.QVBoxLayout()
-        tboard_vbox.addWidget(self.tboard)
-        tboard_vbox.addStretch(1)
-        self.trans_board_tab_holder.setLayout(tboard_vbox)
-
+        self.crate = CrateTab()
         crate_vbox = QtGui.QVBoxLayout()
         crate_vbox.addWidget(self.crate)
         crate_vbox.addStretch(1)
         self.crate_tab_holder.setLayout(crate_vbox)
+
+        self.dboard = DBTab()
+        dboard_vbox = QtGui.QVBoxLayout()
+        dboard_vbox.addWidget(self.dboard)
+        dboard_vbox.addStretch(1)
+        self.distr_board_tab_holder.setLayout(dboard_vbox)
+
+        self.tboard = TBTab()
+        tboard_vbox = QtGui.QVBoxLayout()
+        tboard_vbox.addWidget(self.tboard)
+        tboard_vbox.addStretch(1)
+        self.trans_board_tab_holder.setLayout(tboard_vbox)
 
         self.show()
         self.updating = False

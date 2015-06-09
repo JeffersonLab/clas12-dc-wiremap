@@ -1,4 +1,4 @@
-from PyQt4 import QtGui
+from clas12_wiremap.ui import QtGui
 
 class FixedCheckBox(QtGui.QCheckBox):
     def __init__(self,parent):
