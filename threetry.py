@@ -24,7 +24,7 @@ from db_tab import DBTab
 from tb_tab import TBTab
 from crate_tab import CrateTab
 from sidebar_view import SidebarWid
-from mpl_canvas import MplCanvasStatic
+from mpl_canvasv2 import MplCanvasStatic
 
 def fn():
     return rand.randint(0,7)
@@ -67,48 +67,7 @@ class MainWindow(QtGui.QMainWindow):
         self.crate_tab_holder.setLayout(crate_vbox)
 
 
-        ct_fmt = 'crate{crate_num}'
-        sb_fmt = 'crate{crate_num}_SB{supply_board}'
-        ss_fmt = 'crate{crate_num}_SB{supply_board}_subslot{subslot}'
-        ch_fmt = 'crate{crate_num}_SB{supply_board}_subslot{subslot}_{channel}'
         
-        for crate_index in [1,2,3,4]:
-            ct = getattr(self.crate,ct_fmt.format(crate_num=crate_index))
-            for sb_index in [1,2,3,4,5]:
-                sb = getattr(self.crate,sb_fmt.format(supply_board=sb_index)
-                if sb_index < 5:
-                    ss_indexes = [1,2,3]
-                else:
-                    ss_indexes = [1,2,3,4,5,6]
-                for ss_index in ss_indexes:
-                    ss = getattr(self.crate,ss_fmt.format(supply_board=sb_index,subslot=ss_index))
-                    for ch_index in [1,2,3,4,5,6,7,8]:
-                        ch = getattr(self.crate,ch_fmt.format(supply_board=sb_index,subslot=ss_index,channel=ch_index))
-                        ss.clicked.connect(ch.setChecked)
-                        sb.clicked.connect(ss.setChecked)
-                        sb.clicked.connect(ch.setChecked)
-                        ct.clicked.connect(sb.setChecked)
-                        ct.clicked.connect(ss.setChecked)
-                        ct.clicked.connect(ch.setChecked)
-                        
-                        #if ss is off and ch is clicked turn on ss(parent)
-                            #if sb is off and ss is clicked turn on sb(parent)
-                                #if ct is off and sb is clicked turn on ct(parent)
-                                
-                        #if sb is off and ss is clicked turn on sb(parent)
-                            #if ct is off and sb is clicked turn on ct(parent)
-                            
-                        #if ct is off and sb is clicked turn on ct(parent)
-                        
-                        #ch.clicked(true).connect(ss.setChecked(true))
-                        #ss.clicked.connect(sb.setChecked)
-                        #ch.clicked.connect(sb.setChecked)
-                        #sb.clicked.connect(ct.setChecked)
-                        #ss.clicked.connect(ct.setChecked)
-                        #ch.clicked.connect(ct.setChecked)
-                        
-            self.show()
-            self.updating = False
 
     def update_parameters(self):
         if not self.updating:
