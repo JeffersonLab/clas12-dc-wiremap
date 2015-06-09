@@ -14,7 +14,7 @@
    <string>TabWidget</string>
   </property>
   <property name="currentIndex">
-   <number>2</number>
+   <number>5</number>
   </property>
   <widget class="QWidget" name="tab">
    <attribute name="title">
@@ -4205,7 +4205,7 @@
             <item>
              <widget class="QPushButton" name="sc3_sl1">
               <property name="text">
-               <string> 1</string>
+               <string> Superlayer 1</string>
               </property>
               <property name="checkable">
                <bool>true</bool>
@@ -4218,7 +4218,7 @@
             <item>
              <widget class="QPushButton" name="sc3_sl2">
               <property name="text">
-               <string>2</string>
+               <string>Superlayer 2</string>
               </property>
               <property name="checkable">
                <bool>true</bool>
@@ -4231,7 +4231,7 @@
             <item>
              <widget class="QPushButton" name="sc3_sl3">
               <property name="text">
-               <string> 3</string>
+               <string>Superlayer 3</string>
               </property>
               <property name="checkable">
                <bool>true</bool>
@@ -4244,7 +4244,7 @@
             <item>
              <widget class="QPushButton" name="sc3_sl4">
               <property name="text">
-               <string>4</string>
+               <string>Superlayer 4</string>
               </property>
               <property name="checkable">
                <bool>true</bool>
@@ -4257,7 +4257,7 @@
             <item>
              <widget class="QPushButton" name="sc3_sl5">
               <property name="text">
-               <string>5</string>
+               <string>Superlayer 5</string>
               </property>
               <property name="checkable">
                <bool>true</bool>
@@ -4270,7 +4270,7 @@
             <item>
              <widget class="QPushButton" name="sc3_sl6">
               <property name="text">
-               <string>6</string>
+               <string>Superlayer 6</string>
               </property>
               <property name="checkable">
                <bool>true</bool>
@@ -6277,7 +6277,7 @@
             <item>
              <widget class="QPushButton" name="sc4_sl1">
               <property name="text">
-               <string> 1</string>
+               <string> Superlayer 1</string>
               </property>
               <property name="checkable">
                <bool>true</bool>
@@ -6290,7 +6290,7 @@
             <item>
              <widget class="QPushButton" name="sc4_sl2">
               <property name="text">
-               <string>2</string>
+               <string>Superlayer 2</string>
               </property>
               <property name="checkable">
                <bool>true</bool>
@@ -6303,7 +6303,7 @@
             <item>
              <widget class="QPushButton" name="sc4_sl3">
               <property name="text">
-               <string> 3</string>
+               <string> Superlayer 3</string>
               </property>
               <property name="checkable">
                <bool>true</bool>
@@ -6316,7 +6316,7 @@
             <item>
              <widget class="QPushButton" name="sc4_sl4">
               <property name="text">
-               <string>4</string>
+               <string>Superlayer 4</string>
               </property>
               <property name="checkable">
                <bool>true</bool>
@@ -6329,7 +6329,7 @@
             <item>
              <widget class="QPushButton" name="sc4_sl5">
               <property name="text">
-               <string>5</string>
+               <string>Superlayer 5</string>
               </property>
               <property name="checkable">
                <bool>true</bool>
@@ -6342,7 +6342,7 @@
             <item>
              <widget class="QPushButton" name="sc4_sl6">
               <property name="text">
-               <string>6</string>
+               <string>Superlayer 6</string>
               </property>
               <property name="checkable">
                <bool>true</bool>
@@ -8349,7 +8349,7 @@
             <item>
              <widget class="QPushButton" name="sc5_sl1">
               <property name="text">
-               <string> 1</string>
+               <string> Superlayer 1</string>
               </property>
               <property name="checkable">
                <bool>true</bool>
@@ -8362,7 +8362,7 @@
             <item>
              <widget class="QPushButton" name="sc5_sl2">
               <property name="text">
-               <string>2</string>
+               <string>Superlayer 2</string>
               </property>
               <property name="checkable">
                <bool>true</bool>
@@ -8375,7 +8375,7 @@
             <item>
              <widget class="QPushButton" name="sc5_sl3">
               <property name="text">
-               <string> 3</string>
+               <string> Superlayer 3</string>
               </property>
               <property name="checkable">
                <bool>true</bool>
@@ -8388,7 +8388,7 @@
             <item>
              <widget class="QPushButton" name="sc5_sl4">
               <property name="text">
-               <string>4</string>
+               <string>Superlayer 4</string>
               </property>
               <property name="checkable">
                <bool>true</bool>
@@ -8401,7 +8401,7 @@
             <item>
              <widget class="QPushButton" name="sc5_sl5">
               <property name="text">
-               <string>5</string>
+               <string>Superlayer 5</string>
               </property>
               <property name="checkable">
                <bool>true</bool>
@@ -8414,7 +8414,7 @@
             <item>
              <widget class="QPushButton" name="sc5_sl6">
               <property name="text">
-               <string>6</string>
+               <string>Superlayer 6</string>
               </property>
               <property name="checkable">
                <bool>true</bool>
@@ -10421,7 +10421,7 @@
             <item>
              <widget class="QPushButton" name="sc6_sl1">
               <property name="text">
-               <string> 1</string>
+               <string> Superlayer 1</string>
               </property>
               <property name="checkable">
                <bool>true</bool>
@@ -10434,7 +10434,7 @@
             <item>
              <widget class="QPushButton" name="sc6_sl2">
               <property name="text">
-               <string>2</string>
+               <string>Superlayer 2</string>
               </property>
               <property name="checkable">
                <bool>true</bool>
@@ -10447,7 +10447,7 @@
             <item>
              <widget class="QPushButton" name="sc6_sl3">
               <property name="text">
-               <string> 3</string>
+               <string> Superlayer 3</string>
               </property>
               <property name="checkable">
                <bool>true</bool>
@@ -10460,7 +10460,7 @@
             <item>
              <widget class="QPushButton" name="sc6_sl4">
               <property name="text">
-               <string>4</string>
+               <string>Superlayer 4</string>
               </property>
               <property name="checkable">
                <bool>true</bool>
@@ -10473,7 +10473,7 @@
             <item>
              <widget class="QPushButton" name="sc6_sl5">
               <property name="text">
-               <string>5</string>
+               <string>Superlayer 5</string>
               </property>
               <property name="checkable">
                <bool>true</bool>
@@ -10486,7 +10486,7 @@
             <item>
              <widget class="QPushButton" name="sc6_sl6">
               <property name="text">
-               <string>6</string>
+               <string>Superlayer 6</string>
               </property>
               <property name="checkable">
                <bool>true</bool>
