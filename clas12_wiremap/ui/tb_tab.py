@@ -14,10 +14,12 @@ class TBTab(QtGui.QTabWidget):
 
     def init_buttons(self):
 
+        sector_fmt     = 'sc{sector}'
         superlayer_fmt = 'sc{sector}_sl{superlayer}'
         board_fmt      = 'sc{sector}_sl{superlayer}_b{board}'
         slot_fmt       = 'sc{sector}_sl{superlayer}_b{board}_{slot}'
 
+        self.sectors = []
         self.superlayers = []
         self.boards = []
         self.slots = []
@@ -25,6 +27,7 @@ class TBTab(QtGui.QTabWidget):
         for sector_id in range(1,7):
             fmt = dict(sector=sector_id)
 
+            self.sectors.append(getattr(self,sector_fmt.format(**fmt)))
             self.superlayers.append([])
             self.boards.append([])
             self.slots.append([])
@@ -56,11 +59,16 @@ class TBTab(QtGui.QTabWidget):
 
                         self.slots[-1][-1][-1].append(getattr(self,slot_fmt.format(**fmt)))
 
-        for sector_id in range(6):
+        for sector_id,sector in enumerate(self.sectors):
 
             superlayers = self.superlayers[sector_id]
+            def _check_sector(_,target=sector,parents=superlayers):
+                is_checked = any([p.isChecked() for p in parents])
+                target.setChecked(is_checked)
 
             for superlayer_id,superlayer in enumerate(superlayers):
+                sector.clicked.connect(superlayer.setChecked)
+                superlayer.clicked.connect(_check_sector)
 
                 boards = self.boards[sector_id][superlayer_id]
                 def _check_superlayer(_,target=superlayer,parents=boards):
@@ -69,7 +77,9 @@ class TBTab(QtGui.QTabWidget):
 
                 for board_id,board in enumerate(boards):
                     superlayer.clicked.connect(board.setChecked)
+                    sector.clicked.connect(board.setChecked)
                     board.clicked.connect(_check_superlayer)
+                    board.clicked.connect(_check_sector)
 
                     slots = self.slots[sector_id][superlayer_id][board_id]
                     def _check_board(_,target=board,parents=slots):
@@ -79,8 +89,10 @@ class TBTab(QtGui.QTabWidget):
                     for slot in slots:
                         board.clicked.connect(slot.setChecked)
                         superlayer.clicked.connect(slot.setChecked)
+                        sector.clicked.connect(slot.setChecked)
                         slot.clicked.connect(_check_board)
                         slot.clicked.connect(_check_superlayer)
+                        slot.clicked.connect(_check_sector)
 
     def get_buttons(self):
 
