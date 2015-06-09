@@ -66,8 +66,15 @@ class MainWindow(QtGui.QMainWindow):
         crate_vbox.addStretch(1)
         self.crate_tab_holder.setLayout(crate_vbox)
 
+        ct_fmt = 'crate{crate_num}'
+        sb_fmt = 'crate{crate_num}_SB{supply_board}'
+        ss_fmt = 'crate{crate_num}_SB{supply_board}_subslot{subslot}'
+        ch_fmt = 'crate{crate_num}_SB{supply_board}_subslot{subslot}_{channel}'
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0f201e2e097aea48dc9ee6d241f941d120adfc0c
         cts = []
         sbs = []
         sss = []
@@ -86,7 +93,11 @@ class MainWindow(QtGui.QMainWindow):
                     sss[-1].append([])
                     chs[-1].append([])
                     if sb_index!=5 : #
+<<<<<<< HEAD
                         ss_indexes = [1,2,3]
+=======
+                    ss_indexes = [1,2,3]
+>>>>>>> 0f201e2e097aea48dc9ee6d241f941d120adfc0c
                 else:
                     ss_indexes = [1,2,3,4,5,6]
                 for ss_index in ss_indexes:
@@ -97,14 +108,22 @@ class MainWindow(QtGui.QMainWindow):
                         fmt.update(channel=ch_index)
                         chs[-1][-1][-1].append(getattr(self.crate,ch_fmt.format(**fmt)))
             else :
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0f201e2e097aea48dc9ee6d241f941d120adfc0c
                 for sb_index in [1,2,3,4,5,6,7,8,9,10]:
                     fmt.update(supply_board=sb_index)
                     sbs[-1].append(getattr(self.crate,sb_fmt.format(**fmt)))
                     sss[-1].append([])
                     chs[-1].append([])
+<<<<<<< HEAD
                     if (sb_index!= 5) or (sb_index != 10): #
                         ss_indexes = [1,2,3]
+=======
+                    if sb_index!= 5 or sb_index != 10: #
+                    ss_indexes = [1,2,3]
+>>>>>>> 0f201e2e097aea48dc9ee6d241f941d120adfc0c
                 else:
                     ss_indexes = [1,2,3,4,5,6]
                 for ss_index in ss_indexes:

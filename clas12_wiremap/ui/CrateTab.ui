@@ -6,17 +6,23 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1309</width>
-    <height>931</height>
+    <width>1250</width>
+    <height>682</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>TabWidget</string>
   </property>
   <property name="currentIndex">
-   <number>2</number>
+   <number>0</number>
   </property>
   <widget class="QWidget" name="crate1_tabwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
    <attribute name="title">
     <string>Crate 1</string>
    </attribute>
@@ -31,9 +37,15 @@
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>1285</width>
-         <height>874</height>
+         <width>1226</width>
+         <height>625</height>
         </rect>
+       </property>
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout_5">
         <item>
@@ -49,7 +61,7 @@
              </property>
              <layout class="QVBoxLayout" name="verticalLayout">
               <item>
-               <widget class="QPushButton" name="pushButton">
+               <widget class="QPushButton" name="pushButton1">
                 <property name="text">
                  <string>Update</string>
                 </property>
@@ -3274,8 +3286,8 @@
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>1285</width>
-         <height>874</height>
+         <width>1226</width>
+         <height>625</height>
         </rect>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout_7">
@@ -6495,7 +6507,7 @@
     </item>
    </layout>
   </widget>
-  <widget class="QWidget" name="crate3_tabwidget_2">
+  <widget class="QWidget" name="crate3_tabwidget">
    <attribute name="title">
     <string>Crate 3</string>
    </attribute>
@@ -6510,7 +6522,7 @@
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>1272</width>
+         <width>1213</width>
          <height>882</height>
         </rect>
        </property>
@@ -6794,7 +6806,7 @@
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_91">
                        <item>
-                        <widget class="QPushButton" name="SB1_subslot1_36">
+                        <widget class="QPushButton" name="crate3_SB1_subslot1">
                          <property name="palette">
                           <palette>
                            <active>
@@ -6904,7 +6916,7 @@
                          </property>
                          <layout class="QGridLayout" name="gridLayout_87">
                           <item row="0" column="1">
-                           <widget class="QRadioButton" name="SB1_subslot1_37">
+                           <widget class="QRadioButton" name="crate3_SB1_subslot1_1">
                             <property name="text">
                              <string/>
                             </property>
@@ -7500,7 +7512,7 @@
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_189">
                        <item>
-                        <widget class="QPushButton" name="SB2_subslot1_36">
+                        <widget class="QPushButton" name="crate3_SB2_subslot1">
                          <property name="palette">
                           <palette>
                            <active>
@@ -7610,7 +7622,7 @@
                          </property>
                          <layout class="QGridLayout" name="gridLayout_123">
                           <item row="0" column="1">
-                           <widget class="QRadioButton" name="SB2_subslot1_37">
+                           <widget class="QRadioButton" name="crate3_SB2_subslot1_1">
                             <property name="text">
                              <string/>
                             </property>
@@ -8024,7 +8036,7 @@
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_96">
                        <item>
-                        <widget class="QPushButton" name="SB3_subslot1_36">
+                        <widget class="QPushButton" name="crate3_SB3_subslot1">
                          <property name="text">
                           <string>Subslot 1</string>
                          </property>
@@ -8053,7 +8065,7 @@
                            </widget>
                           </item>
                           <item row="0" column="1">
-                           <widget class="QRadioButton" name="SB3_subslot1_38">
+                           <widget class="QRadioButton" name="crate3_SB3_subslot1_1">
                             <property name="text">
                              <string/>
                             </property>
@@ -8454,7 +8466,7 @@
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_100">
                        <item>
-                        <widget class="QPushButton" name="SB4_subslot1_36">
+                        <widget class="QPushButton" name="crate3_SB4_subslot1">
                          <property name="text">
                           <string>Subslot 1</string>
                          </property>
@@ -8483,7 +8495,7 @@
                            </widget>
                           </item>
                           <item row="0" column="1">
-                           <widget class="QRadioButton" name="SB4_subslot1_38">
+                           <widget class="QRadioButton" name="crate3_SB4_subslot1_1">
                             <property name="text">
                              <string/>
                             </property>
@@ -9040,7 +9052,7 @@
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_104">
                           <item>
-                           <widget class="QPushButton" name="SB5_subslot1_36">
+                           <widget class="QPushButton" name="crate3_SB5_subslot1">
                             <property name="text">
                              <string>Subslot 1</string>
                             </property>
@@ -9082,7 +9094,7 @@
                               </widget>
                              </item>
                              <item row="0" column="1">
-                              <widget class="QRadioButton" name="SB5_subslot1_39">
+                              <widget class="QRadioButton" name="crate3_SB5_subslot1_1">
                                <property name="text">
                                 <string/>
                                </property>
@@ -9953,7 +9965,7 @@
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_58">
                        <item>
-                        <widget class="QPushButton" name="SB1_subslot1_18">
+                        <widget class="QPushButton" name="crate3_SB6_subslot1">
                          <property name="palette">
                           <palette>
                            <active>
@@ -10063,7 +10075,7 @@
                          </property>
                          <layout class="QGridLayout" name="gridLayout_51">
                           <item row="0" column="1">
-                           <widget class="QRadioButton" name="SB6_subslot1_1">
+                           <widget class="QRadioButton" name="crate3_SB6_subslot1_1">
                             <property name="text">
                              <string/>
                             </property>
@@ -10659,7 +10671,7 @@
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_179">
                        <item>
-                        <widget class="QPushButton" name="SB2_subslot1_18">
+                        <widget class="QPushButton" name="crate3_SB7_subslot1">
                          <property name="palette">
                           <palette>
                            <active>
@@ -10769,7 +10781,7 @@
                          </property>
                          <layout class="QGridLayout" name="gridLayout_111">
                           <item row="0" column="1">
-                           <widget class="QRadioButton" name="SB2_subslot1_19">
+                           <widget class="QRadioButton" name="crate3_SB7_subslot1_1">
                             <property name="text">
                              <string/>
                             </property>
@@ -11183,7 +11195,7 @@
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_32">
                        <item>
-                        <widget class="QPushButton" name="SB3_subslot1_18">
+                        <widget class="QPushButton" name="crate3_SB8_subslot1">
                          <property name="text">
                           <string>Subslot 1</string>
                          </property>
@@ -11212,7 +11224,7 @@
                            </widget>
                           </item>
                           <item row="0" column="1">
-                           <widget class="QRadioButton" name="SB3_subslot1_20">
+                           <widget class="QRadioButton" name="crate3_SB8_subslot1_1">
                             <property name="text">
                              <string/>
                             </property>
@@ -11613,7 +11625,7 @@
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_36">
                        <item>
-                        <widget class="QPushButton" name="SB4_subslot1_18">
+                        <widget class="QPushButton" name="crate3_SB9_subslot1">
                          <property name="text">
                           <string>Subslot 1</string>
                          </property>
@@ -11642,7 +11654,7 @@
                            </widget>
                           </item>
                           <item row="0" column="1">
-                           <widget class="QRadioButton" name="SB4_subslot1_20">
+                           <widget class="QRadioButton" name="crate3_SB9_subslot1_1">
                             <property name="text">
                              <string/>
                             </property>
@@ -12199,7 +12211,7 @@
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_75">
                           <item>
-                           <widget class="QPushButton" name="SB5_subslot1_18">
+                           <widget class="QPushButton" name="crate3_SB10_subslot1">
                             <property name="text">
                              <string>Subslot 1</string>
                             </property>
@@ -12241,7 +12253,7 @@
                               </widget>
                              </item>
                              <item row="0" column="1">
-                              <widget class="QRadioButton" name="SB5_subslot1_21">
+                              <widget class="QRadioButton" name="crate3_SB10_subslot1_1">
                                <property name="text">
                                 <string/>
                                </property>
@@ -12920,25 +12932,14 @@
    </attribute>
    <layout class="QVBoxLayout" name="verticalLayout_88">
     <item>
-     <widget class="QScrollArea" name="scrollArea_4">
-      <property name="widgetResizable">
-       <bool>true</bool>
-      </property>
-      <widget class="QWidget" name="scrollAreaWidgetContents_4">
-       <property name="geometry">
-        <rect>
-         <x>0</x>
-         <y>0</y>
-         <width>1285</width>
-         <height>687</height>
-        </rect>
+     <widget class="QWidget" name="widget_6" native="true">
+      <layout class="QHBoxLayout" name="horizontalLayout_9">
+       <property name="spacing">
+        <number>0</number>
        </property>
-<<<<<<< HEAD
-       <layout class="QVBoxLayout" name="verticalLayout_40">
-        <item>
-         <widget class="QWidget" name="widget_21" native="true">
-          <layout class="QHBoxLayout" name="horizontalLayout_4">
-=======
+       <property name="margin">
+        <number>0</number>
+       </property>
        <item>
         <widget class="QScrollArea" name="scrollArea_4">
          <property name="widgetResizable">
@@ -12949,365 +12950,46 @@
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>1272</width>
+            <width>1213</width>
             <height>882</height>
            </rect>
           </property>
           <layout class="QVBoxLayout" name="verticalLayout_40">
->>>>>>> 2c75f13795697f5f7c196a857ad4c9844c85ef37
            <item>
-            <widget class="QFrame" name="frame_22">
-             <property name="frameShape">
-              <enum>QFrame::StyledPanel</enum>
-             </property>
-             <property name="frameShadow">
-              <enum>QFrame::Raised</enum>
-             </property>
-             <layout class="QVBoxLayout" name="verticalLayout_41">
+            <widget class="QWidget" name="widget_7" native="true">
+             <layout class="QHBoxLayout" name="horizontalLayout_7">
+              <property name="spacing">
+               <number>0</number>
+              </property>
+              <property name="margin">
+               <number>0</number>
+              </property>
               <item>
-               <widget class="QPushButton" name="pushButton4">
-                <property name="text">
-                 <string>Update</string>
-                </property>
-                <property name="checkable">
-                 <bool>false</bool>
-                </property>
-                <property name="checked">
-                 <bool>false</bool>
-                </property>
-               </widget>
-              </item>
-              <item>
-<<<<<<< HEAD
-               <widget class="QPushButton" name="crate4">
-                <property name="sizePolicy">
-                 <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-                  <horstretch>0</horstretch>
-                  <verstretch>0</verstretch>
-                 </sizepolicy>
-                </property>
-                <property name="text">
-                 <string>Crate 4</string>
-                </property>
-                <property name="checkable">
-                 <bool>true</bool>
-                </property>
-                <property name="checked">
-                 <bool>true</bool>
-                </property>
-               </widget>
-              </item>
-             </layout>
-            </widget>
-           </item>
-           <item>
-            <widget class="QFrame" name="frame_23">
-             <property name="palette">
-              <palette>
-               <active>
-                <colorrole role="Button">
-                 <brush brushstyle="SolidPattern">
-                  <color alpha="255">
-                   <red>50</red>
-                   <green>170</green>
-                   <blue>13</blue>
-                  </color>
-                 </brush>
-                </colorrole>
-                <colorrole role="Base">
-                 <brush brushstyle="SolidPattern">
-                  <color alpha="255">
-                   <red>50</red>
-                   <green>170</green>
-                   <blue>13</blue>
-                  </color>
-                 </brush>
-                </colorrole>
-                <colorrole role="Window">
-                 <brush brushstyle="SolidPattern">
-                  <color alpha="255">
-                   <red>50</red>
-                   <green>170</green>
-                   <blue>13</blue>
-                  </color>
-                 </brush>
-                </colorrole>
-               </active>
-               <inactive>
-                <colorrole role="Button">
-                 <brush brushstyle="SolidPattern">
-                  <color alpha="255">
-                   <red>50</red>
-                   <green>170</green>
-                   <blue>13</blue>
-                  </color>
-                 </brush>
-                </colorrole>
-                <colorrole role="Base">
-                 <brush brushstyle="SolidPattern">
-                  <color alpha="255">
-                   <red>50</red>
-                   <green>170</green>
-                   <blue>13</blue>
-                  </color>
-                 </brush>
-                </colorrole>
-                <colorrole role="Window">
-                 <brush brushstyle="SolidPattern">
-                  <color alpha="255">
-                   <red>50</red>
-                   <green>170</green>
-                   <blue>13</blue>
-                  </color>
-                 </brush>
-                </colorrole>
-               </inactive>
-               <disabled>
-                <colorrole role="Button">
-                 <brush brushstyle="SolidPattern">
-                  <color alpha="255">
-                   <red>50</red>
-                   <green>170</green>
-                   <blue>13</blue>
-                  </color>
-                 </brush>
-                </colorrole>
-                <colorrole role="Base">
-                 <brush brushstyle="SolidPattern">
-                  <color alpha="255">
-                   <red>50</red>
-                   <green>170</green>
-                   <blue>13</blue>
-                  </color>
-                 </brush>
-                </colorrole>
-                <colorrole role="Window">
-                 <brush brushstyle="SolidPattern">
-                  <color alpha="255">
-                   <red>50</red>
-                   <green>170</green>
-                   <blue>13</blue>
-                  </color>
-                 </brush>
-                </colorrole>
-               </disabled>
-              </palette>
-             </property>
-             <property name="frameShape">
-              <enum>QFrame::StyledPanel</enum>
-             </property>
-             <property name="frameShadow">
-              <enum>QFrame::Raised</enum>
-             </property>
-             <layout class="QVBoxLayout" name="verticalLayout_42">
-              <item>
-               <widget class="QPushButton" name="SB1_button_4">
-                <property name="palette">
-                 <palette>
-                  <active>
-                   <colorrole role="Button">
-                    <brush brushstyle="SolidPattern">
-                     <color alpha="255">
-                      <red>119</red>
-                      <green>200</green>
-                      <blue>27</blue>
-                     </color>
-                    </brush>
-                   </colorrole>
-                   <colorrole role="Base">
-                    <brush brushstyle="SolidPattern">
-                     <color alpha="255">
-                      <red>119</red>
-                      <green>200</green>
-                      <blue>27</blue>
-                     </color>
-                    </brush>
-                   </colorrole>
-                   <colorrole role="Window">
-                    <brush brushstyle="SolidPattern">
-                     <color alpha="255">
-                      <red>119</red>
-                      <green>200</green>
-                      <blue>27</blue>
-                     </color>
-                    </brush>
-                   </colorrole>
-                  </active>
-                  <inactive>
-                   <colorrole role="Button">
-                    <brush brushstyle="SolidPattern">
-                     <color alpha="255">
-                      <red>119</red>
-                      <green>200</green>
-                      <blue>27</blue>
-                     </color>
-                    </brush>
-                   </colorrole>
-                   <colorrole role="Base">
-                    <brush brushstyle="SolidPattern">
-                     <color alpha="255">
-                      <red>119</red>
-                      <green>200</green>
-                      <blue>27</blue>
-                     </color>
-                    </brush>
-                   </colorrole>
-                   <colorrole role="Window">
-                    <brush brushstyle="SolidPattern">
-                     <color alpha="255">
-                      <red>119</red>
-                      <green>200</green>
-                      <blue>27</blue>
-                     </color>
-                    </brush>
-                   </colorrole>
-                  </inactive>
-                  <disabled>
-                   <colorrole role="Button">
-                    <brush brushstyle="SolidPattern">
-                     <color alpha="255">
-                      <red>119</red>
-                      <green>200</green>
-                      <blue>27</blue>
-                     </color>
-                    </brush>
-                   </colorrole>
-                   <colorrole role="Base">
-                    <brush brushstyle="SolidPattern">
-                     <color alpha="255">
-                      <red>119</red>
-                      <green>200</green>
-                      <blue>27</blue>
-                     </color>
-                    </brush>
-                   </colorrole>
-                   <colorrole role="Window">
-                    <brush brushstyle="SolidPattern">
-                     <color alpha="255">
-                      <red>119</red>
-                      <green>200</green>
-                      <blue>27</blue>
-                     </color>
-                    </brush>
-                   </colorrole>
-                  </disabled>
-                 </palette>
-                </property>
-                <property name="text">
-                 <string>Supply Board 1</string>
-                </property>
-                <property name="checkable">
-                 <bool>true</bool>
-                </property>
-                <property name="checked">
-                 <bool>true</bool>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QFrame" name="frame_36">
-                <property name="frameShape">
-                 <enum>QFrame::StyledPanel</enum>
-                </property>
-                <property name="frameShadow">
-                 <enum>QFrame::Raised</enum>
-                </property>
-                <layout class="QVBoxLayout" name="verticalLayout_61">
+               <widget class="QWidget" name="widget_8" native="true">
+                <layout class="QVBoxLayout" name="verticalLayout_41">
                  <item>
-                  <widget class="QPushButton" name="SB1_subslot1_27">
-                   <property name="palette">
-                    <palette>
-                     <active>
-                      <colorrole role="Button">
-                       <brush brushstyle="SolidPattern">
-                        <color alpha="255">
-                         <red>81</red>
-                         <green>171</green>
-                         <blue>56</blue>
-                        </color>
-                       </brush>
-                      </colorrole>
-                      <colorrole role="Base">
-                       <brush brushstyle="SolidPattern">
-                        <color alpha="255">
-                         <red>81</red>
-                         <green>171</green>
-                         <blue>56</blue>
-                        </color>
-                       </brush>
-                      </colorrole>
-                      <colorrole role="Window">
-                       <brush brushstyle="SolidPattern">
-                        <color alpha="255">
-                         <red>81</red>
-                         <green>171</green>
-                         <blue>56</blue>
-                        </color>
-                       </brush>
-                      </colorrole>
-                     </active>
-                     <inactive>
-                      <colorrole role="Button">
-                       <brush brushstyle="SolidPattern">
-                        <color alpha="255">
-                         <red>81</red>
-                         <green>171</green>
-                         <blue>56</blue>
-                        </color>
-                       </brush>
-                      </colorrole>
-                      <colorrole role="Base">
-                       <brush brushstyle="SolidPattern">
-                        <color alpha="255">
-                         <red>81</red>
-                         <green>171</green>
-                         <blue>56</blue>
-                        </color>
-                       </brush>
-                      </colorrole>
-                      <colorrole role="Window">
-                       <brush brushstyle="SolidPattern">
-                        <color alpha="255">
-                         <red>81</red>
-                         <green>171</green>
-                         <blue>56</blue>
-                        </color>
-                       </brush>
-                      </colorrole>
-                     </inactive>
-                     <disabled>
-                      <colorrole role="Button">
-                       <brush brushstyle="SolidPattern">
-                        <color alpha="255">
-                         <red>81</red>
-                         <green>171</green>
-                         <blue>56</blue>
-                        </color>
-                       </brush>
-                      </colorrole>
-                      <colorrole role="Base">
-                       <brush brushstyle="SolidPattern">
-                        <color alpha="255">
-                         <red>81</red>
-                         <green>171</green>
-                         <blue>56</blue>
-                        </color>
-                       </brush>
-                      </colorrole>
-                      <colorrole role="Window">
-                       <brush brushstyle="SolidPattern">
-                        <color alpha="255">
-                         <red>81</red>
-                         <green>171</green>
-                         <blue>56</blue>
-                        </color>
-                       </brush>
-                      </colorrole>
-                     </disabled>
-                    </palette>
+                  <widget class="QPushButton" name="pushButton4">
+                   <property name="text">
+                    <string>Update</string>
+                   </property>
+                   <property name="checkable">
+                    <bool>false</bool>
+                   </property>
+                   <property name="checked">
+                    <bool>false</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QPushButton" name="crate4">
+                   <property name="sizePolicy">
+                    <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+                     <horstretch>0</horstretch>
+                     <verstretch>0</verstretch>
+                    </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>Subslot 1</string>
+                    <string>Crate 4</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -13315,1740 +12997,12 @@
                    <property name="checked">
                     <bool>true</bool>
                    </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QWidget" name="widget_49" native="true">
-                   <property name="styleSheet">
-                    <string notr="true"/>
-                   </property>
-                   <layout class="QGridLayout" name="gridLayout_57">
-                    <item row="0" column="1">
-                     <widget class="QRadioButton" name="SB1_subslot1_28">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="1" column="1">
-                     <widget class="QRadioButton" name="SB1_subslot1_29">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="0" column="2">
-                     <widget class="QRadioButton" name="SB1_subslot1_30">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="0" column="3">
-                     <widget class="QRadioButton" name="SB1_subslot1_31">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="1" column="2">
-                     <widget class="QRadioButton" name="SB1_subslot1_32">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="0" column="4">
-                     <widget class="QRadioButton" name="SB1_subslot1_33">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="1" column="4">
-                     <widget class="QRadioButton" name="SB1_subslot1_34">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="1" column="3">
-                     <widget class="QRadioButton" name="SB1_subslot1_35">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                   </layout>
                   </widget>
                  </item>
                 </layout>
                </widget>
               </item>
               <item>
-               <widget class="QFrame" name="frame_37">
-                <property name="frameShape">
-                 <enum>QFrame::StyledPanel</enum>
-                </property>
-                <property name="frameShadow">
-                 <enum>QFrame::Raised</enum>
-                </property>
-                <layout class="QVBoxLayout" name="verticalLayout_80">
-                 <item>
-                  <widget class="QPushButton" name="SB1_subslot2_27">
-                   <property name="text">
-                    <string>Subslot 2</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QWidget" name="widget_50" native="true">
-                   <layout class="QGridLayout" name="gridLayout_58">
-                    <item row="0" column="1">
-                     <widget class="QRadioButton" name="SB1_subslot2_28">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="0" column="2">
-                     <widget class="QRadioButton" name="SB1_subslot2_29">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="2" column="1">
-                     <widget class="QRadioButton" name="SB1_subslot2_30">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="2" column="2">
-                     <widget class="QRadioButton" name="SB1_subslot2_31">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="0" column="3">
-                     <widget class="QRadioButton" name="SB1_subslot2_32">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="2" column="3">
-                     <widget class="QRadioButton" name="SB1_subslot2_33">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="2" column="4">
-                     <widget class="QRadioButton" name="SB1_subslot2_34">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="0" column="4">
-                     <widget class="QRadioButton" name="SB1_subslot2_35">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                   </layout>
-                  </widget>
-                 </item>
-                </layout>
-               </widget>
-              </item>
-              <item>
-               <widget class="QFrame" name="frame_38">
-                <property name="frameShape">
-                 <enum>QFrame::StyledPanel</enum>
-                </property>
-                <property name="frameShadow">
-                 <enum>QFrame::Raised</enum>
-                </property>
-                <layout class="QVBoxLayout" name="verticalLayout_81">
-                 <item>
-                  <widget class="QPushButton" name="SB1_subslot3_27">
-                   <property name="text">
-                    <string>Subslot 3</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QWidget" name="widget_51" native="true">
-                   <layout class="QGridLayout" name="gridLayout_59">
-                    <item row="1" column="2">
-                     <widget class="QRadioButton" name="SB1_subslot3_28">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="1" column="1">
-                     <widget class="QRadioButton" name="SB1_subslot3_29">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="0" column="1">
-                     <widget class="QRadioButton" name="SB1_subslot3_30">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="1" column="3">
-                     <widget class="QRadioButton" name="SB1_subslot3_31">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="0" column="2">
-                     <widget class="QRadioButton" name="SB1_subslot3_32">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="1" column="4">
-                     <widget class="QRadioButton" name="SB1_subslot3_33">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="0" column="3">
-                     <widget class="QRadioButton" name="SB1_subslot3_34">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="0" column="4">
-                     <widget class="QRadioButton" name="SB1_subslot3_35">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                   </layout>
-                  </widget>
-                 </item>
-                </layout>
-               </widget>
-              </item>
-             </layout>
-            </widget>
-           </item>
-           <item>
-            <widget class="QFrame" name="frame_24">
-             <property name="palette">
-              <palette>
-               <active>
-                <colorrole role="Button">
-                 <brush brushstyle="SolidPattern">
-                  <color alpha="255">
-                   <red>50</red>
-                   <green>170</green>
-                   <blue>13</blue>
-                  </color>
-                 </brush>
-                </colorrole>
-                <colorrole role="Base">
-                 <brush brushstyle="SolidPattern">
-                  <color alpha="255">
-                   <red>50</red>
-                   <green>170</green>
-                   <blue>13</blue>
-                  </color>
-                 </brush>
-                </colorrole>
-                <colorrole role="Window">
-                 <brush brushstyle="SolidPattern">
-                  <color alpha="255">
-                   <red>50</red>
-                   <green>170</green>
-                   <blue>13</blue>
-                  </color>
-                 </brush>
-                </colorrole>
-               </active>
-               <inactive>
-                <colorrole role="Button">
-                 <brush brushstyle="SolidPattern">
-                  <color alpha="255">
-                   <red>50</red>
-                   <green>170</green>
-                   <blue>13</blue>
-                  </color>
-                 </brush>
-                </colorrole>
-                <colorrole role="Base">
-                 <brush brushstyle="SolidPattern">
-                  <color alpha="255">
-                   <red>50</red>
-                   <green>170</green>
-                   <blue>13</blue>
-                  </color>
-                 </brush>
-                </colorrole>
-                <colorrole role="Window">
-                 <brush brushstyle="SolidPattern">
-                  <color alpha="255">
-                   <red>50</red>
-                   <green>170</green>
-                   <blue>13</blue>
-                  </color>
-                 </brush>
-                </colorrole>
-               </inactive>
-               <disabled>
-                <colorrole role="Button">
-                 <brush brushstyle="SolidPattern">
-                  <color alpha="255">
-                   <red>50</red>
-                   <green>170</green>
-                   <blue>13</blue>
-                  </color>
-                 </brush>
-                </colorrole>
-                <colorrole role="Base">
-                 <brush brushstyle="SolidPattern">
-                  <color alpha="255">
-                   <red>50</red>
-                   <green>170</green>
-                   <blue>13</blue>
-                  </color>
-                 </brush>
-                </colorrole>
-                <colorrole role="Window">
-                 <brush brushstyle="SolidPattern">
-                  <color alpha="255">
-                   <red>50</red>
-                   <green>170</green>
-                   <blue>13</blue>
-                  </color>
-                 </brush>
-                </colorrole>
-               </disabled>
-              </palette>
-             </property>
-             <property name="frameShape">
-              <enum>QFrame::StyledPanel</enum>
-             </property>
-             <property name="frameShadow">
-              <enum>QFrame::Raised</enum>
-             </property>
-             <layout class="QVBoxLayout" name="verticalLayout_43">
-              <item>
-               <widget class="QPushButton" name="SB2_button_4">
-                <property name="palette">
-                 <palette>
-                  <active>
-                   <colorrole role="Button">
-                    <brush brushstyle="SolidPattern">
-                     <color alpha="255">
-                      <red>119</red>
-                      <green>200</green>
-                      <blue>27</blue>
-                     </color>
-                    </brush>
-                   </colorrole>
-                   <colorrole role="Base">
-                    <brush brushstyle="SolidPattern">
-                     <color alpha="255">
-                      <red>119</red>
-                      <green>200</green>
-                      <blue>27</blue>
-                     </color>
-                    </brush>
-                   </colorrole>
-                   <colorrole role="Window">
-                    <brush brushstyle="SolidPattern">
-                     <color alpha="255">
-                      <red>119</red>
-                      <green>200</green>
-                      <blue>27</blue>
-                     </color>
-                    </brush>
-                   </colorrole>
-                  </active>
-                  <inactive>
-                   <colorrole role="Button">
-                    <brush brushstyle="SolidPattern">
-                     <color alpha="255">
-                      <red>119</red>
-                      <green>200</green>
-                      <blue>27</blue>
-                     </color>
-                    </brush>
-                   </colorrole>
-                   <colorrole role="Base">
-                    <brush brushstyle="SolidPattern">
-                     <color alpha="255">
-                      <red>119</red>
-                      <green>200</green>
-                      <blue>27</blue>
-                     </color>
-                    </brush>
-                   </colorrole>
-                   <colorrole role="Window">
-                    <brush brushstyle="SolidPattern">
-                     <color alpha="255">
-                      <red>119</red>
-                      <green>200</green>
-                      <blue>27</blue>
-                     </color>
-                    </brush>
-                   </colorrole>
-                  </inactive>
-                  <disabled>
-                   <colorrole role="Button">
-                    <brush brushstyle="SolidPattern">
-                     <color alpha="255">
-                      <red>119</red>
-                      <green>200</green>
-                      <blue>27</blue>
-                     </color>
-                    </brush>
-                   </colorrole>
-                   <colorrole role="Base">
-                    <brush brushstyle="SolidPattern">
-                     <color alpha="255">
-                      <red>119</red>
-                      <green>200</green>
-                      <blue>27</blue>
-                     </color>
-                    </brush>
-                   </colorrole>
-                   <colorrole role="Window">
-                    <brush brushstyle="SolidPattern">
-                     <color alpha="255">
-                      <red>119</red>
-                      <green>200</green>
-                      <blue>27</blue>
-                     </color>
-                    </brush>
-                   </colorrole>
-                  </disabled>
-                 </palette>
-                </property>
-                <property name="text">
-                 <string>Supply Board 2</string>
-                </property>
-                <property name="checkable">
-                 <bool>true</bool>
-                </property>
-                <property name="checked">
-                 <bool>true</bool>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QFrame" name="frame_168">
-                <property name="frameShape">
-                 <enum>QFrame::StyledPanel</enum>
-                </property>
-                <property name="frameShadow">
-                 <enum>QFrame::Raised</enum>
-                </property>
-                <layout class="QVBoxLayout" name="verticalLayout_185">
-                 <item>
-                  <widget class="QPushButton" name="SB2_subslot1_27">
-                   <property name="palette">
-                    <palette>
-                     <active>
-                      <colorrole role="Button">
-                       <brush brushstyle="SolidPattern">
-                        <color alpha="255">
-                         <red>81</red>
-                         <green>171</green>
-                         <blue>56</blue>
-                        </color>
-                       </brush>
-                      </colorrole>
-                      <colorrole role="Base">
-                       <brush brushstyle="SolidPattern">
-                        <color alpha="255">
-                         <red>81</red>
-                         <green>171</green>
-                         <blue>56</blue>
-                        </color>
-                       </brush>
-                      </colorrole>
-                      <colorrole role="Window">
-                       <brush brushstyle="SolidPattern">
-                        <color alpha="255">
-                         <red>81</red>
-                         <green>171</green>
-                         <blue>56</blue>
-                        </color>
-                       </brush>
-                      </colorrole>
-                     </active>
-                     <inactive>
-                      <colorrole role="Button">
-                       <brush brushstyle="SolidPattern">
-                        <color alpha="255">
-                         <red>81</red>
-                         <green>171</green>
-                         <blue>56</blue>
-                        </color>
-                       </brush>
-                      </colorrole>
-                      <colorrole role="Base">
-                       <brush brushstyle="SolidPattern">
-                        <color alpha="255">
-                         <red>81</red>
-                         <green>171</green>
-                         <blue>56</blue>
-                        </color>
-                       </brush>
-                      </colorrole>
-                      <colorrole role="Window">
-                       <brush brushstyle="SolidPattern">
-                        <color alpha="255">
-                         <red>81</red>
-                         <green>171</green>
-                         <blue>56</blue>
-                        </color>
-                       </brush>
-                      </colorrole>
-                     </inactive>
-                     <disabled>
-                      <colorrole role="Button">
-                       <brush brushstyle="SolidPattern">
-                        <color alpha="255">
-                         <red>81</red>
-                         <green>171</green>
-                         <blue>56</blue>
-                        </color>
-                       </brush>
-                      </colorrole>
-                      <colorrole role="Base">
-                       <brush brushstyle="SolidPattern">
-                        <color alpha="255">
-                         <red>81</red>
-                         <green>171</green>
-                         <blue>56</blue>
-                        </color>
-                       </brush>
-                      </colorrole>
-                      <colorrole role="Window">
-                       <brush brushstyle="SolidPattern">
-                        <color alpha="255">
-                         <red>81</red>
-                         <green>171</green>
-                         <blue>56</blue>
-                        </color>
-                       </brush>
-                      </colorrole>
-                     </disabled>
-                    </palette>
-                   </property>
-                   <property name="text">
-                    <string>Subslot 1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QWidget" name="widget_169" native="true">
-                   <property name="styleSheet">
-                    <string notr="true"/>
-                   </property>
-                   <layout class="QGridLayout" name="gridLayout_117">
-                    <item row="0" column="1">
-                     <widget class="QRadioButton" name="SB2_subslot1_28">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="1" column="1">
-                     <widget class="QRadioButton" name="SB2_subslot1_29">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="0" column="2">
-                     <widget class="QRadioButton" name="SB2_subslot1_30">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="0" column="3">
-                     <widget class="QRadioButton" name="SB2_subslot1_31">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="1" column="2">
-                     <widget class="QRadioButton" name="SB2_subslot1_32">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="0" column="4">
-                     <widget class="QRadioButton" name="SB2_subslot1_33">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="1" column="4">
-                     <widget class="QRadioButton" name="SB2_subslot1_34">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="1" column="3">
-                     <widget class="QRadioButton" name="SB2_subslot1_35">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                   </layout>
-                  </widget>
-                 </item>
-                </layout>
-               </widget>
-              </item>
-              <item>
-               <widget class="QFrame" name="frame_169">
-                <property name="frameShape">
-                 <enum>QFrame::StyledPanel</enum>
-                </property>
-                <property name="frameShadow">
-                 <enum>QFrame::Raised</enum>
-                </property>
-                <layout class="QVBoxLayout" name="verticalLayout_186">
-                 <item>
-                  <widget class="QPushButton" name="SB2_subslot2_27">
-                   <property name="text">
-                    <string>Subslot 2</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QWidget" name="widget_170" native="true">
-                   <layout class="QGridLayout" name="gridLayout_118">
-                    <item row="1" column="2">
-                     <widget class="QRadioButton" name="SB2_subslot2_28">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="1" column="1">
-                     <widget class="QRadioButton" name="SB2_subslot2_29">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="0" column="1">
-                     <widget class="QRadioButton" name="SB2_subslot2_30">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="1" column="3">
-                     <widget class="QRadioButton" name="SB2_subslot2_31">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="0" column="2">
-                     <widget class="QRadioButton" name="SB2_subslot2_32">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="1" column="4">
-                     <widget class="QRadioButton" name="SB2_subslot2_33">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="0" column="3">
-                     <widget class="QRadioButton" name="SB2_subslot2_34">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="0" column="4">
-                     <widget class="QRadioButton" name="SB2_subslot2_35">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                   </layout>
-                  </widget>
-                 </item>
-                </layout>
-               </widget>
-              </item>
-              <item>
-               <widget class="QFrame" name="frame_170">
-                <property name="frameShape">
-                 <enum>QFrame::StyledPanel</enum>
-                </property>
-                <property name="frameShadow">
-                 <enum>QFrame::Raised</enum>
-                </property>
-                <layout class="QVBoxLayout" name="verticalLayout_187">
-                 <item>
-                  <widget class="QPushButton" name="SB2_subslot3_27">
-                   <property name="text">
-                    <string>Subslot 3</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QWidget" name="widget_171" native="true">
-                   <layout class="QGridLayout" name="gridLayout_119">
-                    <item row="0" column="1">
-                     <widget class="QRadioButton" name="SB2_subslot3_28">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="0" column="2">
-                     <widget class="QRadioButton" name="SB2_subslot3_29">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="2" column="1">
-                     <widget class="QRadioButton" name="SB2_subslot3_30">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="2" column="2">
-                     <widget class="QRadioButton" name="SB2_subslot3_31">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="0" column="3">
-                     <widget class="QRadioButton" name="SB2_subslot3_32">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="0" column="4">
-                     <widget class="QRadioButton" name="SB2_subslot3_33">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="2" column="3">
-                     <widget class="QRadioButton" name="SB2_subslot3_34">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="2" column="4">
-                     <widget class="QRadioButton" name="SB2_subslot3_35">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                   </layout>
-                  </widget>
-                 </item>
-                </layout>
-               </widget>
-              </item>
-             </layout>
-            </widget>
-           </item>
-           <item>
-            <widget class="QFrame" name="frame_25">
-             <property name="frameShape">
-              <enum>QFrame::StyledPanel</enum>
-             </property>
-             <property name="frameShadow">
-              <enum>QFrame::Raised</enum>
-             </property>
-             <layout class="QVBoxLayout" name="verticalLayout_44">
-              <item>
-               <widget class="QPushButton" name="SB3_button_4">
-                <property name="text">
-                 <string>Supply Board 3</string>
-                </property>
-                <property name="checkable">
-                 <bool>true</bool>
-                </property>
-                <property name="checked">
-                 <bool>true</bool>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QFrame" name="frame_48">
-                <property name="frameShape">
-                 <enum>QFrame::StyledPanel</enum>
-                </property>
-                <property name="frameShadow">
-                 <enum>QFrame::Raised</enum>
-                </property>
-                <layout class="QVBoxLayout" name="verticalLayout_45">
-                 <item>
-                  <widget class="QPushButton" name="SB3_subslot1_27">
-                   <property name="text">
-                    <string>Subslot 1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QWidget" name="widget_52" native="true">
-                   <layout class="QGridLayout" name="gridLayout_60">
-                    <item row="1" column="2">
-                     <widget class="QRadioButton" name="SB3_subslot1_28">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="0" column="1">
-                     <widget class="QRadioButton" name="SB3_subslot1_29">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="1" column="1">
-                     <widget class="QRadioButton" name="SB3_subslot1_30">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="0" column="3">
-                     <widget class="QRadioButton" name="SB3_subslot1_31">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="0" column="2">
-                     <widget class="QRadioButton" name="SB3_subslot1_32">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="1" column="3">
-                     <widget class="QRadioButton" name="SB3_subslot1_33">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="1" column="4">
-                     <widget class="QRadioButton" name="SB3_subslot1_34">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="0" column="4">
-                     <widget class="QRadioButton" name="SB3_subslot1_35">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                   </layout>
-                  </widget>
-                 </item>
-                </layout>
-               </widget>
-              </item>
-              <item>
-               <widget class="QFrame" name="frame_49">
-                <property name="frameShape">
-                 <enum>QFrame::StyledPanel</enum>
-                </property>
-                <property name="frameShadow">
-                 <enum>QFrame::Raised</enum>
-                </property>
-                <layout class="QVBoxLayout" name="verticalLayout_46">
-                 <item>
-                  <widget class="QPushButton" name="SB3_subslot2_27">
-                   <property name="text">
-                    <string>Subslot 2</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QWidget" name="widget_53" native="true">
-                   <layout class="QGridLayout" name="gridLayout_79">
-                    <item row="0" column="3">
-                     <widget class="QRadioButton" name="SB3_subslot2_28">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="0" column="1">
-                     <widget class="QRadioButton" name="SB3_subslot2_29">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="1" column="2">
-                     <widget class="QRadioButton" name="SB3_subslot2_30">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="0" column="2">
-                     <widget class="QRadioButton" name="SB3_subslot2_31">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="1" column="1">
-                     <widget class="QRadioButton" name="SB3_subslot2_32">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="0" column="4">
-                     <widget class="QRadioButton" name="SB3_subslot2_33">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="1" column="3">
-                     <widget class="QRadioButton" name="SB3_subslot2_34">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="1" column="4">
-                     <widget class="QRadioButton" name="SB3_subslot2_35">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                   </layout>
-                  </widget>
-                 </item>
-                </layout>
-               </widget>
-              </item>
-              <item>
-               <widget class="QFrame" name="frame_50">
-                <property name="frameShape">
-                 <enum>QFrame::StyledPanel</enum>
-                </property>
-                <property name="frameShadow">
-                 <enum>QFrame::Raised</enum>
-                </property>
-                <layout class="QVBoxLayout" name="verticalLayout_47">
-                 <item>
-                  <widget class="QPushButton" name="SB3_subslot3_27">
-                   <property name="text">
-                    <string>Subslot 3</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QWidget" name="widget_54" native="true">
-                   <layout class="QGridLayout" name="gridLayout_80">
-                    <item row="2" column="2">
-                     <widget class="QRadioButton" name="SB3_subslot3_28">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="1" column="1">
-                     <widget class="QRadioButton" name="SB3_subslot3_29">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="1" column="2">
-                     <widget class="QRadioButton" name="SB3_subslot3_30">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="2" column="1">
-                     <widget class="QRadioButton" name="SB3_subslot3_31">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="1" column="3">
-                     <widget class="QRadioButton" name="SB3_subslot3_32">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="1" column="4">
-                     <widget class="QRadioButton" name="SB3_subslot3_33">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="2" column="3">
-                     <widget class="QRadioButton" name="SB3_subslot3_34">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="2" column="4">
-                     <widget class="QRadioButton" name="SB3_subslot3_35">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                   </layout>
-                  </widget>
-                 </item>
-                </layout>
-               </widget>
-              </item>
-             </layout>
-            </widget>
-           </item>
-           <item>
-            <widget class="QFrame" name="frame_26">
-             <property name="frameShape">
-              <enum>QFrame::StyledPanel</enum>
-             </property>
-             <property name="frameShadow">
-              <enum>QFrame::Raised</enum>
-             </property>
-             <layout class="QVBoxLayout" name="verticalLayout_48">
-              <item>
-               <widget class="QPushButton" name="SB4_button_4">
-                <property name="text">
-                 <string>Supply Board 4</string>
-                </property>
-                <property name="checkable">
-                 <bool>true</bool>
-                </property>
-                <property name="checked">
-                 <bool>true</bool>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QFrame" name="frame_171">
-                <property name="frameShape">
-                 <enum>QFrame::StyledPanel</enum>
-                </property>
-                <property name="frameShadow">
-                 <enum>QFrame::Raised</enum>
-                </property>
-                <layout class="QVBoxLayout" name="verticalLayout_49">
-                 <item>
-                  <widget class="QPushButton" name="SB4_subslot1_27">
-                   <property name="text">
-                    <string>Subslot 1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QWidget" name="widget_172" native="true">
-                   <layout class="QGridLayout" name="gridLayout_120">
-                    <item row="1" column="2">
-                     <widget class="QRadioButton" name="SB4_subslot1_28">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="0" column="1">
-                     <widget class="QRadioButton" name="SB4_subslot1_29">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="1" column="1">
-                     <widget class="QRadioButton" name="SB4_subslot1_30">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="0" column="3">
-                     <widget class="QRadioButton" name="SB4_subslot1_31">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="0" column="2">
-                     <widget class="QRadioButton" name="SB4_subslot1_32">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="1" column="3">
-                     <widget class="QRadioButton" name="SB4_subslot1_33">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="1" column="4">
-                     <widget class="QRadioButton" name="SB4_subslot1_34">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="0" column="4">
-                     <widget class="QRadioButton" name="SB4_subslot1_35">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                   </layout>
-                  </widget>
-                 </item>
-                </layout>
-               </widget>
-              </item>
-              <item>
-               <widget class="QFrame" name="frame_172">
-                <property name="frameShape">
-                 <enum>QFrame::StyledPanel</enum>
-                </property>
-                <property name="frameShadow">
-                 <enum>QFrame::Raised</enum>
-                </property>
-                <layout class="QVBoxLayout" name="verticalLayout_50">
-                 <item>
-                  <widget class="QPushButton" name="SB4_subslot2_27">
-                   <property name="text">
-                    <string>Subslot 2</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QWidget" name="widget_173" native="true">
-                   <layout class="QGridLayout" name="gridLayout_121">
-                    <item row="0" column="3">
-                     <widget class="QRadioButton" name="SB4_subslot2_28">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="0" column="1">
-                     <widget class="QRadioButton" name="SB4_subslot2_29">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-=======
                <widget class="QWidget" name="widget_9" native="true">
                 <layout class="QVBoxLayout" name="verticalLayout_110">
                  <property name="spacing">
@@ -17336,157 +15290,25 @@
                         </widget>
                        </item>
                       </layout>
->>>>>>> 2c75f13795697f5f7c196a857ad4c9844c85ef37
                      </widget>
                     </item>
-                    <item row="1" column="2">
-                     <widget class="QRadioButton" name="SB4_subslot2_30">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
+                    <item>
+                     <widget class="QFrame" name="frame_73">
+                      <property name="mouseTracking">
                        <bool>false</bool>
                       </property>
-                     </widget>
-                    </item>
-                    <item row="0" column="2">
-                     <widget class="QRadioButton" name="SB4_subslot2_31">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
+                      <property name="acceptDrops">
                        <bool>true</bool>
                       </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
+                      <property name="styleSheet">
+                       <string notr="true"/>
                       </property>
-                     </widget>
-                    </item>
-                    <item row="1" column="1">
-                     <widget class="QRadioButton" name="SB4_subslot2_32">
-                      <property name="text">
-                       <string/>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
                       </property>
-                      <property name="checked">
-                       <bool>true</bool>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
                       </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="0" column="4">
-                     <widget class="QRadioButton" name="SB4_subslot2_33">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="1" column="3">
-                     <widget class="QRadioButton" name="SB4_subslot2_34">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="1" column="4">
-                     <widget class="QRadioButton" name="SB4_subslot2_35">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                   </layout>
-                  </widget>
-                 </item>
-                </layout>
-               </widget>
-              </item>
-              <item>
-               <widget class="QFrame" name="frame_173">
-                <property name="frameShape">
-                 <enum>QFrame::StyledPanel</enum>
-                </property>
-                <property name="frameShadow">
-                 <enum>QFrame::Raised</enum>
-                </property>
-                <layout class="QVBoxLayout" name="verticalLayout_188">
-                 <item>
-                  <widget class="QPushButton" name="SB4_subslot3_27">
-                   <property name="text">
-                    <string>Subslot 3</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QWidget" name="widget_174" native="true">
-                   <layout class="QGridLayout" name="gridLayout_122">
-                    <item row="2" column="2">
-                     <widget class="QRadioButton" name="SB4_subslot3_28">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="1" column="1">
-                     <widget class="QRadioButton" name="SB4_subslot3_29">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="1" column="2">
-                     <widget class="QRadioButton" name="SB4_subslot3_30">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-<<<<<<< HEAD
-=======
                       <layout class="QVBoxLayout" name="verticalLayout_123">
                        <property name="sizeConstraint">
                         <enum>QLayout::SetMaximumSize</enum>
@@ -18330,155 +16152,132 @@
                         </widget>
                        </item>
                       </layout>
->>>>>>> 2c75f13795697f5f7c196a857ad4c9844c85ef37
                      </widget>
                     </item>
-                    <item row="2" column="1">
-                     <widget class="QRadioButton" name="SB4_subslot3_31">
-                      <property name="text">
-                       <string/>
+                    <item>
+                     <spacer name="horizontalSpacer_6">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
                       </property>
-                      <property name="checked">
-                       <bool>true</bool>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>40</width>
+                        <height>20</height>
+                       </size>
                       </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="1" column="3">
-                     <widget class="QRadioButton" name="SB4_subslot3_32">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="1" column="4">
-                     <widget class="QRadioButton" name="SB4_subslot3_33">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="2" column="3">
-                     <widget class="QRadioButton" name="SB4_subslot3_34">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="2" column="4">
-                     <widget class="QRadioButton" name="SB4_subslot3_35">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
+                     </spacer>
                     </item>
                    </layout>
                   </widget>
                  </item>
-                </layout>
-               </widget>
-              </item>
-             </layout>
-            </widget>
-           </item>
-           <item>
-            <widget class="QFrame" name="frame_51">
-             <property name="mouseTracking">
-              <bool>false</bool>
-             </property>
-             <property name="acceptDrops">
-              <bool>true</bool>
-             </property>
-             <property name="styleSheet">
-              <string notr="true"/>
-             </property>
-             <property name="frameShape">
-              <enum>QFrame::StyledPanel</enum>
-             </property>
-             <property name="frameShadow">
-              <enum>QFrame::Raised</enum>
-             </property>
-             <layout class="QVBoxLayout" name="verticalLayout_51">
-              <property name="sizeConstraint">
-               <enum>QLayout::SetMaximumSize</enum>
-              </property>
-              <item>
-               <widget class="QPushButton" name="SB5_button_4">
-                <property name="text">
-                 <string>Supply Board 5</string>
-                </property>
-                <property name="checkable">
-                 <bool>true</bool>
-                </property>
-                <property name="checked">
-                 <bool>true</bool>
-                </property>
-               </widget>
-              </item>
-              <item>
-               <widget class="QWidget" name="widget_55" native="true">
-                <layout class="QGridLayout" name="gridLayout_22">
-                 <property name="margin">
-                  <number>0</number>
-                 </property>
-                 <item row="1" column="1">
-                  <widget class="QFrame" name="frame_119">
-                   <property name="frameShape">
-                    <enum>QFrame::StyledPanel</enum>
-                   </property>
-                   <property name="frameShadow">
-                    <enum>QFrame::Raised</enum>
-                   </property>
-                   <layout class="QVBoxLayout" name="verticalLayout_82">
+                 <item>
+                  <widget class="QWidget" name="widget_15" native="true">
+                   <layout class="QHBoxLayout" name="horizontalLayout_4">
+                    <property name="spacing">
+                     <number>0</number>
+                    </property>
+                    <property name="margin">
+                     <number>0</number>
+                    </property>
                     <item>
-                     <widget class="QPushButton" name="SB5_subslot2_27">
-                      <property name="styleSheet">
-                       <string notr="true"/>
+                     <widget class="QFrame" name="frame_21">
+                      <property name="palette">
+                       <palette>
+                        <active>
+                         <colorrole role="Button">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>50</red>
+                            <green>170</green>
+                            <blue>13</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                         <colorrole role="Base">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>50</red>
+                            <green>170</green>
+                            <blue>13</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                         <colorrole role="Window">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>50</red>
+                            <green>170</green>
+                            <blue>13</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                        </active>
+                        <inactive>
+                         <colorrole role="Button">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>50</red>
+                            <green>170</green>
+                            <blue>13</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                         <colorrole role="Base">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>50</red>
+                            <green>170</green>
+                            <blue>13</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                         <colorrole role="Window">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>50</red>
+                            <green>170</green>
+                            <blue>13</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                        </inactive>
+                        <disabled>
+                         <colorrole role="Button">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>50</red>
+                            <green>170</green>
+                            <blue>13</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                         <colorrole role="Base">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>50</red>
+                            <green>170</green>
+                            <blue>13</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                         <colorrole role="Window">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>50</red>
+                            <green>170</green>
+                            <blue>13</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                        </disabled>
+                       </palette>
                       </property>
-                      <property name="text">
-                       <string>Subslot 2</string>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
                       </property>
-                      <property name="checkable">
-                       <bool>true</bool>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
                       </property>
-<<<<<<< HEAD
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item>
-                     <widget class="QWidget" name="widget_90" native="true">
-                      <layout class="QGridLayout" name="gridLayout_81">
-                       <item row="1" column="1">
-                        <widget class="QRadioButton" name="SB5_subslot2_28">
-=======
                       <layout class="QVBoxLayout" name="verticalLayout_42">
                        <item>
                         <widget class="QPushButton" name="crate4_SB6">
@@ -18573,44 +16372,25 @@
                            </disabled>
                           </palette>
                          </property>
->>>>>>> 2c75f13795697f5f7c196a857ad4c9844c85ef37
                          <property name="text">
-                          <string/>
+                          <string>Supply Board 6</string>
+                         </property>
+                         <property name="checkable">
+                          <bool>true</bool>
                          </property>
                          <property name="checked">
                           <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
                          </property>
                         </widget>
                        </item>
-                       <item row="0" column="2">
-                        <widget class="QRadioButton" name="SB5_subslot2_29">
-                         <property name="text">
-                          <string/>
+                       <item>
+                        <widget class="QFrame" name="frame_36">
+                         <property name="frameShape">
+                          <enum>QFrame::StyledPanel</enum>
                          </property>
-                         <property name="checked">
-                          <bool>true</bool>
+                         <property name="frameShadow">
+                          <enum>QFrame::Raised</enum>
                          </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-<<<<<<< HEAD
-                        </widget>
-                       </item>
-                       <item row="0" column="1">
-                        <widget class="QRadioButton" name="SB5_subslot2_30">
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="checked">
-                          <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-=======
                          <layout class="QVBoxLayout" name="verticalLayout_61">
                           <item>
                            <widget class="QPushButton" name="crate4_SB6_subslot1">
@@ -18965,74 +16745,16 @@
                            </widget>
                           </item>
                          </layout>
->>>>>>> 2c75f13795697f5f7c196a857ad4c9844c85ef37
                         </widget>
                        </item>
-                       <item row="1" column="2">
-                        <widget class="QRadioButton" name="SB5_subslot2_31">
-                         <property name="text">
-                          <string/>
+                       <item>
+                        <widget class="QFrame" name="frame_38">
+                         <property name="frameShape">
+                          <enum>QFrame::StyledPanel</enum>
                          </property>
-                         <property name="checked">
-                          <bool>true</bool>
+                         <property name="frameShadow">
+                          <enum>QFrame::Raised</enum>
                          </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-                        </widget>
-                       </item>
-                       <item row="0" column="3">
-                        <widget class="QRadioButton" name="SB5_subslot2_32">
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="checked">
-                          <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-                        </widget>
-                       </item>
-                       <item row="0" column="4">
-                        <widget class="QRadioButton" name="SB5_subslot2_33">
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="checked">
-                          <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-                        </widget>
-                       </item>
-                       <item row="1" column="3">
-                        <widget class="QRadioButton" name="SB5_subslot2_34">
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="checked">
-                          <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-                        </widget>
-                       </item>
-                       <item row="1" column="4">
-                        <widget class="QRadioButton" name="SB5_subslot2_35">
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="checked">
-                          <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-<<<<<<< HEAD
-=======
                          <layout class="QVBoxLayout" name="verticalLayout_81">
                           <item>
                            <widget class="QPushButton" name="crate4_SB6_subslot3">
@@ -19158,52 +16880,110 @@
                            </widget>
                           </item>
                          </layout>
->>>>>>> 2c75f13795697f5f7c196a857ad4c9844c85ef37
                         </widget>
                        </item>
                       </layout>
                      </widget>
                     </item>
-                   </layout>
-                  </widget>
-                 </item>
-                 <item row="1" column="0">
-                  <widget class="QFrame" name="frame_120">
-                   <property name="frameShape">
-                    <enum>QFrame::StyledPanel</enum>
-                   </property>
-                   <property name="frameShadow">
-                    <enum>QFrame::Raised</enum>
-                   </property>
-                   <layout class="QVBoxLayout" name="verticalLayout_83">
                     <item>
-                     <widget class="QPushButton" name="SB5_subslot1_27">
-                      <property name="text">
-                       <string>Subslot 1</string>
+                     <widget class="QFrame" name="frame_22">
+                      <property name="palette">
+                       <palette>
+                        <active>
+                         <colorrole role="Button">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>50</red>
+                            <green>170</green>
+                            <blue>13</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                         <colorrole role="Base">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>50</red>
+                            <green>170</green>
+                            <blue>13</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                         <colorrole role="Window">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>50</red>
+                            <green>170</green>
+                            <blue>13</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                        </active>
+                        <inactive>
+                         <colorrole role="Button">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>50</red>
+                            <green>170</green>
+                            <blue>13</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                         <colorrole role="Base">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>50</red>
+                            <green>170</green>
+                            <blue>13</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                         <colorrole role="Window">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>50</red>
+                            <green>170</green>
+                            <blue>13</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                        </inactive>
+                        <disabled>
+                         <colorrole role="Button">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>50</red>
+                            <green>170</green>
+                            <blue>13</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                         <colorrole role="Base">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>50</red>
+                            <green>170</green>
+                            <blue>13</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                         <colorrole role="Window">
+                          <brush brushstyle="SolidPattern">
+                           <color alpha="255">
+                            <red>50</red>
+                            <green>170</green>
+                            <blue>13</blue>
+                           </color>
+                          </brush>
+                         </colorrole>
+                        </disabled>
+                       </palette>
                       </property>
-                      <property name="checkable">
-                       <bool>true</bool>
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
                       </property>
-                      <property name="checked">
-                       <bool>true</bool>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
                       </property>
-<<<<<<< HEAD
-                     </widget>
-                    </item>
-                    <item>
-                     <widget class="QWidget" name="widget_91" native="true">
-                      <layout class="QGridLayout" name="gridLayout_82">
-                       <item row="1" column="1">
-                        <widget class="QRadioButton" name="SB5_subslot1_28">
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="checked">
-                          <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-=======
                       <layout class="QVBoxLayout" name="verticalLayout_43">
                        <item>
                         <widget class="QPushButton" name="crate4_SB7">
@@ -19297,75 +17077,26 @@
                             </colorrole>
                            </disabled>
                           </palette>
->>>>>>> 2c75f13795697f5f7c196a857ad4c9844c85ef37
                          </property>
-                        </widget>
-                       </item>
-                       <item row="0" column="2">
-                        <widget class="QRadioButton" name="SB5_subslot1_29">
                          <property name="text">
-                          <string/>
+                          <string>Supply Board 7</string>
+                         </property>
+                         <property name="checkable">
+                          <bool>true</bool>
                          </property>
                          <property name="checked">
                           <bool>true</bool>
                          </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
                         </widget>
                        </item>
-                       <item row="0" column="1">
-                        <widget class="QRadioButton" name="SB5_subslot1_30">
-                         <property name="text">
-                          <string/>
+                       <item>
+                        <widget class="QFrame" name="frame_168">
+                         <property name="frameShape">
+                          <enum>QFrame::StyledPanel</enum>
                          </property>
-                         <property name="checked">
-                          <bool>true</bool>
+                         <property name="frameShadow">
+                          <enum>QFrame::Raised</enum>
                          </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-                        </widget>
-                       </item>
-                       <item row="1" column="2">
-                        <widget class="QRadioButton" name="SB5_subslot1_31">
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="checked">
-                          <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-                        </widget>
-                       </item>
-                       <item row="0" column="3">
-                        <widget class="QRadioButton" name="SB5_subslot1_32">
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="checked">
-                          <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-                        </widget>
-                       </item>
-                       <item row="0" column="4">
-                        <widget class="QRadioButton" name="SB5_subslot1_33">
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="checked">
-                          <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-<<<<<<< HEAD
-=======
                          <layout class="QVBoxLayout" name="verticalLayout_185">
                           <item>
                            <widget class="QPushButton" name="crate4_SB7_subslot1">
@@ -19585,22 +17316,16 @@
                            </widget>
                           </item>
                          </layout>
->>>>>>> 2c75f13795697f5f7c196a857ad4c9844c85ef37
                         </widget>
                        </item>
-                       <item row="1" column="3">
-                        <widget class="QRadioButton" name="SB5_subslot1_34">
-                         <property name="text">
-                          <string/>
+                       <item>
+                        <widget class="QFrame" name="frame_169">
+                         <property name="frameShape">
+                          <enum>QFrame::StyledPanel</enum>
                          </property>
-                         <property name="checked">
-                          <bool>true</bool>
+                         <property name="frameShadow">
+                          <enum>QFrame::Raised</enum>
                          </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-<<<<<<< HEAD
-=======
                          <layout class="QVBoxLayout" name="verticalLayout_186">
                           <item>
                            <widget class="QPushButton" name="crate4_SB7_subslot2">
@@ -19726,22 +17451,16 @@
                            </widget>
                           </item>
                          </layout>
->>>>>>> 2c75f13795697f5f7c196a857ad4c9844c85ef37
                         </widget>
                        </item>
-                       <item row="1" column="4">
-                        <widget class="QRadioButton" name="SB5_subslot1_35">
-                         <property name="text">
-                          <string/>
+                       <item>
+                        <widget class="QFrame" name="frame_170">
+                         <property name="frameShape">
+                          <enum>QFrame::StyledPanel</enum>
                          </property>
-                         <property name="checked">
-                          <bool>true</bool>
+                         <property name="frameShadow">
+                          <enum>QFrame::Raised</enum>
                          </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-<<<<<<< HEAD
-=======
                          <layout class="QVBoxLayout" name="verticalLayout_187">
                           <item>
                            <widget class="QPushButton" name="crate4_SB7_subslot3">
@@ -19867,194 +17586,41 @@
                            </widget>
                           </item>
                          </layout>
->>>>>>> 2c75f13795697f5f7c196a857ad4c9844c85ef37
                         </widget>
                        </item>
                       </layout>
                      </widget>
                     </item>
-                   </layout>
-                  </widget>
-                 </item>
-                 <item row="2" column="0">
-                  <widget class="QFrame" name="frame_121">
-                   <property name="frameShape">
-                    <enum>QFrame::StyledPanel</enum>
-                   </property>
-                   <property name="frameShadow">
-                    <enum>QFrame::Raised</enum>
-                   </property>
-                   <layout class="QVBoxLayout" name="verticalLayout_84">
                     <item>
-                     <widget class="QPushButton" name="SB5_subslot3_27">
-                      <property name="text">
-                       <string>Subslot 3</string>
+                     <widget class="QFrame" name="frame_23">
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
                       </property>
-                      <property name="checkable">
-                       <bool>true</bool>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
                       </property>
-<<<<<<< HEAD
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item>
-                     <widget class="QWidget" name="widget_92" native="true">
-                      <layout class="QGridLayout" name="gridLayout_83">
-                       <item row="1" column="1">
-                        <widget class="QRadioButton" name="SB5_subslot3_28">
-=======
                       <layout class="QVBoxLayout" name="verticalLayout_44">
                        <item>
                         <widget class="QPushButton" name="crate4_SB8">
->>>>>>> 2c75f13795697f5f7c196a857ad4c9844c85ef37
                          <property name="text">
-                          <string/>
+                          <string>Supply Board 8</string>
+                         </property>
+                         <property name="checkable">
+                          <bool>true</bool>
                          </property>
                          <property name="checked">
                           <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
                          </property>
                         </widget>
                        </item>
-                       <item row="0" column="2">
-                        <widget class="QRadioButton" name="SB5_subslot3_29">
-                         <property name="text">
-                          <string/>
+                       <item>
+                        <widget class="QFrame" name="frame_48">
+                         <property name="frameShape">
+                          <enum>QFrame::StyledPanel</enum>
                          </property>
-                         <property name="checked">
-                          <bool>true</bool>
+                         <property name="frameShadow">
+                          <enum>QFrame::Raised</enum>
                          </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-                        </widget>
-                       </item>
-                       <item row="0" column="1">
-                        <widget class="QRadioButton" name="SB5_subslot3_30">
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="checked">
-                          <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-                        </widget>
-                       </item>
-                       <item row="1" column="2">
-                        <widget class="QRadioButton" name="SB5_subslot3_31">
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="checked">
-                          <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-                        </widget>
-                       </item>
-                       <item row="0" column="3">
-                        <widget class="QRadioButton" name="SB5_subslot3_32">
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="checked">
-                          <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-                        </widget>
-                       </item>
-                       <item row="0" column="4">
-                        <widget class="QRadioButton" name="SB5_subslot3_33">
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="checked">
-                          <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-                        </widget>
-                       </item>
-                       <item row="1" column="3">
-                        <widget class="QRadioButton" name="SB5_subslot3_34">
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="checked">
-                          <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-                        </widget>
-                       </item>
-                       <item row="1" column="4">
-                        <widget class="QRadioButton" name="SB5_subslot3_35">
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="checked">
-                          <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-                        </widget>
-                       </item>
-                      </layout>
-                     </widget>
-                    </item>
-                   </layout>
-                  </widget>
-                 </item>
-                 <item row="3" column="0">
-                  <widget class="QFrame" name="frame_122">
-                   <property name="frameShape">
-                    <enum>QFrame::StyledPanel</enum>
-                   </property>
-                   <property name="frameShadow">
-                    <enum>QFrame::Raised</enum>
-                   </property>
-                   <layout class="QVBoxLayout" name="verticalLayout_85">
-                    <item>
-                     <widget class="QPushButton" name="SB5_subslot5_27">
-                      <property name="text">
-                       <string>Subslot 5</string>
-                      </property>
-                      <property name="checkable">
-                       <bool>true</bool>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item>
-                     <widget class="QWidget" name="widget_93" native="true">
-                      <layout class="QGridLayout" name="gridLayout_84">
-                       <item row="1" column="1">
-                        <widget class="QRadioButton" name="SB5_subslot5_28">
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="checked">
-                          <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-<<<<<<< HEAD
-=======
                          <layout class="QVBoxLayout" name="verticalLayout_45">
                           <item>
                            <widget class="QPushButton" name="crate4_SB8_subslot1">
@@ -20180,22 +17746,16 @@
                            </widget>
                           </item>
                          </layout>
->>>>>>> 2c75f13795697f5f7c196a857ad4c9844c85ef37
                         </widget>
                        </item>
-                       <item row="0" column="2">
-                        <widget class="QRadioButton" name="SB5_subslot5_29">
-                         <property name="text">
-                          <string/>
+                       <item>
+                        <widget class="QFrame" name="frame_49">
+                         <property name="frameShape">
+                          <enum>QFrame::StyledPanel</enum>
                          </property>
-                         <property name="checked">
-                          <bool>true</bool>
+                         <property name="frameShadow">
+                          <enum>QFrame::Raised</enum>
                          </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-<<<<<<< HEAD
-=======
                          <layout class="QVBoxLayout" name="verticalLayout_46">
                           <item>
                            <widget class="QPushButton" name="crate4_SB8_subslot2">
@@ -20321,87 +17881,16 @@
                            </widget>
                           </item>
                          </layout>
->>>>>>> 2c75f13795697f5f7c196a857ad4c9844c85ef37
                         </widget>
                        </item>
-                       <item row="0" column="1">
-                        <widget class="QRadioButton" name="SB5_subslot5_30">
-                         <property name="text">
-                          <string/>
+                       <item>
+                        <widget class="QFrame" name="frame_50">
+                         <property name="frameShape">
+                          <enum>QFrame::StyledPanel</enum>
                          </property>
-                         <property name="checked">
-                          <bool>true</bool>
+                         <property name="frameShadow">
+                          <enum>QFrame::Raised</enum>
                          </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-                        </widget>
-                       </item>
-                       <item row="1" column="2">
-                        <widget class="QRadioButton" name="SB5_subslot5_31">
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="checked">
-                          <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-                        </widget>
-                       </item>
-                       <item row="0" column="3">
-                        <widget class="QRadioButton" name="SB5_subslot5_32">
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="checked">
-                          <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-                        </widget>
-                       </item>
-                       <item row="0" column="4">
-                        <widget class="QRadioButton" name="SB5_subslot5_33">
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="checked">
-                          <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-                        </widget>
-                       </item>
-                       <item row="1" column="3">
-                        <widget class="QRadioButton" name="SB5_subslot5_34">
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="checked">
-                          <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-                        </widget>
-                       </item>
-                       <item row="1" column="4">
-                        <widget class="QRadioButton" name="SB5_subslot5_35">
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="checked">
-                          <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-<<<<<<< HEAD
-=======
                          <layout class="QVBoxLayout" name="verticalLayout_47">
                           <item>
                            <widget class="QPushButton" name="crate4_SB8_subslot3">
@@ -20527,124 +18016,41 @@
                            </widget>
                           </item>
                          </layout>
->>>>>>> 2c75f13795697f5f7c196a857ad4c9844c85ef37
                         </widget>
                        </item>
                       </layout>
                      </widget>
                     </item>
-                   </layout>
-                  </widget>
-                 </item>
-                 <item row="3" column="1">
-                  <widget class="QFrame" name="frame_123">
-                   <property name="frameShape">
-                    <enum>QFrame::StyledPanel</enum>
-                   </property>
-                   <property name="frameShadow">
-                    <enum>QFrame::Raised</enum>
-                   </property>
-                   <layout class="QVBoxLayout" name="verticalLayout_86">
                     <item>
-                     <widget class="QPushButton" name="SB5_subslot6_27">
-                      <property name="text">
-                       <string>Subslot 6</string>
+                     <widget class="QFrame" name="frame_24">
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
                       </property>
-                      <property name="checkable">
-                       <bool>true</bool>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
                       </property>
-<<<<<<< HEAD
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item>
-                     <widget class="QWidget" name="widget_94" native="true">
-                      <layout class="QGridLayout" name="gridLayout_85">
-                       <item row="1" column="1">
-                        <widget class="QRadioButton" name="SB5_subslot6_28">
-=======
                       <layout class="QVBoxLayout" name="verticalLayout_48">
                        <item>
                         <widget class="QPushButton" name="crate4_SB9">
->>>>>>> 2c75f13795697f5f7c196a857ad4c9844c85ef37
                          <property name="text">
-                          <string/>
+                          <string>Supply Board 9</string>
+                         </property>
+                         <property name="checkable">
+                          <bool>true</bool>
                          </property>
                          <property name="checked">
                           <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
                          </property>
                         </widget>
                        </item>
-                       <item row="0" column="2">
-                        <widget class="QRadioButton" name="SB5_subslot6_29">
-                         <property name="text">
-                          <string/>
+                       <item>
+                        <widget class="QFrame" name="frame_171">
+                         <property name="frameShape">
+                          <enum>QFrame::StyledPanel</enum>
                          </property>
-                         <property name="checked">
-                          <bool>true</bool>
+                         <property name="frameShadow">
+                          <enum>QFrame::Raised</enum>
                          </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-                        </widget>
-                       </item>
-                       <item row="0" column="1">
-                        <widget class="QRadioButton" name="SB5_subslot6_30">
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="checked">
-                          <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-                        </widget>
-                       </item>
-                       <item row="1" column="2">
-                        <widget class="QRadioButton" name="SB5_subslot6_31">
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="checked">
-                          <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-                        </widget>
-                       </item>
-                       <item row="0" column="3">
-                        <widget class="QRadioButton" name="SB5_subslot6_32">
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="checked">
-                          <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-                        </widget>
-                       </item>
-                       <item row="0" column="4">
-                        <widget class="QRadioButton" name="SB5_subslot6_33">
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="checked">
-                          <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-<<<<<<< HEAD
-=======
                          <layout class="QVBoxLayout" name="verticalLayout_49">
                           <item>
                            <widget class="QPushButton" name="crate4_SB9_subslot1">
@@ -20770,22 +18176,16 @@
                            </widget>
                           </item>
                          </layout>
->>>>>>> 2c75f13795697f5f7c196a857ad4c9844c85ef37
                         </widget>
                        </item>
-                       <item row="1" column="3">
-                        <widget class="QRadioButton" name="SB5_subslot6_34">
-                         <property name="text">
-                          <string/>
+                       <item>
+                        <widget class="QFrame" name="frame_172">
+                         <property name="frameShape">
+                          <enum>QFrame::StyledPanel</enum>
                          </property>
-                         <property name="checked">
-                          <bool>true</bool>
+                         <property name="frameShadow">
+                          <enum>QFrame::Raised</enum>
                          </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-<<<<<<< HEAD
-=======
                          <layout class="QVBoxLayout" name="verticalLayout_50">
                           <item>
                            <widget class="QPushButton" name="crate4_SB9_subslot2">
@@ -20911,22 +18311,16 @@
                            </widget>
                           </item>
                          </layout>
->>>>>>> 2c75f13795697f5f7c196a857ad4c9844c85ef37
                         </widget>
                        </item>
-                       <item row="1" column="4">
-                        <widget class="QRadioButton" name="SB5_subslot6_35">
-                         <property name="text">
-                          <string/>
+                       <item>
+                        <widget class="QFrame" name="frame_173">
+                         <property name="frameShape">
+                          <enum>QFrame::StyledPanel</enum>
                          </property>
-                         <property name="checked">
-                          <bool>true</bool>
+                         <property name="frameShadow">
+                          <enum>QFrame::Raised</enum>
                          </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-<<<<<<< HEAD
-=======
                          <layout class="QVBoxLayout" name="verticalLayout_188">
                           <item>
                            <widget class="QPushButton" name="crate4_SB9_subslot3">
@@ -21052,156 +18446,45 @@
                            </widget>
                           </item>
                          </layout>
->>>>>>> 2c75f13795697f5f7c196a857ad4c9844c85ef37
                         </widget>
                        </item>
                       </layout>
                      </widget>
                     </item>
-                   </layout>
-                  </widget>
-                 </item>
-                 <item row="2" column="1">
-                  <widget class="QFrame" name="frame_124">
-                   <property name="frameShape">
-                    <enum>QFrame::StyledPanel</enum>
-                   </property>
-                   <property name="frameShadow">
-                    <enum>QFrame::Raised</enum>
-                   </property>
-                   <layout class="QVBoxLayout" name="verticalLayout_87">
                     <item>
-                     <widget class="QPushButton" name="SB5_subslot4_27">
-                      <property name="autoFillBackground">
+                     <widget class="QFrame" name="frame_25">
+                      <property name="mouseTracking">
                        <bool>false</bool>
                       </property>
-                      <property name="text">
-                       <string>Subslot 4</string>
-                      </property>
-                      <property name="checkable">
+                      <property name="acceptDrops">
                        <bool>true</bool>
                       </property>
-                      <property name="checked">
-                       <bool>true</bool>
+                      <property name="styleSheet">
+                       <string notr="true"/>
                       </property>
-<<<<<<< HEAD
-                     </widget>
-                    </item>
-                    <item>
-                     <widget class="QWidget" name="widget_95" native="true">
-                      <layout class="QGridLayout" name="gridLayout_86">
-                       <item row="1" column="1">
-                        <widget class="QRadioButton" name="SB5_subslot4_28">
-=======
+                      <property name="frameShape">
+                       <enum>QFrame::StyledPanel</enum>
+                      </property>
+                      <property name="frameShadow">
+                       <enum>QFrame::Raised</enum>
+                      </property>
                       <layout class="QVBoxLayout" name="verticalLayout_51">
                        <property name="sizeConstraint">
                         <enum>QLayout::SetMaximumSize</enum>
                        </property>
                        <item>
                         <widget class="QPushButton" name="crate4_SB10">
->>>>>>> 2c75f13795697f5f7c196a857ad4c9844c85ef37
                          <property name="text">
-                          <string/>
+                          <string>Supply Board 10</string>
+                         </property>
+                         <property name="checkable">
+                          <bool>true</bool>
                          </property>
                          <property name="checked">
                           <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
                          </property>
                         </widget>
                        </item>
-                       <item row="0" column="2">
-                        <widget class="QRadioButton" name="SB5_subslot4_29">
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="checked">
-                          <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-                        </widget>
-                       </item>
-<<<<<<< HEAD
-                       <item row="0" column="1">
-                        <widget class="QRadioButton" name="SB5_subslot4_30">
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="checked">
-                          <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-                        </widget>
-                       </item>
-                       <item row="1" column="2">
-                        <widget class="QRadioButton" name="SB5_subslot4_31">
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="checked">
-                          <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-                        </widget>
-                       </item>
-                       <item row="0" column="3">
-                        <widget class="QRadioButton" name="SB5_subslot4_32">
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="checked">
-                          <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-                        </widget>
-                       </item>
-                       <item row="0" column="4">
-                        <widget class="QRadioButton" name="SB5_subslot4_33">
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="checked">
-                          <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-                        </widget>
-                       </item>
-                       <item row="1" column="3">
-                        <widget class="QRadioButton" name="SB5_subslot4_34">
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="checked">
-                          <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-                        </widget>
-                       </item>
-                       <item row="1" column="4">
-                        <widget class="QRadioButton" name="SB5_subslot4_35">
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="checked">
-                          <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-=======
                        <item>
                         <widget class="QWidget" name="widget_55" native="true">
                          <layout class="QGridLayout" name="gridLayout_22">
@@ -22025,14 +19308,39 @@
                            </widget>
                           </item>
                          </layout>
->>>>>>> 2c75f13795697f5f7c196a857ad4c9844c85ef37
                         </widget>
                        </item>
                       </layout>
                      </widget>
                     </item>
+                    <item>
+                     <spacer name="horizontalSpacer_4">
+                      <property name="orientation">
+                       <enum>Qt::Horizontal</enum>
+                      </property>
+                      <property name="sizeHint" stdset="0">
+                       <size>
+                        <width>40</width>
+                        <height>20</height>
+                       </size>
+                      </property>
+                     </spacer>
+                    </item>
                    </layout>
                   </widget>
+                 </item>
+                 <item>
+                  <spacer name="verticalSpacer_4">
+                   <property name="orientation">
+                    <enum>Qt::Vertical</enum>
+                   </property>
+                   <property name="sizeHint" stdset="0">
+                    <size>
+                     <width>20</width>
+                     <height>40</height>
+                    </size>
+                   </property>
+                  </spacer>
                  </item>
                 </layout>
                </widget>
@@ -22040,37 +19348,11 @@
              </layout>
             </widget>
            </item>
-           <item>
-            <spacer name="horizontalSpacer_4">
-             <property name="orientation">
-              <enum>Qt::Horizontal</enum>
-             </property>
-             <property name="sizeHint" stdset="0">
-              <size>
-               <width>40</width>
-               <height>20</height>
-              </size>
-             </property>
-            </spacer>
-           </item>
           </layout>
          </widget>
-        </item>
-        <item>
-         <spacer name="verticalSpacer_4">
-          <property name="orientation">
-           <enum>Qt::Vertical</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>20</width>
-            <height>40</height>
-           </size>
-          </property>
-         </spacer>
-        </item>
-       </layout>
-      </widget>
+        </widget>
+       </item>
+      </layout>
      </widget>
     </item>
    </layout>
