@@ -40,7 +40,7 @@ class MainWindow(QtGui.QMainWindow):
         self.crate = CrateTab()
         self.tboard = TBTab()
         self.mpl = MplCanvasStatic()
-        
+
         mpl_vbox = QtGui.QVBoxLayout()
         mpl_vbox.addWidget(self.mpl)
         mpl_vbox.addStretch(1)
@@ -49,13 +49,13 @@ class MainWindow(QtGui.QMainWindow):
         sidebar_vbox = QtGui.QVBoxLayout()
         sidebar_vbox.addWidget(self.sidebar)
         sidebar_vbox.addStretch(1)
-        self.sidebar_holder.setLayout(sidebar_vbox)          
+        self.sidebar_holder.setLayout(sidebar_vbox)
 
         dboard_vbox = QtGui.QVBoxLayout()
         dboard_vbox.addWidget(self.dboard)
         dboard_vbox.addStretch(1)
         self.distr_board_tab_holder.setLayout(dboard_vbox)
-        
+
         tboard_vbox = QtGui.QVBoxLayout()
         tboard_vbox.addWidget(self.tboard)
         tboard_vbox.addStretch(1)
@@ -66,13 +66,16 @@ class MainWindow(QtGui.QMainWindow):
         crate_vbox.addStretch(1)
         self.crate_tab_holder.setLayout(crate_vbox)
 
+        ct_fmt = 'crate{crate_num}'
+        sb_fmt = 'crate{crate_num}_SB{supply_board}'
+        ss_fmt = 'crate{crate_num}_SB{supply_board}_subslot{subslot}'
+        ch_fmt = 'crate{crate_num}_SB{supply_board}_subslot{subslot}_{channel}'
 
-        
         cts = []
         sbs = []
         sss = []
         chs = []
-        
+
         for crate_index in [1,2,3,4]:
             fmt = dict(crate_num=crate_index)
             cts.append(getattr(self.crate,ct_fmt.format(**fmt)))
@@ -80,12 +83,12 @@ class MainWindow(QtGui.QMainWindow):
             sss.append([])
             chs.append([])
             if crate_index < 3:
-				for sb_index in [1,2,3,4,5]:
-					fmt.update(supply_board=sb_index)
-					sbs[-1].append(getattr(self.crate,sb_fmt.format(**fmt)))
-					sss[-1].append([])
-					chs[-1].append([])
-					if sb_index!=5 : #
+                for sb_index in [1,2,3,4,5]:
+                    fmt.update(supply_board=sb_index)
+                    sbs[-1].append(getattr(self.crate,sb_fmt.format(**fmt)))
+                    sss[-1].append([])
+                    chs[-1].append([])
+                    if sb_index!=5 : #
                     ss_indexes = [1,2,3]
                 else:
                     ss_indexes = [1,2,3,4,5,6]
@@ -96,13 +99,13 @@ class MainWindow(QtGui.QMainWindow):
                     for ch_index in [1,2,3,4,5,6,7,8]:
                         fmt.update(channel=ch_index)
                         chs[-1][-1][-1].append(getattr(self.crate,ch_fmt.format(**fmt)))
-			else :
-				for sb_index in [1,2,3,4,5,6,7,8,9,10]:
-					fmt.update(supply_board=sb_index)
-					sbs[-1].append(getattr(self.crate,sb_fmt.format(**fmt)))
-					sss[-1].append([])
-					chs[-1].append([])
-					if sb_index!= 5 or sb_index != 10: #
+            else :
+                for sb_index in [1,2,3,4,5,6,7,8,9,10]:
+                    fmt.update(supply_board=sb_index)
+                    sbs[-1].append(getattr(self.crate,sb_fmt.format(**fmt)))
+                    sss[-1].append([])
+                    chs[-1].append([])
+                    if sb_index!= 5 or sb_index != 10: #
                     ss_indexes = [1,2,3]
                 else:
                     ss_indexes = [1,2,3,4,5,6]
@@ -113,8 +116,8 @@ class MainWindow(QtGui.QMainWindow):
                     for ch_index in [1,2,3,4,5,6,7,8]:
                         fmt.update(channel=ch_index)
                         chs[-1][-1][-1].append(getattr(self.crate,ch_fmt.format(**fmt)))
-					
-                
+
+
         for ct_index,ct in enumerate(cts):
             for sb_index,sb in enumerate(sbs[ct_index]):
                 ct.clicked.connect(sb.setChecked)
@@ -125,33 +128,33 @@ class MainWindow(QtGui.QMainWindow):
                         ss.clicked.connect(ch.setChecked)
                         sb.clicked.connect(ch.setChecked)
                         ct.clicked.connect(ch.setChecked)
-                        
+
                         ch.clicked.connect(ss.setChecked, any([c.isChecked() for c in chs[ct_index][sb_index][ss_index]]))
-                        
-                        _='''      
+
+                        _='''
                         #if ss is off and ch is clicked turn on ss(parent)
                         if ss.setChecked == False:
-                            ch.clicked.connect(ss.setChecked)                            
+                            ch.clicked.connect(ss.setChecked)
                             #if sb is off and ss is clicked turn on sb(parent)
                             if sb.setChecked == False:
                                 ss.clicked.connect(sb.setChecked)
                                 #if ct is off and sb is clicked turn on ct(parent)
-                                if ct.setChecked == False: 
+                                if ct.setChecked == False:
                                     sb.clicked.connect(ct.setChecked)
-                                    
+
                         #if sb is off and ss is clicked turn on sb(parent)
                         if sb.setChecked == False:
                             ss.clicked.connect(sb.setChecked)
                             #if ct is off and sb is clicked turn on ct(parent)
-                            if ct.setChecked == False: 
+                            if ct.setChecked == False:
                                 sb.clicked.connect(ct.setChecked)
-                            
+
                         #if ct is off and sb is clicked turn on ct(parent)
-                        if ct.setChecked == False: 
+                        if ct.setChecked == False:
                             sb.clicked.connect(ct.setChecked)
                         '''
 
-                        
+
             self.show()
             self.updating = False
 
