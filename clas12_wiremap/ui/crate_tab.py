@@ -55,35 +55,30 @@ class CrateTab(QtGui.QTabWidget):
         print(numOfButtonsOn)
         #       
         
-class MainWindow(QtGui.QMainWindow):
-    def __init__(self):
-        super(MainWindow, self).__init__()
-
-        self.central_widget = QtGui.QWidget(self)
-        self.setCentralWidget(self.central_widget)
-
-        hbox = QtGui.QHBoxLayout()
-        self.trial = CrateTab()
-        hbox.addWidget(self.trial)
-        hbox.addStretch(1)
-
-        vbox = QtGui.QVBoxLayout(self.central_widget)
-        vbox.addLayout(hbox)
-        vbox.addStretch(1)
-
-        self.show()
 
 
 if __name__ == '__main__':
     import sys
+    
+    class MainWindow(QtGui.QMainWindow):
+        def __init__(self):
+            super(MainWindow, self).__init__()
+
+            self.central_widget = QtGui.QWidget(self)
+            self.setCentralWidget(self.central_widget)
+
+            hbox = QtGui.QHBoxLayout()
+            self.trial = CrateTab()
+            hbox.addWidget(self.trial)
+            hbox.addStretch(1)
+
+            vbox = QtGui.QVBoxLayout(self.central_widget)
+            vbox.addLayout(hbox)
+            vbox.addStretch(1)
+
+            self.show()
+            
     app = QtGui.QApplication(sys.argv)
     main_window = MainWindow()
     sys.exit(app.exec_())
 
-                
-if __name__ == '__main__':
-    import sys
-    app = QtGui.QApplication(sys.argv)
-    main_window = MainWindow()
-    sys.exit(app.exec_())
-        
