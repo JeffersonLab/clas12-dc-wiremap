@@ -68,6 +68,75 @@ class MainWindow(QtGui.QMainWindow):
 
 
         
+<<<<<<< HEAD
+=======
+        cts = []
+        sbs = []
+        sss = []
+        chs = []
+        
+        for crate_index in [1,2]:
+            fmt = dict(crate_num=crate_index)
+            cts.append(getattr(self.crate,ct_fmt.format(**fmt)))
+            sbs.append([])
+            sss.append([])
+            chs.append([])
+            for sb_index in [1,2,3,4,5]:
+                fmt.update(supply_board=sb_index)
+                sbs[-1].append(getattr(self.crate,sb_fmt.format(**fmt)))
+                sss[-1].append([])
+                chs[-1].append([])
+                if sb_index < 5:
+                    ss_indexes = [1,2,3]
+                else:
+                    ss_indexes = [1,2,3,4,5,6]
+                for ss_index in ss_indexes:
+                    fmt.update(subslot=ss_index)
+                    sss[-1][-1].append(getattr(self.crate,ss_fmt.format(**fmt)))
+                    chs[-1][-1].append([])
+                    for ch_index in [1,2,3,4,5,6,7,8]:
+                        fmt.update(channel=ch_index)
+                        chs[-1][-1][-1].append(getattr(self.crate,ch_fmt.format(**fmt)))
+        for ct_index,ct in enumerate(cts):
+            for sb_index,sb in enumerate(sbs[ct_index]):
+                ct.clicked.connect(sb.setChecked)
+                for ss_index,ss in enumerate(sss[ct_index][sb_index]):
+                    sb.clicked.connect(ss.setChecked)
+                    ct.clicked.connect(ss.setChecked)
+                    for ch in chs[ct_index][sb_index][ss_index]:
+                        ss.clicked.connect(ch.setChecked)
+                        sb.clicked.connect(ch.setChecked)
+                        ct.clicked.connect(ch.setChecked)
+                        
+                        ch.clicked.connect(ss.setChecked, any([c.isChecked() for c in chs[ct_index][sb_index][ss_index]]))
+                        
+                        _='''      
+                        #if ss is off and ch is clicked turn on ss(parent)
+                        if ss.setChecked == False:
+                            ch.clicked.connect(ss.setChecked)                            
+                            #if sb is off and ss is clicked turn on sb(parent)
+                            if sb.setChecked == False:
+                                ss.clicked.connect(sb.setChecked)
+                                #if ct is off and sb is clicked turn on ct(parent)
+                                if ct.setChecked == False: 
+                                    sb.clicked.connect(ct.setChecked)
+                                    
+                        #if sb is off and ss is clicked turn on sb(parent)
+                        if sb.setChecked == False:
+                            ss.clicked.connect(sb.setChecked)
+                            #if ct is off and sb is clicked turn on ct(parent)
+                            if ct.setChecked == False: 
+                                sb.clicked.connect(ct.setChecked)
+                            
+                        #if ct is off and sb is clicked turn on ct(parent)
+                        if ct.setChecked == False: 
+                            sb.clicked.connect(ct.setChecked)
+                        '''
+
+                        
+            self.show()
+            self.updating = False
+>>>>>>> 2c75f13795697f5f7c196a857ad4c9844c85ef37
 
     def update_parameters(self):
         if not self.updating:
