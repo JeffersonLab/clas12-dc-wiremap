@@ -1,7 +1,12 @@
 from __future__ import print_function, division
 
 import os
-from PyQt4 import QtGui, uic
+from matplotlib.backends import qt4_compat
+use_pyside = qt4_compat.QT_API == qt4_compat.QT_API_PYSIDE
+if use_pyside:
+    from PySide import QtGui, QtCore, uic
+else:
+    from PyQt4 import QtGui, QtCore, uic
 
 from clas12_wiremap import initialize_session, dc_fill_tables, dc_find_connections
 
@@ -10,8 +15,6 @@ class TBTab(QtGui.QTabWidget):
         super(QtGui.QTabWidget, self).__init__(parent)
         curdir = os.path.dirname(os.path.realpath(__file__))
         uic.loadUi(os.path.join(curdir,'TBTab.ui'), self)
-
-
 
     def get_buttons(self):
 
