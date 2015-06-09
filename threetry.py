@@ -24,7 +24,7 @@ from db_tab import DBTab
 from tb_tab import TBTab
 from crate_tab import CrateTab
 from sidebar_view import SidebarWid
-from mpl_canvas import MplCanvasStatic
+from mpl_canvasv2 import MplCanvasStatic
 
 def fn():
     return rand.randint(0,7)
@@ -67,11 +67,9 @@ class MainWindow(QtGui.QMainWindow):
         self.crate_tab_holder.setLayout(crate_vbox)
 
 
-        ct_fmt = 'crate{crate_num}'
-        sb_fmt = 'crate{crate_num}_SB{supply_board}'
-        ss_fmt = 'crate{crate_num}_SB{supply_board}_subslot{subslot}'
-        ch_fmt = 'crate{crate_num}_SB{supply_board}_subslot{subslot}_{channel}'
         
+<<<<<<< HEAD
+=======
         cts = []
         sbs = []
         sss = []
@@ -158,6 +156,7 @@ class MainWindow(QtGui.QMainWindow):
                         
             self.show()
             self.updating = False
+>>>>>>> 2c75f13795697f5f7c196a857ad4c9844c85ef37
 
     def update_parameters(self):
         if not self.updating:
