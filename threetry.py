@@ -68,8 +68,6 @@ class MainWindow(QtGui.QMainWindow):
 
 
         
-<<<<<<< HEAD
-=======
         cts = []
         sbs = []
         sss = []
@@ -156,7 +154,6 @@ class MainWindow(QtGui.QMainWindow):
                         
             self.show()
             self.updating = False
->>>>>>> 2c75f13795697f5f7c196a857ad4c9844c85ef37
 
     def update_parameters(self):
         if not self.updating:
