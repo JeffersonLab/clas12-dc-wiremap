@@ -77,18 +77,19 @@ class MainWindow(QtGui.QMainWindow):
         sss = []
         chs = []
         
-        for crate_index in [1,2]:
+        for crate_index in [1,2,3,4]:
             fmt = dict(crate_num=crate_index)
             cts.append(getattr(self.crate,ct_fmt.format(**fmt)))
             sbs.append([])
             sss.append([])
             chs.append([])
-            for sb_index in [1,2,3,4,5]:
-                fmt.update(supply_board=sb_index)
-                sbs[-1].append(getattr(self.crate,sb_fmt.format(**fmt)))
-                sss[-1].append([])
-                chs[-1].append([])
-                if sb_index < 5:
+            if crate_index < 3:
+				for sb_index in [1,2,3,4,5]:
+					fmt.update(supply_board=sb_index)
+					sbs[-1].append(getattr(self.crate,sb_fmt.format(**fmt)))
+					sss[-1].append([])
+					chs[-1].append([])
+					if sb_index!=5 : #
                     ss_indexes = [1,2,3]
                 else:
                     ss_indexes = [1,2,3,4,5,6]
@@ -99,6 +100,25 @@ class MainWindow(QtGui.QMainWindow):
                     for ch_index in [1,2,3,4,5,6,7,8]:
                         fmt.update(channel=ch_index)
                         chs[-1][-1][-1].append(getattr(self.crate,ch_fmt.format(**fmt)))
+			else :
+				for sb_index in [1,2,3,4,5,6,7,8,9,10]:
+					fmt.update(supply_board=sb_index)
+					sbs[-1].append(getattr(self.crate,sb_fmt.format(**fmt)))
+					sss[-1].append([])
+					chs[-1].append([])
+					if sb_index!= 5 or sb_index != 10: #
+                    ss_indexes = [1,2,3]
+                else:
+                    ss_indexes = [1,2,3,4,5,6]
+                for ss_index in ss_indexes:
+                    fmt.update(subslot=ss_index)
+                    sss[-1][-1].append(getattr(self.crate,ss_fmt.format(**fmt)))
+                    chs[-1][-1].append([])
+                    for ch_index in [1,2,3,4,5,6,7,8]:
+                        fmt.update(channel=ch_index)
+                        chs[-1][-1][-1].append(getattr(self.crate,ch_fmt.format(**fmt)))
+					
+                
         for ct_index,ct in enumerate(cts):
             for sb_index,sb in enumerate(sbs[ct_index]):
                 ct.clicked.connect(sb.setChecked)
