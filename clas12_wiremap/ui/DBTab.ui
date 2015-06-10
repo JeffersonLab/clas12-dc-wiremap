@@ -20,7 +20,7 @@
    <string>TabWidget</string>
   </property>
   <property name="currentIndex">
-   <number>0</number>
+   <number>3</number>
   </property>
   <widget class="QWidget" name="sector1">
    <attribute name="title">
@@ -2330,7 +2330,7 @@
                    <item>
                     <layout class="QVBoxLayout" name="verticalLayout_462">
                      <item>
-                      <widget class="QRadioButton" name="s1_b_b4_q3_1">
+                      <widget class="QRadioButton" name="sc1_b_b4_q3_1">
                        <property name="text">
                         <string>1</string>
                        </property>
@@ -4348,7 +4348,7 @@
                <number>1</number>
               </property>
               <item>
-               <widget class="QPushButton" name="sc4_b_2">
+               <widget class="QPushButton" name="sc2_b">
                 <property name="sizePolicy">
                  <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
                   <horstretch>0</horstretch>
@@ -4418,7 +4418,7 @@
                    <item>
                     <layout class="QVBoxLayout" name="verticalLayout_399">
                      <item>
-                      <widget class="QRadioButton" name="sc2_f_b6_q1_3">
+                      <widget class="QRadioButton" name="sc2_b_b1_q1_1">
                        <property name="text">
                         <string>1</string>
                        </property>
@@ -4434,7 +4434,7 @@
                       </widget>
                      </item>
                      <item>
-                      <widget class="QRadioButton" name="sc2_f_b6_q1_4">
+                      <widget class="QRadioButton" name="sc2_b_b1_q1_2">
                        <property name="text">
                         <string>2</string>
                        </property>
@@ -4480,7 +4480,7 @@
                    <item>
                     <layout class="QVBoxLayout" name="verticalLayout_400">
                      <item>
-                      <widget class="QRadioButton" name="sc2_f_b6_q2_3">
+                      <widget class="QRadioButton" name="sc2_b_b1_q2_1">
                        <property name="text">
                         <string>1</string>
                        </property>
@@ -4496,7 +4496,7 @@
                       </widget>
                      </item>
                      <item>
-                      <widget class="QRadioButton" name="sc2_f_b6_q2_4">
+                      <widget class="QRadioButton" name="sc2_b_b1_q2_2">
                        <property name="text">
                         <string>2</string>
                        </property>
@@ -4542,7 +4542,7 @@
                    <item>
                     <layout class="QVBoxLayout" name="verticalLayout_401">
                      <item>
-                      <widget class="QRadioButton" name="sc2_f_b6_q3_3">
+                      <widget class="QRadioButton" name="sc2_b_b1_q3_1">
                        <property name="text">
                         <string>1</string>
                        </property>
@@ -4558,7 +4558,7 @@
                       </widget>
                      </item>
                      <item>
-                      <widget class="QRadioButton" name="sc2_f_b6_q3_4">
+                      <widget class="QRadioButton" name="sc2_b_b1_q3_2">
                        <property name="text">
                         <string>2</string>
                        </property>
@@ -5349,7 +5349,7 @@
                       </widget>
                      </item>
                      <item>
-                      <widget class="QRadioButton" name="sc2_b_b5_q2_3">
+                      <widget class="QRadioButton" name="sc2_b_b5_q2_2">
                        <property name="text">
                         <string>2</string>
                        </property>
@@ -5411,7 +5411,7 @@
                       </widget>
                      </item>
                      <item>
-                      <widget class="QRadioButton" name="sc2_b_b5_q3_3">
+                      <widget class="QRadioButton" name="sc2_b_b5_q3_2">
                        <property name="text">
                         <string>2</string>
                        </property>
@@ -5526,7 +5526,7 @@
                     <number>0</number>
                    </property>
                    <item>
-                    <widget class="QPushButton" name="sc2_b_b5_q2_2">
+                    <widget class="QPushButton" name="sc2_b_b6_q2">
                      <property name="sizePolicy">
                       <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
                        <horstretch>0</horstretch>
@@ -5588,7 +5588,7 @@
                     <number>0</number>
                    </property>
                    <item>
-                    <widget class="QPushButton" name="sc2_b_b5_q3_2">
+                    <widget class="QPushButton" name="sc2_b_b6_q3">
                      <property name="sizePolicy">
                       <sizepolicy hsizetype="Minimum" vsizetype="Ignored">
                        <horstretch>0</horstretch>
