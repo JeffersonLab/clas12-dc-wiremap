@@ -221,7 +221,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl1_b2_1">
                    <property name="text">
-                    <string>3</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -237,7 +237,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl1_b2_2">
                    <property name="text">
-                    <string>4</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -266,7 +266,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl1_b3_1">
                    <property name="text">
-                    <string>5</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -282,7 +282,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl1_b3_2">
                    <property name="text">
-                    <string>6</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -311,7 +311,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl1_b4_1">
                    <property name="text">
-                    <string>7</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -327,7 +327,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl1_b4_2">
                    <property name="text">
-                    <string>8</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -356,7 +356,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl1_b5_1">
                    <property name="text">
-                    <string>9</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -372,7 +372,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl1_b5_2">
                    <property name="text">
-                    <string>10</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -401,7 +401,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl1_b6_1">
                    <property name="text">
-                    <string>11</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -430,7 +430,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl1_b7_1">
                    <property name="text">
-                    <string>12</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -526,7 +526,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl2_b2_1">
                    <property name="text">
-                    <string>3</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -542,7 +542,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl2_b2_2">
                    <property name="text">
-                    <string>4</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -571,7 +571,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl2_b3_1">
                    <property name="text">
-                    <string>5</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -587,7 +587,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl2_b3_2">
                    <property name="text">
-                    <string>6</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -616,7 +616,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl2_b4_1">
                    <property name="text">
-                    <string>7</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -632,7 +632,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl2_b4_2">
                    <property name="text">
-                    <string>8</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -661,7 +661,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl2_b5_1">
                    <property name="text">
-                    <string>9</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -677,7 +677,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl2_b5_2">
                    <property name="text">
-                    <string>10</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -706,7 +706,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl2_b6_1">
                    <property name="text">
-                    <string>11</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -735,7 +735,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl2_b7_1">
                    <property name="text">
-                    <string>12</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -831,7 +831,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl3_b2_1">
                    <property name="text">
-                    <string>3</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -847,7 +847,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl3_b2_2">
                    <property name="text">
-                    <string>4</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -876,7 +876,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl3_b3_1">
                    <property name="text">
-                    <string>5</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -892,7 +892,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl3_b3_2">
                    <property name="text">
-                    <string>6</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -921,7 +921,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl3_b4_1">
                    <property name="text">
-                    <string>7</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -937,7 +937,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl3_b4_2">
                    <property name="text">
-                    <string>8</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -966,7 +966,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl3_b5_1">
                    <property name="text">
-                    <string>9</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -982,7 +982,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl3_b5_2">
                    <property name="text">
-                    <string>10</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -1011,7 +1011,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl3_b6_1">
                    <property name="text">
-                    <string>11</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -1040,7 +1040,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl3_b7_1">
                    <property name="text">
-                    <string>12</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -1133,7 +1133,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl4_b2_1">
                    <property name="text">
-                    <string>3</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -1149,7 +1149,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl4_b2_2">
                    <property name="text">
-                    <string>4</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -1178,7 +1178,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl4_b3_1">
                    <property name="text">
-                    <string>5</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -1194,7 +1194,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl4_b3_2">
                    <property name="text">
-                    <string>6</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -1223,7 +1223,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl4_b4_1">
                    <property name="text">
-                    <string>7</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -1239,7 +1239,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl4_b4_2">
                    <property name="text">
-                    <string>8</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -1268,7 +1268,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl4_b5_1">
                    <property name="text">
-                    <string>9</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -1284,7 +1284,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl4_b5_2">
                    <property name="text">
-                    <string>10</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -1313,7 +1313,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl4_b6_1">
                    <property name="text">
-                    <string>11</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -1342,7 +1342,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl4_b7_1">
                    <property name="text">
-                    <string>12</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -1438,7 +1438,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl5_b2_1">
                    <property name="text">
-                    <string>3</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -1454,7 +1454,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl5_b2_2">
                    <property name="text">
-                    <string>4</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -1483,7 +1483,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl5_b3_1">
                    <property name="text">
-                    <string>5</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -1499,7 +1499,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl5_b3_2">
                    <property name="text">
-                    <string>6</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -1528,7 +1528,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl5_b4_1">
                    <property name="text">
-                    <string>7</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -1544,7 +1544,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl5_b4_2">
                    <property name="text">
-                    <string>8</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -1573,7 +1573,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl5_b5_1">
                    <property name="text">
-                    <string>9</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -1589,7 +1589,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl5_b5_2">
                    <property name="text">
-                    <string>10</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -1618,7 +1618,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl5_b6_1">
                    <property name="text">
-                    <string>11</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -1647,7 +1647,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc1_sl5_b7_1">
                    <property name="text">
-                    <string>12</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -1758,7 +1758,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>3</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -1780,7 +1780,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>4</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -1815,7 +1815,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>5</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -1837,7 +1837,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>6</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -1872,7 +1872,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>7</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -1894,7 +1894,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>8</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -1929,7 +1929,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>9</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -1951,7 +1951,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>10</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -1986,7 +1986,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>11</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -2021,7 +2021,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>12</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -2293,7 +2293,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl1_b2_1">
                    <property name="text">
-                    <string>3</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -2309,7 +2309,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl1_b2_2">
                    <property name="text">
-                    <string>4</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -2338,7 +2338,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl1_b3_1">
                    <property name="text">
-                    <string>5</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -2354,7 +2354,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl1_b3_2">
                    <property name="text">
-                    <string>6</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -2383,7 +2383,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl1_b4_1">
                    <property name="text">
-                    <string>7</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -2399,7 +2399,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl1_b4_2">
                    <property name="text">
-                    <string>8</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -2428,7 +2428,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl1_b5_1">
                    <property name="text">
-                    <string>9</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -2444,7 +2444,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl1_b5_2">
                    <property name="text">
-                    <string>10</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -2473,7 +2473,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl1_b6_1">
                    <property name="text">
-                    <string>11</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -2502,7 +2502,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl1_b7_1">
                    <property name="text">
-                    <string>12</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -2598,7 +2598,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl2_b2_1">
                    <property name="text">
-                    <string>3</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -2614,7 +2614,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl2_b2_2">
                    <property name="text">
-                    <string>4</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -2643,7 +2643,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl2_b3_1">
                    <property name="text">
-                    <string>5</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -2659,7 +2659,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl2_b3_2">
                    <property name="text">
-                    <string>6</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -2688,7 +2688,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl2_b4_1">
                    <property name="text">
-                    <string>7</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -2704,7 +2704,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl2_b4_2">
                    <property name="text">
-                    <string>8</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -2733,7 +2733,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl2_b5_1">
                    <property name="text">
-                    <string>9</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -2749,7 +2749,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl2_b5_2">
                    <property name="text">
-                    <string>10</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -2778,7 +2778,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl2_b6_1">
                    <property name="text">
-                    <string>11</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -2807,7 +2807,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl2_b7_1">
                    <property name="text">
-                    <string>12</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -2903,7 +2903,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl3_b2_1">
                    <property name="text">
-                    <string>3</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -2919,7 +2919,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl3_b2_2">
                    <property name="text">
-                    <string>4</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -2948,7 +2948,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl3_b3_1">
                    <property name="text">
-                    <string>5</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -2964,7 +2964,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl3_b3_2">
                    <property name="text">
-                    <string>6</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -2993,7 +2993,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl3_b4_1">
                    <property name="text">
-                    <string>7</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -3009,7 +3009,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl3_b4_2">
                    <property name="text">
-                    <string>8</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -3038,7 +3038,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl3_b5_1">
                    <property name="text">
-                    <string>9</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -3054,7 +3054,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl3_b5_2">
                    <property name="text">
-                    <string>10</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -3083,7 +3083,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl3_b6_1">
                    <property name="text">
-                    <string>11</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -3112,7 +3112,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl3_b7_1">
                    <property name="text">
-                    <string>12</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -3205,7 +3205,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl4_b2_1">
                    <property name="text">
-                    <string>3</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -3221,7 +3221,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl4_b2_2">
                    <property name="text">
-                    <string>4</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -3250,7 +3250,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl4_b3_1">
                    <property name="text">
-                    <string>5</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -3266,7 +3266,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl4_b3_2">
                    <property name="text">
-                    <string>6</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -3295,7 +3295,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl4_b4_1">
                    <property name="text">
-                    <string>7</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -3311,7 +3311,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl4_b4_2">
                    <property name="text">
-                    <string>8</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -3340,7 +3340,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl4_b5_1">
                    <property name="text">
-                    <string>9</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -3356,7 +3356,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl4_b5_2">
                    <property name="text">
-                    <string>10</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -3385,7 +3385,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl4_b6_1">
                    <property name="text">
-                    <string>11</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -3414,7 +3414,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl4_b7_1">
                    <property name="text">
-                    <string>12</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -3510,7 +3510,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl5_b2_1">
                    <property name="text">
-                    <string>3</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -3526,7 +3526,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl5_b2_2">
                    <property name="text">
-                    <string>4</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -3555,7 +3555,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl5_b3_1">
                    <property name="text">
-                    <string>5</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -3571,7 +3571,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl5_b3_2">
                    <property name="text">
-                    <string>6</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -3600,7 +3600,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl5_b4_1">
                    <property name="text">
-                    <string>7</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -3616,7 +3616,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl5_b4_2">
                    <property name="text">
-                    <string>8</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -3645,7 +3645,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl5_b5_1">
                    <property name="text">
-                    <string>9</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -3661,7 +3661,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl5_b5_2">
                    <property name="text">
-                    <string>10</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -3690,7 +3690,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl5_b6_1">
                    <property name="text">
-                    <string>11</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -3719,7 +3719,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc2_sl5_b7_1">
                    <property name="text">
-                    <string>12</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -3830,7 +3830,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>3</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -3852,7 +3852,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>4</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -3887,7 +3887,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>5</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -3909,7 +3909,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>6</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -3944,7 +3944,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>7</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -3966,7 +3966,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>8</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -4001,7 +4001,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>9</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -4023,7 +4023,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>10</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -4058,7 +4058,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>11</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -4093,7 +4093,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>12</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -4365,7 +4365,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl1_b2_1">
                    <property name="text">
-                    <string>3</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -4381,7 +4381,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl1_b2_2">
                    <property name="text">
-                    <string>4</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -4410,7 +4410,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl1_b3_1">
                    <property name="text">
-                    <string>5</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -4426,7 +4426,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl1_b3_2">
                    <property name="text">
-                    <string>6</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -4455,7 +4455,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl1_b4_1">
                    <property name="text">
-                    <string>7</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -4471,7 +4471,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl1_b4_2">
                    <property name="text">
-                    <string>8</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -4500,7 +4500,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl1_b5_1">
                    <property name="text">
-                    <string>9</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -4516,7 +4516,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl1_b5_2">
                    <property name="text">
-                    <string>10</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -4545,7 +4545,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl1_b6_1">
                    <property name="text">
-                    <string>11</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -4574,7 +4574,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl1_b7_1">
                    <property name="text">
-                    <string>12</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -4670,7 +4670,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl2_b2_1">
                    <property name="text">
-                    <string>3</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -4686,7 +4686,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl2_b2_2">
                    <property name="text">
-                    <string>4</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -4715,7 +4715,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl2_b3_1">
                    <property name="text">
-                    <string>5</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -4731,7 +4731,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl2_b3_2">
                    <property name="text">
-                    <string>6</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -4760,7 +4760,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl2_b4_1">
                    <property name="text">
-                    <string>7</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -4776,7 +4776,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl2_b4_2">
                    <property name="text">
-                    <string>8</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -4805,7 +4805,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl2_b5_1">
                    <property name="text">
-                    <string>9</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -4821,7 +4821,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl2_b5_2">
                    <property name="text">
-                    <string>10</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -4850,7 +4850,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl2_b6_1">
                    <property name="text">
-                    <string>11</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -4879,7 +4879,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl2_b7_1">
                    <property name="text">
-                    <string>12</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -4975,7 +4975,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl3_b2_1">
                    <property name="text">
-                    <string>3</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -4991,7 +4991,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl3_b2_2">
                    <property name="text">
-                    <string>4</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -5020,7 +5020,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl3_b3_1">
                    <property name="text">
-                    <string>5</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -5036,7 +5036,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl3_b3_2">
                    <property name="text">
-                    <string>6</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -5065,7 +5065,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl3_b4_1">
                    <property name="text">
-                    <string>7</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -5081,7 +5081,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl3_b4_2">
                    <property name="text">
-                    <string>8</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -5110,7 +5110,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl3_b5_1">
                    <property name="text">
-                    <string>9</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -5126,7 +5126,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl3_b5_2">
                    <property name="text">
-                    <string>10</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -5155,7 +5155,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl3_b6_1">
                    <property name="text">
-                    <string>11</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -5184,7 +5184,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl3_b7_1">
                    <property name="text">
-                    <string>12</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -5277,7 +5277,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl4_b2_1">
                    <property name="text">
-                    <string>3</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -5293,7 +5293,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl4_b2_2">
                    <property name="text">
-                    <string>4</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -5322,7 +5322,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl4_b3_1">
                    <property name="text">
-                    <string>5</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -5338,7 +5338,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl4_b3_2">
                    <property name="text">
-                    <string>6</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -5367,7 +5367,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl4_b4_1">
                    <property name="text">
-                    <string>7</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -5383,7 +5383,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl4_b4_2">
                    <property name="text">
-                    <string>8</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -5412,7 +5412,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl4_b5_1">
                    <property name="text">
-                    <string>9</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -5428,7 +5428,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl4_b5_2">
                    <property name="text">
-                    <string>10</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -5457,7 +5457,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl4_b6_1">
                    <property name="text">
-                    <string>11</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -5486,7 +5486,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl4_b7_1">
                    <property name="text">
-                    <string>12</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -5582,7 +5582,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl5_b2_1">
                    <property name="text">
-                    <string>3</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -5598,7 +5598,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl5_b2_2">
                    <property name="text">
-                    <string>4</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -5627,7 +5627,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl5_b3_1">
                    <property name="text">
-                    <string>5</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -5643,7 +5643,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl5_b3_2">
                    <property name="text">
-                    <string>6</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -5672,7 +5672,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl5_b4_1">
                    <property name="text">
-                    <string>7</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -5688,7 +5688,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl5_b4_2">
                    <property name="text">
-                    <string>8</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -5717,7 +5717,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl5_b5_1">
                    <property name="text">
-                    <string>9</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -5733,7 +5733,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl5_b5_2">
                    <property name="text">
-                    <string>10</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -5762,7 +5762,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl5_b6_1">
                    <property name="text">
-                    <string>11</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -5791,7 +5791,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc3_sl5_b7_1">
                    <property name="text">
-                    <string>12</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -5902,7 +5902,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>3</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -5924,7 +5924,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>4</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -5959,7 +5959,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>5</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -5981,7 +5981,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>6</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -6016,7 +6016,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>7</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -6038,7 +6038,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>8</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -6073,7 +6073,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>9</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -6095,7 +6095,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>10</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -6130,7 +6130,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>11</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -6165,7 +6165,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>12</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -6437,7 +6437,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl1_b2_1">
                    <property name="text">
-                    <string>3</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -6453,7 +6453,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl1_b2_2">
                    <property name="text">
-                    <string>4</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -6482,7 +6482,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl1_b3_1">
                    <property name="text">
-                    <string>5</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -6498,7 +6498,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl1_b3_2">
                    <property name="text">
-                    <string>6</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -6527,7 +6527,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl1_b4_1">
                    <property name="text">
-                    <string>7</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -6543,7 +6543,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl1_b4_2">
                    <property name="text">
-                    <string>8</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -6572,7 +6572,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl1_b5_1">
                    <property name="text">
-                    <string>9</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -6588,7 +6588,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl1_b5_2">
                    <property name="text">
-                    <string>10</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -6617,7 +6617,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl1_b6_1">
                    <property name="text">
-                    <string>11</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -6646,7 +6646,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl1_b7_1">
                    <property name="text">
-                    <string>12</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -6742,7 +6742,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl2_b2_1">
                    <property name="text">
-                    <string>3</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -6758,7 +6758,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl2_b2_2">
                    <property name="text">
-                    <string>4</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -6787,7 +6787,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl2_b3_1">
                    <property name="text">
-                    <string>5</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -6803,7 +6803,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl2_b3_2">
                    <property name="text">
-                    <string>6</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -6832,7 +6832,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl2_b4_1">
                    <property name="text">
-                    <string>7</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -6848,7 +6848,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl2_b4_2">
                    <property name="text">
-                    <string>8</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -6877,7 +6877,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl2_b5_1">
                    <property name="text">
-                    <string>9</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -6893,7 +6893,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl2_b5_2">
                    <property name="text">
-                    <string>10</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -6922,7 +6922,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl2_b6_1">
                    <property name="text">
-                    <string>11</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -6951,7 +6951,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl2_b7_1">
                    <property name="text">
-                    <string>12</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -7047,7 +7047,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl3_b2_1">
                    <property name="text">
-                    <string>3</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -7063,7 +7063,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl3_b2_2">
                    <property name="text">
-                    <string>4</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -7092,7 +7092,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl3_b3_1">
                    <property name="text">
-                    <string>5</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -7108,7 +7108,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl3_b3_2">
                    <property name="text">
-                    <string>6</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -7137,7 +7137,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl3_b4_1">
                    <property name="text">
-                    <string>7</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -7153,7 +7153,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl3_b4_2">
                    <property name="text">
-                    <string>8</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -7182,7 +7182,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl3_b5_1">
                    <property name="text">
-                    <string>9</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -7198,7 +7198,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl3_b5_2">
                    <property name="text">
-                    <string>10</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -7227,7 +7227,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl3_b6_1">
                    <property name="text">
-                    <string>11</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -7256,7 +7256,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl3_b7_1">
                    <property name="text">
-                    <string>12</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -7349,7 +7349,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl4_b2_1">
                    <property name="text">
-                    <string>3</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -7365,7 +7365,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl4_b2_2">
                    <property name="text">
-                    <string>4</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -7394,7 +7394,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl4_b3_1">
                    <property name="text">
-                    <string>5</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -7410,7 +7410,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl4_b3_2">
                    <property name="text">
-                    <string>6</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -7439,7 +7439,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl4_b4_1">
                    <property name="text">
-                    <string>7</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -7455,7 +7455,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl4_b4_2">
                    <property name="text">
-                    <string>8</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -7484,7 +7484,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl4_b5_1">
                    <property name="text">
-                    <string>9</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -7500,7 +7500,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl4_b5_2">
                    <property name="text">
-                    <string>10</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -7529,7 +7529,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl4_b6_1">
                    <property name="text">
-                    <string>11</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -7558,7 +7558,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl4_b7_1">
                    <property name="text">
-                    <string>12</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -7654,7 +7654,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl5_b2_1">
                    <property name="text">
-                    <string>3</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -7670,7 +7670,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl5_b2_2">
                    <property name="text">
-                    <string>4</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -7699,7 +7699,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl5_b3_1">
                    <property name="text">
-                    <string>5</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -7715,7 +7715,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl5_b3_2">
                    <property name="text">
-                    <string>6</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -7744,7 +7744,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl5_b4_1">
                    <property name="text">
-                    <string>7</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -7760,7 +7760,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl5_b4_2">
                    <property name="text">
-                    <string>8</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -7789,7 +7789,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl5_b5_1">
                    <property name="text">
-                    <string>9</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -7805,7 +7805,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl5_b5_2">
                    <property name="text">
-                    <string>10</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -7834,7 +7834,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl5_b6_1">
                    <property name="text">
-                    <string>11</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -7863,7 +7863,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc4_sl5_b7_1">
                    <property name="text">
-                    <string>12</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -7974,7 +7974,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>3</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -7996,7 +7996,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>4</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -8031,7 +8031,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>5</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -8053,7 +8053,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>6</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -8088,7 +8088,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>7</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -8110,7 +8110,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>8</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -8145,7 +8145,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>9</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -8167,7 +8167,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>10</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -8202,7 +8202,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>11</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -8237,7 +8237,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>12</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -8509,7 +8509,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl1_b2_1">
                    <property name="text">
-                    <string>3</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -8525,7 +8525,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl1_b2_2">
                    <property name="text">
-                    <string>4</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -8554,7 +8554,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl1_b3_1">
                    <property name="text">
-                    <string>5</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -8570,7 +8570,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl1_b3_2">
                    <property name="text">
-                    <string>6</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -8599,7 +8599,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl1_b4_1">
                    <property name="text">
-                    <string>7</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -8615,7 +8615,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl1_b4_2">
                    <property name="text">
-                    <string>8</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -8644,7 +8644,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl1_b5_1">
                    <property name="text">
-                    <string>9</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -8660,7 +8660,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl1_b5_2">
                    <property name="text">
-                    <string>10</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -8689,7 +8689,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl1_b6_1">
                    <property name="text">
-                    <string>11</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -8718,7 +8718,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl1_b7_1">
                    <property name="text">
-                    <string>12</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -8814,7 +8814,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl2_b2_1">
                    <property name="text">
-                    <string>3</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -8830,7 +8830,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl2_b2_2">
                    <property name="text">
-                    <string>4</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -8859,7 +8859,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl2_b3_1">
                    <property name="text">
-                    <string>5</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -8875,7 +8875,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl2_b3_2">
                    <property name="text">
-                    <string>6</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -8904,7 +8904,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl2_b4_1">
                    <property name="text">
-                    <string>7</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -8920,7 +8920,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl2_b4_2">
                    <property name="text">
-                    <string>8</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -8949,7 +8949,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl2_b5_1">
                    <property name="text">
-                    <string>9</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -8965,7 +8965,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl2_b5_2">
                    <property name="text">
-                    <string>10</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -8994,7 +8994,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl2_b6_1">
                    <property name="text">
-                    <string>11</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -9023,7 +9023,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl2_b7_1">
                    <property name="text">
-                    <string>12</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -9119,7 +9119,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl3_b2_1">
                    <property name="text">
-                    <string>3</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -9135,7 +9135,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl3_b2_2">
                    <property name="text">
-                    <string>4</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -9164,7 +9164,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl3_b3_1">
                    <property name="text">
-                    <string>5</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -9180,7 +9180,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl3_b3_2">
                    <property name="text">
-                    <string>6</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -9209,7 +9209,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl3_b4_1">
                    <property name="text">
-                    <string>7</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -9225,7 +9225,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl3_b4_2">
                    <property name="text">
-                    <string>8</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -9254,7 +9254,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl3_b5_1">
                    <property name="text">
-                    <string>9</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -9270,7 +9270,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl3_b5_2">
                    <property name="text">
-                    <string>10</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -9299,7 +9299,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl3_b6_1">
                    <property name="text">
-                    <string>11</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -9328,7 +9328,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl3_b7_1">
                    <property name="text">
-                    <string>12</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -9421,7 +9421,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl4_b2_1">
                    <property name="text">
-                    <string>3</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -9437,7 +9437,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl4_b2_2">
                    <property name="text">
-                    <string>4</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -9466,7 +9466,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl4_b3_1">
                    <property name="text">
-                    <string>5</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -9482,7 +9482,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl4_b3_2">
                    <property name="text">
-                    <string>6</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -9511,7 +9511,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl4_b4_1">
                    <property name="text">
-                    <string>7</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -9527,7 +9527,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl4_b4_2">
                    <property name="text">
-                    <string>8</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -9556,7 +9556,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl4_b5_1">
                    <property name="text">
-                    <string>9</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -9572,7 +9572,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl4_b5_2">
                    <property name="text">
-                    <string>10</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -9601,7 +9601,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl4_b6_1">
                    <property name="text">
-                    <string>11</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -9630,7 +9630,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl4_b7_1">
                    <property name="text">
-                    <string>12</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -9726,7 +9726,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl5_b2_1">
                    <property name="text">
-                    <string>3</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -9742,7 +9742,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl5_b2_2">
                    <property name="text">
-                    <string>4</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -9771,7 +9771,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl5_b3_1">
                    <property name="text">
-                    <string>5</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -9787,7 +9787,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl5_b3_2">
                    <property name="text">
-                    <string>6</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -9816,7 +9816,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl5_b4_1">
                    <property name="text">
-                    <string>7</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -9832,7 +9832,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl5_b4_2">
                    <property name="text">
-                    <string>8</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -9861,7 +9861,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl5_b5_1">
                    <property name="text">
-                    <string>9</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -9877,7 +9877,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl5_b5_2">
                    <property name="text">
-                    <string>10</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -9906,7 +9906,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl5_b6_1">
                    <property name="text">
-                    <string>11</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -9935,7 +9935,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc5_sl5_b7_1">
                    <property name="text">
-                    <string>12</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -10046,7 +10046,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>3</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -10068,7 +10068,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>4</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -10103,7 +10103,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>5</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -10125,7 +10125,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>6</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -10160,7 +10160,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>7</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -10182,7 +10182,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>8</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -10217,7 +10217,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>9</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -10239,7 +10239,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>10</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -10274,7 +10274,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>11</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -10309,7 +10309,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>12</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -10581,7 +10581,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl1_b2_1">
                    <property name="text">
-                    <string>3</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -10597,7 +10597,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl1_b2_2">
                    <property name="text">
-                    <string>4</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -10626,7 +10626,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl1_b3_1">
                    <property name="text">
-                    <string>5</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -10642,7 +10642,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl1_b3_2">
                    <property name="text">
-                    <string>6</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -10671,7 +10671,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl1_b4_1">
                    <property name="text">
-                    <string>7</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -10687,7 +10687,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl1_b4_2">
                    <property name="text">
-                    <string>8</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -10716,7 +10716,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl1_b5_1">
                    <property name="text">
-                    <string>9</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -10732,7 +10732,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl1_b5_2">
                    <property name="text">
-                    <string>10</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -10761,7 +10761,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl1_b6_1">
                    <property name="text">
-                    <string>11</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -10790,7 +10790,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl1_b7_1">
                    <property name="text">
-                    <string>12</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -10886,7 +10886,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl2_b2_1">
                    <property name="text">
-                    <string>3</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -10902,7 +10902,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl2_b2_2">
                    <property name="text">
-                    <string>4</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -10931,7 +10931,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl2_b3_1">
                    <property name="text">
-                    <string>5</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -10947,7 +10947,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl2_b3_2">
                    <property name="text">
-                    <string>6</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -10976,7 +10976,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl2_b4_1">
                    <property name="text">
-                    <string>7</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -10992,7 +10992,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl2_b4_2">
                    <property name="text">
-                    <string>8</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -11021,7 +11021,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl2_b5_1">
                    <property name="text">
-                    <string>9</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -11037,7 +11037,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl2_b5_2">
                    <property name="text">
-                    <string>10</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -11066,7 +11066,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl2_b6_1">
                    <property name="text">
-                    <string>11</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -11095,7 +11095,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl2_b7_1">
                    <property name="text">
-                    <string>12</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -11191,7 +11191,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl3_b2_1">
                    <property name="text">
-                    <string>3</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -11207,7 +11207,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl3_b2_2">
                    <property name="text">
-                    <string>4</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -11236,7 +11236,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl3_b3_1">
                    <property name="text">
-                    <string>5</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -11252,7 +11252,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl3_b3_2">
                    <property name="text">
-                    <string>6</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -11281,7 +11281,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl3_b4_1">
                    <property name="text">
-                    <string>7</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -11297,7 +11297,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl3_b4_2">
                    <property name="text">
-                    <string>8</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -11326,7 +11326,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl3_b5_1">
                    <property name="text">
-                    <string>9</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -11342,7 +11342,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl3_b5_2">
                    <property name="text">
-                    <string>10</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -11371,7 +11371,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl3_b6_1">
                    <property name="text">
-                    <string>11</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -11400,7 +11400,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl3_b7_1">
                    <property name="text">
-                    <string>12</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -11493,7 +11493,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl4_b2_1">
                    <property name="text">
-                    <string>3</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -11509,7 +11509,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl4_b2_2">
                    <property name="text">
-                    <string>4</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -11538,7 +11538,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl4_b3_1">
                    <property name="text">
-                    <string>5</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -11554,7 +11554,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl4_b3_2">
                    <property name="text">
-                    <string>6</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -11583,7 +11583,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl4_b4_1">
                    <property name="text">
-                    <string>7</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -11599,7 +11599,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl4_b4_2">
                    <property name="text">
-                    <string>8</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -11628,7 +11628,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl4_b5_1">
                    <property name="text">
-                    <string>9</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -11644,7 +11644,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl4_b5_2">
                    <property name="text">
-                    <string>10</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -11673,7 +11673,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl4_b6_1">
                    <property name="text">
-                    <string>11</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -11702,7 +11702,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl4_b7_1">
                    <property name="text">
-                    <string>12</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -11798,7 +11798,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl5_b2_1">
                    <property name="text">
-                    <string>3</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -11814,7 +11814,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl5_b2_2">
                    <property name="text">
-                    <string>4</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -11843,7 +11843,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl5_b3_1">
                    <property name="text">
-                    <string>5</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -11859,7 +11859,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl5_b3_2">
                    <property name="text">
-                    <string>6</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -11888,7 +11888,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl5_b4_1">
                    <property name="text">
-                    <string>7</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -11904,7 +11904,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl5_b4_2">
                    <property name="text">
-                    <string>8</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -11933,7 +11933,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl5_b5_1">
                    <property name="text">
-                    <string>9</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -11949,7 +11949,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl5_b5_2">
                    <property name="text">
-                    <string>10</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -11978,7 +11978,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl5_b6_1">
                    <property name="text">
-                    <string>11</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -12007,7 +12007,7 @@
                  <item>
                   <widget class="QRadioButton" name="sc6_sl5_b7_1">
                    <property name="text">
-                    <string>12</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -12118,7 +12118,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>3</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -12140,7 +12140,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>4</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -12175,7 +12175,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>5</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -12197,7 +12197,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>6</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -12232,7 +12232,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>7</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -12254,7 +12254,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>8</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -12289,7 +12289,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>9</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -12311,7 +12311,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>10</string>
+                    <string>2</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -12346,7 +12346,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>11</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -12381,7 +12381,7 @@
                     </sizepolicy>
                    </property>
                    <property name="text">
-                    <string>12</string>
+                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
