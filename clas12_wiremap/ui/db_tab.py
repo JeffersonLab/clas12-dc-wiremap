@@ -27,6 +27,19 @@ class DBTab(QtGui.QTabWidget):
         self.quads = []
         self.slots = []
         
+        for sector_id in range(1,7):
+        
+            fmt = dict(sector=sector_id)
+
+            self.sectors.append(getattr(self,sector_fmt.format(**fmt)))
+            self.directions.append([])
+            self.boxs.append([])
+            self.quads.appent([])
+            self.slots.append([])
+            
+            #superlayers are their own category- do not ammend?
+            
+            
         
     def get_buttons(self):
 
