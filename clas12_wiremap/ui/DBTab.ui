@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>sc5_update</class>
- <widget class="QTabWidget" name="sc5_update">
+ <class>tabWidget</class>
+ <widget class="QTabWidget" name="tabWidget">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -31,7 +31,7 @@
      <widget class="QWidget" name="widget" native="true">
       <layout class="QVBoxLayout" name="verticalLayout_11">
        <item>
-        <widget class="QPushButton" name="pushButton">
+        <widget class="QPushButton" name="sc1">
          <property name="text">
           <string>Sector 1</string>
          </property>
@@ -2882,7 +2882,7 @@
      <widget class="QWidget" name="widget_2" native="true">
       <layout class="QVBoxLayout" name="verticalLayout_15">
        <item>
-        <widget class="QPushButton" name="pushButton_2">
+        <widget class="QPushButton" name="sc2">
          <property name="text">
           <string>Sector 2</string>
          </property>
@@ -5733,7 +5733,7 @@
      <widget class="QWidget" name="widget_4" native="true">
       <layout class="QVBoxLayout" name="verticalLayout_5">
        <item>
-        <widget class="QPushButton" name="pushButton_3">
+        <widget class="QPushButton" name="sc3">
          <property name="text">
           <string>Sector 3</string>
          </property>
@@ -8584,7 +8584,7 @@
      <widget class="QWidget" name="verticalWidget" native="true">
       <layout class="QVBoxLayout" name="verticalLayout">
        <item>
-        <widget class="QPushButton" name="pushButton_4">
+        <widget class="QPushButton" name="sc4">
          <property name="text">
           <string>Sector 4</string>
          </property>
@@ -11435,7 +11435,7 @@
      <widget class="QWidget" name="widget_5" native="true">
       <layout class="QVBoxLayout" name="verticalLayout_6">
        <item>
-        <widget class="QPushButton" name="pushButton_5">
+        <widget class="QPushButton" name="sc5">
          <property name="text">
           <string>Sector 5</string>
          </property>
@@ -14286,7 +14286,7 @@
      <widget class="QWidget" name="widget_3" native="true">
       <layout class="QVBoxLayout" name="verticalLayout_2">
        <item>
-        <widget class="QPushButton" name="pushButton_6">
+        <widget class="QPushButton" name="sc6">
          <property name="text">
           <string>Sector 6</string>
          </property>

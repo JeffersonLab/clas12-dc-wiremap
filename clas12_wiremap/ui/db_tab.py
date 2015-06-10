@@ -10,6 +10,7 @@ class DBTab(QtGui.QTabWidget):
         super(QtGui.QTabWidget, self).__init__(parent)
         curdir = os.path.dirname(os.path.realpath(__file__))
         uic.loadUi(os.path.join(curdir,'DBTab.ui'), self)
+        self.init_buttons()
         
     def init_buttons(self):
 
@@ -68,13 +69,56 @@ class DBTab(QtGui.QTabWidget):
                             fmt.update(slot = slot_id)
                             
                             self.slots[-1][-1][-1][-1].append(getattr(self,slot_fmt.format(**fmt)))
+     
+        for sector_id,sector in enumerate(self.sectors):
+            
+            directions = self.directions[sector_id]
+            def _check_sector(_,target=sector,parents=directions):
+                is_checked = any([p.isChecked() for p in parents])
+                target.setChecked(is_checked)
+                
+                for direction_id, direction in enumerate(directions):
+                    sector.clicked.connect(direction.setChecked)
+                    direction.clicked.connect(_check_sector)
+                    
+                    boxs = self.boxs[sector_id][direction_id]
+                def _check_direction(_,target=direction,parents=boxs):
+                    is_checked = any([p.isChecked() for p in parents])
+                    target.setChecked(is_checked)
+
+                for box_id,box in enumerate(boxs):
+                    direction.clicked.connect(box.setChecked)
+                    sector.clicked.connect(box.setChecked)
+                    box.clicked.connect(_check_direction)
+                    box.clicked.connect(_check_sector)
+                    
+                    quads = self.quads[sector_id][direction_id][box_id]
+                    def _check_box(_,target=box,parents=quads):
+                        is_checked = any([p.isChecked() for p in parents])
+                        target.setChecked(is_checked)
+
+                    for quad in quads:
+                        box.clicked.connect(quad.setChecked)
+                        direction.clicked.connect(quad.setChecked)
+                        sector.clicked.connect(quad.setChecked)
+                        quad.clicked.connect(_check_box)
+                        quad.clicked.connect(_check_direction)
+                        quad.clicked.connect(_check_sector)
                         
-                
-                
-            
-            
-            
-            
+                        slots = self.slots[sector_id][direction_id][box_id][quad_id]
+                        def _check_quad(_, target=quad,parents=slots):
+                            is_checked = any([p.isChecked() for p in parents])
+                            target.setChecked(is_checked)
+                            
+                            for slot in slots:
+                                quad.clicked.connect(slot.setChecked)
+                                box.clicked.connect(slot.setChecked)
+                                direction.clicked.connect(slot.setChecked)
+                                sector.clicked.connect(slot.setChecked)
+                                slot.clicked.connect(_check_quad)
+                                slot.clicked.connect(_check_box)
+                                slot.clicked.connect(_check_direction)
+                                slot.clicked.connect(_check_sector)
         
     def get_buttons(self):
 
