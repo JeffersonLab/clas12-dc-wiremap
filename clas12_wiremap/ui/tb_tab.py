@@ -25,6 +25,7 @@ class TBTab(QtGui.QTabWidget):
         self.slots = []
 
         for sector_id in range(1,7):
+        
             fmt = dict(sector=sector_id)
 
             self.sectors.append(getattr(self,sector_fmt.format(**fmt)))
