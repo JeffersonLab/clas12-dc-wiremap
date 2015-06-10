@@ -8883,7 +8883,7 @@
                       </widget>
                      </item>
                      <item>
-                      <widget class="QRadioButton" name="sc4_f_b1_q12_2">
+                      <widget class="QRadioButton" name="sc4_f_b1_q2_2">
                        <property name="text">
                         <string>2</string>
                        </property>
