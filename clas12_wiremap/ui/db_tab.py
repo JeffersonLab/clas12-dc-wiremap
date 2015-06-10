@@ -36,8 +36,43 @@ class DBTab(QtGui.QTabWidget):
             self.boxs.append([])
             self.quads.appent([])
             self.slots.append([])
+           
+            #superlayers are their own category
             
-            #superlayers are their own category- do not ammend?
+            for direction_id in ['f','b'] :
+                fmt.update(direction=direction_id)
+                
+                self.directions[-1].append(getattr(self,direction_fmt.format(**fmt)))
+                self.boxs[-1].append([])
+                self.quads[-1].append([])
+                self.slots[-1].append([])
+                
+                box_ids = range(1,7)
+                
+                for box_id in box_ids:
+                    fmt.update(box = box_id)
+                    
+                    self.boxs[-1][-1].append(getattr(self, box_fmt.format(**fmt)))
+                    self.quads[-1][-1].append([])
+                    self.slots[-1][-1].append([])
+                    
+                    quad_ids = range(1,4)
+                    
+                    for quad_id in quad_ids:
+                        fmt.update(quad = quad_id)
+                        
+                        self.quads[-1][-1][-1].append(getattr(self,quad_fmt.format(**fmt)))
+                        self.slots[-1][-1][-1].append([])
+                        
+                        for slot_id in [1,2]:
+                            fmt.update(slot = slot_id)
+                            
+                            self.slots[-1][-1][-1][-1].append(getattr(self,slot_fmt.format(**fmt)))
+                        
+                
+                
+            
+            
             
             
         
