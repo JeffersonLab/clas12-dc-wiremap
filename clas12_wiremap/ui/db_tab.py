@@ -19,26 +19,31 @@ class DBTab(QtGui.QTabWidget):
         direction_fmt  = 'sc{sector}_{direction}' #f or b
         box_fmt        = 'sc{sector}_{direction}_b{box}'
         quad_fmt       = 'sc{sector}_{direction}_b{box}_q{quad}'
-        slot_fmt       = 'sc{sector}_{direction}_b{box}_q{quad}_{slot}'
+        doublet_fmt    = 'sc{sector}_{direction}_b{box}_q{quad}_{doublet}'
 
         self.sectors = []
         self.superlayers = []
         self.directions = []
         self.boxes = []
         self.quads = []
-        self.slots = []
+        self.doublets = []
 
         for sector_id in range(1,7):
 
             fmt = dict(sector=sector_id)
 
             self.sectors.append(getattr(self,sector_fmt.format(**fmt)))
+            self.superlayers.append([])
             self.directions.append([])
             self.boxes.append([])
             self.quads.append([])
-            self.slots.append([])
+            self.doublets.append([])
 
-            #superlayers are their own category
+            for superlayer_id in range(1,7):
+                fmt_slyr = fmt
+                fmt_slyr.update(superlayer=superlayer_id)
+
+                self.superlayers[-1].append(getattr(self,superlayer_fmt.format(**fmt_slyr)))
 
             for direction_id in ['f','b'] :
                 fmt.update(direction=direction_id)
@@ -46,7 +51,7 @@ class DBTab(QtGui.QTabWidget):
                 self.directions[-1].append(getattr(self,direction_fmt.format(**fmt)))
                 self.boxes[-1].append([])
                 self.quads[-1].append([])
-                self.slots[-1].append([])
+                self.doublets[-1].append([])
 
                 box_ids = range(1,7)
 
@@ -55,7 +60,7 @@ class DBTab(QtGui.QTabWidget):
 
                     self.boxes[-1][-1].append(getattr(self, box_fmt.format(**fmt)))
                     self.quads[-1][-1].append([])
-                    self.slots[-1][-1].append([])
+                    self.doublets[-1][-1].append([])
 
                     quad_ids = range(1,4)
 
@@ -63,25 +68,26 @@ class DBTab(QtGui.QTabWidget):
                         fmt.update(quad = quad_id)
 
                         self.quads[-1][-1][-1].append(getattr(self,quad_fmt.format(**fmt)))
-                        self.slots[-1][-1][-1].append([])
+                        self.doublets[-1][-1][-1].append([])
 
-                        for slot_id in [1,2]:
-                            fmt.update(slot = slot_id)
+                        for doublet_id in [1,2]:
+                            fmt.update(doublet = doublet_id)
 
-                            self.slots[-1][-1][-1][-1].append(getattr(self,slot_fmt.format(**fmt)))
+                            self.doublets[-1][-1][-1][-1].append(getattr(self,doublet_fmt.format(**fmt)))
 
         for sector_id,sector in enumerate(self.sectors):
 
             directions = self.directions[sector_id]
+
             def _check_sector(_,target=sector,parents=directions):
                 is_checked = any([p.isChecked() for p in parents])
                 target.setChecked(is_checked)
 
-                for direction_id, direction in enumerate(directions):
-                    sector.clicked.connect(direction.setChecked)
-                    direction.clicked.connect(_check_sector)
+            for direction_id, direction in enumerate(directions):
+                sector.clicked.connect(direction.setChecked)
+                direction.clicked.connect(_check_sector)
 
-                    boxes = self.boxes[sector_id][direction_id]
+                boxes = self.boxes[sector_id][direction_id]
                 def _check_direction(_,target=direction,parents=boxes):
                     is_checked = any([p.isChecked() for p in parents])
                     target.setChecked(is_checked)
@@ -97,7 +103,7 @@ class DBTab(QtGui.QTabWidget):
                         is_checked = any([p.isChecked() for p in parents])
                         target.setChecked(is_checked)
 
-                    for quad in quads:
+                    for quad_id,quad in enumerate(quads):
                         box.clicked.connect(quad.setChecked)
                         direction.clicked.connect(quad.setChecked)
                         sector.clicked.connect(quad.setChecked)
@@ -105,20 +111,61 @@ class DBTab(QtGui.QTabWidget):
                         quad.clicked.connect(_check_direction)
                         quad.clicked.connect(_check_sector)
 
-                        slots = self.slots[sector_id][direction_id][box_id][quad_id]
-                        def _check_quad(_, target=quad,parents=slots):
+                        doublets = self.doublets[sector_id][direction_id][box_id][quad_id]
+                        def _check_quad(_, target=quad,parents=doublets):
                             is_checked = any([p.isChecked() for p in parents])
                             target.setChecked(is_checked)
 
-                            for slot in slots:
-                                quad.clicked.connect(slot.setChecked)
-                                box.clicked.connect(slot.setChecked)
-                                direction.clicked.connect(slot.setChecked)
-                                sector.clicked.connect(slot.setChecked)
-                                slot.clicked.connect(_check_quad)
-                                slot.clicked.connect(_check_box)
-                                slot.clicked.connect(_check_direction)
-                                slot.clicked.connect(_check_sector)
+                        for doublet in doublets:
+                            quad.clicked.connect(doublet.setChecked)
+                            box.clicked.connect(doublet.setChecked)
+                            direction.clicked.connect(doublet.setChecked)
+                            sector.clicked.connect(doublet.setChecked)
+                            doublet.clicked.connect(_check_quad)
+                            doublet.clicked.connect(_check_box)
+                            doublet.clicked.connect(_check_direction)
+                            doublet.clicked.connect(_check_sector)
+
+            for superlayer_id,superlayer in enumerate(self.superlayers[sector_id]):
+                sector.clicked.connect(superlayer.setChecked)
+
+                boxes = [x[superlayer_id] for x in self.boxes[sector_id]]
+                def _check_superlayer(_,target=superlayer,parents=boxes):
+                    is_checked = any([p.isChecked() for p in parents])
+                    target.setChecked(is_checked)
+
+                for direction_id, direction in enumerate(directions):
+                    direction.clicked.connect(_check_superlayer)
+
+                    boxes = self.boxes[sector_id][direction_id]
+
+                    for box_id,box in enumerate(boxes):
+                        if box_id == superlayer_id:
+                            superlayer.clicked.connect(box.setChecked)
+                            box.clicked.connect(_check_superlayer)
+
+                            quads = self.quads[sector_id][direction_id][box_id]
+
+                            for quad_id,quad in enumerate(quads):
+                                superlayer.clicked.connect(quad.setChecked)
+                                quad.clicked.connect(_check_superlayer)
+
+                                doublets = self.doublets[sector_id][direction_id][box_id][quad_id]
+
+                                for doublet in doublets:
+                                    superlayer.clicked.connect(doublet.setChecked)
+                                    doublet.clicked.connect(_check_superlayer)
+
+            for direction_id, direction in enumerate(directions):
+                boxes = self.boxes[sector_id][direction_id]
+                def _check_direction(_,target=direction,parents=boxes):
+                    is_checked = any([p.isChecked() for p in parents])
+                    target.setChecked(is_checked)
+                for superlayer_id,superlayer in enumerate(self.superlayers[sector_id]):
+                    superlayer.clicked.connect(_check_direction)
+
+            for superlayer_id,superlayer in enumerate(self.superlayers[sector_id]):
+                superlayer.clicked.connect(_check_sector)
 
     def get_buttons(self):
 
