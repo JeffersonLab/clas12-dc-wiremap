@@ -10,7 +10,24 @@ class DBTab(QtGui.QTabWidget):
         super(QtGui.QTabWidget, self).__init__(parent)
         curdir = os.path.dirname(os.path.realpath(__file__))
         uic.loadUi(os.path.join(curdir,'DBTab.ui'), self)
+        
+    def init_buttons(self):
 
+        sector_fmt     = 'sc{sector}'
+        superlayer_fmt = 'sc{sector}_sl{superlayer}'
+        direction_fmt  = 'sc{sector}_{direction}' #f or b
+        box_fmt        = 'sc{sector}_{direction}_b{box}'
+        quad_fmt       = 'sc{sector}_{direction}_b{box}_q{quad}'
+        slot_fmt       = 'sc{sector}_{direction}_b{box}_q{quad}_{slot}'
+        
+        self.sectors = []
+        self.superlayers = []
+        self.directions = []
+        self.boxs = []
+        self.quads = []
+        self.slots = []
+        
+        
     def get_buttons(self):
 
         fmt = 'sl{super_layer}_{direction}_{doublet}'
