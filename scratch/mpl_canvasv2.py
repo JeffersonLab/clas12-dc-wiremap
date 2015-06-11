@@ -57,7 +57,7 @@ class MplCanvasStatic(MplCanvas):
 
             for slyr in range(6):
 
-                self.axs += [fig.add_subplot(slyr_grid[slyr])]
+                self.axs += [self.fig.add_subplot(slyr_grid[slyr])]
                 ax = self.axs[-1]
 
                 self.pts += [ax.imshow(data[sec*6 + (5-slyr)],
