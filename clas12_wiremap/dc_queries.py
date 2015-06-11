@@ -1,15 +1,21 @@
 from .dc_tables import (CalibrationDCHVCrate,
     CalibrationDCHVSupplyBoard, CalibrationDCHVSubslot,
-    CalibrationDCHVDoublet, CalibrationDCHVTranslationBoard,
-    CalibrationDCWire)
+    CalibrationDCHVDoublet, CalibrationDCHVDoubletPin,
+    CalibrationDCHVDoubletPinMap, CalibrationDCHVTranslationBoard,
+    CalibrationDCWire, CalibrationDCSignalTranslationBoard,
+    CalibrationDCSignalCable, CalibrationDCSignalReadoutConnector)
 
 ### rename classes for easier reading/writing
 Crate = CalibrationDCHVCrate
 SupplyBoard = CalibrationDCHVSupplyBoard
 Subslot = CalibrationDCHVSubslot
 Doublet = CalibrationDCHVDoublet
+DoubletPin = CalibrationDCHVDoubletPin
+DoubletPinMap = CalibrationDCHVDoubletPinMap
 TransBoard = CalibrationDCHVTranslationBoard
 Wire = CalibrationDCWire
+SignalCable = CalibrationDCSignalCable
+ReadoutConnector = CalibrationDCSignalReadoutConnector
 
 def dc_find_connections(session, **kwargs):
     if not hasattr(dc_find_connections, "base_query"):

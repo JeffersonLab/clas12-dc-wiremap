@@ -1,10 +1,9 @@
 import re
-import itertools as it
 
 from sqlalchemy import Column, Integer, String, Float, Enum
-from sqlalchemy import ForeignKey, ForeignKeyConstraint, UniqueConstraint, CheckConstraint
+from sqlalchemy import ForeignKey, ForeignKeyConstraint, UniqueConstraint
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import relationship, sessionmaker, join
+from sqlalchemy.orm import relationship, sessionmaker
 from sqlalchemy import create_engine
 
 Base = declarative_base()
@@ -300,8 +299,7 @@ Base.metadata.create_all()
 
 
 
-
-
+import itertools as it
 
 
 

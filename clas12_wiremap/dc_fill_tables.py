@@ -2,10 +2,13 @@ import itertools as it
 
 from .dc_tables import (CalibrationDCHVCrate,
     CalibrationDCHVSupplyBoard, CalibrationDCHVSubslot,
-    CalibrationDCHVDoublet, CalibrationDCHVTranslationBoard,
-    CalibrationDCWire)
+    CalibrationDCHVDoublet, CalibrationDCHVDoubletPin,
+    CalibrationDCHVDoubletPinMap, CalibrationDCHVTranslationBoard,
+    CalibrationDCWire, CalibrationDCSignalTranslationBoard,
+    CalibrationDCSignalCable, CalibrationDCSignalReadoutConnector)
 
 def dc_fill_tables(session):
+
     # utility functions
     def repeat(lst, n):
         return list(it.chain(*it.repeat(lst,n)))
@@ -107,7 +110,7 @@ def dc_fill_tables(session):
 
             supply_board_id += 1
 
-    # DC HV Doublet Connectors
+    # DC HV Doublet Connectors and Pins
     def channels(wire_type):
         if wire_type in ['sense','field']:
             return list(range(4)) + repeat_elements(range(4,9))
@@ -119,6 +122,7 @@ def dc_fill_tables(session):
     quads = repeat(repeat_elements(range(3)),2)
 
     doublets = repeat(range(2),6)
+    pins = range(9)
 
     trans_boards = repeat_elements(range(5))+list(range(5,7))
 
@@ -143,9 +147,45 @@ def dc_fill_tables(session):
                         trans_slot_id = ts,
                         status = 0)
                     session.add(row)
+
+                    for pin_id in pins:
+                        row = CalibrationDCHVDoubletPin(
+                            doublet_id=doublet_id,
+                            pin_id=pin_id,
+                            status=0)
+                        session.add(row)
+
                     doublet_id += 1
 
             supply_board_id += 1
+
+
+    # DC HV Doublet Pin Map
+    doublet_halves = range(2)
+    for doublet_id in doublet_halves:
+        for pin_id in pins:
+            if doublet_id < 1:
+                if pin_id < 7:
+                    wtype = 'field'
+                    layers = [2*pin_id,2*pin_id+1]
+                else:
+                    continue
+            else:
+                if pin_id < 2:
+                    wtype = 'guard'
+                    layers = [pin_id]
+                elif pin_id < 8:
+                    wtype = 'sense'
+                    layers = [pin_id - 2]
+                else:
+                    continue
+            for layer_id in layers:
+                row = CalibrationDCHVDoubletPinMap(
+                    doublet_id = doublet_id,
+                    pin_id = pin_id,
+                    wire_type = wtype,
+                    layer = layer_id)
+                session.add(row)
 
     # DC HV Translation Boards
     translation_boards = range(7)
@@ -196,5 +236,40 @@ def dc_fill_tables(session):
                         wire = wire_id,
                         status = 0)
                     session.add(row)
+
+    # DC Signal Translation Boards
+    translation_boards = range(7)
+    nwires = 16
+    wire_offsets = list(range(0,112,nwires))
+
+    for board_id in translation_boards:
+        row = CalibrationDCSignalTranslationBoard(
+            id = board_id,
+            wire_offset = wire_offsets[board_id],
+            nwires = 16)
+        session.add(row)
+
+    # DC Signal Cables
+
+    def connector_id(layer_id):
+        return layer_id
+
+    cable_id = 0
+    for sector in sectors:
+        for superlayer in superlayers:
+            for layer in layers:
+                for board_id in translation_boards:
+                    row = CalibrationDCSignalCable(
+                        id=cable_id,
+                        sector=sector,
+                        superlayer=superlayer,
+                        layer=layer,
+                        board_id=board_id,
+                        connector_id=connector_id(layer),
+                        time_delay=0,
+                        fuse_status=0,
+                        cable_status=0)
+                    session.add(row)
+                    cable_id += 1
 
     session.flush()
