@@ -3,7 +3,7 @@ from __future__ import print_function, division
 import os
 
 from clas12_wiremap.ui import QtGui, uic
-from clas12_wiremap.ui import Sidebar, CrateTab, DBTab, TBTab
+from clas12_wiremap.ui import Sidebar, CrateTab, DBTab, TBTab, WireMap
 
 class MainWindow(QtGui.QMainWindow):
     def __init__(self):
@@ -34,6 +34,12 @@ class MainWindow(QtGui.QMainWindow):
         tboard_vbox.addWidget(self.tboard)
         tboard_vbox.addStretch(1)
         self.trans_board_tab_holder.setLayout(tboard_vbox)
+
+        self.wire_map = WireMap()
+        wmap_vbox = QtGui.QVBoxLayout()
+        wmap_vbox.addWidget(self.wire_map)
+        wmap_vbox.addStretch(1)
+        self.trans_board_tab_holder.setLayout(wmap_vbox)
 
         self.show()
         self.updating = False
