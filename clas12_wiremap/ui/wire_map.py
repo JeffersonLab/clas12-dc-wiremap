@@ -1,7 +1,7 @@
 import numpy as np
 from numpy import random as rand
 
-from clas12_wiremap.ui import QtGui, uic
+from clas12_wiremap.ui import QtGui
 
 from matplotlib import pyplot, gridspec
 from matplotlib.backends.backend_qt4agg import FigureCanvasQTAgg as FigureCanvas
@@ -9,7 +9,7 @@ from matplotlib.figure import Figure
 
 class WireMap(FigureCanvas):
 
-    def __init__(self,parent=None, width=5, height=4, dpi=100):
+    def __init__(self, parent=None, width=5, height=4, dpi=100):
         self.fig = pyplot.figure(1, (18,8))
 
         data = rand.uniform(0,100,(36,6,112))

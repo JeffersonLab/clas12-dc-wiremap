@@ -38,8 +38,7 @@ class MainWindow(QtGui.QMainWindow):
         self.wire_map = WireMap()
         wmap_vbox = QtGui.QVBoxLayout()
         wmap_vbox.addWidget(self.wire_map)
-        wmap_vbox.addStretch(1)
-        self.trans_board_tab_holder.setLayout(wmap_vbox)
+        self.wire_map_tab_holder.setLayout(wmap_vbox)
 
         self.show()
         self.updating = False
