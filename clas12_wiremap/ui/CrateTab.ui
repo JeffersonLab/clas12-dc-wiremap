@@ -902,6 +902,12 @@
               <enum>QFrame::Raised</enum>
              </property>
              <layout class="QVBoxLayout" name="verticalLayout">
+              <property name="spacing">
+               <number>5</number>
+              </property>
+              <property name="margin">
+               <number>5</number>
+              </property>
               <item>
                <widget class="QPushButton" name="crate1">
                 <property name="sizePolicy">
@@ -4852,6 +4858,12 @@
               <enum>QFrame::Raised</enum>
              </property>
              <layout class="QVBoxLayout" name="verticalLayout_4">
+              <property name="spacing">
+               <number>5</number>
+              </property>
+              <property name="margin">
+               <number>5</number>
+              </property>
               <item>
                <widget class="QPushButton" name="crate2">
                 <property name="sizePolicy">
