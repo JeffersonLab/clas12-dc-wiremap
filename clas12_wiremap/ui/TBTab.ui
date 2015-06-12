@@ -399,22 +399,6 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QRadioButton" name="sc1_sl1_b6_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QPushButton" name="sc1_sl1_b7">
                    <property name="text">
                     <string>Board 7</string>
@@ -424,22 +408,6 @@
                    </property>
                    <property name="checked">
                     <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QRadioButton" name="sc1_sl1_b7_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
                    </property>
                   </widget>
                  </item>
@@ -704,22 +672,6 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QRadioButton" name="sc1_sl2_b6_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QPushButton" name="sc1_sl2_b7">
                    <property name="text">
                     <string>Board 7</string>
@@ -729,22 +681,6 @@
                    </property>
                    <property name="checked">
                     <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QRadioButton" name="sc1_sl2_b7_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
                    </property>
                   </widget>
                  </item>
@@ -1009,38 +945,9 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QRadioButton" name="sc1_sl3_b6_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QPushButton" name="sc1_sl3_b7">
                    <property name="text">
                     <string>Board 7</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QRadioButton" name="sc1_sl3_b7_1">
-                   <property name="text">
-                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -1311,22 +1218,6 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QRadioButton" name="sc1_sl4_b6_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QPushButton" name="sc1_sl4_b7">
                    <property name="text">
                     <string>Board 7</string>
@@ -1336,22 +1227,6 @@
                    </property>
                    <property name="checked">
                     <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QRadioButton" name="sc1_sl4_b7_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
                    </property>
                   </widget>
                  </item>
@@ -1616,38 +1491,9 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QRadioButton" name="sc1_sl5_b6_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QPushButton" name="sc1_sl5_b7">
                    <property name="text">
                     <string>Board 7</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QRadioButton" name="sc1_sl5_b7_1">
-                   <property name="text">
-                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -1978,28 +1824,6 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QRadioButton" name="sc1_sl6_b6_1">
-                   <property name="sizePolicy">
-                    <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-                     <horstretch>0</horstretch>
-                     <verstretch>0</verstretch>
-                    </sizepolicy>
-                   </property>
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QPushButton" name="sc1_sl6_b7">
                    <property name="text">
                     <string>Board 7</string>
@@ -2009,28 +1833,6 @@
                    </property>
                    <property name="checked">
                     <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QRadioButton" name="sc1_sl6_b7_1">
-                   <property name="sizePolicy">
-                    <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-                     <horstretch>0</horstretch>
-                     <verstretch>0</verstretch>
-                    </sizepolicy>
-                   </property>
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
                    </property>
                   </widget>
                  </item>
@@ -2471,22 +2273,6 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QRadioButton" name="sc2_sl1_b6_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QPushButton" name="sc2_sl1_b7">
                    <property name="text">
                     <string>Board 7</string>
@@ -2496,22 +2282,6 @@
                    </property>
                    <property name="checked">
                     <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QRadioButton" name="sc2_sl1_b7_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
                    </property>
                   </widget>
                  </item>
@@ -2776,22 +2546,6 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QRadioButton" name="sc2_sl2_b6_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QPushButton" name="sc2_sl2_b7">
                    <property name="text">
                     <string>Board 7</string>
@@ -2801,22 +2555,6 @@
                    </property>
                    <property name="checked">
                     <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QRadioButton" name="sc2_sl2_b7_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
                    </property>
                   </widget>
                  </item>
@@ -3081,38 +2819,9 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QRadioButton" name="sc2_sl3_b6_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QPushButton" name="sc2_sl3_b7">
                    <property name="text">
                     <string>Board 7</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QRadioButton" name="sc2_sl3_b7_1">
-                   <property name="text">
-                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -3383,22 +3092,6 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QRadioButton" name="sc2_sl4_b6_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QPushButton" name="sc2_sl4_b7">
                    <property name="text">
                     <string>Board 7</string>
@@ -3408,22 +3101,6 @@
                    </property>
                    <property name="checked">
                     <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QRadioButton" name="sc2_sl4_b7_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
                    </property>
                   </widget>
                  </item>
@@ -3688,38 +3365,9 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QRadioButton" name="sc2_sl5_b6_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QPushButton" name="sc2_sl5_b7">
                    <property name="text">
                     <string>Board 7</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QRadioButton" name="sc2_sl5_b7_1">
-                   <property name="text">
-                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -4050,28 +3698,6 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QRadioButton" name="sc2_sl6_b6_1">
-                   <property name="sizePolicy">
-                    <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-                     <horstretch>0</horstretch>
-                     <verstretch>0</verstretch>
-                    </sizepolicy>
-                   </property>
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QPushButton" name="sc2_sl6_b7">
                    <property name="text">
                     <string>Board 7</string>
@@ -4081,28 +3707,6 @@
                    </property>
                    <property name="checked">
                     <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QRadioButton" name="sc2_sl6_b7_1">
-                   <property name="sizePolicy">
-                    <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-                     <horstretch>0</horstretch>
-                     <verstretch>0</verstretch>
-                    </sizepolicy>
-                   </property>
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
                    </property>
                   </widget>
                  </item>
@@ -4231,7 +3835,7 @@
             <item>
              <widget class="QPushButton" name="sc3_sl3">
               <property name="text">
-               <string>Superlayer 3</string>
+               <string> Superlayer 3</string>
               </property>
               <property name="checkable">
                <bool>true</bool>
@@ -4543,22 +4147,6 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QRadioButton" name="sc3_sl1_b6_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QPushButton" name="sc3_sl1_b7">
                    <property name="text">
                     <string>Board 7</string>
@@ -4568,22 +4156,6 @@
                    </property>
                    <property name="checked">
                     <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QRadioButton" name="sc3_sl1_b7_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
                    </property>
                   </widget>
                  </item>
@@ -4848,22 +4420,6 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QRadioButton" name="sc3_sl2_b6_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QPushButton" name="sc3_sl2_b7">
                    <property name="text">
                     <string>Board 7</string>
@@ -4873,22 +4429,6 @@
                    </property>
                    <property name="checked">
                     <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QRadioButton" name="sc3_sl2_b7_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
                    </property>
                   </widget>
                  </item>
@@ -5153,38 +4693,9 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QRadioButton" name="sc3_sl3_b6_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QPushButton" name="sc3_sl3_b7">
                    <property name="text">
                     <string>Board 7</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QRadioButton" name="sc3_sl3_b7_1">
-                   <property name="text">
-                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -5455,22 +4966,6 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QRadioButton" name="sc3_sl4_b6_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QPushButton" name="sc3_sl4_b7">
                    <property name="text">
                     <string>Board 7</string>
@@ -5480,22 +4975,6 @@
                    </property>
                    <property name="checked">
                     <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QRadioButton" name="sc3_sl4_b7_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
                    </property>
                   </widget>
                  </item>
@@ -5760,38 +5239,9 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QRadioButton" name="sc3_sl5_b6_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QPushButton" name="sc3_sl5_b7">
                    <property name="text">
                     <string>Board 7</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QRadioButton" name="sc3_sl5_b7_1">
-                   <property name="text">
-                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -6122,28 +5572,6 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QRadioButton" name="sc3_sl6_b6_1">
-                   <property name="sizePolicy">
-                    <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-                     <horstretch>0</horstretch>
-                     <verstretch>0</verstretch>
-                    </sizepolicy>
-                   </property>
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QPushButton" name="sc3_sl6_b7">
                    <property name="text">
                     <string>Board 7</string>
@@ -6153,28 +5581,6 @@
                    </property>
                    <property name="checked">
                     <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QRadioButton" name="sc3_sl6_b7_1">
-                   <property name="sizePolicy">
-                    <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-                     <horstretch>0</horstretch>
-                     <verstretch>0</verstretch>
-                    </sizepolicy>
-                   </property>
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
                    </property>
                   </widget>
                  </item>
@@ -6615,22 +6021,6 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QRadioButton" name="sc4_sl1_b6_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QPushButton" name="sc4_sl1_b7">
                    <property name="text">
                     <string>Board 7</string>
@@ -6640,22 +6030,6 @@
                    </property>
                    <property name="checked">
                     <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QRadioButton" name="sc4_sl1_b7_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
                    </property>
                   </widget>
                  </item>
@@ -6920,22 +6294,6 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QRadioButton" name="sc4_sl2_b6_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QPushButton" name="sc4_sl2_b7">
                    <property name="text">
                     <string>Board 7</string>
@@ -6945,22 +6303,6 @@
                    </property>
                    <property name="checked">
                     <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QRadioButton" name="sc4_sl2_b7_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
                    </property>
                   </widget>
                  </item>
@@ -7225,38 +6567,9 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QRadioButton" name="sc4_sl3_b6_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QPushButton" name="sc4_sl3_b7">
                    <property name="text">
                     <string>Board 7</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QRadioButton" name="sc4_sl3_b7_1">
-                   <property name="text">
-                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -7527,22 +6840,6 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QRadioButton" name="sc4_sl4_b6_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QPushButton" name="sc4_sl4_b7">
                    <property name="text">
                     <string>Board 7</string>
@@ -7552,22 +6849,6 @@
                    </property>
                    <property name="checked">
                     <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QRadioButton" name="sc4_sl4_b7_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
                    </property>
                   </widget>
                  </item>
@@ -7832,38 +7113,9 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QRadioButton" name="sc4_sl5_b6_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QPushButton" name="sc4_sl5_b7">
                    <property name="text">
                     <string>Board 7</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QRadioButton" name="sc4_sl5_b7_1">
-                   <property name="text">
-                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -8194,28 +7446,6 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QRadioButton" name="sc4_sl6_b6_1">
-                   <property name="sizePolicy">
-                    <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-                     <horstretch>0</horstretch>
-                     <verstretch>0</verstretch>
-                    </sizepolicy>
-                   </property>
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QPushButton" name="sc4_sl6_b7">
                    <property name="text">
                     <string>Board 7</string>
@@ -8225,28 +7455,6 @@
                    </property>
                    <property name="checked">
                     <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QRadioButton" name="sc4_sl6_b7_1">
-                   <property name="sizePolicy">
-                    <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-                     <horstretch>0</horstretch>
-                     <verstretch>0</verstretch>
-                    </sizepolicy>
-                   </property>
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
                    </property>
                   </widget>
                  </item>
@@ -8687,22 +7895,6 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QRadioButton" name="sc5_sl1_b6_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QPushButton" name="sc5_sl1_b7">
                    <property name="text">
                     <string>Board 7</string>
@@ -8712,22 +7904,6 @@
                    </property>
                    <property name="checked">
                     <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QRadioButton" name="sc5_sl1_b7_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
                    </property>
                   </widget>
                  </item>
@@ -8992,22 +8168,6 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QRadioButton" name="sc5_sl2_b6_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QPushButton" name="sc5_sl2_b7">
                    <property name="text">
                     <string>Board 7</string>
@@ -9017,22 +8177,6 @@
                    </property>
                    <property name="checked">
                     <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QRadioButton" name="sc5_sl2_b7_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
                    </property>
                   </widget>
                  </item>
@@ -9297,38 +8441,9 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QRadioButton" name="sc5_sl3_b6_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QPushButton" name="sc5_sl3_b7">
                    <property name="text">
                     <string>Board 7</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QRadioButton" name="sc5_sl3_b7_1">
-                   <property name="text">
-                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -9599,22 +8714,6 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QRadioButton" name="sc5_sl4_b6_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QPushButton" name="sc5_sl4_b7">
                    <property name="text">
                     <string>Board 7</string>
@@ -9624,22 +8723,6 @@
                    </property>
                    <property name="checked">
                     <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QRadioButton" name="sc5_sl4_b7_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
                    </property>
                   </widget>
                  </item>
@@ -9904,38 +8987,9 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QRadioButton" name="sc5_sl5_b6_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QPushButton" name="sc5_sl5_b7">
                    <property name="text">
                     <string>Board 7</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QRadioButton" name="sc5_sl5_b7_1">
-                   <property name="text">
-                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -10266,28 +9320,6 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QRadioButton" name="sc5_sl6_b6_1">
-                   <property name="sizePolicy">
-                    <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-                     <horstretch>0</horstretch>
-                     <verstretch>0</verstretch>
-                    </sizepolicy>
-                   </property>
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QPushButton" name="sc5_sl6_b7">
                    <property name="text">
                     <string>Board 7</string>
@@ -10297,28 +9329,6 @@
                    </property>
                    <property name="checked">
                     <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QRadioButton" name="sc5_sl6_b7_1">
-                   <property name="sizePolicy">
-                    <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-                     <horstretch>0</horstretch>
-                     <verstretch>0</verstretch>
-                    </sizepolicy>
-                   </property>
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
                    </property>
                   </widget>
                  </item>
@@ -10759,22 +9769,6 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QRadioButton" name="sc6_sl1_b6_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QPushButton" name="sc6_sl1_b7">
                    <property name="text">
                     <string>Board 7</string>
@@ -10784,22 +9778,6 @@
                    </property>
                    <property name="checked">
                     <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QRadioButton" name="sc6_sl1_b7_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
                    </property>
                   </widget>
                  </item>
@@ -11064,22 +10042,6 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QRadioButton" name="sc6_sl2_b6_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QPushButton" name="sc6_sl2_b7">
                    <property name="text">
                     <string>Board 7</string>
@@ -11089,22 +10051,6 @@
                    </property>
                    <property name="checked">
                     <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QRadioButton" name="sc6_sl2_b7_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
                    </property>
                   </widget>
                  </item>
@@ -11369,38 +10315,9 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QRadioButton" name="sc6_sl3_b6_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QPushButton" name="sc6_sl3_b7">
                    <property name="text">
                     <string>Board 7</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QRadioButton" name="sc6_sl3_b7_1">
-                   <property name="text">
-                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -11671,22 +10588,6 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QRadioButton" name="sc6_sl4_b6_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QPushButton" name="sc6_sl4_b7">
                    <property name="text">
                     <string>Board 7</string>
@@ -11696,22 +10597,6 @@
                    </property>
                    <property name="checked">
                     <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QRadioButton" name="sc6_sl4_b7_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
                    </property>
                   </widget>
                  </item>
@@ -11976,38 +10861,9 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QRadioButton" name="sc6_sl5_b6_1">
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QPushButton" name="sc6_sl5_b7">
                    <property name="text">
                     <string>Board 7</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QRadioButton" name="sc6_sl5_b7_1">
-                   <property name="text">
-                    <string>1</string>
                    </property>
                    <property name="checkable">
                     <bool>true</bool>
@@ -12338,28 +11194,6 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QRadioButton" name="sc6_sl6_b6_1">
-                   <property name="sizePolicy">
-                    <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-                     <horstretch>0</horstretch>
-                     <verstretch>0</verstretch>
-                    </sizepolicy>
-                   </property>
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
                   <widget class="QPushButton" name="sc6_sl6_b7">
                    <property name="text">
                     <string>Board 7</string>
@@ -12369,28 +11203,6 @@
                    </property>
                    <property name="checked">
                     <bool>true</bool>
-                   </property>
-                  </widget>
-                 </item>
-                 <item>
-                  <widget class="QRadioButton" name="sc6_sl6_b7_1">
-                   <property name="sizePolicy">
-                    <sizepolicy hsizetype="Minimum" vsizetype="Fixed">
-                     <horstretch>0</horstretch>
-                     <verstretch>0</verstretch>
-                    </sizepolicy>
-                   </property>
-                   <property name="text">
-                    <string>1</string>
-                   </property>
-                   <property name="checkable">
-                    <bool>true</bool>
-                   </property>
-                   <property name="checked">
-                    <bool>true</bool>
-                   </property>
-                   <property name="autoExclusive">
-                    <bool>false</bool>
                    </property>
                   </widget>
                  </item>
@@ -12726,22 +11538,6 @@
   <connection>
    <sender>sc2_sl1</sender>
    <signal>clicked(bool)</signal>
-   <receiver>sc2_sl1_b6_1</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>99</x>
-     <y>126</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>53</x>
-     <y>619</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>sc2_sl1</sender>
-   <signal>clicked(bool)</signal>
    <receiver>sc2_sl1_b7</receiver>
    <slot>setChecked(bool)</slot>
    <hints>
@@ -12752,22 +11548,6 @@
     <hint type="destinationlabel">
      <x>47</x>
      <y>641</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>sc2_sl1</sender>
-   <signal>clicked(bool)</signal>
-   <receiver>sc2_sl1_b7_1</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>89</x>
-     <y>127</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>99</x>
-     <y>682</y>
     </hint>
    </hints>
   </connection>
@@ -12928,38 +11708,6 @@
     <hint type="destinationlabel">
      <x>83</x>
      <y>566</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>sc2_sl1_b6</sender>
-   <signal>clicked(bool)</signal>
-   <receiver>sc2_sl1_b6_1</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>43</x>
-     <y>584</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>44</x>
-     <y>616</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>sc2_sl1_b7</sender>
-   <signal>clicked(bool)</signal>
-   <receiver>sc2_sl1_b7_1</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>110</x>
-     <y>645</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>110</x>
-     <y>680</y>
     </hint>
    </hints>
   </connection>
@@ -13222,22 +11970,6 @@
   <connection>
    <sender>sc2_sl2</sender>
    <signal>clicked(bool)</signal>
-   <receiver>sc2_sl2_b6_1</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>185</x>
-     <y>132</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>183</x>
-     <y>616</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>sc2_sl2</sender>
-   <signal>clicked(bool)</signal>
    <receiver>sc2_sl2_b7</receiver>
    <slot>setChecked(bool)</slot>
    <hints>
@@ -13248,22 +11980,6 @@
     <hint type="destinationlabel">
      <x>153</x>
      <y>642</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>sc2_sl2</sender>
-   <signal>clicked(bool)</signal>
-   <receiver>sc2_sl2_b7_1</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>161</x>
-     <y>126</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>169</x>
-     <y>678</y>
     </hint>
    </hints>
   </connection>
@@ -13408,38 +12124,6 @@
     <hint type="destinationlabel">
      <x>201</x>
      <y>561</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>sc2_sl2_b6</sender>
-   <signal>clicked(bool)</signal>
-   <receiver>sc2_sl2_b6_1</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>217</x>
-     <y>584</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>215</x>
-     <y>618</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>sc2_sl2_b7</sender>
-   <signal>clicked(bool)</signal>
-   <receiver>sc2_sl2_b7_1</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>196</x>
-     <y>649</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>194</x>
-     <y>677</y>
     </hint>
    </hints>
   </connection>
@@ -13616,38 +12300,6 @@
     <hint type="destinationlabel">
      <x>303</x>
      <y>563</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>sc2_sl3_b6</sender>
-   <signal>clicked(bool)</signal>
-   <receiver>sc2_sl3_b6_1</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>266</x>
-     <y>590</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>267</x>
-     <y>619</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>sc2_sl3_b7</sender>
-   <signal>clicked(bool)</signal>
-   <receiver>sc2_sl3_b7_1</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>280</x>
-     <y>641</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>282</x>
-     <y>673</y>
     </hint>
    </hints>
   </connection>
@@ -13910,22 +12562,6 @@
   <connection>
    <sender>sc2_sl3</sender>
    <signal>clicked(bool)</signal>
-   <receiver>sc2_sl3_b6_1</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>312</x>
-     <y>132</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>319</x>
-     <y>614</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>sc2_sl3</sender>
-   <signal>clicked(bool)</signal>
    <receiver>sc2_sl3_b7</receiver>
    <slot>setChecked(bool)</slot>
    <hints>
@@ -13936,22 +12572,6 @@
     <hint type="destinationlabel">
      <x>261</x>
      <y>642</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>sc2_sl3</sender>
-   <signal>clicked(bool)</signal>
-   <receiver>sc2_sl3_b7_1</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>295</x>
-     <y>129</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>252</x>
-     <y>674</y>
     </hint>
    </hints>
   </connection>
@@ -14246,22 +12866,6 @@
   <connection>
    <sender>sc2_sl4</sender>
    <signal>clicked(bool)</signal>
-   <receiver>sc2_sl4_b6_1</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>398</x>
-     <y>130</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>385</x>
-     <y>616</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>sc2_sl4</sender>
-   <signal>clicked(bool)</signal>
    <receiver>sc2_sl4_b7</receiver>
    <slot>setChecked(bool)</slot>
    <hints>
@@ -14272,22 +12876,6 @@
     <hint type="destinationlabel">
      <x>429</x>
      <y>640</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>sc2_sl4</sender>
-   <signal>clicked(bool)</signal>
-   <receiver>sc2_sl4_b7_1</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>393</x>
-     <y>127</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>358</x>
-     <y>669</y>
     </hint>
    </hints>
   </connection>
@@ -14448,38 +13036,6 @@
     <hint type="destinationlabel">
      <x>358</x>
      <y>566</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>sc2_sl4_b6</sender>
-   <signal>clicked(bool)</signal>
-   <receiver>sc2_sl4_b6_1</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>389</x>
-     <y>590</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>391</x>
-     <y>617</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>sc2_sl4_b7</sender>
-   <signal>clicked(bool)</signal>
-   <receiver>sc2_sl4_b7_1</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>422</x>
-     <y>639</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>418</x>
-     <y>678</y>
     </hint>
    </hints>
   </connection>
@@ -14742,22 +13298,6 @@
   <connection>
    <sender>sc2_sl5</sender>
    <signal>clicked(bool)</signal>
-   <receiver>sc2_sl5_b6_1</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>498</x>
-     <y>129</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>512</x>
-     <y>619</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>sc2_sl5</sender>
-   <signal>clicked(bool)</signal>
    <receiver>sc2_sl5_b7</receiver>
    <slot>setChecked(bool)</slot>
    <hints>
@@ -14768,22 +13308,6 @@
     <hint type="destinationlabel">
      <x>530</x>
      <y>636</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>sc2_sl5</sender>
-   <signal>clicked(bool)</signal>
-   <receiver>sc2_sl5_b7_1</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>502</x>
-     <y>135</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>506</x>
-     <y>679</y>
     </hint>
    </hints>
   </connection>
@@ -14944,38 +13468,6 @@
     <hint type="destinationlabel">
      <x>510</x>
      <y>559</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>sc2_sl5_b6</sender>
-   <signal>clicked(bool)</signal>
-   <receiver>sc2_sl5_b6_1</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>491</x>
-     <y>588</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>497</x>
-     <y>619</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>sc2_sl5_b7</sender>
-   <signal>clicked(bool)</signal>
-   <receiver>sc2_sl5_b7_1</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>479</x>
-     <y>648</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>478</x>
-     <y>669</y>
     </hint>
    </hints>
   </connection>
@@ -15238,22 +13730,6 @@
   <connection>
    <sender>sc2_sl6</sender>
    <signal>clicked(bool)</signal>
-   <receiver>sc2_sl6_b6_1</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>620</x>
-     <y>133</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>598</x>
-     <y>617</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>sc2_sl6</sender>
-   <signal>clicked(bool)</signal>
    <receiver>sc2_sl6_b7</receiver>
    <slot>setChecked(bool)</slot>
    <hints>
@@ -15264,22 +13740,6 @@
     <hint type="destinationlabel">
      <x>612</x>
      <y>650</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>sc2_sl6</sender>
-   <signal>clicked(bool)</signal>
-   <receiver>sc2_sl6_b7_1</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>585</x>
-     <y>127</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>588</x>
-     <y>664</y>
     </hint>
    </hints>
   </connection>
@@ -15472,38 +13932,6 @@
     <hint type="destinationlabel">
      <x>591</x>
      <y>562</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>sc2_sl6_b6</sender>
-   <signal>clicked(bool)</signal>
-   <receiver>sc2_sl6_b6_1</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>615</x>
-     <y>590</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>612</x>
-     <y>621</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>sc2_sl6_b7</sender>
-   <signal>clicked(bool)</signal>
-   <receiver>sc2_sl6_b7_1</receiver>
-   <slot>setChecked(bool)</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>625</x>
-     <y>643</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>619</x>
-     <y>673</y>
     </hint>
    </hints>
   </connection>

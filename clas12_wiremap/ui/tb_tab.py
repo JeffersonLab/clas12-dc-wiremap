@@ -53,7 +53,7 @@ class TBTab(QtGui.QTabWidget):
                     if board_id < 6:
                         slot_ids = range(1,3)
                     else :
-                        slot_ids = range(1,2)
+                        slot_ids = range(1, 1)
 
                     for slot_id in slot_ids:
                         fmt.update(slot=slot_id)
