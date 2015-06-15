@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1027</width>
+    <width>725</width>
     <height>803</height>
    </rect>
   </property>
@@ -870,7 +870,7 @@
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>1005</width>
+         <width>703</width>
          <height>748</height>
         </rect>
        </property>
@@ -932,6 +932,12 @@
            </item>
            <item>
             <widget class="QFrame" name="frame_2">
+             <property name="maximumSize">
+              <size>
+               <width>87</width>
+               <height>16777215</height>
+              </size>
+             </property>
              <property name="palette">
               <palette>
                <active>
@@ -1142,6 +1148,12 @@
               </item>
               <item>
                <widget class="QFrame" name="frame_29">
+                <property name="maximumSize">
+                 <size>
+                  <width>75</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
                 <property name="frameShape">
                  <enum>QFrame::StyledPanel</enum>
                 </property>
@@ -1149,6 +1161,12 @@
                  <enum>QFrame::Raised</enum>
                 </property>
                 <layout class="QVBoxLayout" name="verticalLayout_54">
+                 <property name="spacing">
+                  <number>5</number>
+                 </property>
+                 <property name="margin">
+                  <number>5</number>
+                 </property>
                  <item>
                   <widget class="QPushButton" name="crate1_SB1_subslot1">
                    <property name="maximumSize">
@@ -1250,7 +1268,7 @@
                    </property>
                    <property name="font">
                     <font>
-                     <pointsize>10</pointsize>
+                     <pointsize>9</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -1382,6 +1400,12 @@
               </item>
               <item>
                <widget class="QFrame" name="frame_31">
+                <property name="maximumSize">
+                 <size>
+                  <width>75</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
                 <property name="frameShape">
                  <enum>QFrame::StyledPanel</enum>
                 </property>
@@ -1389,6 +1413,12 @@
                  <enum>QFrame::Raised</enum>
                 </property>
                 <layout class="QVBoxLayout" name="verticalLayout_53">
+                 <property name="spacing">
+                  <number>5</number>
+                 </property>
+                 <property name="margin">
+                  <number>5</number>
+                 </property>
                  <item>
                   <widget class="QPushButton" name="crate1_SB1_subslot2">
                    <property name="maximumSize">
@@ -1399,7 +1429,7 @@
                    </property>
                    <property name="font">
                     <font>
-                     <pointsize>10</pointsize>
+                     <pointsize>9</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -1536,6 +1566,12 @@
               </item>
               <item>
                <widget class="QFrame" name="frame_27">
+                <property name="maximumSize">
+                 <size>
+                  <width>75</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
                 <property name="frameShape">
                  <enum>QFrame::StyledPanel</enum>
                 </property>
@@ -1543,6 +1579,12 @@
                  <enum>QFrame::Raised</enum>
                 </property>
                 <layout class="QVBoxLayout" name="verticalLayout_52">
+                 <property name="spacing">
+                  <number>5</number>
+                 </property>
+                 <property name="margin">
+                  <number>5</number>
+                 </property>
                  <item>
                   <widget class="QPushButton" name="crate1_SB1_subslot3">
                    <property name="maximumSize">
@@ -1553,7 +1595,7 @@
                    </property>
                    <property name="font">
                     <font>
-                     <pointsize>10</pointsize>
+                     <pointsize>9</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -1688,6 +1730,12 @@
            </item>
            <item>
             <widget class="QFrame" name="frame_5">
+             <property name="maximumSize">
+              <size>
+               <width>87</width>
+               <height>16777215</height>
+              </size>
+             </property>
              <property name="palette">
               <palette>
                <active>
@@ -1898,6 +1946,12 @@
               </item>
               <item>
                <widget class="QFrame" name="frame_150">
+                <property name="maximumSize">
+                 <size>
+                  <width>75</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
                 <property name="frameShape">
                  <enum>QFrame::StyledPanel</enum>
                 </property>
@@ -1905,6 +1959,12 @@
                  <enum>QFrame::Raised</enum>
                 </property>
                 <layout class="QVBoxLayout" name="verticalLayout_173">
+                 <property name="spacing">
+                  <number>5</number>
+                 </property>
+                 <property name="margin">
+                  <number>5</number>
+                 </property>
                  <item>
                   <widget class="QPushButton" name="crate1_SB2_subslot1">
                    <property name="maximumSize">
@@ -2006,7 +2066,7 @@
                    </property>
                    <property name="font">
                     <font>
-                     <pointsize>10</pointsize>
+                     <pointsize>9</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -2144,6 +2204,12 @@
               </item>
               <item>
                <widget class="QFrame" name="frame_154">
+                <property name="maximumSize">
+                 <size>
+                  <width>75</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
                 <property name="frameShape">
                  <enum>QFrame::StyledPanel</enum>
                 </property>
@@ -2151,6 +2217,12 @@
                  <enum>QFrame::Raised</enum>
                 </property>
                 <layout class="QVBoxLayout" name="verticalLayout_176">
+                 <property name="spacing">
+                  <number>5</number>
+                 </property>
+                 <property name="margin">
+                  <number>5</number>
+                 </property>
                  <item>
                   <widget class="QPushButton" name="crate1_SB2_subslot2">
                    <property name="maximumSize">
@@ -2161,7 +2233,7 @@
                    </property>
                    <property name="font">
                     <font>
-                     <pointsize>10</pointsize>
+                     <pointsize>9</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -2300,6 +2372,12 @@
                  <enum>QFrame::Raised</enum>
                 </property>
                 <layout class="QVBoxLayout" name="verticalLayout_174">
+                 <property name="spacing">
+                  <number>5</number>
+                 </property>
+                 <property name="margin">
+                  <number>5</number>
+                 </property>
                  <item>
                   <widget class="QPushButton" name="crate1_SB2_subslot3">
                    <property name="maximumSize">
@@ -2310,7 +2388,7 @@
                    </property>
                    <property name="font">
                     <font>
-                     <pointsize>10</pointsize>
+                     <pointsize>9</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -2326,6 +2404,12 @@
                  </item>
                  <item>
                   <widget class="QWidget" name="widget_153" native="true">
+                   <property name="maximumSize">
+                    <size>
+                     <width>75</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
                    <layout class="QGridLayout" name="gridLayout_100">
                     <property name="leftMargin">
                      <number>9</number>
@@ -2445,6 +2529,12 @@
            </item>
            <item>
             <widget class="QFrame" name="frame_4">
+             <property name="maximumSize">
+              <size>
+               <width>87</width>
+               <height>16777215</height>
+              </size>
+             </property>
              <property name="frameShape">
               <enum>QFrame::StyledPanel</enum>
              </property>
@@ -2473,6 +2563,12 @@
               </item>
               <item>
                <widget class="QFrame" name="frame_39">
+                <property name="maximumSize">
+                 <size>
+                  <width>75</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
                 <property name="frameShape">
                  <enum>QFrame::StyledPanel</enum>
                 </property>
@@ -2480,6 +2576,12 @@
                  <enum>QFrame::Raised</enum>
                 </property>
                 <layout class="QVBoxLayout" name="verticalLayout_3">
+                 <property name="spacing">
+                  <number>5</number>
+                 </property>
+                 <property name="margin">
+                  <number>5</number>
+                 </property>
                  <item>
                   <widget class="QPushButton" name="crate1_SB3_subslot1">
                    <property name="maximumSize">
@@ -2490,7 +2592,7 @@
                    </property>
                    <property name="font">
                     <font>
-                     <pointsize>10</pointsize>
+                     <pointsize>9</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -2622,6 +2724,12 @@
               </item>
               <item>
                <widget class="QFrame" name="frame_41">
+                <property name="maximumSize">
+                 <size>
+                  <width>75</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
                 <property name="frameShape">
                  <enum>QFrame::StyledPanel</enum>
                 </property>
@@ -2629,6 +2737,12 @@
                  <enum>QFrame::Raised</enum>
                 </property>
                 <layout class="QVBoxLayout" name="verticalLayout_13">
+                 <property name="spacing">
+                  <number>5</number>
+                 </property>
+                 <property name="margin">
+                  <number>5</number>
+                 </property>
                  <item>
                   <widget class="QPushButton" name="crate1_SB3_subslot2">
                    <property name="maximumSize">
@@ -2639,7 +2753,7 @@
                    </property>
                    <property name="font">
                     <font>
-                     <pointsize>10</pointsize>
+                     <pointsize>9</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -2771,6 +2885,12 @@
               </item>
               <item>
                <widget class="QFrame" name="frame_43">
+                <property name="maximumSize">
+                 <size>
+                  <width>75</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
                 <property name="frameShape">
                  <enum>QFrame::StyledPanel</enum>
                 </property>
@@ -2778,6 +2898,12 @@
                  <enum>QFrame::Raised</enum>
                 </property>
                 <layout class="QVBoxLayout" name="verticalLayout_14">
+                 <property name="spacing">
+                  <number>5</number>
+                 </property>
+                 <property name="margin">
+                  <number>5</number>
+                 </property>
                  <item>
                   <widget class="QPushButton" name="crate1_SB3_subslot3">
                    <property name="maximumSize">
@@ -2788,7 +2914,7 @@
                    </property>
                    <property name="font">
                     <font>
-                     <pointsize>10</pointsize>
+                     <pointsize>9</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -2923,6 +3049,12 @@
            </item>
            <item>
             <widget class="QFrame" name="frame_16">
+             <property name="maximumSize">
+              <size>
+               <width>87</width>
+               <height>16777215</height>
+              </size>
+             </property>
              <property name="frameShape">
               <enum>QFrame::StyledPanel</enum>
              </property>
@@ -2951,6 +3083,12 @@
               </item>
               <item>
                <widget class="QFrame" name="frame_156">
+                <property name="maximumSize">
+                 <size>
+                  <width>75</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
                 <property name="frameShape">
                  <enum>QFrame::StyledPanel</enum>
                 </property>
@@ -2958,6 +3096,12 @@
                  <enum>QFrame::Raised</enum>
                 </property>
                 <layout class="QVBoxLayout" name="verticalLayout_22">
+                 <property name="spacing">
+                  <number>5</number>
+                 </property>
+                 <property name="margin">
+                  <number>5</number>
+                 </property>
                  <item>
                   <widget class="QPushButton" name="crate1_SB4_subslot1">
                    <property name="maximumSize">
@@ -2968,7 +3112,7 @@
                    </property>
                    <property name="font">
                     <font>
-                     <pointsize>10</pointsize>
+                     <pointsize>9</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -3100,6 +3244,12 @@
               </item>
               <item>
                <widget class="QFrame" name="frame_158">
+                <property name="maximumSize">
+                 <size>
+                  <width>75</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
                 <property name="frameShape">
                  <enum>QFrame::StyledPanel</enum>
                 </property>
@@ -3107,6 +3257,12 @@
                  <enum>QFrame::Raised</enum>
                 </property>
                 <layout class="QVBoxLayout" name="verticalLayout_29">
+                 <property name="spacing">
+                  <number>5</number>
+                 </property>
+                 <property name="margin">
+                  <number>5</number>
+                 </property>
                  <item>
                   <widget class="QPushButton" name="crate1_SB4_subslot2">
                    <property name="maximumSize">
@@ -3117,7 +3273,7 @@
                    </property>
                    <property name="font">
                     <font>
-                     <pointsize>10</pointsize>
+                     <pointsize>9</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -3249,6 +3405,12 @@
               </item>
               <item>
                <widget class="QFrame" name="frame_160">
+                <property name="maximumSize">
+                 <size>
+                  <width>75</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
                 <property name="frameShape">
                  <enum>QFrame::StyledPanel</enum>
                 </property>
@@ -3256,6 +3418,12 @@
                  <enum>QFrame::Raised</enum>
                 </property>
                 <layout class="QVBoxLayout" name="verticalLayout_180">
+                 <property name="spacing">
+                  <number>5</number>
+                 </property>
+                 <property name="margin">
+                  <number>5</number>
+                 </property>
                  <item>
                   <widget class="QPushButton" name="crate1_SB4_subslot3">
                    <property name="maximumSize">
@@ -3266,7 +3434,7 @@
                    </property>
                    <property name="font">
                     <font>
-                     <pointsize>10</pointsize>
+                     <pointsize>9</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -3407,6 +3575,12 @@
                <verstretch>0</verstretch>
               </sizepolicy>
              </property>
+             <property name="maximumSize">
+              <size>
+               <width>167</width>
+               <height>16777215</height>
+              </size>
+             </property>
              <property name="mouseTracking">
               <bool>false</bool>
              </property>
@@ -3460,6 +3634,12 @@
                     <enum>QFrame::Raised</enum>
                    </property>
                    <layout class="QVBoxLayout" name="verticalLayout_66">
+                    <property name="spacing">
+                     <number>5</number>
+                    </property>
+                    <property name="margin">
+                     <number>5</number>
+                    </property>
                     <item>
                      <widget class="QPushButton" name="crate1_SB5_subslot2">
                       <property name="maximumSize">
@@ -3470,7 +3650,7 @@
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <pointsize>9</pointsize>
                        </font>
                       </property>
                       <property name="styleSheet">
@@ -3612,6 +3792,12 @@
                     <enum>QFrame::Raised</enum>
                    </property>
                    <layout class="QVBoxLayout" name="verticalLayout_71">
+                    <property name="spacing">
+                     <number>5</number>
+                    </property>
+                    <property name="margin">
+                     <number>5</number>
+                    </property>
                     <item>
                      <widget class="QPushButton" name="crate1_SB5_subslot1">
                       <property name="maximumSize">
@@ -3622,7 +3808,7 @@
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <pointsize>9</pointsize>
                        </font>
                       </property>
                       <property name="text">
@@ -3764,6 +3950,12 @@
                     <enum>QFrame::Raised</enum>
                    </property>
                    <layout class="QVBoxLayout" name="verticalLayout_62">
+                    <property name="spacing">
+                     <number>5</number>
+                    </property>
+                    <property name="margin">
+                     <number>5</number>
+                    </property>
                     <item>
                      <widget class="QPushButton" name="crate1_SB5_subslot3">
                       <property name="maximumSize">
@@ -3774,7 +3966,7 @@
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <pointsize>9</pointsize>
                        </font>
                       </property>
                       <property name="text">
@@ -3913,6 +4105,12 @@
                     <enum>QFrame::Raised</enum>
                    </property>
                    <layout class="QVBoxLayout" name="verticalLayout_64">
+                    <property name="spacing">
+                     <number>5</number>
+                    </property>
+                    <property name="margin">
+                     <number>5</number>
+                    </property>
                     <item>
                      <widget class="QPushButton" name="crate1_SB5_subslot5">
                       <property name="maximumSize">
@@ -3923,7 +4121,7 @@
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <pointsize>9</pointsize>
                        </font>
                       </property>
                       <property name="text">
@@ -4062,6 +4260,12 @@
                     <enum>QFrame::Raised</enum>
                    </property>
                    <layout class="QVBoxLayout" name="verticalLayout_70">
+                    <property name="spacing">
+                     <number>5</number>
+                    </property>
+                    <property name="margin">
+                     <number>5</number>
+                    </property>
                     <item>
                      <widget class="QPushButton" name="crate1_SB5_subslot6">
                       <property name="maximumSize">
@@ -4072,7 +4276,7 @@
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <pointsize>9</pointsize>
                        </font>
                       </property>
                       <property name="text">
@@ -4211,6 +4415,12 @@
                     <enum>QFrame::Raised</enum>
                    </property>
                    <layout class="QVBoxLayout" name="verticalLayout_68">
+                    <property name="spacing">
+                     <number>5</number>
+                    </property>
+                    <property name="margin">
+                     <number>5</number>
+                    </property>
                     <item>
                      <widget class="QPushButton" name="crate1_SB5_subslot4">
                       <property name="maximumSize">
@@ -4221,7 +4431,7 @@
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <pointsize>9</pointsize>
                        </font>
                       </property>
                       <property name="autoFillBackground">
@@ -4835,7 +5045,7 @@
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>1005</width>
+         <width>703</width>
          <height>748</height>
         </rect>
        </property>
@@ -4888,6 +5098,12 @@
            </item>
            <item>
             <widget class="QFrame" name="frame_8">
+             <property name="maximumSize">
+              <size>
+               <width>87</width>
+               <height>16777215</height>
+              </size>
+             </property>
              <property name="palette">
               <palette>
                <active>
@@ -5105,6 +5321,12 @@
                  <enum>QFrame::Raised</enum>
                 </property>
                 <layout class="QVBoxLayout" name="verticalLayout_55">
+                 <property name="spacing">
+                  <number>5</number>
+                 </property>
+                 <property name="margin">
+                  <number>5</number>
+                 </property>
                  <item>
                   <widget class="QPushButton" name="crate2_SB1_subslot1">
                    <property name="maximumSize">
@@ -5206,7 +5428,7 @@
                    </property>
                    <property name="font">
                     <font>
-                     <pointsize>10</pointsize>
+                     <pointsize>9</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -5348,6 +5570,12 @@
                  <enum>QFrame::Raised</enum>
                 </property>
                 <layout class="QVBoxLayout" name="verticalLayout_56">
+                 <property name="spacing">
+                  <number>5</number>
+                 </property>
+                 <property name="margin">
+                  <number>5</number>
+                 </property>
                  <item>
                   <widget class="QPushButton" name="crate2_SB1_subslot2">
                    <property name="maximumSize">
@@ -5358,7 +5586,7 @@
                    </property>
                    <property name="font">
                     <font>
-                     <pointsize>10</pointsize>
+                     <pointsize>9</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -5497,6 +5725,12 @@
                  <enum>QFrame::Raised</enum>
                 </property>
                 <layout class="QVBoxLayout" name="verticalLayout_57">
+                 <property name="spacing">
+                  <number>5</number>
+                 </property>
+                 <property name="margin">
+                  <number>5</number>
+                 </property>
                  <item>
                   <widget class="QPushButton" name="crate2_SB1_subslot3">
                    <property name="maximumSize">
@@ -5507,7 +5741,7 @@
                    </property>
                    <property name="font">
                     <font>
-                     <pointsize>10</pointsize>
+                     <pointsize>9</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -5642,6 +5876,12 @@
            </item>
            <item>
             <widget class="QFrame" name="frame_9">
+             <property name="maximumSize">
+              <size>
+               <width>87</width>
+               <height>16777215</height>
+              </size>
+             </property>
              <property name="palette">
               <palette>
                <active>
@@ -5859,6 +6099,12 @@
                  <enum>QFrame::Raised</enum>
                 </property>
                 <layout class="QVBoxLayout" name="verticalLayout_175">
+                 <property name="spacing">
+                  <number>5</number>
+                 </property>
+                 <property name="margin">
+                  <number>5</number>
+                 </property>
                  <item>
                   <widget class="QPushButton" name="crate2_SB2_subslot1">
                    <property name="maximumSize">
@@ -5960,7 +6206,7 @@
                    </property>
                    <property name="font">
                     <font>
-                     <pointsize>10</pointsize>
+                     <pointsize>9</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -6102,6 +6348,12 @@
                  <enum>QFrame::Raised</enum>
                 </property>
                 <layout class="QVBoxLayout" name="verticalLayout_177">
+                 <property name="spacing">
+                  <number>5</number>
+                 </property>
+                 <property name="margin">
+                  <number>5</number>
+                 </property>
                  <item>
                   <widget class="QPushButton" name="crate2_SB2_subslot2">
                    <property name="maximumSize">
@@ -6112,7 +6364,7 @@
                    </property>
                    <property name="font">
                     <font>
-                     <pointsize>10</pointsize>
+                     <pointsize>9</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -6251,6 +6503,12 @@
                  <enum>QFrame::Raised</enum>
                 </property>
                 <layout class="QVBoxLayout" name="verticalLayout_178">
+                 <property name="spacing">
+                  <number>5</number>
+                 </property>
+                 <property name="margin">
+                  <number>5</number>
+                 </property>
                  <item>
                   <widget class="QPushButton" name="crate2_SB2_subslot3">
                    <property name="maximumSize">
@@ -6261,7 +6519,7 @@
                    </property>
                    <property name="font">
                     <font>
-                     <pointsize>10</pointsize>
+                     <pointsize>9</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -6396,6 +6654,12 @@
            </item>
            <item>
             <widget class="QFrame" name="frame_10">
+             <property name="maximumSize">
+              <size>
+               <width>87</width>
+               <height>16777215</height>
+              </size>
+             </property>
              <property name="frameShape">
               <enum>QFrame::StyledPanel</enum>
              </property>
@@ -6431,6 +6695,12 @@
                  <enum>QFrame::Raised</enum>
                 </property>
                 <layout class="QVBoxLayout" name="verticalLayout_9">
+                 <property name="spacing">
+                  <number>5</number>
+                 </property>
+                 <property name="margin">
+                  <number>5</number>
+                 </property>
                  <item>
                   <widget class="QPushButton" name="crate2_SB3_subslot1">
                    <property name="maximumSize">
@@ -6441,7 +6711,7 @@
                    </property>
                    <property name="font">
                     <font>
-                     <pointsize>10</pointsize>
+                     <pointsize>9</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -6580,6 +6850,12 @@
                  <enum>QFrame::Raised</enum>
                 </property>
                 <layout class="QVBoxLayout" name="verticalLayout_15">
+                 <property name="spacing">
+                  <number>5</number>
+                 </property>
+                 <property name="margin">
+                  <number>5</number>
+                 </property>
                  <item>
                   <widget class="QPushButton" name="crate2_SB3_subslot2">
                    <property name="maximumSize">
@@ -6590,7 +6866,7 @@
                    </property>
                    <property name="font">
                     <font>
-                     <pointsize>10</pointsize>
+                     <pointsize>9</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -6729,6 +7005,12 @@
                  <enum>QFrame::Raised</enum>
                 </property>
                 <layout class="QVBoxLayout" name="verticalLayout_18">
+                 <property name="spacing">
+                  <number>5</number>
+                 </property>
+                 <property name="margin">
+                  <number>5</number>
+                 </property>
                  <item>
                   <widget class="QPushButton" name="crate2_SB3_subslot3">
                    <property name="maximumSize">
@@ -6739,7 +7021,7 @@
                    </property>
                    <property name="font">
                     <font>
-                     <pointsize>10</pointsize>
+                     <pointsize>9</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -6874,6 +7156,12 @@
            </item>
            <item>
             <widget class="QFrame" name="frame_17">
+             <property name="maximumSize">
+              <size>
+               <width>87</width>
+               <height>16777215</height>
+              </size>
+             </property>
              <property name="frameShape">
               <enum>QFrame::StyledPanel</enum>
              </property>
@@ -6909,6 +7197,12 @@
                  <enum>QFrame::Raised</enum>
                 </property>
                 <layout class="QVBoxLayout" name="verticalLayout_25">
+                 <property name="spacing">
+                  <number>5</number>
+                 </property>
+                 <property name="margin">
+                  <number>5</number>
+                 </property>
                  <item>
                   <widget class="QPushButton" name="crate2_SB4_subslot1">
                    <property name="maximumSize">
@@ -6919,7 +7213,7 @@
                    </property>
                    <property name="font">
                     <font>
-                     <pointsize>10</pointsize>
+                     <pointsize>9</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -7058,6 +7352,12 @@
                  <enum>QFrame::Raised</enum>
                 </property>
                 <layout class="QVBoxLayout" name="verticalLayout_30">
+                 <property name="spacing">
+                  <number>5</number>
+                 </property>
+                 <property name="margin">
+                  <number>5</number>
+                 </property>
                  <item>
                   <widget class="QPushButton" name="crate2_SB4_subslot2">
                    <property name="maximumSize">
@@ -7068,7 +7368,7 @@
                    </property>
                    <property name="font">
                     <font>
-                     <pointsize>10</pointsize>
+                     <pointsize>9</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -7088,32 +7388,6 @@
                     <property name="leftMargin">
                      <number>9</number>
                     </property>
-                    <item row="2" column="1">
-                     <widget class="QRadioButton" name="crate2_SB4_subslot2_5">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="2" column="2">
-                     <widget class="QRadioButton" name="crate2_SB4_subslot2_6">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
                     <item row="0" column="2">
                      <widget class="QRadioButton" name="crate2_SB4_subslot2_2">
                       <property name="text">
@@ -7153,8 +7427,8 @@
                       </property>
                      </widget>
                     </item>
-                    <item row="3" column="2">
-                     <widget class="QRadioButton" name="crate2_SB4_subslot2_8">
+                    <item row="1" column="2">
+                     <widget class="QRadioButton" name="crate2_SB4_subslot2_4">
                       <property name="text">
                        <string/>
                       </property>
@@ -7179,8 +7453,34 @@
                       </property>
                      </widget>
                     </item>
-                    <item row="1" column="2">
-                     <widget class="QRadioButton" name="crate2_SB4_subslot2_4">
+                    <item row="3" column="2">
+                     <widget class="QRadioButton" name="crate2_SB4_subslot2_8">
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
+                      <property name="autoExclusive">
+                       <bool>false</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="2" column="1">
+                     <widget class="QRadioButton" name="crate2_SB4_subslot2_5">
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
+                      <property name="autoExclusive">
+                       <bool>false</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="2" column="2">
+                     <widget class="QRadioButton" name="crate2_SB4_subslot2_6">
                       <property name="text">
                        <string/>
                       </property>
@@ -7207,6 +7507,12 @@
                  <enum>QFrame::Raised</enum>
                 </property>
                 <layout class="QVBoxLayout" name="verticalLayout_181">
+                 <property name="spacing">
+                  <number>5</number>
+                 </property>
+                 <property name="margin">
+                  <number>5</number>
+                 </property>
                  <item>
                   <widget class="QPushButton" name="crate2_SB4_subslot3">
                    <property name="maximumSize">
@@ -7217,7 +7523,7 @@
                    </property>
                    <property name="font">
                     <font>
-                     <pointsize>10</pointsize>
+                     <pointsize>9</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -7352,6 +7658,12 @@
            </item>
            <item>
             <widget class="QFrame" name="frame_11">
+             <property name="maximumSize">
+              <size>
+               <width>167</width>
+               <height>16777215</height>
+              </size>
+             </property>
              <property name="mouseTracking">
               <bool>false</bool>
              </property>
@@ -7372,7 +7684,7 @@
                <number>5</number>
               </property>
               <property name="sizeConstraint">
-               <enum>QLayout::SetMaximumSize</enum>
+               <enum>QLayout::SetDefaultConstraint</enum>
               </property>
               <property name="margin">
                <number>5</number>
@@ -7405,6 +7717,12 @@
                     <enum>QFrame::Raised</enum>
                    </property>
                    <layout class="QVBoxLayout" name="verticalLayout_67">
+                    <property name="spacing">
+                     <number>5</number>
+                    </property>
+                    <property name="margin">
+                     <number>5</number>
+                    </property>
                     <item>
                      <widget class="QPushButton" name="crate2_SB5_subslot2">
                       <property name="maximumSize">
@@ -7415,7 +7733,7 @@
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <pointsize>9</pointsize>
                        </font>
                       </property>
                       <property name="styleSheet">
@@ -7557,6 +7875,12 @@
                     <enum>QFrame::Raised</enum>
                    </property>
                    <layout class="QVBoxLayout" name="verticalLayout_72">
+                    <property name="spacing">
+                     <number>5</number>
+                    </property>
+                    <property name="margin">
+                     <number>5</number>
+                    </property>
                     <item>
                      <widget class="QPushButton" name="crate2_SB5_subslot1">
                       <property name="maximumSize">
@@ -7567,7 +7891,7 @@
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <pointsize>9</pointsize>
                        </font>
                       </property>
                       <property name="text">
@@ -7706,6 +8030,12 @@
                     <enum>QFrame::Raised</enum>
                    </property>
                    <layout class="QVBoxLayout" name="verticalLayout_63">
+                    <property name="spacing">
+                     <number>5</number>
+                    </property>
+                    <property name="margin">
+                     <number>5</number>
+                    </property>
                     <item>
                      <widget class="QPushButton" name="crate2_SB5_subslot3">
                       <property name="maximumSize">
@@ -7716,7 +8046,7 @@
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <pointsize>9</pointsize>
                        </font>
                       </property>
                       <property name="text">
@@ -7855,6 +8185,12 @@
                     <enum>QFrame::Raised</enum>
                    </property>
                    <layout class="QVBoxLayout" name="verticalLayout_65">
+                    <property name="spacing">
+                     <number>5</number>
+                    </property>
+                    <property name="margin">
+                     <number>5</number>
+                    </property>
                     <item>
                      <widget class="QPushButton" name="crate2_SB5_subslot5">
                       <property name="maximumSize">
@@ -7865,7 +8201,7 @@
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <pointsize>9</pointsize>
                        </font>
                       </property>
                       <property name="text">
@@ -7885,8 +8221,8 @@
                        <property name="leftMargin">
                         <number>9</number>
                        </property>
-                       <item row="0" column="2">
-                        <widget class="QRadioButton" name="crate2_SB5_subslot5_2">
+                       <item row="1" column="2">
+                        <widget class="QRadioButton" name="crate2_SB5_subslot5_4">
                          <property name="text">
                           <string/>
                          </property>
@@ -7900,45 +8236,6 @@
                        </item>
                        <item row="2" column="1">
                         <widget class="QRadioButton" name="crate2_SB5_subslot5_5">
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="checked">
-                          <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-                        </widget>
-                       </item>
-                       <item row="0" column="1">
-                        <widget class="QRadioButton" name="crate2_SB5_subslot5_1">
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="checked">
-                          <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-                        </widget>
-                       </item>
-                       <item row="2" column="2">
-                        <widget class="QRadioButton" name="crate2_SB5_subslot5_6">
-                         <property name="text">
-                          <string/>
-                         </property>
-                         <property name="checked">
-                          <bool>true</bool>
-                         </property>
-                         <property name="autoExclusive">
-                          <bool>false</bool>
-                         </property>
-                        </widget>
-                       </item>
-                       <item row="3" column="1">
-                        <widget class="QRadioButton" name="crate2_SB5_subslot5_7">
                          <property name="text">
                           <string/>
                          </property>
@@ -7976,8 +8273,47 @@
                          </property>
                         </widget>
                        </item>
-                       <item row="1" column="2">
-                        <widget class="QRadioButton" name="crate2_SB5_subslot5_4">
+                       <item row="3" column="1">
+                        <widget class="QRadioButton" name="crate2_SB5_subslot5_7">
+                         <property name="text">
+                          <string/>
+                         </property>
+                         <property name="checked">
+                          <bool>true</bool>
+                         </property>
+                         <property name="autoExclusive">
+                          <bool>false</bool>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="2" column="2">
+                        <widget class="QRadioButton" name="crate2_SB5_subslot5_6">
+                         <property name="text">
+                          <string/>
+                         </property>
+                         <property name="checked">
+                          <bool>true</bool>
+                         </property>
+                         <property name="autoExclusive">
+                          <bool>false</bool>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="0" column="1">
+                        <widget class="QRadioButton" name="crate2_SB5_subslot5_1">
+                         <property name="text">
+                          <string/>
+                         </property>
+                         <property name="checked">
+                          <bool>true</bool>
+                         </property>
+                         <property name="autoExclusive">
+                          <bool>false</bool>
+                         </property>
+                        </widget>
+                       </item>
+                       <item row="0" column="2">
+                        <widget class="QRadioButton" name="crate2_SB5_subslot5_2">
                          <property name="text">
                           <string/>
                          </property>
@@ -8004,6 +8340,12 @@
                     <enum>QFrame::Raised</enum>
                    </property>
                    <layout class="QVBoxLayout" name="verticalLayout_73">
+                    <property name="spacing">
+                     <number>5</number>
+                    </property>
+                    <property name="margin">
+                     <number>5</number>
+                    </property>
                     <item>
                      <widget class="QPushButton" name="crate2_SB5_subslot6">
                       <property name="maximumSize">
@@ -8014,7 +8356,7 @@
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <pointsize>9</pointsize>
                        </font>
                       </property>
                       <property name="text">
@@ -8153,6 +8495,12 @@
                     <enum>QFrame::Raised</enum>
                    </property>
                    <layout class="QVBoxLayout" name="verticalLayout_69">
+                    <property name="spacing">
+                     <number>5</number>
+                    </property>
+                    <property name="margin">
+                     <number>5</number>
+                    </property>
                     <item>
                      <widget class="QPushButton" name="crate2_SB5_subslot4">
                       <property name="maximumSize">
@@ -8163,7 +8511,7 @@
                       </property>
                       <property name="font">
                        <font>
-                        <pointsize>10</pointsize>
+                        <pointsize>9</pointsize>
                        </font>
                       </property>
                       <property name="autoFillBackground">
@@ -8355,8 +8703,8 @@
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>992</width>
-         <height>1164</height>
+         <width>690</width>
+         <height>1105</height>
         </rect>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout_11">
@@ -8426,6 +8774,18 @@
                  </property>
                  <item>
                   <widget class="QFrame" name="frame_52">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>0</height>
+                    </size>
+                   </property>
+                   <property name="maximumSize">
+                    <size>
+                     <width>87</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
                    <property name="palette">
                     <palette>
                      <active>
@@ -8643,6 +9003,12 @@
                        <enum>QFrame::Raised</enum>
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_91">
+                       <property name="spacing">
+                        <number>5</number>
+                       </property>
+                       <property name="margin">
+                        <number>5</number>
+                       </property>
                        <item>
                         <widget class="QPushButton" name="crate3_SB1_subslot1">
                          <property name="maximumSize">
@@ -8744,7 +9110,7 @@
                          </property>
                          <property name="font">
                           <font>
-                           <pointsize>10</pointsize>
+                           <pointsize>9</pointsize>
                           </font>
                          </property>
                          <property name="text">
@@ -8886,6 +9252,12 @@
                        <enum>QFrame::Raised</enum>
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_92">
+                       <property name="spacing">
+                        <number>5</number>
+                       </property>
+                       <property name="margin">
+                        <number>5</number>
+                       </property>
                        <item>
                         <widget class="QPushButton" name="crate3_SB1_subslot2">
                          <property name="maximumSize">
@@ -8896,7 +9268,7 @@
                          </property>
                          <property name="font">
                           <font>
-                           <pointsize>10</pointsize>
+                           <pointsize>9</pointsize>
                           </font>
                          </property>
                          <property name="text">
@@ -9035,6 +9407,12 @@
                        <enum>QFrame::Raised</enum>
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_93">
+                       <property name="spacing">
+                        <number>5</number>
+                       </property>
+                       <property name="margin">
+                        <number>5</number>
+                       </property>
                        <item>
                         <widget class="QPushButton" name="crate3_SB1_subslot3">
                          <property name="maximumSize">
@@ -9045,7 +9423,7 @@
                          </property>
                          <property name="font">
                           <font>
-                           <pointsize>10</pointsize>
+                           <pointsize>9</pointsize>
                           </font>
                          </property>
                          <property name="text">
@@ -9180,6 +9558,12 @@
                  </item>
                  <item>
                   <widget class="QFrame" name="frame_56">
+                   <property name="maximumSize">
+                    <size>
+                     <width>87</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
                    <property name="palette">
                     <palette>
                      <active>
@@ -9397,6 +9781,12 @@
                        <enum>QFrame::Raised</enum>
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_189">
+                       <property name="spacing">
+                        <number>5</number>
+                       </property>
+                       <property name="margin">
+                        <number>5</number>
+                       </property>
                        <item>
                         <widget class="QPushButton" name="crate3_SB2_subslot1">
                          <property name="maximumSize">
@@ -9498,7 +9888,7 @@
                          </property>
                          <property name="font">
                           <font>
-                           <pointsize>10</pointsize>
+                           <pointsize>9</pointsize>
                           </font>
                          </property>
                          <property name="text">
@@ -9640,6 +10030,12 @@
                        <enum>QFrame::Raised</enum>
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_190">
+                       <property name="spacing">
+                        <number>5</number>
+                       </property>
+                       <property name="margin">
+                        <number>5</number>
+                       </property>
                        <item>
                         <widget class="QPushButton" name="crate3_SB2_subslot2">
                          <property name="maximumSize">
@@ -9650,7 +10046,7 @@
                          </property>
                          <property name="font">
                           <font>
-                           <pointsize>10</pointsize>
+                           <pointsize>9</pointsize>
                           </font>
                          </property>
                          <property name="text">
@@ -9799,7 +10195,7 @@
                          </property>
                          <property name="font">
                           <font>
-                           <pointsize>10</pointsize>
+                           <pointsize>9</pointsize>
                           </font>
                          </property>
                          <property name="text">
@@ -9934,6 +10330,12 @@
                  </item>
                  <item>
                   <widget class="QFrame" name="frame_57">
+                   <property name="maximumSize">
+                    <size>
+                     <width>87</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
                    <property name="frameShape">
                     <enum>QFrame::StyledPanel</enum>
                    </property>
@@ -9969,6 +10371,12 @@
                        <enum>QFrame::Raised</enum>
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_96">
+                       <property name="spacing">
+                        <number>5</number>
+                       </property>
+                       <property name="margin">
+                        <number>5</number>
+                       </property>
                        <item>
                         <widget class="QPushButton" name="crate3_SB3_subslot1">
                          <property name="maximumSize">
@@ -9979,7 +10387,7 @@
                          </property>
                          <property name="font">
                           <font>
-                           <pointsize>10</pointsize>
+                           <pointsize>9</pointsize>
                           </font>
                          </property>
                          <property name="text">
@@ -10118,6 +10526,12 @@
                        <enum>QFrame::Raised</enum>
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_97">
+                       <property name="spacing">
+                        <number>5</number>
+                       </property>
+                       <property name="margin">
+                        <number>5</number>
+                       </property>
                        <item>
                         <widget class="QPushButton" name="crate3_SB3_subslot2">
                          <property name="maximumSize">
@@ -10128,7 +10542,7 @@
                          </property>
                          <property name="font">
                           <font>
-                           <pointsize>10</pointsize>
+                           <pointsize>9</pointsize>
                           </font>
                          </property>
                          <property name="text">
@@ -10267,6 +10681,12 @@
                        <enum>QFrame::Raised</enum>
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_98">
+                       <property name="spacing">
+                        <number>5</number>
+                       </property>
+                       <property name="margin">
+                        <number>5</number>
+                       </property>
                        <item>
                         <widget class="QPushButton" name="crate3_SB3_subslot3">
                          <property name="maximumSize">
@@ -10277,7 +10697,7 @@
                          </property>
                          <property name="font">
                           <font>
-                           <pointsize>10</pointsize>
+                           <pointsize>9</pointsize>
                           </font>
                          </property>
                          <property name="text">
@@ -10412,6 +10832,12 @@
                  </item>
                  <item>
                   <widget class="QFrame" name="frame_61">
+                   <property name="maximumSize">
+                    <size>
+                     <width>87</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
                    <property name="frameShape">
                     <enum>QFrame::StyledPanel</enum>
                    </property>
@@ -10447,6 +10873,12 @@
                        <enum>QFrame::Raised</enum>
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_100">
+                       <property name="spacing">
+                        <number>5</number>
+                       </property>
+                       <property name="margin">
+                        <number>5</number>
+                       </property>
                        <item>
                         <widget class="QPushButton" name="crate3_SB4_subslot1">
                          <property name="maximumSize">
@@ -10457,7 +10889,7 @@
                          </property>
                          <property name="font">
                           <font>
-                           <pointsize>10</pointsize>
+                           <pointsize>9</pointsize>
                           </font>
                          </property>
                          <property name="text">
@@ -10596,6 +11028,12 @@
                        <enum>QFrame::Raised</enum>
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_101">
+                       <property name="spacing">
+                        <number>5</number>
+                       </property>
+                       <property name="margin">
+                        <number>5</number>
+                       </property>
                        <item>
                         <widget class="QPushButton" name="crate3_SB4_subslot2">
                          <property name="maximumSize">
@@ -10606,7 +11044,7 @@
                          </property>
                          <property name="font">
                           <font>
-                           <pointsize>10</pointsize>
+                           <pointsize>9</pointsize>
                           </font>
                          </property>
                          <property name="text">
@@ -10745,6 +11183,12 @@
                        <enum>QFrame::Raised</enum>
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_192">
+                       <property name="spacing">
+                        <number>5</number>
+                       </property>
+                       <property name="margin">
+                        <number>5</number>
+                       </property>
                        <item>
                         <widget class="QPushButton" name="crate3_SB4_subslot3">
                          <property name="maximumSize">
@@ -10755,7 +11199,7 @@
                          </property>
                          <property name="font">
                           <font>
-                           <pointsize>10</pointsize>
+                           <pointsize>9</pointsize>
                           </font>
                          </property>
                          <property name="text">
@@ -10890,6 +11334,12 @@
                  </item>
                  <item>
                   <widget class="QFrame" name="frame_62">
+                   <property name="maximumSize">
+                    <size>
+                     <width>167</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
                    <property name="mouseTracking">
                     <bool>false</bool>
                    </property>
@@ -10910,7 +11360,7 @@
                      <number>5</number>
                     </property>
                     <property name="sizeConstraint">
-                     <enum>QLayout::SetMaximumSize</enum>
+                     <enum>QLayout::SetDefaultConstraint</enum>
                     </property>
                     <property name="margin">
                      <number>5</number>
@@ -10943,6 +11393,12 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_103">
+                          <property name="spacing">
+                           <number>5</number>
+                          </property>
+                          <property name="margin">
+                           <number>5</number>
+                          </property>
                           <item>
                            <widget class="QPushButton" name="crate3_SB5_subslot2">
                             <property name="maximumSize">
@@ -10953,7 +11409,7 @@
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>10</pointsize>
+                              <pointsize>9</pointsize>
                              </font>
                             </property>
                             <property name="styleSheet">
@@ -11095,6 +11551,12 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_104">
+                          <property name="spacing">
+                           <number>5</number>
+                          </property>
+                          <property name="margin">
+                           <number>5</number>
+                          </property>
                           <item>
                            <widget class="QPushButton" name="crate3_SB5_subslot1">
                             <property name="maximumSize">
@@ -11105,7 +11567,7 @@
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>10</pointsize>
+                              <pointsize>9</pointsize>
                              </font>
                             </property>
                             <property name="text">
@@ -11244,6 +11706,12 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_105">
+                          <property name="spacing">
+                           <number>5</number>
+                          </property>
+                          <property name="margin">
+                           <number>5</number>
+                          </property>
                           <item>
                            <widget class="QPushButton" name="crate3_SB5_subslot3">
                             <property name="maximumSize">
@@ -11254,7 +11722,7 @@
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>10</pointsize>
+                              <pointsize>9</pointsize>
                              </font>
                             </property>
                             <property name="text">
@@ -11393,6 +11861,12 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_106">
+                          <property name="spacing">
+                           <number>5</number>
+                          </property>
+                          <property name="margin">
+                           <number>5</number>
+                          </property>
                           <item>
                            <widget class="QPushButton" name="crate3_SB5_subslot5">
                             <property name="maximumSize">
@@ -11403,7 +11877,7 @@
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>10</pointsize>
+                              <pointsize>9</pointsize>
                              </font>
                             </property>
                             <property name="text">
@@ -11542,6 +12016,12 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_107">
+                          <property name="spacing">
+                           <number>5</number>
+                          </property>
+                          <property name="margin">
+                           <number>5</number>
+                          </property>
                           <item>
                            <widget class="QPushButton" name="crate3_SB5_subslot6">
                             <property name="maximumSize">
@@ -11552,7 +12032,7 @@
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>10</pointsize>
+                              <pointsize>9</pointsize>
                              </font>
                             </property>
                             <property name="text">
@@ -11691,6 +12171,12 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_108">
+                          <property name="spacing">
+                           <number>5</number>
+                          </property>
+                          <property name="margin">
+                           <number>5</number>
+                          </property>
                           <item>
                            <widget class="QPushButton" name="crate3_SB5_subslot4">
                             <property name="maximumSize">
@@ -11701,7 +12187,7 @@
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>10</pointsize>
+                              <pointsize>9</pointsize>
                              </font>
                             </property>
                             <property name="autoFillBackground">
@@ -11867,6 +12353,12 @@
                  </property>
                  <item>
                   <widget class="QFrame" name="frame_14">
+                   <property name="maximumSize">
+                    <size>
+                     <width>87</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
                    <property name="palette">
                     <palette>
                      <active>
@@ -12084,6 +12576,12 @@
                        <enum>QFrame::Raised</enum>
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_58">
+                       <property name="spacing">
+                        <number>5</number>
+                       </property>
+                       <property name="margin">
+                        <number>5</number>
+                       </property>
                        <item>
                         <widget class="QPushButton" name="crate3_SB6_subslot1">
                          <property name="maximumSize">
@@ -12185,7 +12683,7 @@
                          </property>
                          <property name="font">
                           <font>
-                           <pointsize>10</pointsize>
+                           <pointsize>9</pointsize>
                           </font>
                          </property>
                          <property name="text">
@@ -12327,6 +12825,12 @@
                        <enum>QFrame::Raised</enum>
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_59">
+                       <property name="spacing">
+                        <number>5</number>
+                       </property>
+                       <property name="margin">
+                        <number>5</number>
+                       </property>
                        <item>
                         <widget class="QPushButton" name="crate3_SB6_subslot2">
                          <property name="maximumSize">
@@ -12337,7 +12841,7 @@
                          </property>
                          <property name="font">
                           <font>
-                           <pointsize>10</pointsize>
+                           <pointsize>9</pointsize>
                           </font>
                          </property>
                          <property name="text">
@@ -12476,6 +12980,12 @@
                        <enum>QFrame::Raised</enum>
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_60">
+                       <property name="spacing">
+                        <number>5</number>
+                       </property>
+                       <property name="margin">
+                        <number>5</number>
+                       </property>
                        <item>
                         <widget class="QPushButton" name="crate3_SB6_subslot3">
                          <property name="maximumSize">
@@ -12486,7 +12996,7 @@
                          </property>
                          <property name="font">
                           <font>
-                           <pointsize>10</pointsize>
+                           <pointsize>9</pointsize>
                           </font>
                          </property>
                          <property name="text">
@@ -12621,6 +13131,12 @@
                  </item>
                  <item>
                   <widget class="QFrame" name="frame_15">
+                   <property name="maximumSize">
+                    <size>
+                     <width>87</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
                    <property name="palette">
                     <palette>
                      <active>
@@ -12838,6 +13354,12 @@
                        <enum>QFrame::Raised</enum>
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_179">
+                       <property name="spacing">
+                        <number>5</number>
+                       </property>
+                       <property name="margin">
+                        <number>5</number>
+                       </property>
                        <item>
                         <widget class="QPushButton" name="crate3_SB7_subslot1">
                          <property name="maximumSize">
@@ -12939,7 +13461,7 @@
                          </property>
                          <property name="font">
                           <font>
-                           <pointsize>10</pointsize>
+                           <pointsize>9</pointsize>
                           </font>
                          </property>
                          <property name="text">
@@ -13081,6 +13603,12 @@
                        <enum>QFrame::Raised</enum>
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_182">
+                       <property name="spacing">
+                        <number>5</number>
+                       </property>
+                       <property name="margin">
+                        <number>5</number>
+                       </property>
                        <item>
                         <widget class="QPushButton" name="crate3_SB7_subslot2">
                          <property name="maximumSize">
@@ -13091,7 +13619,7 @@
                          </property>
                          <property name="font">
                           <font>
-                           <pointsize>10</pointsize>
+                           <pointsize>9</pointsize>
                           </font>
                          </property>
                          <property name="text">
@@ -13230,6 +13758,12 @@
                        <enum>QFrame::Raised</enum>
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_183">
+                       <property name="spacing">
+                        <number>5</number>
+                       </property>
+                       <property name="margin">
+                        <number>5</number>
+                       </property>
                        <item>
                         <widget class="QPushButton" name="crate3_SB7_subslot3">
                          <property name="maximumSize">
@@ -13240,7 +13774,7 @@
                          </property>
                          <property name="font">
                           <font>
-                           <pointsize>10</pointsize>
+                           <pointsize>9</pointsize>
                           </font>
                          </property>
                          <property name="text">
@@ -13375,6 +13909,12 @@
                  </item>
                  <item>
                   <widget class="QFrame" name="frame_18">
+                   <property name="maximumSize">
+                    <size>
+                     <width>87</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
                    <property name="frameShape">
                     <enum>QFrame::StyledPanel</enum>
                    </property>
@@ -13410,6 +13950,12 @@
                        <enum>QFrame::Raised</enum>
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_32">
+                       <property name="spacing">
+                        <number>5</number>
+                       </property>
+                       <property name="margin">
+                        <number>5</number>
+                       </property>
                        <item>
                         <widget class="QPushButton" name="crate3_SB8_subslot1">
                          <property name="maximumSize">
@@ -13420,7 +13966,7 @@
                          </property>
                          <property name="font">
                           <font>
-                           <pointsize>10</pointsize>
+                           <pointsize>9</pointsize>
                           </font>
                          </property>
                          <property name="text">
@@ -13559,6 +14105,12 @@
                        <enum>QFrame::Raised</enum>
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_33">
+                       <property name="spacing">
+                        <number>5</number>
+                       </property>
+                       <property name="margin">
+                        <number>5</number>
+                       </property>
                        <item>
                         <widget class="QPushButton" name="crate3_SB8_subslot2">
                          <property name="maximumSize">
@@ -13569,7 +14121,7 @@
                          </property>
                          <property name="font">
                           <font>
-                           <pointsize>10</pointsize>
+                           <pointsize>9</pointsize>
                           </font>
                          </property>
                          <property name="text">
@@ -13708,6 +14260,12 @@
                        <enum>QFrame::Raised</enum>
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_34">
+                       <property name="spacing">
+                        <number>5</number>
+                       </property>
+                       <property name="margin">
+                        <number>5</number>
+                       </property>
                        <item>
                         <widget class="QPushButton" name="crate3_SB8_subslot3">
                          <property name="maximumSize">
@@ -13718,7 +14276,7 @@
                          </property>
                          <property name="font">
                           <font>
-                           <pointsize>10</pointsize>
+                           <pointsize>9</pointsize>
                           </font>
                          </property>
                          <property name="text">
@@ -13853,6 +14411,12 @@
                  </item>
                  <item>
                   <widget class="QFrame" name="frame_19">
+                   <property name="maximumSize">
+                    <size>
+                     <width>87</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
                    <property name="frameShape">
                     <enum>QFrame::StyledPanel</enum>
                    </property>
@@ -13888,6 +14452,12 @@
                        <enum>QFrame::Raised</enum>
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_36">
+                       <property name="spacing">
+                        <number>5</number>
+                       </property>
+                       <property name="margin">
+                        <number>5</number>
+                       </property>
                        <item>
                         <widget class="QPushButton" name="crate3_SB9_subslot1">
                          <property name="maximumSize">
@@ -13898,7 +14468,7 @@
                          </property>
                          <property name="font">
                           <font>
-                           <pointsize>10</pointsize>
+                           <pointsize>9</pointsize>
                           </font>
                          </property>
                          <property name="text">
@@ -14037,6 +14607,12 @@
                        <enum>QFrame::Raised</enum>
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_37">
+                       <property name="spacing">
+                        <number>5</number>
+                       </property>
+                       <property name="margin">
+                        <number>5</number>
+                       </property>
                        <item>
                         <widget class="QPushButton" name="crate3_SB9_subslot2">
                          <property name="maximumSize">
@@ -14047,7 +14623,7 @@
                          </property>
                          <property name="font">
                           <font>
-                           <pointsize>10</pointsize>
+                           <pointsize>9</pointsize>
                           </font>
                          </property>
                          <property name="text">
@@ -14186,6 +14762,12 @@
                        <enum>QFrame::Raised</enum>
                       </property>
                       <layout class="QVBoxLayout" name="verticalLayout_184">
+                       <property name="spacing">
+                        <number>5</number>
+                       </property>
+                       <property name="margin">
+                        <number>5</number>
+                       </property>
                        <item>
                         <widget class="QPushButton" name="crate3_SB9_subslot3">
                          <property name="maximumSize">
@@ -14196,7 +14778,7 @@
                          </property>
                          <property name="font">
                           <font>
-                           <pointsize>10</pointsize>
+                           <pointsize>9</pointsize>
                           </font>
                          </property>
                          <property name="text">
@@ -14331,6 +14913,12 @@
                  </item>
                  <item>
                   <widget class="QFrame" name="frame_20">
+                   <property name="maximumSize">
+                    <size>
+                     <width>167</width>
+                     <height>16777215</height>
+                    </size>
+                   </property>
                    <property name="mouseTracking">
                     <bool>false</bool>
                    </property>
@@ -14351,7 +14939,7 @@
                      <number>5</number>
                     </property>
                     <property name="sizeConstraint">
-                     <enum>QLayout::SetMaximumSize</enum>
+                     <enum>QLayout::SetDefaultConstraint</enum>
                     </property>
                     <property name="margin">
                      <number>5</number>
@@ -14384,6 +14972,12 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_74">
+                          <property name="spacing">
+                           <number>5</number>
+                          </property>
+                          <property name="margin">
+                           <number>5</number>
+                          </property>
                           <item>
                            <widget class="QPushButton" name="crate3_SB10_subslot2">
                             <property name="maximumSize">
@@ -14394,7 +14988,7 @@
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>10</pointsize>
+                              <pointsize>9</pointsize>
                              </font>
                             </property>
                             <property name="styleSheet">
@@ -14536,6 +15130,12 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_75">
+                          <property name="spacing">
+                           <number>5</number>
+                          </property>
+                          <property name="margin">
+                           <number>5</number>
+                          </property>
                           <item>
                            <widget class="QPushButton" name="crate3_SB10_subslot1">
                             <property name="maximumSize">
@@ -14546,7 +15146,7 @@
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>10</pointsize>
+                              <pointsize>9</pointsize>
                              </font>
                             </property>
                             <property name="text">
@@ -14685,6 +15285,12 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_76">
+                          <property name="spacing">
+                           <number>5</number>
+                          </property>
+                          <property name="margin">
+                           <number>5</number>
+                          </property>
                           <item>
                            <widget class="QPushButton" name="crate3_SB10_subslot3">
                             <property name="maximumSize">
@@ -14695,7 +15301,7 @@
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>10</pointsize>
+                              <pointsize>9</pointsize>
                              </font>
                             </property>
                             <property name="text">
@@ -14834,6 +15440,12 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_77">
+                          <property name="spacing">
+                           <number>5</number>
+                          </property>
+                          <property name="margin">
+                           <number>5</number>
+                          </property>
                           <item>
                            <widget class="QPushButton" name="crate3_SB10_subslot5">
                             <property name="maximumSize">
@@ -14844,7 +15456,7 @@
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>10</pointsize>
+                              <pointsize>9</pointsize>
                              </font>
                             </property>
                             <property name="text">
@@ -14983,6 +15595,12 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_78">
+                          <property name="spacing">
+                           <number>5</number>
+                          </property>
+                          <property name="margin">
+                           <number>5</number>
+                          </property>
                           <item>
                            <widget class="QPushButton" name="crate3_SB10_subslot6">
                             <property name="maximumSize">
@@ -14993,7 +15611,7 @@
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>10</pointsize>
+                              <pointsize>9</pointsize>
                              </font>
                             </property>
                             <property name="text">
@@ -15132,6 +15750,12 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_79">
+                          <property name="spacing">
+                           <number>5</number>
+                          </property>
+                          <property name="margin">
+                           <number>5</number>
+                          </property>
                           <item>
                            <widget class="QPushButton" name="crate3_SB10_subslot4">
                             <property name="maximumSize">
@@ -15142,7 +15766,7 @@
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>10</pointsize>
+                              <pointsize>9</pointsize>
                              </font>
                             </property>
                             <property name="autoFillBackground">
@@ -15348,9 +15972,9 @@
           <property name="geometry">
            <rect>
             <x>0</x>
-            <y>0</y>
-            <width>992</width>
-            <height>1164</height>
+            <y>-299</y>
+            <width>690</width>
+            <height>1115</height>
            </rect>
           </property>
           <layout class="QVBoxLayout" name="verticalLayout_40">
@@ -15420,6 +16044,12 @@
                     </property>
                     <item>
                      <widget class="QFrame" name="frame_63">
+                      <property name="maximumSize">
+                       <size>
+                        <width>87</width>
+                        <height>16777215</height>
+                       </size>
+                      </property>
                       <property name="palette">
                        <palette>
                         <active>
@@ -15637,6 +16267,12 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_112">
+                          <property name="spacing">
+                           <number>5</number>
+                          </property>
+                          <property name="margin">
+                           <number>5</number>
+                          </property>
                           <item>
                            <widget class="QPushButton" name="crate4_SB1_subslot1">
                             <property name="maximumSize">
@@ -15738,7 +16374,7 @@
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>10</pointsize>
+                              <pointsize>9</pointsize>
                              </font>
                             </property>
                             <property name="text">
@@ -15880,6 +16516,12 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_113">
+                          <property name="spacing">
+                           <number>5</number>
+                          </property>
+                          <property name="margin">
+                           <number>5</number>
+                          </property>
                           <item>
                            <widget class="QPushButton" name="crate4_SB1_subslot2">
                             <property name="maximumSize">
@@ -15890,7 +16532,7 @@
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>10</pointsize>
+                              <pointsize>9</pointsize>
                              </font>
                             </property>
                             <property name="text">
@@ -16029,6 +16671,12 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_114">
+                          <property name="spacing">
+                           <number>5</number>
+                          </property>
+                          <property name="margin">
+                           <number>5</number>
+                          </property>
                           <item>
                            <widget class="QPushButton" name="crate4_SB1_subslot3">
                             <property name="maximumSize">
@@ -16039,7 +16687,7 @@
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>10</pointsize>
+                              <pointsize>9</pointsize>
                              </font>
                             </property>
                             <property name="text">
@@ -16174,6 +16822,12 @@
                     </item>
                     <item>
                      <widget class="QFrame" name="frame_67">
+                      <property name="maximumSize">
+                       <size>
+                        <width>87</width>
+                        <height>16777215</height>
+                       </size>
+                      </property>
                       <property name="palette">
                        <palette>
                         <active>
@@ -16391,6 +17045,12 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_193">
+                          <property name="spacing">
+                           <number>5</number>
+                          </property>
+                          <property name="margin">
+                           <number>5</number>
+                          </property>
                           <item>
                            <widget class="QPushButton" name="crate4_SB2_subslot1">
                             <property name="maximumSize">
@@ -16492,7 +17152,7 @@
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>10</pointsize>
+                              <pointsize>9</pointsize>
                              </font>
                             </property>
                             <property name="text">
@@ -16634,6 +17294,12 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_194">
+                          <property name="spacing">
+                           <number>5</number>
+                          </property>
+                          <property name="margin">
+                           <number>5</number>
+                          </property>
                           <item>
                            <widget class="QPushButton" name="crate4_SB2_subslot2">
                             <property name="maximumSize">
@@ -16644,7 +17310,7 @@
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>10</pointsize>
+                              <pointsize>9</pointsize>
                              </font>
                             </property>
                             <property name="text">
@@ -16783,6 +17449,12 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_195">
+                          <property name="spacing">
+                           <number>5</number>
+                          </property>
+                          <property name="margin">
+                           <number>5</number>
+                          </property>
                           <item>
                            <widget class="QPushButton" name="crate4_SB2_subslot3">
                             <property name="maximumSize">
@@ -16793,7 +17465,7 @@
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>10</pointsize>
+                              <pointsize>9</pointsize>
                              </font>
                             </property>
                             <property name="text">
@@ -16928,6 +17600,12 @@
                     </item>
                     <item>
                      <widget class="QFrame" name="frame_68">
+                      <property name="maximumSize">
+                       <size>
+                        <width>87</width>
+                        <height>16777215</height>
+                       </size>
+                      </property>
                       <property name="frameShape">
                        <enum>QFrame::StyledPanel</enum>
                       </property>
@@ -16963,6 +17641,12 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_117">
+                          <property name="spacing">
+                           <number>5</number>
+                          </property>
+                          <property name="margin">
+                           <number>5</number>
+                          </property>
                           <item>
                            <widget class="QPushButton" name="crate4_SB3_subslot1">
                             <property name="maximumSize">
@@ -16973,7 +17657,7 @@
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>10</pointsize>
+                              <pointsize>9</pointsize>
                              </font>
                             </property>
                             <property name="text">
@@ -17112,6 +17796,12 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_118">
+                          <property name="spacing">
+                           <number>5</number>
+                          </property>
+                          <property name="margin">
+                           <number>5</number>
+                          </property>
                           <item>
                            <widget class="QPushButton" name="crate4_SB3_subslot2">
                             <property name="maximumSize">
@@ -17122,7 +17812,7 @@
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>10</pointsize>
+                              <pointsize>9</pointsize>
                              </font>
                             </property>
                             <property name="text">
@@ -17261,6 +17951,12 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_119">
+                          <property name="spacing">
+                           <number>5</number>
+                          </property>
+                          <property name="margin">
+                           <number>5</number>
+                          </property>
                           <item>
                            <widget class="QPushButton" name="crate4_SB3_subslot3">
                             <property name="maximumSize">
@@ -17271,7 +17967,7 @@
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>10</pointsize>
+                              <pointsize>9</pointsize>
                              </font>
                             </property>
                             <property name="text">
@@ -17406,6 +18102,12 @@
                     </item>
                     <item>
                      <widget class="QFrame" name="frame_72">
+                      <property name="maximumSize">
+                       <size>
+                        <width>87</width>
+                        <height>16777215</height>
+                       </size>
+                      </property>
                       <property name="frameShape">
                        <enum>QFrame::StyledPanel</enum>
                       </property>
@@ -17441,6 +18143,12 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_121">
+                          <property name="spacing">
+                           <number>5</number>
+                          </property>
+                          <property name="margin">
+                           <number>5</number>
+                          </property>
                           <item>
                            <widget class="QPushButton" name="crate4_SB4_subslot1">
                             <property name="maximumSize">
@@ -17451,7 +18159,7 @@
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>10</pointsize>
+                              <pointsize>9</pointsize>
                              </font>
                             </property>
                             <property name="text">
@@ -17590,6 +18298,12 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_122">
+                          <property name="spacing">
+                           <number>5</number>
+                          </property>
+                          <property name="margin">
+                           <number>5</number>
+                          </property>
                           <item>
                            <widget class="QPushButton" name="crate4_SB4_subslot2">
                             <property name="maximumSize">
@@ -17600,7 +18314,7 @@
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>10</pointsize>
+                              <pointsize>9</pointsize>
                              </font>
                             </property>
                             <property name="text">
@@ -17739,6 +18453,12 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_196">
+                          <property name="spacing">
+                           <number>5</number>
+                          </property>
+                          <property name="margin">
+                           <number>5</number>
+                          </property>
                           <item>
                            <widget class="QPushButton" name="crate4_SB4_subslot3">
                             <property name="maximumSize">
@@ -17749,7 +18469,7 @@
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>10</pointsize>
+                              <pointsize>9</pointsize>
                              </font>
                             </property>
                             <property name="text">
@@ -17884,6 +18604,12 @@
                     </item>
                     <item>
                      <widget class="QFrame" name="frame_73">
+                      <property name="maximumSize">
+                       <size>
+                        <width>167</width>
+                        <height>16777215</height>
+                       </size>
+                      </property>
                       <property name="mouseTracking">
                        <bool>false</bool>
                       </property>
@@ -17904,7 +18630,7 @@
                         <number>5</number>
                        </property>
                        <property name="sizeConstraint">
-                        <enum>QLayout::SetMaximumSize</enum>
+                        <enum>QLayout::SetDefaultConstraint</enum>
                        </property>
                        <property name="margin">
                         <number>5</number>
@@ -17937,6 +18663,12 @@
                              <enum>QFrame::Raised</enum>
                             </property>
                             <layout class="QVBoxLayout" name="verticalLayout_124">
+                             <property name="spacing">
+                              <number>5</number>
+                             </property>
+                             <property name="margin">
+                              <number>5</number>
+                             </property>
                              <item>
                               <widget class="QPushButton" name="crate4_SB5_subslot2">
                                <property name="maximumSize">
@@ -17947,7 +18679,7 @@
                                </property>
                                <property name="font">
                                 <font>
-                                 <pointsize>10</pointsize>
+                                 <pointsize>9</pointsize>
                                 </font>
                                </property>
                                <property name="styleSheet">
@@ -18089,6 +18821,12 @@
                              <enum>QFrame::Raised</enum>
                             </property>
                             <layout class="QVBoxLayout" name="verticalLayout_125">
+                             <property name="spacing">
+                              <number>5</number>
+                             </property>
+                             <property name="margin">
+                              <number>5</number>
+                             </property>
                              <item>
                               <widget class="QPushButton" name="crate4_SB5_subslot1">
                                <property name="maximumSize">
@@ -18099,7 +18837,7 @@
                                </property>
                                <property name="font">
                                 <font>
-                                 <pointsize>10</pointsize>
+                                 <pointsize>9</pointsize>
                                 </font>
                                </property>
                                <property name="text">
@@ -18238,6 +18976,12 @@
                              <enum>QFrame::Raised</enum>
                             </property>
                             <layout class="QVBoxLayout" name="verticalLayout_126">
+                             <property name="spacing">
+                              <number>5</number>
+                             </property>
+                             <property name="margin">
+                              <number>5</number>
+                             </property>
                              <item>
                               <widget class="QPushButton" name="crate4_SB5_subslot3">
                                <property name="maximumSize">
@@ -18248,7 +18992,7 @@
                                </property>
                                <property name="font">
                                 <font>
-                                 <pointsize>10</pointsize>
+                                 <pointsize>9</pointsize>
                                 </font>
                                </property>
                                <property name="text">
@@ -18387,6 +19131,12 @@
                              <enum>QFrame::Raised</enum>
                             </property>
                             <layout class="QVBoxLayout" name="verticalLayout_127">
+                             <property name="spacing">
+                              <number>5</number>
+                             </property>
+                             <property name="margin">
+                              <number>5</number>
+                             </property>
                              <item>
                               <widget class="QPushButton" name="crate4_SB5_subslot5">
                                <property name="maximumSize">
@@ -18397,7 +19147,7 @@
                                </property>
                                <property name="font">
                                 <font>
-                                 <pointsize>10</pointsize>
+                                 <pointsize>9</pointsize>
                                 </font>
                                </property>
                                <property name="text">
@@ -18536,6 +19286,12 @@
                              <enum>QFrame::Raised</enum>
                             </property>
                             <layout class="QVBoxLayout" name="verticalLayout_128">
+                             <property name="spacing">
+                              <number>5</number>
+                             </property>
+                             <property name="margin">
+                              <number>5</number>
+                             </property>
                              <item>
                               <widget class="QPushButton" name="crate4_SB5_subslot6">
                                <property name="maximumSize">
@@ -18546,7 +19302,7 @@
                                </property>
                                <property name="font">
                                 <font>
-                                 <pointsize>10</pointsize>
+                                 <pointsize>9</pointsize>
                                 </font>
                                </property>
                                <property name="text">
@@ -18685,6 +19441,12 @@
                              <enum>QFrame::Raised</enum>
                             </property>
                             <layout class="QVBoxLayout" name="verticalLayout_129">
+                             <property name="spacing">
+                              <number>5</number>
+                             </property>
+                             <property name="margin">
+                              <number>5</number>
+                             </property>
                              <item>
                               <widget class="QPushButton" name="crate4_SB5_subslot4">
                                <property name="maximumSize">
@@ -18695,7 +19457,7 @@
                                </property>
                                <property name="font">
                                 <font>
-                                 <pointsize>10</pointsize>
+                                 <pointsize>9</pointsize>
                                 </font>
                                </property>
                                <property name="autoFillBackground">
@@ -18861,6 +19623,12 @@
                     </property>
                     <item>
                      <widget class="QFrame" name="frame_21">
+                      <property name="maximumSize">
+                       <size>
+                        <width>87</width>
+                        <height>16777215</height>
+                       </size>
+                      </property>
                       <property name="palette">
                        <palette>
                         <active>
@@ -19078,6 +19846,12 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_61">
+                          <property name="spacing">
+                           <number>5</number>
+                          </property>
+                          <property name="margin">
+                           <number>5</number>
+                          </property>
                           <item>
                            <widget class="QPushButton" name="crate4_SB6_subslot1">
                             <property name="maximumSize">
@@ -19179,7 +19953,7 @@
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>10</pointsize>
+                              <pointsize>9</pointsize>
                              </font>
                             </property>
                             <property name="text">
@@ -19321,6 +20095,12 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_80">
+                          <property name="spacing">
+                           <number>5</number>
+                          </property>
+                          <property name="margin">
+                           <number>5</number>
+                          </property>
                           <item>
                            <widget class="QPushButton" name="crate4_SB6_subslot2">
                             <property name="maximumSize">
@@ -19331,7 +20111,7 @@
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>10</pointsize>
+                              <pointsize>9</pointsize>
                              </font>
                             </property>
                             <property name="text">
@@ -19470,6 +20250,12 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_81">
+                          <property name="spacing">
+                           <number>5</number>
+                          </property>
+                          <property name="margin">
+                           <number>5</number>
+                          </property>
                           <item>
                            <widget class="QPushButton" name="crate4_SB6_subslot3">
                             <property name="maximumSize">
@@ -19480,7 +20266,7 @@
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>10</pointsize>
+                              <pointsize>9</pointsize>
                              </font>
                             </property>
                             <property name="text">
@@ -19615,6 +20401,12 @@
                     </item>
                     <item>
                      <widget class="QFrame" name="frame_22">
+                      <property name="maximumSize">
+                       <size>
+                        <width>87</width>
+                        <height>16777215</height>
+                       </size>
+                      </property>
                       <property name="palette">
                        <palette>
                         <active>
@@ -19832,6 +20624,12 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_185">
+                          <property name="spacing">
+                           <number>5</number>
+                          </property>
+                          <property name="margin">
+                           <number>5</number>
+                          </property>
                           <item>
                            <widget class="QPushButton" name="crate4_SB7_subslot1">
                             <property name="maximumSize">
@@ -19933,7 +20731,7 @@
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>10</pointsize>
+                              <pointsize>9</pointsize>
                              </font>
                             </property>
                             <property name="text">
@@ -20075,6 +20873,12 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_186">
+                          <property name="spacing">
+                           <number>5</number>
+                          </property>
+                          <property name="margin">
+                           <number>5</number>
+                          </property>
                           <item>
                            <widget class="QPushButton" name="crate4_SB7_subslot2">
                             <property name="maximumSize">
@@ -20085,7 +20889,7 @@
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>10</pointsize>
+                              <pointsize>9</pointsize>
                              </font>
                             </property>
                             <property name="text">
@@ -20224,6 +21028,12 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_187">
+                          <property name="spacing">
+                           <number>5</number>
+                          </property>
+                          <property name="margin">
+                           <number>5</number>
+                          </property>
                           <item>
                            <widget class="QPushButton" name="crate4_SB7_subslot3">
                             <property name="maximumSize">
@@ -20234,7 +21044,7 @@
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>10</pointsize>
+                              <pointsize>9</pointsize>
                              </font>
                             </property>
                             <property name="text">
@@ -20369,6 +21179,12 @@
                     </item>
                     <item>
                      <widget class="QFrame" name="frame_23">
+                      <property name="maximumSize">
+                       <size>
+                        <width>87</width>
+                        <height>16777215</height>
+                       </size>
+                      </property>
                       <property name="frameShape">
                        <enum>QFrame::StyledPanel</enum>
                       </property>
@@ -20404,6 +21220,12 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_45">
+                          <property name="spacing">
+                           <number>5</number>
+                          </property>
+                          <property name="margin">
+                           <number>5</number>
+                          </property>
                           <item>
                            <widget class="QPushButton" name="crate4_SB8_subslot1">
                             <property name="maximumSize">
@@ -20414,7 +21236,7 @@
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>10</pointsize>
+                              <pointsize>9</pointsize>
                              </font>
                             </property>
                             <property name="text">
@@ -20553,6 +21375,12 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_46">
+                          <property name="spacing">
+                           <number>5</number>
+                          </property>
+                          <property name="margin">
+                           <number>5</number>
+                          </property>
                           <item>
                            <widget class="QPushButton" name="crate4_SB8_subslot2">
                             <property name="maximumSize">
@@ -20563,7 +21391,7 @@
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>10</pointsize>
+                              <pointsize>9</pointsize>
                              </font>
                             </property>
                             <property name="text">
@@ -20702,6 +21530,12 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_47">
+                          <property name="spacing">
+                           <number>5</number>
+                          </property>
+                          <property name="margin">
+                           <number>5</number>
+                          </property>
                           <item>
                            <widget class="QPushButton" name="crate4_SB8_subslot3">
                             <property name="maximumSize">
@@ -20712,7 +21546,7 @@
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>10</pointsize>
+                              <pointsize>9</pointsize>
                              </font>
                             </property>
                             <property name="text">
@@ -20847,6 +21681,12 @@
                     </item>
                     <item>
                      <widget class="QFrame" name="frame_24">
+                      <property name="maximumSize">
+                       <size>
+                        <width>87</width>
+                        <height>16777215</height>
+                       </size>
+                      </property>
                       <property name="frameShape">
                        <enum>QFrame::StyledPanel</enum>
                       </property>
@@ -20882,6 +21722,12 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_49">
+                          <property name="spacing">
+                           <number>5</number>
+                          </property>
+                          <property name="margin">
+                           <number>5</number>
+                          </property>
                           <item>
                            <widget class="QPushButton" name="crate4_SB9_subslot1">
                             <property name="maximumSize">
@@ -20892,7 +21738,7 @@
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>10</pointsize>
+                              <pointsize>9</pointsize>
                              </font>
                             </property>
                             <property name="text">
@@ -21031,6 +21877,12 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_50">
+                          <property name="spacing">
+                           <number>5</number>
+                          </property>
+                          <property name="margin">
+                           <number>5</number>
+                          </property>
                           <item>
                            <widget class="QPushButton" name="crate4_SB9_subslot2">
                             <property name="maximumSize">
@@ -21041,7 +21893,7 @@
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>10</pointsize>
+                              <pointsize>9</pointsize>
                              </font>
                             </property>
                             <property name="text">
@@ -21180,6 +22032,12 @@
                           <enum>QFrame::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_188">
+                          <property name="spacing">
+                           <number>5</number>
+                          </property>
+                          <property name="margin">
+                           <number>5</number>
+                          </property>
                           <item>
                            <widget class="QPushButton" name="crate4_SB9_subslot3">
                             <property name="maximumSize">
@@ -21190,7 +22048,7 @@
                             </property>
                             <property name="font">
                              <font>
-                              <pointsize>10</pointsize>
+                              <pointsize>9</pointsize>
                              </font>
                             </property>
                             <property name="text">
@@ -21325,6 +22183,12 @@
                     </item>
                     <item>
                      <widget class="QFrame" name="frame_25">
+                      <property name="maximumSize">
+                       <size>
+                        <width>167</width>
+                        <height>16777215</height>
+                       </size>
+                      </property>
                       <property name="mouseTracking">
                        <bool>false</bool>
                       </property>
@@ -21345,7 +22209,7 @@
                         <number>5</number>
                        </property>
                        <property name="sizeConstraint">
-                        <enum>QLayout::SetMaximumSize</enum>
+                        <enum>QLayout::SetDefaultConstraint</enum>
                        </property>
                        <property name="margin">
                         <number>5</number>
@@ -21367,7 +22231,10 @@
                         <widget class="QWidget" name="widget_55" native="true">
                          <layout class="QGridLayout" name="gridLayout_22">
                           <property name="margin">
-                           <number>0</number>
+                           <number>5</number>
+                          </property>
+                          <property name="spacing">
+                           <number>5</number>
                           </property>
                           <item row="1" column="1">
                            <widget class="QFrame" name="frame_119">
@@ -21378,6 +22245,12 @@
                              <enum>QFrame::Raised</enum>
                             </property>
                             <layout class="QVBoxLayout" name="verticalLayout_82">
+                             <property name="spacing">
+                              <number>5</number>
+                             </property>
+                             <property name="margin">
+                              <number>5</number>
+                             </property>
                              <item>
                               <widget class="QPushButton" name="crate4_SB10_subslot2">
                                <property name="maximumSize">
@@ -21388,7 +22261,7 @@
                                </property>
                                <property name="font">
                                 <font>
-                                 <pointsize>10</pointsize>
+                                 <pointsize>9</pointsize>
                                 </font>
                                </property>
                                <property name="styleSheet">
@@ -21530,6 +22403,12 @@
                              <enum>QFrame::Raised</enum>
                             </property>
                             <layout class="QVBoxLayout" name="verticalLayout_83">
+                             <property name="spacing">
+                              <number>5</number>
+                             </property>
+                             <property name="margin">
+                              <number>5</number>
+                             </property>
                              <item>
                               <widget class="QPushButton" name="crate4_SB10_subslot1">
                                <property name="maximumSize">
@@ -21540,7 +22419,7 @@
                                </property>
                                <property name="font">
                                 <font>
-                                 <pointsize>10</pointsize>
+                                 <pointsize>9</pointsize>
                                 </font>
                                </property>
                                <property name="text">
@@ -21679,6 +22558,12 @@
                              <enum>QFrame::Raised</enum>
                             </property>
                             <layout class="QVBoxLayout" name="verticalLayout_84">
+                             <property name="spacing">
+                              <number>5</number>
+                             </property>
+                             <property name="margin">
+                              <number>5</number>
+                             </property>
                              <item>
                               <widget class="QPushButton" name="crate4_SB10_subslot3">
                                <property name="maximumSize">
@@ -21689,7 +22574,7 @@
                                </property>
                                <property name="font">
                                 <font>
-                                 <pointsize>10</pointsize>
+                                 <pointsize>9</pointsize>
                                 </font>
                                </property>
                                <property name="text">
@@ -21828,6 +22713,12 @@
                              <enum>QFrame::Raised</enum>
                             </property>
                             <layout class="QVBoxLayout" name="verticalLayout_85">
+                             <property name="spacing">
+                              <number>5</number>
+                             </property>
+                             <property name="margin">
+                              <number>5</number>
+                             </property>
                              <item>
                               <widget class="QPushButton" name="crate4_SB10_subslot5">
                                <property name="maximumSize">
@@ -21838,7 +22729,7 @@
                                </property>
                                <property name="font">
                                 <font>
-                                 <pointsize>10</pointsize>
+                                 <pointsize>9</pointsize>
                                 </font>
                                </property>
                                <property name="text">
@@ -21977,6 +22868,12 @@
                              <enum>QFrame::Raised</enum>
                             </property>
                             <layout class="QVBoxLayout" name="verticalLayout_86">
+                             <property name="spacing">
+                              <number>5</number>
+                             </property>
+                             <property name="margin">
+                              <number>5</number>
+                             </property>
                              <item>
                               <widget class="QPushButton" name="crate4_SB10_subslot6">
                                <property name="maximumSize">
@@ -21987,7 +22884,7 @@
                                </property>
                                <property name="font">
                                 <font>
-                                 <pointsize>10</pointsize>
+                                 <pointsize>9</pointsize>
                                 </font>
                                </property>
                                <property name="text">
@@ -22136,7 +23033,7 @@
                                </property>
                                <property name="font">
                                 <font>
-                                 <pointsize>10</pointsize>
+                                 <pointsize>9</pointsize>
                                 </font>
                                </property>
                                <property name="autoFillBackground">
