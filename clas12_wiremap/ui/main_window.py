@@ -11,37 +11,60 @@ class MainWindow(QtGui.QMainWindow):
         curdir = os.path.dirname(os.path.realpath(__file__))
         uic.loadUi(os.path.join(curdir,'MainWindow.ui'), self)
 
+
+        ### Explorer Tabs
+        self.explorer_tabs = QtGui.QTabWidget()
+
+        self.crate = CrateTab()
+        crate_vbox = QtGui.QVBoxLayout(self.crate)
+        self.explorer_tabs.addTab(self.crate, 'Crates')
+
+        self.dboard = DBTab()
+        dboard_vbox = QtGui.QVBoxLayout(self.dboard)
+        self.explorer_tabs.addTab(self.dboard, 'Distribution Boards')
+
+        self.tboard = TBTab()
+        tboard_vbox = QtGui.QVBoxLayout(self.tboard)
+        self.explorer_tabs.addTab(self.tboard, 'Translation Boards')
+
+        self.explorer_tabs.setMinimumWidth(680)
+        self.explorer_tabs.setSizePolicy(
+                                   QtGui.QSizePolicy.Fixed,
+                                   QtGui.QSizePolicy.Expanding)
+
+        explorer_vbox = QtGui.QVBoxLayout()
+        explorer_vbox.addWidget(self.explorer_tabs)
+        self.explorer_holder.setLayout(explorer_vbox)
+
+
+        ### Chooser Sidebar
         self.sidebar = Sidebar()
         sidebar_vbox = QtGui.QVBoxLayout()
         sidebar_vbox.addWidget(self.sidebar)
-        sidebar_vbox.addStretch(1)
-        self.sidebar_holder.setLayout(sidebar_vbox)
+        self.chooser_holder.setLayout(sidebar_vbox)
 
-        self.crate = CrateTab()
-        crate_vbox = QtGui.QVBoxLayout()
-        crate_vbox.addWidget(self.crate)
-        crate_vbox.addStretch(1)
-        self.crate_tab_holder.setLayout(crate_vbox)
-
-        self.dboard = DBTab()
-        dboard_vbox = QtGui.QVBoxLayout()
-        dboard_vbox.addWidget(self.dboard)
-        dboard_vbox.addStretch(1)
-        self.distr_board_tab_holder.setLayout(dboard_vbox)
-
-        self.tboard = TBTab()
-        tboard_vbox = QtGui.QVBoxLayout()
-        tboard_vbox.addWidget(self.tboard)
-        tboard_vbox.addStretch(1)
-        self.trans_board_tab_holder.setLayout(tboard_vbox)
-
-        self.wire_map = WireMap()
+        ### Wiremap
+        self.wiremap = WireMap()
         wmap_vbox = QtGui.QVBoxLayout()
-        wmap_vbox.addWidget(self.wire_map)
-        self.wire_map_tab_holder.setLayout(wmap_vbox)
+        wmap_vbox.addWidget(self.wiremap)
+        self.wiremap_holder.setLayout(wmap_vbox)
+
+        self.setModeExplorer()
 
         self.show()
         self.updating = False
+
+    def setModeExplorer(self):
+        self.actionExplorer.setChecked(True)
+        self.actionChooser.setChecked(False)
+        self.left_stacked_widget.setCurrentIndex(0)
+
+    def setModeChooser(self):
+        self.actionExplorer.setChecked(False)
+        self.actionChooser.setChecked(True)
+        self.left_stacked_widget.setCurrentIndex(1)
+
+
 
     def update_parameters(self):
         if not self.updating:
