@@ -1287,7 +1287,7 @@
                    <property name="styleSheet">
                     <string notr="true"/>
                    </property>
-                   <layout class="QGridLayout" name="gridLayout_40">
+                   <layout class="QGridLayout" name="gridLayout_40" columnstretch="0,0,0,0" columnminimumwidth="0,0,0,0">
                     <item row="0" column="3">
                      <widget class="QRadioButton" name="crate1_SB1_subslot1_2">
                       <property name="text">
@@ -5045,8 +5045,8 @@
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>630</width>
-         <height>564</height>
+         <width>703</width>
+         <height>748</height>
         </rect>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout_7">
@@ -7037,7 +7037,7 @@
                  </item>
                  <item>
                   <widget class="QWidget" name="widget_45" native="true">
-                   <layout class="QGridLayout" name="gridLayout_50">
+                   <layout class="QGridLayout" name="gridLayout_50" rowstretch="0,0,0,0,0" rowminimumheight="0,0,0,0,0">
                     <property name="leftMargin">
                      <number>9</number>
                     </property>
@@ -8703,7 +8703,7 @@
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>630</width>
+         <width>690</width>
          <height>1098</height>
         </rect>
        </property>
