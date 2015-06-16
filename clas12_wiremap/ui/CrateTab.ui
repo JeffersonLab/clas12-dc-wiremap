@@ -5045,8 +5045,8 @@
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>703</width>
-         <height>748</height>
+         <width>630</width>
+         <height>564</height>
         </rect>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout_7">
@@ -8702,8 +8702,8 @@
        <property name="geometry">
         <rect>
          <x>0</x>
-         <y>-350</y>
-         <width>690</width>
+         <y>0</y>
+         <width>630</width>
          <height>1098</height>
         </rect>
        </property>
@@ -15975,7 +15975,7 @@
           <property name="geometry">
            <rect>
             <x>0</x>
-            <y>-350</y>
+            <y>0</y>
             <width>690</width>
             <height>1098</height>
            </rect>
