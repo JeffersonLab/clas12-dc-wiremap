@@ -509,6 +509,12 @@
                  </property>
                  <item>
                   <widget class="QPushButton" name="sc1">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>35</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
                      <pointsize>11</pointsize>
@@ -530,6 +536,12 @@
               </item>
               <item>
                <widget class="QWidget" name="" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>40</height>
+                 </size>
+                </property>
                 <property name="font">
                  <font>
                   <pointsize>9</pointsize>
@@ -544,9 +556,15 @@
                  </property>
                  <item>
                   <widget class="QPushButton" name="sc1_sl1">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
-                     <pointsize>9</pointsize>
+                     <pointsize>10</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -562,9 +580,15 @@
                  </item>
                  <item>
                   <widget class="QPushButton" name="sc1_sl2">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
-                     <pointsize>9</pointsize>
+                     <pointsize>10</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -580,9 +604,15 @@
                  </item>
                  <item>
                   <widget class="QPushButton" name="sc1_sl3">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
-                     <pointsize>9</pointsize>
+                     <pointsize>10</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -598,9 +628,15 @@
                  </item>
                  <item>
                   <widget class="QPushButton" name="sc1_sl4">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
-                     <pointsize>9</pointsize>
+                     <pointsize>10</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -616,9 +652,15 @@
                  </item>
                  <item>
                   <widget class="QPushButton" name="sc1_sl5">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
-                     <pointsize>9</pointsize>
+                     <pointsize>10</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -634,9 +676,15 @@
                  </item>
                  <item>
                   <widget class="QPushButton" name="sc1_sl6">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
-                     <pointsize>9</pointsize>
+                     <pointsize>10</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -4325,6 +4373,12 @@
                  </property>
                  <item>
                   <widget class="QPushButton" name="sc2">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>35</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
                      <pointsize>11</pointsize>
@@ -4346,6 +4400,12 @@
               </item>
               <item>
                <widget class="QWidget" name="" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>40</height>
+                 </size>
+                </property>
                 <property name="font">
                  <font>
                   <pointsize>9</pointsize>
@@ -4360,9 +4420,15 @@
                  </property>
                  <item>
                   <widget class="QPushButton" name="sc2_sl1">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
-                     <pointsize>9</pointsize>
+                     <pointsize>10</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -4378,9 +4444,15 @@
                  </item>
                  <item>
                   <widget class="QPushButton" name="sc2_sl2">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
-                     <pointsize>9</pointsize>
+                     <pointsize>10</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -4396,9 +4468,15 @@
                  </item>
                  <item>
                   <widget class="QPushButton" name="sc2_sl3">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
-                     <pointsize>9</pointsize>
+                     <pointsize>10</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -4414,9 +4492,15 @@
                  </item>
                  <item>
                   <widget class="QPushButton" name="sc2_sl4">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
-                     <pointsize>9</pointsize>
+                     <pointsize>10</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -4432,9 +4516,15 @@
                  </item>
                  <item>
                   <widget class="QPushButton" name="sc2_sl5">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
-                     <pointsize>9</pointsize>
+                     <pointsize>10</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -4450,9 +4540,15 @@
                  </item>
                  <item>
                   <widget class="QPushButton" name="sc2_sl6">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
-                     <pointsize>9</pointsize>
+                     <pointsize>10</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -8138,6 +8234,12 @@
                  </property>
                  <item>
                   <widget class="QPushButton" name="sc3">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>35</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
                      <pointsize>11</pointsize>
@@ -8159,6 +8261,12 @@
               </item>
               <item>
                <widget class="QWidget" name="" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>40</height>
+                 </size>
+                </property>
                 <property name="font">
                  <font>
                   <pointsize>9</pointsize>
@@ -8173,9 +8281,15 @@
                  </property>
                  <item>
                   <widget class="QPushButton" name="sc3_sl1">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
-                     <pointsize>9</pointsize>
+                     <pointsize>10</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -8191,9 +8305,15 @@
                  </item>
                  <item>
                   <widget class="QPushButton" name="sc3_sl2">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
-                     <pointsize>9</pointsize>
+                     <pointsize>10</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -8209,9 +8329,15 @@
                  </item>
                  <item>
                   <widget class="QPushButton" name="sc3_sl3">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
-                     <pointsize>9</pointsize>
+                     <pointsize>10</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -8227,9 +8353,15 @@
                  </item>
                  <item>
                   <widget class="QPushButton" name="sc3_sl4">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
-                     <pointsize>9</pointsize>
+                     <pointsize>10</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -8245,9 +8377,15 @@
                  </item>
                  <item>
                   <widget class="QPushButton" name="sc3_sl5">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
-                     <pointsize>9</pointsize>
+                     <pointsize>10</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -8263,9 +8401,15 @@
                  </item>
                  <item>
                   <widget class="QPushButton" name="sc3_sl6">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
-                     <pointsize>9</pointsize>
+                     <pointsize>10</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -11795,6 +11939,12 @@
                  </property>
                  <item>
                   <widget class="QPushButton" name="sc4">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>35</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
                      <pointsize>11</pointsize>
@@ -11816,6 +11966,12 @@
               </item>
               <item>
                <widget class="QWidget" name="widget" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>40</height>
+                 </size>
+                </property>
                 <property name="font">
                  <font>
                   <pointsize>9</pointsize>
@@ -11830,9 +11986,15 @@
                  </property>
                  <item>
                   <widget class="QPushButton" name="sc4_sl1">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
-                     <pointsize>9</pointsize>
+                     <pointsize>10</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -11848,9 +12010,15 @@
                  </item>
                  <item>
                   <widget class="QPushButton" name="sc4_sl2">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
-                     <pointsize>9</pointsize>
+                     <pointsize>10</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -11866,6 +12034,17 @@
                  </item>
                  <item>
                   <widget class="QPushButton" name="sc4_sl3">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
+                   <property name="font">
+                    <font>
+                     <pointsize>10</pointsize>
+                    </font>
+                   </property>
                    <property name="text">
                     <string> Superlayer 3</string>
                    </property>
@@ -11879,9 +12058,15 @@
                  </item>
                  <item>
                   <widget class="QPushButton" name="sc4_sl4">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
-                     <pointsize>9</pointsize>
+                     <pointsize>10</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -11897,9 +12082,15 @@
                  </item>
                  <item>
                   <widget class="QPushButton" name="sc4_sl5">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
-                     <pointsize>9</pointsize>
+                     <pointsize>10</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -11915,9 +12106,15 @@
                  </item>
                  <item>
                   <widget class="QPushButton" name="sc4_sl6">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
-                     <pointsize>9</pointsize>
+                     <pointsize>10</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -15453,6 +15650,12 @@
                  </property>
                  <item>
                   <widget class="QPushButton" name="sc5">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>35</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
                      <pointsize>11</pointsize>
@@ -15474,6 +15677,12 @@
               </item>
               <item>
                <widget class="QWidget" name="widget" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>40</height>
+                 </size>
+                </property>
                 <property name="font">
                  <font>
                   <pointsize>9</pointsize>
@@ -15488,9 +15697,15 @@
                  </property>
                  <item>
                   <widget class="QPushButton" name="sc5_sl1">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
-                     <pointsize>9</pointsize>
+                     <pointsize>10</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -15506,9 +15721,15 @@
                  </item>
                  <item>
                   <widget class="QPushButton" name="sc5_sl2">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
-                     <pointsize>9</pointsize>
+                     <pointsize>10</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -15524,9 +15745,15 @@
                  </item>
                  <item>
                   <widget class="QPushButton" name="sc5_sl3">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
-                     <pointsize>9</pointsize>
+                     <pointsize>10</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -15542,9 +15769,15 @@
                  </item>
                  <item>
                   <widget class="QPushButton" name="sc5_sl4">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
-                     <pointsize>9</pointsize>
+                     <pointsize>10</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -15560,9 +15793,15 @@
                  </item>
                  <item>
                   <widget class="QPushButton" name="sc5_sl5">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
-                     <pointsize>9</pointsize>
+                     <pointsize>10</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -15578,9 +15817,15 @@
                  </item>
                  <item>
                   <widget class="QPushButton" name="sc5_sl6">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
-                     <pointsize>9</pointsize>
+                     <pointsize>10</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -19240,6 +19485,12 @@
                  </property>
                  <item>
                   <widget class="QPushButton" name="sc6">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>35</height>
+                    </size>
+                   </property>
                    <property name="text">
                     <string>Sector 6</string>
                    </property>
@@ -19256,6 +19507,12 @@
               </item>
               <item>
                <widget class="QWidget" name="widget" native="true">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>40</height>
+                 </size>
+                </property>
                 <layout class="QHBoxLayout" name="horizontalLayout_29">
                  <property name="spacing">
                   <number>0</number>
@@ -19265,9 +19522,15 @@
                  </property>
                  <item>
                   <widget class="QPushButton" name="sc6_sl1">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
-                     <pointsize>9</pointsize>
+                     <pointsize>10</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -19283,9 +19546,15 @@
                  </item>
                  <item>
                   <widget class="QPushButton" name="sc6_sl2">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
-                     <pointsize>9</pointsize>
+                     <pointsize>10</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -19301,9 +19570,15 @@
                  </item>
                  <item>
                   <widget class="QPushButton" name="sc6_sl3">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
-                     <pointsize>9</pointsize>
+                     <pointsize>10</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -19319,9 +19594,15 @@
                  </item>
                  <item>
                   <widget class="QPushButton" name="sc6_sl4">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
-                     <pointsize>9</pointsize>
+                     <pointsize>10</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -19337,9 +19618,15 @@
                  </item>
                  <item>
                   <widget class="QPushButton" name="sc6_sl5">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
-                     <pointsize>9</pointsize>
+                     <pointsize>10</pointsize>
                     </font>
                    </property>
                    <property name="text">
@@ -19355,9 +19642,15 @@
                  </item>
                  <item>
                   <widget class="QPushButton" name="sc6_sl6">
+                   <property name="minimumSize">
+                    <size>
+                     <width>0</width>
+                     <height>30</height>
+                    </size>
+                   </property>
                    <property name="font">
                     <font>
-                     <pointsize>9</pointsize>
+                     <pointsize>10</pointsize>
                     </font>
                    </property>
                    <property name="text">
