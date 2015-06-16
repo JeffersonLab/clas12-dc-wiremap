@@ -3,7 +3,7 @@ from numpy import random as rand
 
 from clas12_wiremap.ui import QtGui
 
-from matplotlib import pyplot, gridspec
+from matplotlib import pyplot, gridspec, cm
 from matplotlib.backends.backend_qt4agg import FigureCanvasQTAgg \
     as FigureCanvas
 from matplotlib.backends.backend_qt4 import NavigationToolbar2QT \
@@ -42,13 +42,12 @@ class WireMap(QtGui.QWidget):
                 self.axs[sec].append(
                     self.fig.add_subplot(slyr_grid[5-slyr]))
 
-        self.update_plots()
-
     def update_plots(self):
         for sec in range(6):
             for slyr in range(6):
                 self.pts[sec][slyr] = \
                     self.superlayer_plot(self.axs[sec][slyr],sec,slyr)
+        self.canvas.draw()
 
     def superlayer_plot(self,ax,sec,slyr):
         if not hasattr(self,'data'):
@@ -57,11 +56,17 @@ class WireMap(QtGui.QWidget):
             origin='lower',
             aspect='auto',
             interpolation='nearest',
-            extent=[-0.5,111.5,-0.5,5.5])
+            extent=[0.5,112.5,-0.5,5.5],
+            vmin=0,
+            cmap=cm.ocean)
         if slyr == 5:
             ax.set_title('Sector '+str(sec+1))
+        if (sec > 2) and (slyr == 0):
+            ax.xaxis.set_ticks([1]+list(range(32,113,32)))
+            ax.xaxis.set_ticklabels([1]+list(range(32,113,32)))
+        else:
+            ax.xaxis.set_major_locator(pyplot.NullLocator())
         ax.set_ylabel(str(slyr+1))
-        ax.xaxis.set_major_locator(pyplot.NullLocator())
         ax.yaxis.set_major_locator(pyplot.NullLocator())
         ax.hold(False)
         return pt
@@ -95,13 +100,11 @@ class WireMapSector(QtGui.QWidget):
             self.axs.append(
                 self.fig.add_subplot(slyr_grid[5-slyr]))
 
-        self.update_plots()
-
-
     def update_plots(self):
         for slyr in range(6):
             self.pts[slyr] = \
                 self.superlayer_plot(self.axs[slyr],slyr)
+        self.canvas.draw()
 
     def superlayer_plot(self,ax,slyr):
         if not hasattr(self,'data'):
@@ -110,11 +113,17 @@ class WireMapSector(QtGui.QWidget):
             origin='lower',
             aspect='auto',
             interpolation='nearest',
-            extent=[-0.5,111.5,-0.5,5.5])
+            extent=[0.5,112.5,-0.5,5.5],
+            vmin=0,
+            cmap=cm.ocean)
         if slyr == 5:
             ax.set_title('Sector '+str(self.sector+1))
+        if slyr == 0:
+            ax.xaxis.set_ticks([1]+list(range(32,113,32)))
+            ax.xaxis.set_ticklabels([1]+list(range(32,113,32)))
+        else:
+            ax.xaxis.set_major_locator(pyplot.NullLocator())
         ax.set_ylabel(str(slyr+1))
-        ax.xaxis.set_major_locator(pyplot.NullLocator())
         ax.yaxis.set_major_locator(pyplot.NullLocator())
         ax.hold(False)
         return pt
@@ -125,18 +134,40 @@ class WireMaps(QtGui.QStackedWidget):
     def __init__(self, parent=None):
         super(WireMaps,self).__init__(parent)
 
-        self.data = rand.uniform(0,100,(6,6,6,112))
-
         self.wiremap = WireMap(self)
         self.addWidget(self.wiremap)
 
         self.sec_wiremaps = []
         for sec in range(6):
             self.sec_wiremaps.append(WireMapSector(sec,self))
-            self.addWidget(self.sec_wiremaps[-1])
+            self.addWidget(self.sec_wiremaps[sec])
 
+        self.data = np.zeros((6,6,6,112),dtype=int)
 
+    @property
+    def data(self):
+        return self.wiremap.data
 
+    @data.setter
+    def data(self,d):
+        self._data = d
+
+        self.wiremap.data = self._data
+        for sec in range(6):
+            self.sec_wiremaps[sec].data = self._data[sec]
+
+        self.update_active_plots()
+
+    def update_active_plots(self):
+        if super(WireMaps,self).currentIndex() == 0:
+            self.wiremap.update_plots()
+        else:
+            sec = super(WireMaps,self).currentIndex() - 1
+            self.sec_wiremaps[sec].update_plots()
+
+    def setCurrentIndex(self,*args,**kwargs):
+        super(WireMaps,self).setCurrentIndex(*args,**kwargs)
+        self.update_active_plots()
 
 if __name__ == '__main__':
     import sys
@@ -150,7 +181,11 @@ if __name__ == '__main__':
             wid.setLayout(vbox)
 
             cbox = QtGui.QSpinBox()
+            cbox.setMinimum(0)
+            cbox.setMaximum(6)
+            cbox.setSpecialValueText('-')
             stack = WireMaps()
+            stack.data = rand.uniform(0,100,(6,6,6,112))
 
             vbox.addWidget(cbox)
             vbox.addWidget(stack)
