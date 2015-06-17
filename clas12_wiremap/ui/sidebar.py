@@ -11,45 +11,81 @@ def pushd(newDir):
     os.chdir(previousDir)
 
 from clas12_wiremap.ui import QtGui, uic
-from clas12_wiremap import initialize_session, dc_fill_tables, dc_find_connections
+from clas12_wiremap import initialize_session, dc_fill_tables, \
+                           dc_find_connections, dc_wire_status
 
 from clas12_wiremap.ui.fixedcheckbox import FixedCheckBox
 
 class Sidebar(QtGui.QWidget):
-    def __init__(self,parent=None):
+    def __init__(self,session,parent=None):
         super(QtGui.QWidget, self).__init__(parent)
         curdir = os.path.dirname(os.path.realpath(__file__))
         with pushd(curdir):
             uic.loadUi('Sidebar.ui', self)
+
+        self.session = session
+        self.post_update = None
+
+        # fixe wire type to "sense"
+        self.wire_type.blockSignals(True)
+        self.wire_type_fixed.blockSignals(True)
+        self.wire_type.setCurrentIndex(1)
+        self.wire_type.setEnabled(False)
+        self.wire_type_fixed.setChecked(True)
+        self.wire_type_fixed.setEnabled(False)
+        self.wire_type_nopts.setText('')
+
         self.updating = False
-        self.session = initialize_session()
         dc_fill_tables(self.session)
+
+    @property
+    def fixed_parms(self):
+        attrs = ['wire_type','sector','superlayer','layer','wire',
+                 'crate','supply_board','subslot','distr_box_type',
+                 'quad','doublet','trans_board','trans_slot',]
+
+        _parms = {}
+        for a in attrs:
+            attr = getattr(self,a)
+            attr_fixed = getattr(self,a+'_fixed')
+            if attr_fixed.isChecked():
+                if isinstance(attr,QtGui.QSpinBox):
+                    if attr.value() > 0:
+                        _parms[a] = attr.value() - 1
+                elif isinstance(attr,QtGui.QComboBox):
+                    if attr.currentIndex() > 0:
+                        _parms[a] =  str(attr.currentText()).lower()
+
+        return _parms
+
+    @property
+    def parms(self):
+        attrs = ['wire_type','sector','superlayer','layer','wire',
+                 'crate','supply_board','subslot','distr_box_type',
+                 'quad','doublet','trans_board','trans_slot',]
+
+        _parms = {}
+        for a in attrs:
+            attr = getattr(self,a)
+            if isinstance(attr,QtGui.QSpinBox):
+                if attr.value() > 0:
+                    _parms[a] = attr.value() - 1
+            elif isinstance(attr,QtGui.QComboBox):
+                if attr.currentIndex() > 0:
+                    _parms[a] =  str(attr.currentText()).lower()
+
+        return _parms
+
 
     def update_parameters(self):
         if not self.updating:
             self.updating = True
 
-            attrs = ['wire_type','sector','superlayer','layer','wire',
-                     'crate','supply_board','subslot','distr_box_type',
-                     'quad','doublet','trans_board','trans_slot',]
-
             opts = dict(
-                wire_type = ['any','sense','field'],
+                wire_type = ['any','sense','field','guard'],
                 distr_box_type = ['any','forward','backward'],)
 
-            parms = {}
-            for a in attrs:
-                attr = getattr(self,a)
-                attr_fixed = getattr(self,a+'_fixed')
-                if attr_fixed.isChecked():
-                    if isinstance(attr,QtGui.QSpinBox):
-                        if attr.value() > 0:
-                            parms[a] = attr.value() - 1
-                    elif isinstance(attr,QtGui.QComboBox):
-                        if attr.currentIndex() > 0:
-                            parms[a] =  str(attr.currentText()).lower()
-
-            fixed, nopts = dc_find_connections(self.session, **parms)
+            fixed, nopts = dc_find_connections(self.session, **self.fixed_parms)
 
             for k in fixed:
                 attr = getattr(self,k,None)
@@ -73,8 +109,12 @@ class Sidebar(QtGui.QWidget):
                         elif isinstance(attr,QtGui.QComboBox):
                             getattr(self,k).setCurrentIndex(0)
 
-            self.updating = False
+            if self.post_update is not None:
+                p = self.parms
+                self.post_update(p.get('sector',None),
+                    dc_wire_status(self.session,**p))
 
+            self.updating = False
 
 
 
@@ -85,7 +125,9 @@ if __name__ == '__main__':
         def __init__(self):
             super(MainWindow, self).__init__()
 
-            self.sidebar = Sidebar()
+            self.session = initialize_session()
+
+            self.sidebar = Sidebar(self.session)
             self.setCentralWidget(self.sidebar)
 
             self.show()

@@ -8,4 +8,4 @@ from .dc_tables import (CalibrationDCHVCrate,
 
 from .dc_fill_tables import dc_fill_tables
 
-from .dc_queries import dc_find_connections
+from .dc_queries import dc_find_connections, dc_wire_status

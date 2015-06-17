@@ -1,3 +1,5 @@
+import numpy as np
+
 from .dc_tables import (CalibrationDCHVCrate,
     CalibrationDCHVSupplyBoard, CalibrationDCHVSubslot,
     CalibrationDCHVDoublet, CalibrationDCHVDoubletPin,
@@ -77,3 +79,69 @@ def dc_find_connections(session, **kwargs):
                     nopts[name] = results.count()
 
     return fixed,nopts
+
+def dc_wire_status_all(session):
+    q = session.query(Wire.status,Doublet.status,SupplyBoard.status,Crate.status)\
+        .join(Subslot,Doublet,TransBoard,SupplyBoard,Crate)\
+        .filter(
+            SupplyBoard.wire_type == 'sense',
+            Wire.wire >= TransBoard.wire_offset,
+            Wire.wire <  TransBoard.wire_offset + TransBoard.nwires)\
+        .order_by(
+            Wire.sector,
+            Wire.superlayer,
+            Wire.layer,
+            Wire.wire)
+    wire,doublet,slot,crate = np.array(q.all(), dtype=int).T
+    status = wire + 10*doublet + 100*slot + 1000*crate
+    status.shape = (6,6,6,112)
+    return status
+
+def dc_wire_status(session, **kwargs):
+    if not hasattr(dc_wire_status, "base_query"):
+        dc_wire_status.base_query = session\
+        .query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
+               Wire.status,Doublet.status,SupplyBoard.status,
+               Crate.status)\
+        .join(Subslot,Doublet,TransBoard,SupplyBoard,Crate)\
+        .filter(
+            SupplyBoard.wire_type == 'sense',
+            Wire.wire >= TransBoard.wire_offset,
+            Wire.wire <  TransBoard.wire_offset + TransBoard.nwires)\
+        .order_by(
+            Wire.sector,
+            Wire.superlayer,
+            Wire.layer,
+            Wire.wire)
+    if not hasattr(dc_wire_status, "params"):
+        dc_wire_status.params = dict(
+            sector         = Subslot.sector                ,
+            superlayer     = Subslot.superlayer            ,
+            layer          = Wire.layer                    ,
+            wire           = Wire.wire                     ,
+            crate          = Crate.id                      ,
+            supply_board   = SupplyBoard.id                ,
+            subslot        = Subslot.subslot_id            ,
+            channel        = Doublet.channel_id            ,
+            distr_box_type = Doublet.distr_box_type        ,
+            quad           = Doublet.quad_id               ,
+            doublet        = Doublet.doublet_id            ,
+            connector      = SupplyBoard.doublet_connector ,
+            trans_board    = TransBoard.board_id           ,
+            trans_slot     = TransBoard.slot_id            ,)
+
+    q = dc_wire_status.base_query
+    p = dc_wire_status.params
+    for name in kwargs:
+        if kwargs[name] is not None:
+            if name in p:
+                q = q.filter(p[name] == kwargs[name])
+
+    stat = np.ones((6,6,6,112), dtype=int)*10000
+
+    res = np.array(q.all(), dtype=int).T
+    if res.size:
+        sec,slyr,lyr,wr,wstat,dstat,sbstat,ctstat = res
+        stat[(sec,slyr,lyr,wr)] = wstat + 10*dstat + 100*sbstat + 1000*ctstat
+
+    return stat

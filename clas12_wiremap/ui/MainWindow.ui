@@ -20,15 +20,28 @@
     </property>
     <item>
      <widget class="QStackedWidget" name="left_stacked_widget">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
       <property name="currentIndex">
        <number>0</number>
       </property>
-      <widget class="QWidget" name="explorer_holder" native="true"/>
+      <widget class="QWidget" name="explorer_holder"/>
       <widget class="QWidget" name="chooser_holder"/>
      </widget>
     </item>
     <item>
-     <widget class="QWidget" name="wiremap_holder" native="true"/>
+     <widget class="QWidget" name="wiremap_holder" native="true">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+     </widget>
     </item>
    </layout>
   </widget>
