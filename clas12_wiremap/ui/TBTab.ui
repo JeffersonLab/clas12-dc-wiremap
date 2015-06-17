@@ -16,7 +16,7 @@
   <property name="currentIndex">
    <number>0</number>
   </property>
-  <widget class="QWidget" name="tab">
+  <widget class="QWidget" name="sector1">
    <attribute name="title">
     <string>Sector 1</string>
    </attribute>
@@ -488,7 +488,7 @@
                <number>0</number>
               </property>
               <item>
-               <widget class="QWidget" name="" native="true">
+               <widget class="QWidget" name="widget" native="true">
                 <property name="font">
                  <font>
                   <pointsize>9</pointsize>
@@ -535,7 +535,7 @@
                </widget>
               </item>
               <item>
-               <widget class="QWidget" name="" native="true">
+               <widget class="QWidget" name="widget" native="true">
                 <property name="minimumSize">
                  <size>
                   <width>628</width>
@@ -708,7 +708,7 @@
                </widget>
               </item>
               <item>
-               <widget class="QWidget" name="" native="true">
+               <widget class="QWidget" name="widget" native="true">
                 <property name="minimumSize">
                  <size>
                   <width>628</width>
@@ -743,7 +743,7 @@
                   <number>5</number>
                  </property>
                  <item>
-                  <widget class="QWidget" name="" native="true">
+                  <widget class="QWidget" name="widget" native="true">
                    <property name="font">
                     <font>
                      <pointsize>9</pointsize>
@@ -1763,7 +1763,7 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QWidget" name="" native="true">
+                  <widget class="QWidget" name="widget" native="true">
                    <property name="font">
                     <font>
                      <pointsize>9</pointsize>
@@ -2273,7 +2273,7 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QWidget" name="" native="true">
+                  <widget class="QWidget" name="widget" native="true">
                    <property name="font">
                     <font>
                      <pointsize>9</pointsize>
@@ -3293,7 +3293,7 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QWidget" name="" native="true">
+                  <widget class="QWidget" name="widget" native="true">
                    <property name="font">
                     <font>
                      <pointsize>9</pointsize>
@@ -3913,7 +3913,7 @@
     </item>
    </layout>
   </widget>
-  <widget class="QWidget" name="tab_6">
+  <widget class="QWidget" name="sector2">
    <attribute name="title">
     <string>Sector 2</string>
    </attribute>
@@ -4385,7 +4385,7 @@
                <number>0</number>
               </property>
               <item>
-               <widget class="QWidget" name="" native="true">
+               <widget class="QWidget" name="widget" native="true">
                 <property name="font">
                  <font>
                   <pointsize>9</pointsize>
@@ -4435,7 +4435,7 @@
                </widget>
               </item>
               <item>
-               <widget class="QWidget" name="" native="true">
+               <widget class="QWidget" name="widget" native="true">
                 <property name="minimumSize">
                  <size>
                   <width>0</width>
@@ -4608,7 +4608,7 @@
                </widget>
               </item>
               <item>
-               <widget class="QWidget" name="" native="true">
+               <widget class="QWidget" name="widget" native="true">
                 <property name="maximumSize">
                  <size>
                   <width>628</width>
@@ -4637,7 +4637,7 @@
                   <number>5</number>
                  </property>
                  <item>
-                  <widget class="QWidget" name="" native="true">
+                  <widget class="QWidget" name="widget" native="true">
                    <property name="font">
                     <font>
                      <pointsize>9</pointsize>
@@ -5657,7 +5657,7 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QWidget" name="" native="true">
+                  <widget class="QWidget" name="widget" native="true">
                    <property name="font">
                     <font>
                      <pointsize>9</pointsize>
@@ -6167,7 +6167,7 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QWidget" name="" native="true">
+                  <widget class="QWidget" name="widget" native="true">
                    <property name="font">
                     <font>
                      <pointsize>9</pointsize>
@@ -7187,7 +7187,7 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QWidget" name="" native="true">
+                  <widget class="QWidget" name="widget" native="true">
                    <property name="font">
                     <font>
                      <pointsize>9</pointsize>
@@ -7807,7 +7807,7 @@
     </item>
    </layout>
   </widget>
-  <widget class="QWidget" name="tab_2">
+  <widget class="QWidget" name="sector3">
    <attribute name="title">
     <string>Sector 3</string>
    </attribute>
@@ -8279,7 +8279,7 @@
                <number>0</number>
               </property>
               <item>
-               <widget class="QWidget" name="" native="true">
+               <widget class="QWidget" name="widget" native="true">
                 <property name="font">
                  <font>
                   <pointsize>9</pointsize>
@@ -8326,7 +8326,7 @@
                </widget>
               </item>
               <item>
-               <widget class="QWidget" name="" native="true">
+               <widget class="QWidget" name="widget" native="true">
                 <property name="minimumSize">
                  <size>
                   <width>0</width>
@@ -8499,7 +8499,7 @@
                </widget>
               </item>
               <item>
-               <widget class="QWidget" name="" native="true">
+               <widget class="QWidget" name="widget" native="true">
                 <property name="maximumSize">
                  <size>
                   <width>628</width>
@@ -8528,7 +8528,7 @@
                   <number>5</number>
                  </property>
                  <item>
-                  <widget class="QWidget" name="" native="true">
+                  <widget class="QWidget" name="widget" native="true">
                    <property name="font">
                     <font>
                      <pointsize>9</pointsize>
@@ -9498,7 +9498,7 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QWidget" name="" native="true">
+                  <widget class="QWidget" name="widget" native="true">
                    <property name="font">
                     <font>
                      <pointsize>9</pointsize>
@@ -9983,7 +9983,7 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QWidget" name="" native="true">
+                  <widget class="QWidget" name="widget" native="true">
                    <property name="font">
                     <font>
                      <pointsize>9</pointsize>
@@ -10953,7 +10953,7 @@
                   </widget>
                  </item>
                  <item>
-                  <widget class="QWidget" name="" native="true">
+                  <widget class="QWidget" name="widget" native="true">
                    <property name="font">
                     <font>
                      <pointsize>9</pointsize>
@@ -11548,7 +11548,7 @@
     </item>
    </layout>
   </widget>
-  <widget class="QWidget" name="tab_3">
+  <widget class="QWidget" name="sector4">
    <attribute name="title">
     <string>Sector 4</string>
    </attribute>
@@ -12270,6 +12270,9 @@
                     </font>
                    </property>
                    <layout class="QVBoxLayout" name="verticalLayout_18">
+                    <property name="leftMargin">
+                     <number>9</number>
+                    </property>
                     <item>
                      <widget class="QPushButton" name="sc4_sl1_b1">
                       <property name="font">
@@ -12752,6 +12755,9 @@
                     </font>
                    </property>
                    <layout class="QVBoxLayout" name="verticalLayout_17">
+                    <property name="leftMargin">
+                     <number>9</number>
+                    </property>
                     <item>
                      <widget class="QPushButton" name="sc4_sl2_b1">
                       <property name="font">
@@ -13234,6 +13240,9 @@
                     </font>
                    </property>
                    <layout class="QVBoxLayout" name="verticalLayout_16">
+                    <property name="leftMargin">
+                     <number>9</number>
+                    </property>
                     <item>
                      <widget class="QPushButton" name="sc4_sl3_b1">
                       <property name="font">
@@ -13716,6 +13725,9 @@
                     </font>
                    </property>
                    <layout class="QVBoxLayout" name="verticalLayout_15">
+                    <property name="leftMargin">
+                     <number>9</number>
+                    </property>
                     <item>
                      <widget class="QPushButton" name="sc4_sl4_b1">
                       <property name="font">
@@ -14198,6 +14210,9 @@
                     </font>
                    </property>
                    <layout class="QVBoxLayout" name="verticalLayout_14">
+                    <property name="leftMargin">
+                     <number>9</number>
+                    </property>
                     <item>
                      <widget class="QPushButton" name="sc4_sl5_b1">
                       <property name="font">
@@ -14680,6 +14695,9 @@
                     </font>
                    </property>
                    <layout class="QVBoxLayout" name="verticalLayout_13">
+                    <property name="leftMargin">
+                     <number>9</number>
+                    </property>
                     <item>
                      <widget class="QPushButton" name="sc4_sl6_b1">
                       <property name="font">
@@ -15271,7 +15289,7 @@
     </item>
    </layout>
   </widget>
-  <widget class="QWidget" name="tab_4">
+  <widget class="QWidget" name="sector5">
    <attribute name="title">
     <string>Sector 5</string>
    </attribute>
@@ -15993,6 +16011,9 @@
                     </font>
                    </property>
                    <layout class="QVBoxLayout" name="verticalLayout_7">
+                    <property name="leftMargin">
+                     <number>9</number>
+                    </property>
                     <item>
                      <widget class="QPushButton" name="sc5_sl1_b1">
                       <property name="font">
@@ -16500,6 +16521,9 @@
                     </font>
                    </property>
                    <layout class="QVBoxLayout" name="verticalLayout_8">
+                    <property name="leftMargin">
+                     <number>9</number>
+                    </property>
                     <item>
                      <widget class="QPushButton" name="sc5_sl2_b1">
                       <property name="font">
@@ -17007,6 +17031,9 @@
                     </font>
                    </property>
                    <layout class="QVBoxLayout" name="verticalLayout_9">
+                    <property name="leftMargin">
+                     <number>9</number>
+                    </property>
                     <item>
                      <widget class="QPushButton" name="sc5_sl3_b1">
                       <property name="font">
@@ -17514,6 +17541,9 @@
                     </font>
                    </property>
                    <layout class="QVBoxLayout" name="verticalLayout_10">
+                    <property name="leftMargin">
+                     <number>9</number>
+                    </property>
                     <item>
                      <widget class="QPushButton" name="sc5_sl4_b1">
                       <property name="font">
@@ -18021,6 +18051,9 @@
                     </font>
                    </property>
                    <layout class="QVBoxLayout" name="verticalLayout_11">
+                    <property name="leftMargin">
+                     <number>9</number>
+                    </property>
                     <item>
                      <widget class="QPushButton" name="sc5_sl5_b1">
                       <property name="font">
@@ -18528,6 +18561,9 @@
                     </font>
                    </property>
                    <layout class="QVBoxLayout" name="verticalLayout_12">
+                    <property name="leftMargin">
+                     <number>9</number>
+                    </property>
                     <item>
                      <widget class="QPushButton" name="sc5_sl6_b1">
                       <property name="font">
@@ -19138,7 +19174,7 @@
     </item>
    </layout>
   </widget>
-  <widget class="QWidget" name="tab_5">
+  <widget class="QWidget" name="sector6">
    <attribute name="title">
     <string>Sector 6</string>
    </attribute>
@@ -19820,6 +19856,9 @@
                  <item>
                   <widget class="QWidget" name="widget" native="true">
                    <layout class="QVBoxLayout" name="verticalLayout">
+                    <property name="leftMargin">
+                     <number>9</number>
+                    </property>
                     <item>
                      <widget class="QPushButton" name="sc6_sl1_b1">
                       <property name="font">
@@ -20247,6 +20286,9 @@
                  <item>
                   <widget class="QWidget" name="sup2" native="true">
                    <layout class="QVBoxLayout" name="verticalLayout_2">
+                    <property name="leftMargin">
+                     <number>9</number>
+                    </property>
                     <item>
                      <widget class="QPushButton" name="sc6_sl2_b1">
                       <property name="font">
@@ -20674,6 +20716,9 @@
                  <item>
                   <widget class="QWidget" name="widget" native="true">
                    <layout class="QVBoxLayout" name="verticalLayout_3">
+                    <property name="leftMargin">
+                     <number>9</number>
+                    </property>
                     <item>
                      <widget class="QPushButton" name="sc6_sl3_b1">
                       <property name="font">
@@ -21101,6 +21146,9 @@
                  <item>
                   <widget class="QWidget" name="widget" native="true">
                    <layout class="QVBoxLayout" name="verticalLayout_4">
+                    <property name="leftMargin">
+                     <number>9</number>
+                    </property>
                     <item>
                      <widget class="QPushButton" name="sc6_sl4_b1">
                       <property name="font">
@@ -21528,6 +21576,9 @@
                  <item>
                   <widget class="QWidget" name="widget_42" native="true">
                    <layout class="QVBoxLayout" name="verticalLayout_5">
+                    <property name="leftMargin">
+                     <number>9</number>
+                    </property>
                     <item>
                      <widget class="QPushButton" name="sc6_sl5_b1">
                       <property name="font">
@@ -21955,6 +22006,9 @@
                  <item>
                   <widget class="QWidget" name="widget" native="true">
                    <layout class="QVBoxLayout" name="verticalLayout_6">
+                    <property name="leftMargin">
+                     <number>9</number>
+                    </property>
                     <item>
                      <widget class="QPushButton" name="sc6_sl6_b1">
                       <property name="font">
