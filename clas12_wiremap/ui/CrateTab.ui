@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>725</width>
-    <height>803</height>
+    <width>773</width>
+    <height>802</height>
    </rect>
   </property>
   <property name="palette">
@@ -870,8 +870,8 @@
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>703</width>
-         <height>748</height>
+         <width>751</width>
+         <height>747</height>
         </rect>
        </property>
        <property name="sizePolicy">
@@ -1164,6 +1164,9 @@
                  <property name="spacing">
                   <number>5</number>
                  </property>
+                 <property name="sizeConstraint">
+                  <enum>QLayout::SetDefaultConstraint</enum>
+                 </property>
                  <property name="margin">
                   <number>5</number>
                  </property>
@@ -1284,51 +1287,33 @@
                  </item>
                  <item>
                   <widget class="QWidget" name="widget_30" native="true">
+                   <property name="maximumSize">
+                    <size>
+                     <width>63</width>
+                     <height>117</height>
+                    </size>
+                   </property>
+                   <property name="sizeIncrement">
+                    <size>
+                     <width>0</width>
+                     <height>0</height>
+                    </size>
+                   </property>
                    <property name="styleSheet">
                     <string notr="true"/>
                    </property>
-                   <layout class="QGridLayout" name="gridLayout_40" columnstretch="0,0,0,0" columnminimumwidth="0,0,0,0">
-                    <item row="0" column="3">
-                     <widget class="QRadioButton" name="crate1_SB1_subslot1_2">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="2" column="3">
-                     <widget class="QRadioButton" name="crate1_SB1_subslot1_6">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="2" column="1">
-                     <widget class="QRadioButton" name="crate1_SB1_subslot1_5">
-                      <property name="text">
-                       <string/>
-                      </property>
-                      <property name="checked">
-                       <bool>true</bool>
-                      </property>
-                      <property name="autoExclusive">
-                       <bool>false</bool>
-                      </property>
-                     </widget>
-                    </item>
-                    <item row="0" column="1">
-                     <widget class="QRadioButton" name="crate1_SB1_subslot1_1">
+                   <layout class="QGridLayout" name="gridLayout_40" columnstretch="0,0,0,0">
+                    <property name="sizeConstraint">
+                     <enum>QLayout::SetFixedSize</enum>
+                    </property>
+                    <property name="horizontalSpacing">
+                     <number>7</number>
+                    </property>
+                    <property name="leftMargin">
+                     <number>9</number>
+                    </property>
+                    <item row="1" column="3">
+                     <widget class="QRadioButton" name="crate1_SB1_subslot1_4">
                       <property name="text">
                        <string/>
                       </property>
@@ -1366,6 +1351,19 @@
                       </property>
                      </widget>
                     </item>
+                    <item row="2" column="3">
+                     <widget class="QRadioButton" name="crate1_SB1_subslot1_6">
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
+                      <property name="autoExclusive">
+                       <bool>false</bool>
+                      </property>
+                     </widget>
+                    </item>
                     <item row="1" column="1">
                      <widget class="QRadioButton" name="crate1_SB1_subslot1_3">
                       <property name="text">
@@ -1379,8 +1377,34 @@
                       </property>
                      </widget>
                     </item>
-                    <item row="1" column="3">
-                     <widget class="QRadioButton" name="crate1_SB1_subslot1_4">
+                    <item row="2" column="1">
+                     <widget class="QRadioButton" name="crate1_SB1_subslot1_5">
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
+                      <property name="autoExclusive">
+                       <bool>false</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="3">
+                     <widget class="QRadioButton" name="crate1_SB1_subslot1_2">
+                      <property name="text">
+                       <string/>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
+                      <property name="autoExclusive">
+                       <bool>false</bool>
+                      </property>
+                     </widget>
+                    </item>
+                    <item row="0" column="1">
+                     <widget class="QRadioButton" name="crate1_SB1_subslot1_1">
                       <property name="text">
                        <string/>
                       </property>
@@ -5045,8 +5069,8 @@
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>703</width>
-         <height>748</height>
+         <width>751</width>
+         <height>747</height>
         </rect>
        </property>
        <layout class="QVBoxLayout" name="verticalLayout_7">
@@ -8703,7 +8727,7 @@
         <rect>
          <x>0</x>
          <y>0</y>
-         <width>690</width>
+         <width>738</width>
          <height>1098</height>
         </rect>
        </property>
@@ -10217,7 +10241,22 @@
                        </item>
                        <item>
                         <widget class="QWidget" name="widget_177" native="true">
+                         <property name="maximumSize">
+                          <size>
+                           <width>63</width>
+                           <height>117</height>
+                          </size>
+                         </property>
                          <layout class="QGridLayout" name="gridLayout_125">
+                          <property name="sizeConstraint">
+                           <enum>QLayout::SetFixedSize</enum>
+                          </property>
+                          <property name="horizontalSpacing">
+                           <number>7</number>
+                          </property>
+                          <property name="leftMargin">
+                           <number>9</number>
+                          </property>
                           <item row="0" column="2">
                            <widget class="QRadioButton" name="crate3_SB2_subslot3_2">
                             <property name="text">
@@ -15976,7 +16015,7 @@
            <rect>
             <x>0</x>
             <y>0</y>
-            <width>690</width>
+            <width>738</width>
             <height>1098</height>
            </rect>
           </property>
