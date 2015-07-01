@@ -20,7 +20,7 @@
    <string>TabWidget</string>
   </property>
   <property name="currentIndex">
-   <number>5</number>
+   <number>0</number>
   </property>
   <widget class="QWidget" name="tab">
    <attribute name="title">
@@ -6246,7 +6246,7 @@
               </widget>
              </item>
              <item>
-              <widget class="QPushButton" name="sc5_sl6_b7_5">
+              <widget class="QPushButton" name="sc2_sl6_b7">
                <property name="font">
                 <font>
                  <pointsize>9</pointsize>
@@ -11178,7 +11178,7 @@
                  <number>3</number>
                 </property>
                 <item>
-                 <widget class="QRadioButton" name="sc2_sl4_b2_3">
+                 <widget class="QRadioButton" name="sc4_sl4_b2_1">
                   <property name="font">
                    <font>
                     <pointsize>9</pointsize>
