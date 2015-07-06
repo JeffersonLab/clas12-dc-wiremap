@@ -192,10 +192,7 @@ if __name__ == '__main__':
             stack = WireMaps()
             
             stack.data = fetchSubslotArray(session)
-            #stack.data = fetchSignalCableArray(session)
-            #stack.data = fetchCrateArray(session)
-
-
+            #change this line to fetch different component
 
             vbox.addWidget(cbox)
             vbox.addWidget(stack)

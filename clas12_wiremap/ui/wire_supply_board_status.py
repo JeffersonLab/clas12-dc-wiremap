@@ -190,12 +190,9 @@ if __name__ == '__main__':
             cbox.setMaximum(6)
             cbox.setSpecialValueText('-')
             stack = WireMaps()
+            
             stack.data = fetchSupplyBoardArray(session)
-            #stack.data = fetchSubslotArray(session)
-            #stack.data = fetchSignalCableArray(session)
-            #stack.data = fetchCrateArray(session)
-
-
+            #change this line to fetch different component
 
             vbox.addWidget(cbox)
             vbox.addWidget(stack)
