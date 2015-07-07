@@ -272,4 +272,24 @@ def dc_fill_tables(session):
                     session.add(row)
                     cable_id += 1
 
+    # DC Signal Readout Connectors
+
+    crates = range(6)
+    slots = range(10)
+    connectors = range(7)
+
+    cable_id = 0
+    for crate_id in crates:
+        for slot_id in slots:
+            for connector_id in connectors:
+                row = CalibrationDCSignalReadoutConnector(
+                    id=cable_id,
+                    cable_id=cable_id,
+                    crate_id=crate_id,
+                    slot_id=slot_id,
+                    connector_id=connector_id,
+                    status=0)
+                session.add(row)
+                cable_id += 1
+
     session.flush()

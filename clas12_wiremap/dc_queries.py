@@ -19,6 +19,50 @@ Wire = CalibrationDCWire
 SignalCable = CalibrationDCSignalCable
 ReadoutConnector = CalibrationDCSignalReadoutConnector
 
+def dc_wiremaps(session):
+    q = session\
+        .query(
+            Wire.sector                   ,
+            Wire.superlayer               ,
+            Wire.layer                    ,
+            Wire.wire                     ,
+            Crate.id                      ,
+            SupplyBoard.slot_id           ,
+            Subslot.subslot_id            ,
+            Doublet.channel_id            ,
+            Doublet.distr_box_type        ,
+            Doublet.quad_id               ,
+            Doublet.doublet_id            ,
+            SupplyBoard.doublet_connector ,
+            TransBoard.board_id           ,
+            TransBoard.slot_id            ,)\
+        .join(Subslot,Doublet,TransBoard,SupplyBoard,Crate)\
+        .filter(
+            Wire.wire >= TransBoard.wire_offset,
+            Wire.wire <  TransBoard.wire_offset + TransBoard.nwires)\
+        .order_by(
+            Wire.sector,
+            Wire.superlayer,
+            Wire.layer,
+            Wire.wire)
+
+    res = np.array(q.all(), dtype=int).T
+
+    shape = (6,6,6,112)
+    for a in res:
+        a.reshape(shape)
+
+    sec,slyr,lyr,wr,\
+    crate,supply_board,subslot,subslot_channel,\
+    box_type,quad,doublet,doublet_connector,\
+    translation_board,translation_slot = res
+
+    return crate,supply_board,subslot,subslot_channel,\
+           box_type,quad,doublet,doublet_connector,\
+           translation_board,translation_slot
+
+
+
 def dc_find_connections(session, **kwargs):
     if not hasattr(dc_find_connections, "base_query"):
         dc_find_connections.base_query = session\

@@ -20,6 +20,14 @@ class CalibrationDCHVCrate(Base):
     id     = Column(Integer, primary_key=True)
     status = Column(Integer, nullable=False)
     supply_boards = relationship('CalibrationDCHVSupplyBoard', backref='crate')
+
+    @staticmethod
+    def from_array(arr):
+        ret = []
+        for a in arr:
+            ret.append(CalibrationDCHVCrate(id=a[0],status=a[1]))
+        return ret
+
     def __str__(self):
         fmt = '[{id}]({status})'
         return fmt.format(**vars(self))
@@ -129,8 +137,8 @@ class CalibrationDCHVDoublet(Base):
 class CalibrationDCHVDoubletPin(Base):
     __tablename__ = '/calibration/dc/hv_doublet_pin'
     doublet_id = Column(Integer, ForeignKey('/calibration/dc/hv_doublet.id'), primary_key=True)
-    pin_id = Column(Integer, primary_key=True)
-    status = Column(Integer, nullable=False)
+    pin_id     = Column(Integer, primary_key=True)
+    status     = Column(Integer, nullable=False)
     def __str__(self):
         fmt = '[{doublet_id},{pin_id}]({status})'
         return fmt.format(**vars(self))
