@@ -16,18 +16,10 @@ def initialize_session(engine_init = 'sqlite:///:memory:'):
     return session
 
 class CalibrationDCHVCrate(Base):
-    __tablename__ = '/calibration/dc/hv_crate'
+    __tablename__ = '/calibration/drift_chamber/high_voltage/crate'
     id     = Column(Integer, primary_key=True)
     status = Column(Integer, nullable=False)
     supply_boards = relationship('CalibrationDCHVSupplyBoard', backref='crate')
-
-    @staticmethod
-    def from_array(arr):
-        ret = []
-        for a in arr:
-            ret.append(CalibrationDCHVCrate(id=a[0],status=a[1]))
-        return ret
-
     def __str__(self):
         fmt = '[{id}]({status})'
         return fmt.format(**vars(self))
@@ -36,9 +28,9 @@ class CalibrationDCHVCrate(Base):
         return fmt.format(**vars(self))
 
 class CalibrationDCHVSupplyBoard(Base):
-    __tablename__ = '/calibration/dc/hv_supply_board'
+    __tablename__ = '/calibration/drift_chamber/high_voltage/supply_board'
     id        = Column(Integer, primary_key=True)
-    crate_id  = Column(Integer, ForeignKey('/calibration/dc/hv_crate.id'))
+    crate_id  = Column(Integer, ForeignKey(CalibrationDCHVCrate.__tablename__+'.id'))
     slot_id   = Column(Integer, nullable=False)
     wire_type = Column(Enum('sense','field','guard'))
     doublet_connector = Column(Integer, nullable=False)
@@ -63,8 +55,8 @@ class CalibrationDCHVSupplyBoard(Base):
         return fmt.format(**vars(self))
 
 class CalibrationDCHVSubslot(Base):
-    __tablename__ = '/calibration/dc/hv_subslot'
-    supply_board_id = Column(Integer, ForeignKey('/calibration/dc/hv_supply_board.id'), primary_key=True)
+    __tablename__ = '/calibration/drift_chamber/high_voltage/subslot'
+    supply_board_id = Column(Integer, ForeignKey(CalibrationDCHVSupplyBoard.__tablename__+'.id'), primary_key=True)
     subslot_id      = Column(Integer, primary_key=True)
     sector          = Column(Integer, nullable=False)
     superlayer      = Column(Integer, nullable=False)
@@ -81,8 +73,51 @@ class CalibrationDCHVSubslot(Base):
                 superlayer={superlayer})''')
         return fmt.format(**vars(self))
 
+class CalibrationDCHVTranslationBoard(Base):
+    __tablename__ = '/calibration/drift_chamber/high_voltage/translation_board'
+    board_id    = Column(Integer, primary_key=True)
+    slot_id     = Column(Integer, primary_key=True)
+    wire_offset = Column(Integer, nullable=False)
+    nwires      = Column(Integer, nullable=False)
+    def __str__(self):
+        fmt = '[{board_id},{slot_id}]({wire_offset},{nwires})'
+        return fmt.format(**vars(self))
+    def __repr__(self):
+        fmt = re.sub(r'\s+','','''\
+            CalibrationDCHVTranslationBoard(
+                board_id={board_id},
+                slot_id={slot_id},
+                wire_offset={wire_offset},
+                nwires={nwires})''')
+        return fmt.format(**vars(self))
+
+class CalibrationDCWire(Base):
+    __tablename__ = '/calibration/drift_chamber/high_voltage/wire'
+    sector     = Column(Integer, primary_key=True)
+    superlayer = Column(Integer, primary_key=True)
+    layer      = Column(Integer, primary_key=True)
+    wire       = Column(Integer, primary_key=True)
+    status     = Column(Integer, nullable=False)
+    __table_args__ = (
+        ForeignKeyConstraint(
+            ['sector','superlayer'],
+            [CalibrationDCHVSubslot.__tablename__+'.sector',
+             CalibrationDCHVSubslot.__tablename__+'.superlayer']),)
+    def __str__(self):
+        fmt = '[{sector},{superlayer},{layer},{wire}]({status})'
+        return fmt.format(**vars(self))
+    def __repr__(self):
+        fmt = re.sub(r'\s+','','''\
+            CalibrationDCWire(
+                sector={sector},
+                superlayer={superlayer},
+                layer={layer},
+                wire={wire},
+                status={status})''')
+        return fmt.format(**vars(self))
+
 class CalibrationDCHVDoublet(Base):
-    __tablename__ = '/calibration/dc/hv_doublet'
+    __tablename__ = '/calibration/drift_chamber/high_voltage/doublet'
     id                = Column(Integer, primary_key=True)
     supply_board_id   = Column(Integer, nullable=False)
     subslot_id        = Column(Integer, nullable=False)
@@ -98,12 +133,12 @@ class CalibrationDCHVDoublet(Base):
     __table_args__ = (
         ForeignKeyConstraint(
             ['supply_board_id','subslot_id'],
-            ['/calibration/dc/hv_subslot.supply_board_id',
-             '/calibration/dc/hv_subslot.subslot_id']),
+            [CalibrationDCHVSubslot.__tablename__+'.supply_board_id',
+             CalibrationDCHVSubslot.__tablename__+'.subslot_id']),
         ForeignKeyConstraint(
             ['trans_board_id','trans_slot_id'],
-            ['/calibration/dc/hv_translation_board.board_id',
-             '/calibration/dc/hv_translation_board.slot_id']),
+            [CalibrationDCHVTranslationBoard.__tablename__+'.board_id',
+             CalibrationDCHVTranslationBoard.__tablename__+'.slot_id']),
         UniqueConstraint(
             'supply_board_id',
             'subslot_id',
@@ -135,8 +170,8 @@ class CalibrationDCHVDoublet(Base):
         return fmt.format(**vars(self))
 
 class CalibrationDCHVDoubletPin(Base):
-    __tablename__ = '/calibration/dc/hv_doublet_pin'
-    doublet_id = Column(Integer, ForeignKey('/calibration/dc/hv_doublet.id'), primary_key=True)
+    __tablename__ = '/calibration/drift_chamber/high_voltage/doublet_pin'
+    doublet_id = Column(Integer, ForeignKey(CalibrationDCHVDoublet.__tablename__+'.id'), primary_key=True)
     pin_id     = Column(Integer, primary_key=True)
     status     = Column(Integer, nullable=False)
     def __str__(self):
@@ -151,12 +186,12 @@ class CalibrationDCHVDoubletPin(Base):
         return fmt.format(**vars(self))
 
 class CalibrationDCHVDoubletPinMap(Base):
-    __tablename__ = '/calibration/dc/hv_doublet_pin_map'
-    doublet_id = Column(Integer, ForeignKey('/calibration/dc/hv_doublet.doublet_id'), primary_key=True)
-    pin_id     = Column(Integer, ForeignKey('/calibration/dc/hv_doublet_pin.pin_id'), primary_key=True)
+    __tablename__ = '/calibration/drift_chamber/high_voltage/doublet_pin_map'
+    doublet_id = Column(Integer, ForeignKey(CalibrationDCHVDoublet.__tablename__+'.doublet_id'), primary_key=True)
+    pin_id     = Column(Integer, ForeignKey(CalibrationDCHVDoubletPin.__tablename__+'.pin_id'), primary_key=True)
     wire_type  = Column(Enum('sense','field','guard'),
-                        ForeignKey('/calibration/dc/hv_supply_board.wire_type'), primary_key=True)
-    layer      = Column(Integer, ForeignKey('/calibration/dc/wire.layer'), primary_key=True)
+                        ForeignKey(CalibrationDCHVSupplyBoard.__tablename__+'.wire_type'), primary_key=True)
+    layer      = Column(Integer, ForeignKey(CalibrationDCWire.__tablename__+'.layer'), primary_key=True)
     def __str__(self):
         fmt = '[{doublet_id},{pin_id}/{wire_type},{layer}]'
         return fmt.format(**vars(self))
@@ -169,51 +204,8 @@ class CalibrationDCHVDoubletPinMap(Base):
                 layer={layer})''')
         return fmt.format(**vars(self))
 
-class CalibrationDCHVTranslationBoard(Base):
-    __tablename__ = '/calibration/dc/hv_translation_board'
-    board_id    = Column(Integer, primary_key=True)
-    slot_id     = Column(Integer, primary_key=True)
-    wire_offset = Column(Integer, nullable=False)
-    nwires      = Column(Integer, nullable=False)
-    def __str__(self):
-        fmt = '[{board_id},{slot_id}]({wire_offset},{nwires})'
-        return fmt.format(**vars(self))
-    def __repr__(self):
-        fmt = re.sub(r'\s+','','''\
-            CalibrationDCHVTranslationBoard(
-                board_id={board_id},
-                slot_id={slot_id},
-                wire_offset={wire_offset},
-                nwires={nwires})''')
-        return fmt.format(**vars(self))
-
-class CalibrationDCWire(Base):
-    __tablename__ = '/calibration/dc/wire'
-    sector     = Column(Integer, primary_key=True)
-    superlayer = Column(Integer, primary_key=True)
-    layer      = Column(Integer, primary_key=True)
-    wire       = Column(Integer, primary_key=True)
-    status     = Column(Integer, nullable=False)
-    __table_args__ = (
-        ForeignKeyConstraint(
-            ['sector','superlayer'],
-            ['/calibration/dc/hv_subslot.sector',
-             '/calibration/dc/hv_subslot.superlayer']),)
-    def __str__(self):
-        fmt = '[{sector},{superlayer},{layer},{wire}]({status})'
-        return fmt.format(**vars(self))
-    def __repr__(self):
-        fmt = re.sub(r'\s+','','''\
-            CalibrationDCWire(
-                sector={sector},
-                superlayer={superlayer},
-                layer={layer},
-                wire={wire},
-                status={status})''')
-        return fmt.format(**vars(self))
-
 class CalibrationDCSignalTranslationBoard(Base):
-    __tablename__ = '/calibration/dc/signal_translation_board'
+    __tablename__ = '/calibration/drift_chamber/signal_translation_board'
     id          = Column(Integer, primary_key=True)
     wire_offset = Column(Integer, nullable=False)
     nwires      = Column(Integer, nullable=False)
@@ -229,12 +221,12 @@ class CalibrationDCSignalTranslationBoard(Base):
         return fmt.format(**vars(self))
 
 class CalibrationDCSignalCable(Base):
-    __tablename__ = '/calibration/dc/signal_cable'
+    __tablename__ = '/calibration/drift_chamber/signal_cable'
     id           = Column(Integer, primary_key=True)
     sector       = Column(Integer, nullable=False)
     superlayer   = Column(Integer, nullable=False)
     layer        = Column(Integer, nullable=False)
-    board_id     = Column(Integer, ForeignKey('/calibration/dc/signal_translation_board.id'), nullable=False)
+    board_id     = Column(Integer, ForeignKey(CalibrationDCSignalTranslationBoard.__tablename__+'.id'), nullable=False)
     connector_id = Column(Integer, nullable=False)
     time_delay   = Column(Float,   nullable=False)
     fuse_status  = Column(Integer, nullable=False)
@@ -245,9 +237,9 @@ class CalibrationDCSignalCable(Base):
     __table_args__ = (
         ForeignKeyConstraint(
             ['sector','superlayer','layer'],
-            ['/calibration/dc/wire.sector',
-             '/calibration/dc/wire.superlayer',
-             '/calibration/dc/wire.layer']),
+            [CalibrationDCWire.__tablename__+'.sector',
+             CalibrationDCWire.__tablename__+'.superlayer',
+             CalibrationDCWire.__tablename__+'.layer']),
         UniqueConstraint(
             'sector',
             'superlayer',
@@ -273,9 +265,9 @@ class CalibrationDCSignalCable(Base):
         return fmt.format(**vars(self))
 
 class CalibrationDCSignalReadoutConnector(Base):
-    __tablename__ = '/calibration/dc/signal_readout_connector'
+    __tablename__ = '/calibration/drift_chamber/signal_readout_connector'
     id           = Column(Integer, primary_key=True)
-    cable_id     = Column(Integer, ForeignKey('/calibration/dc/signal_cable.id'))
+    cable_id     = Column(Integer, ForeignKey(CalibrationDCSignalCable.__tablename__+'.id'))
     crate_id     = Column(Integer, nullable=False)
     slot_id      = Column(Integer, nullable=False)
     connector_id = Column(Integer, nullable=False)

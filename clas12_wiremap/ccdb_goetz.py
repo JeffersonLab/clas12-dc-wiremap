@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 
+from __future__ import print_function
+
 import os, sys
 import numpy as np
 from ccdb import AlchemyProvider as CCDBProvider
@@ -21,6 +23,7 @@ rc = Bunch(
               'mysql://clas12reader@clasdb.jlab.org/clas12'),
     comment = '',
     resized_string_dtype = '|S256',
+    resized_unicode_dtype = '<U256',
 )
 
 def get_tables(connstr = None):
@@ -125,24 +128,31 @@ def get_table(table_path,
     colnames = [str(c.name) for c in columns]
 
     # convert type string to Numpy dtype string specifications
-    coltypes = [str(np.dtype(c.type)) for c in columns]
+    coltypes = []
+    for c in columns:
+        t = c.type
+        if t == 'string':
+            t = 'str'
+        coltypes.append(str(np.dtype(t)))
 
     # strings of length zero make no sense. set dtype
     # according to rc.resized_string_dtype
     for i,k in enumerate(coltypes):
         if k == '|S0':
             coltypes[i] = rc.resized_string_dtype
+        if k == '<U0':
+            coltypes[i] = rc.resized_unicode_dtype
 
     # get access to the constants themselves
     constant_set = assignment.constant_set
 
     # get table of data as a numpy 2D array of strings
-    strdata = np.array(constant_set.data_table, dtype='S').T
+    strdata = np.array(constant_set.data_table, dtype=str).T
 
     # create empty numpy record array with the
     # target column names and types
     data = np.recarray(strdata.shape[1],
-                       dtype=zip(colnames,coltypes))
+                       dtype=list(zip(colnames,coltypes)))
 
     # for each column, read in data and convert to
     # the appropriate type
@@ -190,3 +200,8 @@ def add_table(data,
         max_run = runmax,
         variation_name = variation,
         comment = comment)
+
+
+if __name__ == '__main__':
+    ftof_stat = get_table('/calibration/ftof/status')
+    print(ftof_stat[:10])

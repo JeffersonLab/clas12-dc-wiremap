@@ -18,11 +18,11 @@ class MainWindow(QtGui.QMainWindow):
         ### Explorer Tabs
         self.explorer_tabs = QtGui.QTabWidget()
 
-        _='''
         self.crate = CrateTab()
         crate_vbox = QtGui.QVBoxLayout(self.crate)
         self.explorer_tabs.addTab(self.crate, 'Crates')
 
+        _='''
         self.dboard = DBTab()
         dboard_vbox = QtGui.QVBoxLayout(self.dboard)
         self.explorer_tabs.addTab(self.dboard, 'Distribution Boards')
@@ -58,12 +58,11 @@ class MainWindow(QtGui.QMainWindow):
                 self.wiremaps.setCurrentIndex(sec+1)
             else:
                 self.wiremaps.setCurrentIndex(0)
-
             self.wiremaps.data = data
 
         self.sidebar.post_update = update_wiremap
 
-        self.setModeChooser()
+        self.setModeExplorer()
 
         self.show()
 

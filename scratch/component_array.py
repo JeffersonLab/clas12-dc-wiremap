@@ -60,7 +60,7 @@ def fetchSupplyBoardArray(session):
     
 def fetchSubslotArray(session):
     q = session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
-           Subslot.subslot_id)\
+           Subslot.supply_board_id_id, Subslot.subslot_id)\
     .join(Subslot,Doublet,TransBoard, SupplyBoard)\
     .filter(
         SupplyBoard.wire_type == 'sense',
@@ -72,7 +72,7 @@ def fetchSubslotArray(session):
         Wire.layer,
         Wire.wire)
 
-    subslot = np.array(q.all()).T[4]
+    subslot = np.array(q.all()).T[5]
     return subslot.reshape((6,6,6,112))   
 
     
@@ -95,7 +95,7 @@ def fetchDoubletArray(session):
        
 def fetchDoubletPinArray(session):
     q = session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
-           DoubletPin.id)\
+           DoubletPin.doublet_id, DoubletPin.pin_id)\
     .join(Subslot,Doublet,TransBoard, SupplyBoard)\
     .filter(
         SupplyBoard.wire_type == 'sense',
@@ -107,14 +107,15 @@ def fetchDoubletPinArray(session):
         Wire.layer,
         Wire.wire)
 
-    doublet_pin = np.array(q.all()).T[4]
-    return doublet_pin.reshape((6,6,6,112))   
+    doublet = np.array(q.all()).T[4]
+    pin = np.array(q.all()).T[5]
+    return doublet.reshape((6,6,6,112)), pin.reshape((6,6,6,112))
     
  
     
 def fetchDoubletPinMapArray(session):
     q = session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
-           DoubletPinMap.id)\
+           DoubletPinMap.doublet_id, DoubletPinMap.pin_id, DoubletPinMap.layer)\
     .join(Subslot,Doublet,TransBoard, SupplyBoard)\
     .filter(
         SupplyBoard.wire_type == 'sense',
@@ -126,8 +127,10 @@ def fetchDoubletPinMapArray(session):
         Wire.layer,
         Wire.wire)
 
-    doublet_pin_map = np.array(q.all()).T[4]
-    return doublet_pin_map.reshape((6,6,6,112))
+    doublet = np.array(q.all()).T[4]
+    pin = np.array(q.all()).T[5]
+    layer = np.array(q.all()).T[6] 
+    return doublet.reshape((6,6,6,112)), pin.reshape((6,6,6,112)), layer.reshape((6,6,6,112))
     
 
 def fetchTransBoard(session):
