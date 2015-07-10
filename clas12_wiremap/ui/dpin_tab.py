@@ -39,7 +39,10 @@ class DoubletPinTab(QtGui.QTabWidget):
         self.doublet = []
         self.pin = []
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> d5f36450182c02e7e5784c0e5132aaa00855b6b0
         for sec in range(6):
             sector_tab = QtGui.QTabWidget()
             sector_layout = QtGui.QHBoxLayout()
@@ -85,7 +88,10 @@ class DoubletPinTab(QtGui.QTabWidget):
 
                     superlayer_layout.addWidget(box_button,5*b+1,0,5,1)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> d5f36450182c02e7e5784c0e5132aaa00855b6b0
                     for q in range(3):
 
                         # quad
@@ -99,7 +105,10 @@ class DoubletPinTab(QtGui.QTabWidget):
 
                         superlayer_layout.addWidget(quad_button, 5*b+1, q*2+1, 1, 2)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> d5f36450182c02e7e5784c0e5132aaa00855b6b0
                         for d in range(2):
 
                             # doublet
@@ -124,7 +133,10 @@ class DoubletPinTab(QtGui.QTabWidget):
                                 self.pin[-1][-1][-1][-1][-1].append(pin_button)
 
                                 pin_button.setCheckable(True)
+<<<<<<< HEAD
                                 pin_button.setAutoExclusive(False)
+=======
+>>>>>>> d5f36450182c02e7e5784c0e5132aaa00855b6b0
 
                                 pin_layout.setContentsMargins(9,9,9,0)
                                 pin_layout.addWidget(pin_button,y,x)
