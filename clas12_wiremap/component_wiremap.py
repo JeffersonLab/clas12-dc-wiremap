@@ -11,6 +11,7 @@ from .dc_tables import (CalibrationDCHVCrate,
     initialize_session)
 
 from . import ccdb_goetz as ccdb
+from .dc_fill_tables import dc_fill_tables
 from .cached_property import cached_property
 
 Crate            = CalibrationDCHVCrate
@@ -81,6 +82,9 @@ class DCWires(object):
             del data
         self.session.flush()
 
+
+
+
     @cached_property
     def crate_id(self):
 
@@ -117,7 +121,6 @@ class DCWires(object):
             Wire.wire)
 
         supplyboard = np.array(q.all()).T[4]
-        del q
         return supplyboard.reshape((6,6,6,112))
 
 
@@ -253,9 +256,22 @@ def fetchReadoutConnectorArray(session):
 
 if __name__ == '__main__':
     from matplotlib import pyplot
-    session = initialize_session()
-    dc_fill_tables(session)
-    crate = fetchCrateArray(session)
-    trans_board, trans_slot = fetchTransBoard(session)
-    pyplot.imshow(crate.reshape((72,336)))
+    from clas12_wiremap import plot_wiremap
+
+    dcwm = DCWires()
+    dcwm.fetch_data()
+
+    fig = pyplot.figure()
+    ax = fig.add_subplot(1,1,1)
+    pt,(cb,cax) = plot_wiremap(ax,dcwm.crate_id + 1)
+    cax.set_ylabel('Crate ID')
+
+
+    fig = pyplot.figure()
+    ax = fig.add_subplot(1,1,1)
+    pt,(cb,cax) = plot_wiremap(ax,dcwm.supply_board_id + 1)
+    cax.set_ylabel('Supply Board ID')
+
+
     pyplot.show()
+
