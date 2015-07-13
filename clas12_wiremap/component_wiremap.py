@@ -267,22 +267,19 @@ if __name__ == '__main__':
     pt,(cb,cax) = plot_wiremap(ax,dcwm.crate_id + 1)
     cax.set_ylabel('Crate ID')
 
-
     fig = pyplot.figure()
     ax = fig.add_subplot(1,1,1)
     pt,(cb,cax) = plot_wiremap(ax,dcwm.supply_board_id + 1)
     cax.set_ylabel('Supply Board ID')
-
 
     fig = pyplot.figure()
     ax = fig.add_subplot(1,1,1)
     pt,(cb,cax) = plot_wiremap(ax,dcwm.subslot_id + 1)
     cax.set_ylabel('Subslot ID')
 
-
     fig = pyplot.figure()
     ax = fig.add_subplot(1,1,1)
-    pt,(cb,cax) = plot_wiremap(ax,(dcwm.subslot_id+1) + 10*(dcwm.crate_id+1),cmap=cm.Set1)
+    pt,(cb,cax) = plot_wiremap(ax,(dcwm.subslot_id+1) + 10*(dcwm.crate_id+1))
     cax.set_ylabel(r'Subslot ID + 10 $\times$ Crate ID')
 
     pyplot.show()

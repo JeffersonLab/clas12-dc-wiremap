@@ -60,11 +60,14 @@ def discrete_colorbar(ax, im, zmax, cmap=cm.jet):
     ticks = np.linspace(0,zmax,zmax+1,dtype=int)
     norm = colors.BoundaryNorm(bounds, cmap.N)
 
+    if len(ticks) > 20:
+        ticks = ticks[::len(ticks)//10]
+
     im.set_cmap(cmap)
     im.set_norm(norm)
 
     # create a second axes for the colorbar
-    kwargs = dict(
+    kw = dict(
         cmap=cmap,
         norm=norm,
         spacing='proportional',
@@ -75,7 +78,7 @@ def discrete_colorbar(ax, im, zmax, cmap=cm.jet):
     from mpl_toolkits.axes_grid1 import make_axes_locatable
     divider = make_axes_locatable(ax)
     cax = divider.append_axes('right', size=0.15, pad=0.1)
-    cb = colorbar.ColorbarBase(cax,**kwargs)
+    cb = colorbar.ColorbarBase(cax,**kw)
 
     cax.set_ylabel('ID Number', size=12)
 
