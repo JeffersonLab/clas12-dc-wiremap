@@ -11,7 +11,7 @@ def transform(a):
     a = np.roll(a,6*6,axis=0)
     return a
 
-def plot_wiremap(ax,data):
+def plot_wiremap(ax,data,**kwargs):
 
     im = ax.imshow(transform(data), extent=[1,112*3,-6*6+1,6*6],
         aspect='auto', origin='lower', interpolation='nearest')
@@ -40,7 +40,7 @@ def plot_wiremap(ax,data):
                     'Sector {}'.format(sec+1),
                     transform=ax.transAxes)
 
-    cb = discrete_colorbar(ax, im, data.max())
+    cb = discrete_colorbar(ax, im, data.max(),**kwargs)
 
     return im, cb
 
