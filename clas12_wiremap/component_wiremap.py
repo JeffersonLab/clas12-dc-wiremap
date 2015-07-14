@@ -124,6 +124,25 @@ class DCWires(object):
         return supplyboard.reshape((6,6,6,112))
 
     @cached_property
+    def subslot_supply_board_id(self):
+        q = self.session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
+               Subslot.supply_board_id)\
+        .join(Subslot,Doublet,TransBoard, SupplyBoard)\
+        .filter(
+            SupplyBoard.wire_type == 'sense',
+            Wire.wire >= TransBoard.wire_offset,
+            Wire.wire <  TransBoard.wire_offset + TransBoard.nwires)\
+        .order_by(
+            Wire.sector,
+            Wire.superlayer,
+            Wire.layer,
+            Wire.wire)
+
+        subslot = np.array(q.all()).T[4]
+        return subslot.reshape((6,6,6,112))
+        
+        
+    @cached_property
     def subslot_id(self):
         q = self.session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
                Subslot.subslot_id)\
@@ -142,7 +161,25 @@ class DCWires(object):
         return subslot.reshape((6,6,6,112))
 
     @cached_property
-    def doublet_pin_map_id(self):
+    def doublet_pin_map_doublet_id(self):
+        q = self.session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
+               DoubletPin.doublet_id)\
+        .join(Subslot,Doublet,TransBoard, SupplyBoard,DoubletPin,DoubletPinMap)\
+        .filter(
+            SupplyBoard.wire_type == 'sense',
+            Wire.wire >= TransBoard.wire_offset,
+            Wire.wire <  TransBoard.wire_offset + TransBoard.nwires)\
+        .order_by(
+            Wire.sector,
+            Wire.superlayer,
+            Wire.layer,
+            Wire.wire)
+
+        doublet_pin_map = np.array(q.all()).T[4]
+        return doublet_pin_map.reshape((6,6,6,112))
+
+    @cached_property
+    def doublet_pin_map_pin_id(self):
         q = self.session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
                DoubletPin.pin_id)\
         .join(Subslot,Doublet,TransBoard, SupplyBoard,DoubletPin,DoubletPinMap)\
@@ -158,7 +195,24 @@ class DCWires(object):
 
         doublet_pin_map = np.array(q.all()).T[4]
         return doublet_pin_map.reshape((6,6,6,112))
+        
+    @cached_property
+    def doublet_pin_map_layer(self):
+        q = self.session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
+               DoubletPin.layer)\
+        .join(Subslot,Doublet,TransBoard, SupplyBoard,DoubletPin,DoubletPinMap)\
+        .filter(
+            SupplyBoard.wire_type == 'sense',
+            Wire.wire >= TransBoard.wire_offset,
+            Wire.wire <  TransBoard.wire_offset + TransBoard.nwires)\
+        .order_by(
+            Wire.sector,
+            Wire.superlayer,
+            Wire.layer,
+            Wire.wire)
 
+        doublet_pin_map = np.array(q.all()).T[4]
+        return doublet_pin_map.reshape((6,6,6,112))    
     @cached_property
     def doublet_id(self):
         q = self.session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
@@ -178,9 +232,9 @@ class DCWires(object):
         return doublet.reshape((6,6,6,112))
         
     @cached_property
-    def doublet_pin_array(self):
+    def doublet_pin_doublet_id(self):
         q = self.session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
-               DoubletPin.id)\
+               DoubletPin.doublet_id)\
         .join(Subslot,Doublet,TransBoard, SupplyBoard)\
         .filter(
             SupplyBoard.wire_type == 'sense',
@@ -195,12 +249,28 @@ class DCWires(object):
         doublet_pin = np.array(q.all()).T[4]
         return doublet_pin.reshape((6,6,6,112))
 
-
-
-
-    def trans_board_array(session):
+    @cached_property
+    def doublet_pin_pin_id(self):
         q = self.session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
-               TransBoard.board_id, TransBoard.slot_id)\
+               DoubletPin.pin_id)\
+        .join(Subslot,Doublet,TransBoard, SupplyBoard)\
+        .filter(
+            SupplyBoard.wire_type == 'sense',
+            Wire.wire >= TransBoard.wire_offset,
+            Wire.wire <  TransBoard.wire_offset + TransBoard.nwires)\
+        .order_by(
+            Wire.sector,
+            Wire.superlayer,
+            Wire.layer,
+            Wire.wire)
+
+        doublet_pin = np.array(q.all()).T[4]
+        return doublet_pin.reshape((6,6,6,112))
+
+    @cached_property
+    def trans_board_id(self):
+        q = self.session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
+               TransBoard.board_id)\
         .join(Subslot,Doublet,TransBoard, SupplyBoard)\
         .filter(
             SupplyBoard.wire_type == 'sense',
@@ -214,10 +284,28 @@ class DCWires(object):
 
 
         trans_board = np.array(q.all()).T[4].reshape((6,6,6,112))
-        trans_slot = np.array(q.all()).T[5].reshape((6,6,6,112))
-        return trans_board, trans_slot
+        return trans_board
+    
+    @cached_property
+    def trans_board_slot_id(self):
+        q = self.session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire, TransBoard.slot_id)\
+        .join(Subslot,Doublet,TransBoard, SupplyBoard)\
+        .filter(
+            SupplyBoard.wire_type == 'sense',
+            Wire.wire >= TransBoard.wire_offset,
+            Wire.wire <  TransBoard.wire_offset + TransBoard.nwires)\
+        .order_by(
+            Wire.sector,
+            Wire.superlayer,
+            Wire.layer,
+            Wire.wire)
 
-    def signal_cable_array(self):
+
+        trans_board = np.array(q.all()).T[4].reshape((6,6,6,112))
+        return trans_board   
+         
+    @cached_property
+    def signal_cable_id(self):
         q = self.session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
                SignalCable.id)\
         .join(Subslot,Doublet,TransBoard, SupplyBoard)\
@@ -233,8 +321,9 @@ class DCWires(object):
 
         signal_cable = np.array(q.all()).T[4]
         return signal_cable.reshape((6,6,6,112))
-
-    def readout_connector_array(self):
+        
+    @cached_property
+    def readout_connector_id(self):
         q = self.session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
                ReadoutConnector.id)\
         .join(Subslot,Doublet,TransBoard, SupplyBoard)\
