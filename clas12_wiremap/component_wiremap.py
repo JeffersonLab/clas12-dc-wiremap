@@ -142,7 +142,7 @@ class DCWires(object):
         return subslot.reshape((6,6,6,112))
 
     @cached_property
-    def doublet_pin_id(self):
+    def doublet_pin_map_id(self):
         q = self.session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
                DoubletPin.pin_id)\
         .join(Subslot,Doublet,TransBoard, SupplyBoard,DoubletPin,DoubletPinMap)\
@@ -159,98 +159,97 @@ class DCWires(object):
         doublet_pin_map = np.array(q.all()).T[4]
         return doublet_pin_map.reshape((6,6,6,112))
 
+    @cached_property
+    def doublet_id(self):
+        q = self.session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
+               Doublet.id)\
+        .join(Subslot,Doublet,TransBoard, SupplyBoard)\
+        .filter(
+            SupplyBoard.wire_type == 'sense',
+            Wire.wire >= TransBoard.wire_offset,
+            Wire.wire <  TransBoard.wire_offset + TransBoard.nwires)\
+        .order_by(
+            Wire.sector,
+            Wire.superlayer,
+            Wire.layer,
+            Wire.wire)
+
+        doublet = np.array(q.all()).T[4]
+        return doublet.reshape((6,6,6,112))
+        
+    @cached_property
+    def doublet_pin_array(self):
+        q = self.session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
+               DoubletPin.id)\
+        .join(Subslot,Doublet,TransBoard, SupplyBoard)\
+        .filter(
+            SupplyBoard.wire_type == 'sense',
+            Wire.wire >= TransBoard.wire_offset,
+            Wire.wire <  TransBoard.wire_offset + TransBoard.nwires)\
+        .order_by(
+            Wire.sector,
+            Wire.superlayer,
+            Wire.layer,
+            Wire.wire)
+
+        doublet_pin = np.array(q.all()).T[4]
+        return doublet_pin.reshape((6,6,6,112))
 
 
 
-def fetchDoubletArray(session):
-    q = session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
-           Doublet.id)\
-    .join(Subslot,Doublet,TransBoard, SupplyBoard)\
-    .filter(
-        SupplyBoard.wire_type == 'sense',
-        Wire.wire >= TransBoard.wire_offset,
-        Wire.wire <  TransBoard.wire_offset + TransBoard.nwires)\
-    .order_by(
-        Wire.sector,
-        Wire.superlayer,
-        Wire.layer,
-        Wire.wire)
 
-    doublet = np.array(q.all()).T[4]
-    return doublet.reshape((6,6,6,112))
-
-def fetchDoubletPinArray(session):
-    q = session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
-           DoubletPin.id)\
-    .join(Subslot,Doublet,TransBoard, SupplyBoard)\
-    .filter(
-        SupplyBoard.wire_type == 'sense',
-        Wire.wire >= TransBoard.wire_offset,
-        Wire.wire <  TransBoard.wire_offset + TransBoard.nwires)\
-    .order_by(
-        Wire.sector,
-        Wire.superlayer,
-        Wire.layer,
-        Wire.wire)
-
-    doublet_pin = np.array(q.all()).T[4]
-    return doublet_pin.reshape((6,6,6,112))
+    def trans_board_array(session):
+        q = self.session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
+               TransBoard.board_id, TransBoard.slot_id)\
+        .join(Subslot,Doublet,TransBoard, SupplyBoard)\
+        .filter(
+            SupplyBoard.wire_type == 'sense',
+            Wire.wire >= TransBoard.wire_offset,
+            Wire.wire <  TransBoard.wire_offset + TransBoard.nwires)\
+        .order_by(
+            Wire.sector,
+            Wire.superlayer,
+            Wire.layer,
+            Wire.wire)
 
 
+        trans_board = np.array(q.all()).T[4].reshape((6,6,6,112))
+        trans_slot = np.array(q.all()).T[5].reshape((6,6,6,112))
+        return trans_board, trans_slot
 
+    def signal_cable_array(self):
+        q = self.session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
+               SignalCable.id)\
+        .join(Subslot,Doublet,TransBoard, SupplyBoard)\
+        .filter(
+            SupplyBoard.wire_type == 'sense',
+            Wire.wire >= TransBoard.wire_offset,
+            Wire.wire <  TransBoard.wire_offset + TransBoard.nwires)\
+        .order_by(
+            Wire.sector,
+            Wire.superlayer,
+            Wire.layer,
+            Wire.wire)
 
-def fetchTransBoard(session):
-    q = session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
-           TransBoard.board_id, TransBoard.slot_id)\
-    .join(Subslot,Doublet,TransBoard, SupplyBoard)\
-    .filter(
-        SupplyBoard.wire_type == 'sense',
-        Wire.wire >= TransBoard.wire_offset,
-        Wire.wire <  TransBoard.wire_offset + TransBoard.nwires)\
-    .order_by(
-        Wire.sector,
-        Wire.superlayer,
-        Wire.layer,
-        Wire.wire)
+        signal_cable = np.array(q.all()).T[4]
+        return signal_cable.reshape((6,6,6,112))
 
+    def readout_connector_array(self):
+        q = self.session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
+               ReadoutConnector.id)\
+        .join(Subslot,Doublet,TransBoard, SupplyBoard)\
+        .filter(
+            SupplyBoard.wire_type == 'sense',
+            Wire.wire >= TransBoard.wire_offset,
+            Wire.wire <  TransBoard.wire_offset + TransBoard.nwires)\
+        .order_by(
+            Wire.sector,
+            Wire.superlayer,
+            Wire.layer,
+            Wire.wire)
 
-    trans_board = np.array(q.all()).T[4].reshape((6,6,6,112))
-    trans_slot = np.array(q.all()).T[5].reshape((6,6,6,112))
-    return trans_board, trans_slot
-
-def fetchSignalCableArray(session):
-    q = session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
-           SignalCable.id)\
-    .join(Subslot,Doublet,TransBoard, SupplyBoard)\
-    .filter(
-        SupplyBoard.wire_type == 'sense',
-        Wire.wire >= TransBoard.wire_offset,
-        Wire.wire <  TransBoard.wire_offset + TransBoard.nwires)\
-    .order_by(
-        Wire.sector,
-        Wire.superlayer,
-        Wire.layer,
-        Wire.wire)
-
-    signal_cable = np.array(q.all()).T[4]
-    return signal_cable.reshape((6,6,6,112))
-
-def fetchReadoutConnectorArray(session):
-    q = session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
-           ReadoutConnector.id)\
-    .join(Subslot,Doublet,TransBoard, SupplyBoard)\
-    .filter(
-        SupplyBoard.wire_type == 'sense',
-        Wire.wire >= TransBoard.wire_offset,
-        Wire.wire <  TransBoard.wire_offset + TransBoard.nwires)\
-    .order_by(
-        Wire.sector,
-        Wire.superlayer,
-        Wire.layer,
-        Wire.wire)
-
-    readout_connector = np.array(q.all()).T[4]
-    return readout_connector.reshape((6,6,6,112))
+        readout_connector = np.array(q.all()).T[4]
+        return readout_connector.reshape((6,6,6,112))
 
 
 
@@ -263,21 +262,27 @@ if __name__ == '__main__':
     dcwm.fetch_data()
 
     fig = pyplot.figure()
+    fig.canvas.set_window_title('Crate Wire Connections')
     ax = fig.add_subplot(1,1,1)
     pt,(cb,cax) = plot_wiremap(ax,dcwm.crate_id + 1)
     cax.set_ylabel('Crate ID')
 
     fig = pyplot.figure()
+    fig.canvas.set_window_title('Supply Board Wire Connections')
     ax = fig.add_subplot(1,1,1)
-    pt,(cb,cax) = plot_wiremap(ax,dcwm.supply_board_id + 1)
+    res = plot_wiremap(ax,dcwm.supply_board_id + 1)	
+    pt,cbax = res
+    cb,cax = cbax
     cax.set_ylabel('Supply Board ID')
 
     fig = pyplot.figure()
+    fig.canvas.set_window_title('Subslot Wire Connections')
     ax = fig.add_subplot(1,1,1)
     pt,(cb,cax) = plot_wiremap(ax,dcwm.subslot_id + 1)
     cax.set_ylabel('Subslot ID')
 
     fig = pyplot.figure()
+    fig.canvas.set_window_title('Subslot and Crate Wire Connections')
     ax = fig.add_subplot(1,1,1)
     pt,(cb,cax) = plot_wiremap(ax,(dcwm.subslot_id+1) + 10*(dcwm.crate_id+1))
     cax.set_ylabel(r'Subslot ID + 10 $\times$ Crate ID')
