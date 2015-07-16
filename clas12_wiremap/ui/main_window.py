@@ -22,7 +22,7 @@ class MainWindow(QtGui.QMainWindow):
         crate_vbox = QtGui.QVBoxLayout(self.crate)
         self.explorer_tabs.addTab(self.crate, 'Crates')
 
-        _='''
+        
         self.dboard = DBTab()
         dboard_vbox = QtGui.QVBoxLayout(self.dboard)
         self.explorer_tabs.addTab(self.dboard, 'Distribution Boards')
@@ -31,11 +31,13 @@ class MainWindow(QtGui.QMainWindow):
         tboard_vbox = QtGui.QVBoxLayout(self.tboard)
         self.explorer_tabs.addTab(self.tboard, 'Translation Boards')
 
+       
+
         self.explorer_tabs.setMinimumWidth(680)
         self.explorer_tabs.setSizePolicy(
                                    QtGui.QSizePolicy.Fixed,
                                    QtGui.QSizePolicy.Expanding)
-        '''
+        
 
         explorer_vbox = QtGui.QVBoxLayout()
         explorer_vbox.addWidget(self.explorer_tabs)
@@ -63,7 +65,6 @@ class MainWindow(QtGui.QMainWindow):
         self.sidebar.post_update = update_wiremap
 
         self.setModeExplorer()
-
         self.show()
 
     def setModeExplorer(self):
@@ -75,6 +76,8 @@ class MainWindow(QtGui.QMainWindow):
         self.actionExplorer.setChecked(False)
         self.actionChooser.setChecked(True)
         self.left_stacked_widget.setCurrentIndex(1)
+ 
+ 
 
 
 if __name__ == '__main__':
