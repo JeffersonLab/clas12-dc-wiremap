@@ -24,28 +24,31 @@ class MainWindow(QtGui.QMainWindow):
         
         ### Explorer Tabs
         self.explorer_tabs = QtGui.QTabWidget()
-        
-        
-        
-
+           
         self.crate = CrateTab()
+        self.crate.setMinimumWidth(750)
+        self.crate.setMaximumHeight(1000)
         crate_vbox = QtGui.QVBoxLayout(self.crate)
         self.explorer_tabs.addTab(self.crate, 'Crates')
 
         
         self.dboard = DBTab()
+        self.dboard.setMinimumWidth(750)
         dboard_vbox = QtGui.QVBoxLayout(self.dboard)
         self.explorer_tabs.addTab(self.dboard, 'Distribution Boards')
 
         self.tboard = TBTab()
+        self.tboard.setMinimumWidth(750)
         tboard_vbox = QtGui.QVBoxLayout(self.tboard)
         self.explorer_tabs.addTab(self.tboard, 'Translation Boards')
 
         self.dcrb = DCRB()
+        self.dcrb.setMinimumWidth(750)
         dcrb_vbox = QtGui.QVBoxLayout(self.dcrb)
         self.explorer_tabs.addTab(self.dcrb, 'Drift Chamber Readout Board')
         
         self.stb = STBTab()
+        self.stb.setMinimumWidth(750)
         stb_vbox = QtGui.QVBoxLayout(self.stb)
         self.explorer_tabs.addTab(self.stb, 'Signal Translation Board')
 
