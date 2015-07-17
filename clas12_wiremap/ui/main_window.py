@@ -4,8 +4,9 @@ import os
 
 from clas12_wiremap.ui import QtGui, uic
 from clas12_wiremap.ui import Sidebar, CrateTab, DBTab, TBTab, WireMaps
-
-from clas12_wiremap import initialize_session
+from clas12_wiremap.ui.dcrb_tab import DCRB
+from clas12_wiremap.ui.stb_tab import STBTab
+from clas12_wiremap import initialize_session, component_wiremap
 
 class MainWindow(QtGui.QMainWindow):
     def __init__(self):
@@ -14,9 +15,18 @@ class MainWindow(QtGui.QMainWindow):
         uic.loadUi(os.path.join(curdir,'MainWindow.ui'), self)
 
         self.session = initialize_session()
-
+        self.run_number.setValue(int(component_wiremap.DCWires.runnum))
+        #self.run_number.valueChanged.connect(self.run_number.show)
+        
+        #if (self.run_number.value.Changed() :
+            #print(self.run_number.value())
+        
+        
         ### Explorer Tabs
         self.explorer_tabs = QtGui.QTabWidget()
+        
+        
+        
 
         self.crate = CrateTab()
         crate_vbox = QtGui.QVBoxLayout(self.crate)
@@ -31,9 +41,15 @@ class MainWindow(QtGui.QMainWindow):
         tboard_vbox = QtGui.QVBoxLayout(self.tboard)
         self.explorer_tabs.addTab(self.tboard, 'Translation Boards')
 
-       
+        self.dcrb = DCRB()
+        dcrb_vbox = QtGui.QVBoxLayout(self.dcrb)
+        self.explorer_tabs.addTab(self.dcrb, 'Drift Chamber Readout Board')
+        
+        self.stb = STBTab()
+        stb_vbox = QtGui.QVBoxLayout(self.stb)
+        self.explorer_tabs.addTab(self.stb, 'Signal Translation Board')
 
-        self.explorer_tabs.setMinimumWidth(680)
+        self.explorer_tabs.setMinimumWidth(750)
         self.explorer_tabs.setSizePolicy(
                                    QtGui.QSizePolicy.Fixed,
                                    QtGui.QSizePolicy.Expanding)
@@ -84,4 +100,7 @@ if __name__ == '__main__':
     import sys
     app = QtGui.QApplication(sys.argv)
     main_window = MainWindow()
+    #palette	= QtGui.QPalette()
+    #palette.setBrush(QtGui.QPalette.Background,QtGui.QBrush(QtGui.QPixmap("grass.jpg")))    
+    #main_window.setPalette(palette)
     sys.exit(app.exec_())
