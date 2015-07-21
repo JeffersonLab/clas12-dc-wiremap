@@ -3,7 +3,7 @@ from __future__ import print_function, division
 import os
 
 from clas12_wiremap.ui import QtGui, uic
-from clas12_wiremap.ui import Sidebar, CrateTab, DBTab, TBTab, WireMaps
+from clas12_wiremap.ui import Sidebar, CrateTab, DBTab, TBTab, WireMaps, SetRunDialogue
 from clas12_wiremap.ui.dcrb_tab import DCRB
 from clas12_wiremap.ui.stb_tab import STBTab
 from clas12_wiremap import initialize_session, component_wiremap
@@ -13,9 +13,12 @@ class MainWindow(QtGui.QMainWindow):
         super(MainWindow, self).__init__()
         curdir = os.path.dirname(os.path.realpath(__file__))
         uic.loadUi(os.path.join(curdir,'MainWindow.ui'), self)
-
-        self.session = initialize_session()
-        self.run_number.setValue(int(component_wiremap.DCWires.runnum))
+        self.dcwires = component_wiremap.DCWires()
+        #self.dcwires.initialize_session()
+        
+        
+        
+        #self.run_number.setValue(int(component_wiremap.DCWires.runnum))
         #self.run_number.valueChanged.connect(self.run_number.show)
         
         #if (self.run_number.value.Changed() :
@@ -63,10 +66,10 @@ class MainWindow(QtGui.QMainWindow):
         self.explorer_holder.setLayout(explorer_vbox)
 
         ### Chooser Sidebar
-        self.sidebar = Sidebar(self.session)
-        sidebar_vbox = QtGui.QVBoxLayout()
-        sidebar_vbox.addWidget(self.sidebar)
-        self.chooser_holder.setLayout(sidebar_vbox)
+        #self.sidebar = Sidebar(self.session)
+        #sidebar_vbox = QtGui.QVBoxLayout()
+        #sidebar_vbox.addWidget(self.sidebar)
+        #self.chooser_holder.setLayout(sidebar_vbox)
 
         ### Wiremap
         self.wiremaps = WireMaps()
@@ -81,7 +84,7 @@ class MainWindow(QtGui.QMainWindow):
                 self.wiremaps.setCurrentIndex(0)
             self.wiremaps.data = data
 
-        self.sidebar.post_update = update_wiremap
+        #self.sidebar.post_update = update_wiremap
 
         self.setModeExplorer()
         self.show()
@@ -95,7 +98,21 @@ class MainWindow(QtGui.QMainWindow):
         self.actionExplorer.setChecked(False)
         self.actionChooser.setChecked(True)
         self.left_stacked_widget.setCurrentIndex(1)
- 
+  
+    def setRunDialogue(self):
+        self.running = SetRunDialogue()
+        self.loadRun( self.running.spinBox.value())
+        self.running.show()
+       
+    
+         
+    def loadRun(self, runnumber):
+        self.dcwires.run = runnumber
+        self.dcwires.fetch_data()
+        
+    
+    
+    
  
 
 
