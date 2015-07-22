@@ -39,7 +39,8 @@ class MainWindow(QtGui.QMainWindow):
         self.dboard.setMinimumWidth(750)
         dboard_vbox = QtGui.QVBoxLayout(self.dboard)
         self.explorer_tabs.addTab(self.dboard, 'Distribution Boards')
-
+        
+        
         self.tboard = TBTab()
         self.tboard.setMinimumWidth(750)
         tboard_vbox = QtGui.QVBoxLayout(self.tboard)
@@ -85,6 +86,8 @@ class MainWindow(QtGui.QMainWindow):
             self.wiremaps.data = data
 
         #self.sidebar.post_update = update_wiremap
+        
+        self.dboard.currentChanged.connect(lambda x: self.wiremaps.setCurrentIndex(x+1))
 
         self.setModeExplorer()
         self.show()
@@ -103,8 +106,13 @@ class MainWindow(QtGui.QMainWindow):
         run,ok = SetRunDialogue.getRunNum()
         if ok:
             self.loadRun(run)
+        
        
-       
+    #def setSector(sec):
+        #anytime a view is opened it is used to set the wiremap view sector much like the updatet_wiremap function
+    #go into each tabs python code and signal to main window when something is changed
+    #trying to print to the screen what is changing at all times
+    
     
          
     def loadRun(self, runnumber):
