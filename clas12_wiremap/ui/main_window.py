@@ -87,8 +87,17 @@ class MainWindow(QtGui.QMainWindow):
 
         #self.sidebar.post_update = update_wiremap
         
-        self.dboard.currentChanged.connect(lambda x: self.wiremaps.setCurrentIndex(x+1))
-
+        for i in [self.dboard, self.tboard, self.dcrb, self.stb]:
+            i.currentChanged.connect(lambda x: self.wiremaps.setCurrentIndex(x+1))
+            
+            
+        def f(i):
+            if (i == 0):
+                self.wiremaps.setCurrentIndex(0)
+            else:
+                self.wiremaps.setCurrentIndex(self.explorer_tabs.currentWidget().currentIndex() + 1)
+                
+        self.explorer_tabs.currentChanged.connect(f)
         self.setModeExplorer()
         self.show()
 
