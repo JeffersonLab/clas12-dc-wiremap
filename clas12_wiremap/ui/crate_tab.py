@@ -95,6 +95,13 @@ class CrateTab(QtGui.QTabWidget):
                         ch.clicked.connect(_sb)
                         ch.clicked.connect(_ct)
 
+                        ss.clicked.connect(self.stateChanged)
+                        sb.clicked.connect(self.stateChanged)
+                        ct.clicked.connect(self.stateChanged)
+                        ch.clicked.connect(self.stateChanged)
+
+    def stateChanged(self):
+        raise NotImplementedError()
 
 
 if __name__ == '__main__':

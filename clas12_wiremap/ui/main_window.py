@@ -39,8 +39,8 @@ class MainWindow(QtGui.QMainWindow):
         self.dboard.setMinimumWidth(750)
         dboard_vbox = QtGui.QVBoxLayout(self.dboard)
         self.explorer_tabs.addTab(self.dboard, 'Distribution Boards')
-        
-        
+
+
         self.tboard = TBTab()
         self.tboard.setMinimumWidth(750)
         tboard_vbox = QtGui.QVBoxLayout(self.tboard)
@@ -86,8 +86,21 @@ class MainWindow(QtGui.QMainWindow):
             self.wiremaps.data = data
 
         #self.sidebar.post_update = update_wiremap
-        
+
         self.dboard.currentChanged.connect(lambda x: self.wiremaps.setCurrentIndex(x+1))
+
+
+        def crate_stateChanged(crate, dcw=self.dcwires, wm=self.wiremaps):
+            #crate_id
+            #supply_board_ids
+            #subslot_ids
+            #channel_ids
+            crate_id = crate.currentIndex()
+            crate_status = getattr(crate,'crate{crate}'.format(crate_id)).isChecked()
+            self.wiremaps
+
+
+        self.crate.stateChanged = crate_stateChanged
 
         self.setModeExplorer()
         self.show()

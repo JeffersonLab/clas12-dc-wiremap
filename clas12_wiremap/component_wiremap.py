@@ -163,6 +163,25 @@ class DCWires(object):
         subslot = np.array(q.all()).T[4]
         return subslot.reshape((6,6,6,112))
 
+
+    @cached_property
+    def quad_id(self):
+        q = self.session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
+               Doublet.quad_id)\
+        .join(Subslot,Doublet,TransBoard,SupplyBoard)\
+        .filter(
+            SupplyBoard.wire_type == 'sense',
+            Wire.wire >= TransBoard.wire_offset,
+            Wire.wire <  TransBoard.wire_offset + TransBoard.nwires)\
+        .order_by(
+            Wire.sector,
+            Wire.superlayer,
+            Wire.layer,
+            Wire.wire)
+
+        quad = np.array(q.all()).T[4]
+        return quad.reshape((6,6,6,112))
+
     @cached_property
     def doublet_pin_map_doublet_id(self):
         q = self.session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
