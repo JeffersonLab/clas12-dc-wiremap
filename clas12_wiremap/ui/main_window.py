@@ -86,6 +86,7 @@ class MainWindow(QtGui.QMainWindow):
             self.wiremaps.data = data
 
         #self.sidebar.post_update = update_wiremap
+<<<<<<< HEAD
 
         self.dboard.currentChanged.connect(lambda x: self.wiremaps.setCurrentIndex(x+1))
 
@@ -102,6 +103,20 @@ class MainWindow(QtGui.QMainWindow):
 
         self.crate.stateChanged = crate_stateChanged
 
+=======
+        
+        for i in [self.dboard, self.tboard, self.dcrb, self.stb]:
+            i.currentChanged.connect(lambda x: self.wiremaps.setCurrentIndex(x+1))
+            
+            
+        def f(i):
+            if (i == 0):
+                self.wiremaps.setCurrentIndex(0)
+            else:
+                self.wiremaps.setCurrentIndex(self.explorer_tabs.currentWidget().currentIndex() + 1)
+                
+        self.explorer_tabs.currentChanged.connect(f)
+>>>>>>> e3dfe65fadb97558e78eb4c9eacb6a162835cb7f
         self.setModeExplorer()
         self.show()
 
