@@ -6,35 +6,35 @@ from clas12_wiremap.ui import QtGui, uic
 from clas12_wiremap.ui import Sidebar, CrateTab, DBTab, TBTab, WireMaps, SetRunDialogue
 from clas12_wiremap.ui.dcrb_tab import DCRB
 from clas12_wiremap.ui.stb_tab import STBTab
-from clas12_wiremap import initialize_session, component_wiremap
+from clas12_wiremap import initialize_session, DCWires
 
 class MainWindow(QtGui.QMainWindow):
     def __init__(self):
         super(MainWindow, self).__init__()
         curdir = os.path.dirname(os.path.realpath(__file__))
         uic.loadUi(os.path.join(curdir,'MainWindow.ui'), self)
-        self.dcwires = component_wiremap.DCWires()
+        self.dcwires = DCWires()
         #self.dcwires.initialize_session()
-        
-        
-        
-        #self.run_number.setValue(int(component_wiremap.DCWires.runnum))
+
+
+
+        #self.run_number.setValue(int(DCWires.runnum))
         #self.run_number.valueChanged.connect(self.run_number.show)
-        
+
         #if (self.run_number.value.Changed() :
             #print(self.run_number.value())
-        
-        
+
+
         ### Explorer Tabs
         self.explorer_tabs = QtGui.QTabWidget()
-           
+
         self.crate = CrateTab()
         self.crate.setMinimumWidth(750)
         self.crate.setMaximumHeight(1000)
         crate_vbox = QtGui.QVBoxLayout(self.crate)
         self.explorer_tabs.addTab(self.crate, 'Crates')
 
-        
+
         self.dboard = DBTab()
         self.dboard.setMinimumWidth(750)
         dboard_vbox = QtGui.QVBoxLayout(self.dboard)
@@ -49,7 +49,7 @@ class MainWindow(QtGui.QMainWindow):
         self.dcrb.setMinimumWidth(750)
         dcrb_vbox = QtGui.QVBoxLayout(self.dcrb)
         self.explorer_tabs.addTab(self.dcrb, 'Drift Chamber Readout Board')
-        
+
         self.stb = STBTab()
         self.stb.setMinimumWidth(750)
         stb_vbox = QtGui.QVBoxLayout(self.stb)
@@ -59,7 +59,7 @@ class MainWindow(QtGui.QMainWindow):
         self.explorer_tabs.setSizePolicy(
                                    QtGui.QSizePolicy.Fixed,
                                    QtGui.QSizePolicy.Expanding)
-        
+
 
         explorer_vbox = QtGui.QVBoxLayout()
         explorer_vbox.addWidget(self.explorer_tabs)
@@ -98,31 +98,31 @@ class MainWindow(QtGui.QMainWindow):
         self.actionExplorer.setChecked(False)
         self.actionChooser.setChecked(True)
         self.left_stacked_widget.setCurrentIndex(1)
-  
+
     def setRunDialogue(self):
         run,ok = SetRunDialogue.getRunNum()
         if ok:
             self.loadRun(run)
-       
-       
-    
-         
+
+
+
+
     def loadRun(self, runnumber):
         self.rundisplay.setNum(runnumber)
         self.dcwires.run = runnumber
         self.dcwires.fetch_data()
-        
-    
-    
-    
- 
+
+
+
+
+
 
 
 if __name__ == '__main__':
     import sys
     app = QtGui.QApplication(sys.argv)
     main_window = MainWindow()
-    #palette	= QtGui.QPalette()
-    #palette.setBrush(QtGui.QPalette.Background,QtGui.QBrush(QtGui.QPixmap("grass.jpg")))    
+    #palette    = QtGui.QPalette()
+    #palette.setBrush(QtGui.QPalette.Background,QtGui.QBrush(QtGui.QPixmap("grass.jpg")))
     #main_window.setPalette(palette)
     sys.exit(app.exec_())

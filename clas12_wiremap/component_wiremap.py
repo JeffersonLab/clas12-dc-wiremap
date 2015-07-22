@@ -2,7 +2,6 @@ import sys
 from os import path
 import numpy as np
 
-from clas12_wiremap.ui.main_window import*
 from .dc_tables import (CalibrationDCHVCrate,
     CalibrationDCHVSupplyBoard, CalibrationDCHVSubslot,
     CalibrationDCHVDoublet, CalibrationDCHVDoubletPin,
@@ -43,7 +42,7 @@ class DCWires(object):
     def __init__(self):
         self.run = 0
         self.variation = 'default'
-        
+
     runnum = 1
     @cached_property
     def session(self):
@@ -144,8 +143,8 @@ class DCWires(object):
 
         subslot = np.array(q.all()).T[4]
         return subslot.reshape((6,6,6,112))
-        
-        
+
+
     @cached_property
     def subslot_id(self):
         q = self.session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
@@ -199,7 +198,7 @@ class DCWires(object):
 
         doublet_pin_map = np.array(q.all()).T[4]
         return doublet_pin_map.reshape((6,6,6,112))
-        
+
     @cached_property
     def doublet_pin_map_layer(self):
         q = self.session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
@@ -216,7 +215,7 @@ class DCWires(object):
             Wire.wire)
 
         doublet_pin_map = np.array(q.all()).T[4]
-        return doublet_pin_map.reshape((6,6,6,112))    
+        return doublet_pin_map.reshape((6,6,6,112))
     @cached_property
     def doublet_id(self):
         q = self.session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
@@ -234,7 +233,7 @@ class DCWires(object):
 
         doublet = np.array(q.all()).T[4]
         return doublet.reshape((6,6,6,112))
-        
+
     @cached_property
     def doublet_pin_doublet_id(self):
         q = self.session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
@@ -289,7 +288,7 @@ class DCWires(object):
 
         trans_board = np.array(q.all()).T[4].reshape((6,6,6,112))
         return trans_board
-    
+
     @cached_property
     def trans_board_slot_id(self):
         q = self.session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire, TransBoard.slot_id)\
@@ -306,8 +305,8 @@ class DCWires(object):
 
 
         trans_board = np.array(q.all()).T[4].reshape((6,6,6,112))
-        return trans_board   
-         
+        return trans_board
+
     @cached_property
     def signal_cable_id(self):
         q = self.session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
@@ -325,7 +324,7 @@ class DCWires(object):
 
         signal_cable = np.array(q.all()).T[4]
         return signal_cable.reshape((6,6,6,112))
-        
+
     @cached_property
     def readout_connector_id(self):
         q = self.session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
@@ -363,7 +362,7 @@ if __name__ == '__main__':
     fig = pyplot.figure()
     fig.canvas.set_window_title('Supply Board Wire Connections')
     ax = fig.add_subplot(1,1,1)
-    res = plot_wiremap(ax,dcwm.supply_board_id + 1)	
+    res = plot_wiremap(ax,dcwm.supply_board_id + 1)
     pt,cbax = res
     cb,cax = cbax
     cax.set_ylabel('Supply Board ID')
