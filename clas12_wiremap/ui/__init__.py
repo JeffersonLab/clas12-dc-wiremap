@@ -10,5 +10,6 @@ from .crate_tab import CrateTab
 from .db_tab import DBTab
 from .tb_tab import TBTab
 from .wire_map import WireMaps
+from .set_run import SetRunDialogue
 
 from .main_window import MainWindow

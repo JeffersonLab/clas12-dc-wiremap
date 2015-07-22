@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1200</width>
-    <height>600</height>
+    <height>287</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -78,30 +78,15 @@
            </widget>
           </item>
           <item>
-           <widget class="QSpinBox" name="run_number">
-            <property name="enabled">
-             <bool>true</bool>
-            </property>
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-              <horstretch>0</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
+           <widget class="QLabel" name="rundisplay">
             <property name="minimumSize">
              <size>
               <width>100</width>
               <height>0</height>
              </size>
             </property>
-            <property name="maximumSize">
-             <size>
-              <width>1679776</width>
-              <height>16777215</height>
-             </size>
-            </property>
-            <property name="maximum">
-             <number>1000000000</number>
+            <property name="text">
+             <string>0</string>
             </property>
            </widget>
           </item>
@@ -122,12 +107,9 @@
            <height>0</height>
           </size>
          </property>
-         <zorder>widget</zorder>
-         <zorder>run_number</zorder>
         </widget>
        </item>
       </layout>
-      <zorder>wiremap_holder</zorder>
       <zorder>wiremap_holder</zorder>
       <zorder>horizontalWidget</zorder>
      </widget>
@@ -158,8 +140,15 @@
     <addaction name="actionExplorer"/>
     <addaction name="actionChooser"/>
    </widget>
+   <widget class="QMenu" name="menuSet_Run">
+    <property name="title">
+     <string>Set Run </string>
+    </property>
+    <addaction name="actionEdit_Run_Number"/>
+   </widget>
    <addaction name="menuFile"/>
    <addaction name="menuView"/>
+   <addaction name="menuSet_Run"/>
   </widget>
   <action name="actionOpen">
    <property name="text">
@@ -211,9 +200,62 @@
     <string>Set Run Number</string>
    </property>
   </action>
+  <action name="actionEdit_Run_Number">
+   <property name="text">
+    <string>Edit Run Number</string>
+   </property>
+  </action>
  </widget>
  <resources/>
  <connections>
+  <connection>
+   <sender>actionExplorer</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>setModeExplorer()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>430</x>
+     <y>286</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionChooser</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>setModeChooser()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>-1</x>
+     <y>-1</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>430</x>
+     <y>286</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>actionEdit_Run_Number</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>setRunDialogue()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>123</x>
+     <y>10</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>136</x>
+     <y>34</y>
+    </hint>
+   </hints>
+  </connection>
   <connection>
    <sender>actionSet_Run_Number</sender>
    <signal>triggered()</signal>
@@ -230,41 +272,11 @@
     </hint>
    </hints>
   </connection>
-  <connection>
-   <sender>actionExplorer</sender>
-   <signal>triggered()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>setModeExplorer()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>-1</x>
-     <y>-1</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>430</x>
-     <y>299</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>actionChooser</sender>
-   <signal>triggered()</signal>
-   <receiver>MainWindow</receiver>
-   <slot>setModeChooser()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>-1</x>
-     <y>-1</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>430</x>
-     <y>299</y>
-    </hint>
-   </hints>
-  </connection>
  </connections>
  <slots>
   <slot>setModeChooser()</slot>
   <slot>setModeExplorer()</slot>
+  <slot>loadRun(int)</slot>
+  <slot>setRunDialogue()</slot>
  </slots>
 </ui>

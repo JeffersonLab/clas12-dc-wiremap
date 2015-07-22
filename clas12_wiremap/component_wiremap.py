@@ -2,6 +2,7 @@ import sys
 from os import path
 import numpy as np
 
+from clas12_wiremap.ui.main_window import*
 from .dc_tables import (CalibrationDCHVCrate,
     CalibrationDCHVSupplyBoard, CalibrationDCHVSubslot,
     CalibrationDCHVDoublet, CalibrationDCHVDoubletPin,
@@ -42,7 +43,8 @@ class DCWires(object):
     def __init__(self):
         self.run = 0
         self.variation = 'default'
-
+        
+    runnum = 1
     @cached_property
     def session(self):
         return initialize_session()
@@ -57,8 +59,9 @@ class DCWires(object):
         assert run >= 0
         self._run = run
 
-    def clear():
+    def clear(self):
         attrs = '''\
+            session
             crate_id
             supply_board_id
         '''.split()
@@ -69,6 +72,7 @@ class DCWires(object):
                 pass
 
     def fetch_data(self):
+        self.clear()
         for Table in DCWires._tables:
             name = Table.__tablename__
             print('fetching table:',name)

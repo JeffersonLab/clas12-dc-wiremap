@@ -100,13 +100,15 @@ class MainWindow(QtGui.QMainWindow):
         self.left_stacked_widget.setCurrentIndex(1)
   
     def setRunDialogue(self):
-        self.running = SetRunDialogue()
-        self.loadRun( self.running.spinBox.value())
-        self.running.show()
+        run,ok = SetRunDialogue.getRunNum()
+        if ok:
+            self.loadRun(run)
+       
        
     
          
     def loadRun(self, runnumber):
+        self.rundisplay.setNum(runnumber)
         self.dcwires.run = runnumber
         self.dcwires.fetch_data()
         
