@@ -197,8 +197,19 @@ class DBTab(QtGui.QTabWidget):
 
         buttons = self.get_buttons()
         print(buttons)
+    """
+    @staticmethod
+    def getSec(parent = None):
+        temp = DBTab(parent)
+        answer = temp.currentIndex()        
+        print(answer)
+        #return answer
+   """
+    def getSec(self):
+        return self.currentIndex() + 1
+        
 
-
+   
 if __name__ == '__main__':
     import sys
 
@@ -208,9 +219,9 @@ if __name__ == '__main__':
 
             self.db_tab = DBTab()
             self.setCentralWidget(self.db_tab)
-
+    
             self.show()
-
+                             
     app = QtGui.QApplication(sys.argv)
     main_window = MainWindow()
     sys.exit(app.exec_())

@@ -26,7 +26,8 @@ if __name__ == '__main__':
     app = QtGui.QApplication(sys.argv)
     run,ok = SetRunDialogue.getRunNum()
     if ok:
-        print('got run: '+str(run))
+        print('got run: '+str(run))        
     else:
         print('user canceled.')
-    sys.exit(app.exec_())
+    
+   

@@ -26,7 +26,7 @@
    <string>TabWidget</string>
   </property>
   <property name="currentIndex">
-   <number>5</number>
+   <number>3</number>
   </property>
   <widget class="QWidget" name="sector1">
    <property name="minimumSize">
@@ -18394,8 +18394,26 @@
   </widget>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>tabWidget</sender>
+   <signal>currentChanged(int)</signal>
+   <receiver>tabWidget</receiver>
+   <slot>getSec()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>276</x>
+     <y>35</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>401</x>
+     <y>27</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
  <slots>
   <slot>status_changed()</slot>
+  <slot>getSec()</slot>
  </slots>
 </ui>
