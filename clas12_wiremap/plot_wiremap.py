@@ -13,6 +13,8 @@ def transform(a):
 
 def plot_wiremap(ax,data,**kwargs):
 
+    cbstyle = kwargs.pop('cbstyle','discrete')
+
     im = ax.imshow(transform(data), extent=[1,112*3,-6*6+1,6*6],
         aspect='auto', origin='lower', interpolation='nearest')
     ax.grid(True)
@@ -40,7 +42,10 @@ def plot_wiremap(ax,data,**kwargs):
                     'Sector {}'.format(sec+1),
                     transform=ax.transAxes)
 
-    cb = discrete_colorbar(ax, im, data.max(),**kwargs)
+    if cbstyle == 'discrete':
+        cb = discrete_colorbar(ax, im, data.max(),**kwargs)
+    else:
+        cb = ax.figure.colorbar(im, ax=ax)
 
     return im, cb
 

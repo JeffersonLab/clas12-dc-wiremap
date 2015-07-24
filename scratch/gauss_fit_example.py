@@ -13,10 +13,11 @@ h,e = np.histogram(sample_data, bins=100, range=[-10,10])
 
 # get centers of the bins of histogram
 bin_centers = 0.5*(e[1:] + e[:-1])
+#starting at 2 element and then shifting everything to the left by 1
 
 # setup the function to fit to the data
 def gauss(x,N,mean,sigma):
-    return N * stats.norm(mean,sigma).pdf(x)
+    return N * stats.norm(mean,sigma).pdf(x) #fitting 'norm' distribution
 
 # guess initial parameters
 p0 = [npoints,0,2]
