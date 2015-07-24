@@ -32,12 +32,13 @@ class DCWires(object):
                SupplyBoard      ,
                Subslot          ,
                Doublet          ,
-               DoubletPin       ,
-               DoubletPinMap    ,
+               #DoubletPin       ,
+               #DoubletPinMap    ,
                TransBoard       ,
                Wire             ,
-               SignalCable      ,
-               ReadoutConnector ]
+               #SignalCable      ,
+               #ReadoutConnector ,
+    ]
 
     def __init__(self):
         self.run = 0
@@ -62,7 +63,10 @@ class DCWires(object):
         attrs = '''\
             session
             crate_id
+            slot_id
             supply_board_id
+            subslot_id
+            quad_id
         '''.split()
         for attr in attrs:
             try:
@@ -85,14 +89,10 @@ class DCWires(object):
             del data
         self.session.flush()
 
-
-
-
-    @cached_property
-    def crate_id(self):
-
-        q = self.session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
-               Crate.id)\
+    def query_column(self,column):
+        q = self.session.query(
+            Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
+            column)\
         .join(Subslot,Doublet,TransBoard,SupplyBoard,Crate)\
         .filter(
             SupplyBoard.wire_type == 'sense',
@@ -103,84 +103,48 @@ class DCWires(object):
             Wire.superlayer,
             Wire.layer,
             Wire.wire)
+        arr = np.array(q.all()).T[4]
+        return arr.reshape((6,6,6,112))
 
-        crate = np.array(q.all()).T[4]
-        return crate.reshape((6,6,6,112))
+    @cached_property
+    def crate_id(self):
+        return self.query_column(Crate.id)
+
+    @cached_property
+    def slot_id(self):
+        return self.query_column(SupplyBoard.slot_id)
 
     @cached_property
     def supply_board_id(self):
-
-        q = self.session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
-               SupplyBoard.id)\
-        .join(Subslot,Doublet,TransBoard,SupplyBoard)\
-        .filter(
-            SupplyBoard.wire_type == 'sense',
-            Wire.wire >= TransBoard.wire_offset,
-            Wire.wire <  TransBoard.wire_offset + TransBoard.nwires)\
-        .order_by(
-            Wire.sector,
-            Wire.superlayer,
-            Wire.layer,
-            Wire.wire)
-
-        supplyboard = np.array(q.all()).T[4]
-        return supplyboard.reshape((6,6,6,112))
-
-    @cached_property
-    def subslot_supply_board_id(self):
-        q = self.session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
-               Subslot.supply_board_id)\
-        .join(Subslot,Doublet,TransBoard, SupplyBoard)\
-        .filter(
-            SupplyBoard.wire_type == 'sense',
-            Wire.wire >= TransBoard.wire_offset,
-            Wire.wire <  TransBoard.wire_offset + TransBoard.nwires)\
-        .order_by(
-            Wire.sector,
-            Wire.superlayer,
-            Wire.layer,
-            Wire.wire)
-
-        subslot = np.array(q.all()).T[4]
-        return subslot.reshape((6,6,6,112))
-
+        return self.query_column(SupplyBoard.id)
 
     @cached_property
     def subslot_id(self):
-        q = self.session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
-               Subslot.subslot_id)\
-        .join(Subslot,Doublet,TransBoard, SupplyBoard)\
-        .filter(
-            SupplyBoard.wire_type == 'sense',
-            Wire.wire >= TransBoard.wire_offset,
-            Wire.wire <  TransBoard.wire_offset + TransBoard.nwires)\
-        .order_by(
-            Wire.sector,
-            Wire.superlayer,
-            Wire.layer,
-            Wire.wire)
+        return self.query_column(Subslot.subslot_id)
 
-        subslot = np.array(q.all()).T[4]
-        return subslot.reshape((6,6,6,112))
+    @cached_property
+    def subslot_channel_id(self):
+        return self.query_column(Doublet.channel_id)
 
+    @cached_property
+    def distr_box_type(self):
+        return self.query_column(Doublet.distr_box_type)
 
     @cached_property
     def quad_id(self):
-        q = self.session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
-               Doublet.quad_id)\
-        .join(Subslot,Doublet,TransBoard,SupplyBoard)\
-        .filter(
-            SupplyBoard.wire_type == 'sense',
-            Wire.wire >= TransBoard.wire_offset,
-            Wire.wire <  TransBoard.wire_offset + TransBoard.nwires)\
-        .order_by(
-            Wire.sector,
-            Wire.superlayer,
-            Wire.layer,
-            Wire.wire)
+        return self.query_column(Doublet.quad_id)
 
-        quad = np.array(q.all()).T[4]
-        return quad.reshape((6,6,6,112))
+    @cached_property
+    def doublet_id(self):
+        return self.query_column(Doublet.doublet_id)
+
+    @cached_property
+    def trans_board_id(self):
+        return self.query_column(TransBoard.board_id)
+
+    @cached_property
+    def trans_board_slot_id(self):
+        return self.query_column(TransBoard.slot_id)
 
     @cached_property
     def doublet_pin_map_doublet_id(self):
@@ -235,23 +199,6 @@ class DCWires(object):
 
         doublet_pin_map = np.array(q.all()).T[4]
         return doublet_pin_map.reshape((6,6,6,112))
-    @cached_property
-    def doublet_id(self):
-        q = self.session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
-               Doublet.id)\
-        .join(Subslot,Doublet,TransBoard, SupplyBoard)\
-        .filter(
-            SupplyBoard.wire_type == 'sense',
-            Wire.wire >= TransBoard.wire_offset,
-            Wire.wire <  TransBoard.wire_offset + TransBoard.nwires)\
-        .order_by(
-            Wire.sector,
-            Wire.superlayer,
-            Wire.layer,
-            Wire.wire)
-
-        doublet = np.array(q.all()).T[4]
-        return doublet.reshape((6,6,6,112))
 
     @cached_property
     def doublet_pin_doublet_id(self):
@@ -289,42 +236,6 @@ class DCWires(object):
         doublet_pin = np.array(q.all()).T[4]
         return doublet_pin.reshape((6,6,6,112))
 
-    @cached_property
-    def trans_board_id(self):
-        q = self.session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire,
-               TransBoard.board_id)\
-        .join(Subslot,Doublet,TransBoard, SupplyBoard)\
-        .filter(
-            SupplyBoard.wire_type == 'sense',
-            Wire.wire >= TransBoard.wire_offset,
-            Wire.wire <  TransBoard.wire_offset + TransBoard.nwires)\
-        .order_by(
-            Wire.sector,
-            Wire.superlayer,
-            Wire.layer,
-            Wire.wire)
-
-
-        trans_board = np.array(q.all()).T[4].reshape((6,6,6,112))
-        return trans_board
-
-    @cached_property
-    def trans_board_slot_id(self):
-        q = self.session.query(Wire.sector,Wire.superlayer,Wire.layer,Wire.wire, TransBoard.slot_id)\
-        .join(Subslot,Doublet,TransBoard, SupplyBoard)\
-        .filter(
-            SupplyBoard.wire_type == 'sense',
-            Wire.wire >= TransBoard.wire_offset,
-            Wire.wire <  TransBoard.wire_offset + TransBoard.nwires)\
-        .order_by(
-            Wire.sector,
-            Wire.superlayer,
-            Wire.layer,
-            Wire.wire)
-
-
-        trans_board = np.array(q.all()).T[4].reshape((6,6,6,112))
-        return trans_board
 
     @cached_property
     def signal_cable_id(self):
