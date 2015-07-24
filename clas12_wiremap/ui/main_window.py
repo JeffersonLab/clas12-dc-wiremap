@@ -27,6 +27,11 @@ class MainWindow(QtGui.QMainWindow):
 
         ### Explorer Tabs
         self.explorer_tabs = QtGui.QTabWidget()
+        
+        
+        CrateTab.stateChanged = self.sendCrateArray
+        TBTab.stateChanged = self.sendTBArray
+        
 
         self.crate = CrateTab()
         self.crate.setMinimumWidth(750)
@@ -86,27 +91,11 @@ class MainWindow(QtGui.QMainWindow):
             self.wiremaps.data = data
 
         #self.sidebar.post_update = update_wiremap
-<<<<<<< HEAD
-
-        self.dboard.currentChanged.connect(lambda x: self.wiremaps.setCurrentIndex(x+1))
-
-
-        def crate_stateChanged(crate, dcw=self.dcwires, wm=self.wiremaps):
-            #crate_id
-            #supply_board_ids
-            #subslot_ids
-            #channel_ids
-            crate_id = crate.currentIndex()
-            crate_status = getattr(crate,'crate{crate}'.format(crate_id)).isChecked()
-            self.wiremaps
-
-
-        self.crate.stateChanged = crate_stateChanged
-
-=======
         
+             
         for i in [self.dboard, self.tboard, self.dcrb, self.stb]:
             i.currentChanged.connect(lambda x: self.wiremaps.setCurrentIndex(x+1))
+            
             
             
         def f(i):
@@ -116,7 +105,6 @@ class MainWindow(QtGui.QMainWindow):
                 self.wiremaps.setCurrentIndex(self.explorer_tabs.currentWidget().currentIndex() + 1)
                 
         self.explorer_tabs.currentChanged.connect(f)
->>>>>>> e3dfe65fadb97558e78eb4c9eacb6a162835cb7f
         self.setModeExplorer()
         self.show()
 
@@ -140,12 +128,20 @@ class MainWindow(QtGui.QMainWindow):
         self.dcwires.run = runnumber
         self.dcwires.fetch_data()
 
-
-
-
-
-
-
+                   
+    def sendCrateArray(*args):
+        return main_window.crate.get_subslots(),
+        main_window.crate.get_channels()
+        
+        
+    def sendTBArray(*args):
+        return main_window.tboard.get_sectors(), 
+        main_window.tboard.get_superlayers(), 
+        main_window.tboard.get_boards(), 
+        main_window.tboard.get_halfs()
+       
+    
+    
 if __name__ == '__main__':
     import sys
     app = QtGui.QApplication(sys.argv)
