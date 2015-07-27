@@ -73,7 +73,7 @@
           <item>
            <widget class="QLabel" name="label">
             <property name="text">
-             <string>Run Number</string>
+             <string>Run Number:</string>
             </property>
            </widget>
           </item>
@@ -247,8 +247,8 @@
    <slot>setRunDialogue()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>123</x>
-     <y>10</y>
+     <x>-1</x>
+     <y>-1</y>
     </hint>
     <hint type="destinationlabel">
      <x>136</x>

@@ -52,7 +52,12 @@ class WireMap(QtGui.QWidget):
     def superlayer_plot(self,ax,sec,slyr):
         if not hasattr(self,'data'):
             self.data = rand.uniform(0,100,(6,6,6,112))
-        pt = ax.imshow(self.data[sec][slyr],
+        if not hasattr(self,'mask'):
+            self.mask = np.ones((6,6,6,112), dtype=np.bool)
+        print(self.mask)
+        print(type(self.mask))
+        masked_data = np.array(self.data[sec][slyr], mask=self.mask[sec][slyr])
+        pt = ax.imshow(masked_data,
             origin='lower',
             aspect='auto',
             interpolation='nearest',
@@ -109,7 +114,10 @@ class WireMapSector(QtGui.QWidget):
     def superlayer_plot(self,ax,slyr):
         if not hasattr(self,'data'):
             self.data = rand.uniform(0,100,(6,6,112))
-        pt = ax.imshow(self.data[slyr],
+        if not hasattr(self,'mask'):
+            self.mask = np.ones((6,6,6,112), dtype=np.bool)
+        masked_array = np.array(self.data[slyr], mask=self.mask[slyr])
+        pt = ax.imshow(masked_array,
             origin='lower',
             aspect='auto',
             interpolation='nearest',
@@ -150,12 +158,21 @@ class WireMaps(QtGui.QStackedWidget):
 
     @data.setter
     def data(self,d):
-        self._data = d
-
-        self.wiremap.data = self._data
+        self.wiremap.data = d
         for sec in range(6):
-            self.sec_wiremaps[sec].data = self._data[sec]
+            self.sec_wiremaps[sec].data = d[sec]
 
+        self.update_active_plots()
+        
+    @property
+    def mask(self):
+        return self.wiremap.mask
+        
+    @mask.setter
+    def mask(self,m):
+        self.wiremap.mask = m
+        for sec in range(6):
+            self.sec_wiremaps[sec].mask = m[sec]
         self.update_active_plots()
 
     def update_active_plots(self):

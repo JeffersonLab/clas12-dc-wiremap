@@ -69,6 +69,7 @@ class TBTab(QtGui.QTabWidget):
 
             for superlayer_id,superlayer in enumerate(superlayers):
                 sector.clicked.connect(superlayer.setChecked)
+                sector.clicked.connect(self.stateChanged)
                 superlayer.clicked.connect(_check_sector)
 
                 boards = self.boards[sector_id][superlayer_id]
@@ -79,6 +80,8 @@ class TBTab(QtGui.QTabWidget):
                 for board_id,board in enumerate(boards):
                     superlayer.clicked.connect(board.setChecked)
                     sector.clicked.connect(board.setChecked)
+                    superlayer.clicked.connect(self.stateChanged)
+                    sector.clicked.connect(self.stateChanged)
                     board.clicked.connect(_check_superlayer)
                     board.clicked.connect(_check_sector)
 
@@ -94,30 +97,110 @@ class TBTab(QtGui.QTabWidget):
                         slot.clicked.connect(_check_board)
                         slot.clicked.connect(_check_superlayer)
                         slot.clicked.connect(_check_sector)
+                        '''
+                        board.clicked.connect(self.status_changed)
+                        superlayer.clicked.connect(self.status_changed)
+                        sector.clicked.connect(self.status_changed)
+                        slot.clicked.connect(self.status_changed)
+                        '''
+                        board.clicked.connect(self.stateChanged)
+                        superlayer.clicked.connect(self.stateChanged)
+                        sector.clicked.connect(self.stateChanged)
+                        slot.clicked.connect(self.stateChanged)
+                    
+   
+   
+    def get_sectors(self):
 
-    def get_buttons(self):
-
-        fmt = 'sl{super_layer}_{board}'
+        fmt = 'sc{sector}'
 
         buttons = []
-        for sector in [2]:
+        for sector in range(1,7):
+                
+                    
+            opts = {    'sector' : sector}
+            b = getattr(self,fmt.format(**opts))              
+                
+            buttons += [b.isChecked()]
+
+        return buttons
+    def get_superlayers(self):
+
+        fmt = 'sc{sector}_sl{super_layer}'
+
+        buttons = []
+        for sector in range(1,7):
+                
+            sl_buttons = []
+            for super_layer in range(1,7):             
+                        
+                            
+                opts = {    'sector' : sector,
+                                'super_layer' : super_layer}
+                b = getattr(self,fmt.format(**opts))                        
+                sl_buttons += [b.isChecked()]
+            buttons += [sl_buttons]
+
+        return buttons
+        
+    def get_boards(self):
+
+        fmt = 'sc{sector}_sl{super_layer}_b{board}'
+
+        buttons = []
+        for sector in range(1,7):
+                
+            sl_buttons = []
             for super_layer in range(1,7):
 
                 b_buttons = []
-                for board in range(1,13):
-                    opts = {
+                for board in range(1,8):                
+                        
+                            
+                    opts = {    'sector' : sector,
                                 'super_layer' : super_layer,
-                                'board' : board}
-                    b = getattr(self,fmt.format(**opts))
-
+                                'board' : board }
+                    b = getattr(self,fmt.format(**opts))                        
                     b_buttons += [b.isChecked()]
-                buttons += [b_buttons]
+                sl_buttons += [b_buttons]
+            buttons += [sl_buttons]
 
         return buttons
+        
+    def get_halfs(self):
+
+        fmt = 'sc{sector}_sl{super_layer}_b{board}_{half}'
+
+        buttons = []
+        for sector in range(1,7):
+            
+            sl_buttons = []
+            for super_layer in range(1,7):
+
+                b_buttons = []
+                for board in range(1,6):
+                    
+                    h_buttons = []                    
+                    for half in range(1,3):
+                        
+                        opts = {    'sector' : sector,
+                                'super_layer' : super_layer,
+                                'board' : board,
+                                'half' : half
+                                }
+                        b = getattr(self,fmt.format(**opts))
+                        h_buttons += [b.isChecked()]
+                    b_buttons += [h_buttons]
+                sl_buttons += [b_buttons]
+            buttons += [sl_buttons]
+
+        return buttons
+        
+    
 
     def status_changed(self):
 
-        buttons = self.get_buttons()
+        buttons = self.get_superlayers()
         print(buttons)
 
 if __name__ == '__main__':

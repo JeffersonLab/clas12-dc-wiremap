@@ -56,6 +56,7 @@ class STBTab(QtGui.QTabWidget):
 
             for superlayer_id,superlayer in enumerate(superlayers):
                 sector.clicked.connect(superlayer.setChecked)
+                sector.clicked.connect(self.stateChanged)
                 superlayer.clicked.connect(_check_sector)
 
                 boards = self.boards[sector_id][superlayer_id]
@@ -65,35 +66,73 @@ class STBTab(QtGui.QTabWidget):
 
                 for board_id,board in enumerate(boards):
                     superlayer.clicked.connect(board.setChecked)
+                    superlayer.clicked.connect(self.stateChanged)
                     sector.clicked.connect(board.setChecked)
+                    sector.clicked.connect(self.stateChanged)
                     board.clicked.connect(_check_superlayer)
                     board.clicked.connect(_check_sector)
+                    board.clicked.connect(self.stateChanged)
 
+    def get_sector(self):
 
-    def get_buttons(self):
-
-        fmt = 'sl{super_layer}_{board}'
+        fmt = 'sc{sector}'
 
         buttons = []
-        for sector in [2]:
+        for sector in range(1,7):
+            
+            opts = {
+                        'sector' : sector
+                    }
+            b = getattr(self,fmt.format(**opts))            
+            buttons += [b.isChecked()]
+
+        return buttons
+        
+    def get_superlayer(self):
+
+        fmt = 'sc{sector}_sl{super_layer}'
+
+        buttons = []
+        for sector in range(1,7):
+            
+            sl_buttons = []
             for super_layer in range(1,7):
-
-                b_buttons = []
-                for board in range(1,13):
-                    opts = {
-                                'super_layer' : super_layer,
-                                'board' : board}
-                    b = getattr(self,fmt.format(**opts))
-
-                    b_buttons += [b.isChecked()]
-                buttons += [b_buttons]
+                opts = {
+                                'sector' : sector,
+                                'super_layer' : super_layer
+                            }
+                b = getattr(self,fmt.format(**opts))
+                sl_buttons += [b.isChecked()]
+            buttons += [sl_buttons]
 
         return buttons
 
-    def status_changed(self):
+    def get_board(self):
 
-        buttons = self.get_buttons()
-        print(buttons)
+        fmt = 'sc{sector}_sl{super_layer}_b{board}'
+
+        buttons = []
+        for sector in range(1,7):
+            
+            sl_buttons = []
+            for super_layer in range(1,7):
+
+                b_buttons = []
+                for board in range(1,8):
+                    opts = {
+                                'sector' : sector,
+                                'super_layer' : super_layer,
+                                'board' : board}
+                    b = getattr(self,fmt.format(**opts))
+                    b_buttons += [b.isChecked()]
+                sl_buttons += [b_buttons]
+            buttons += [sl_buttons]
+
+        return buttons
+
+    def stateChanged(self):
+
+        print('hello')
 
 if __name__ == '__main__':
     import sys
@@ -104,7 +143,7 @@ if __name__ == '__main__':
 
             self.stb_tab = STBTab()
             self.setCentralWidget(self.stb_tab)
-
+            print(self.stb_tab.get_superlayer())
             self.show()
 
     app = QtGui.QApplication(sys.argv)
