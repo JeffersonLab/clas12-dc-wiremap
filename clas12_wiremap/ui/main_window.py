@@ -1,7 +1,8 @@
 from __future__ import print_function, division
 
+import sys
 import os
-
+import numpy as np
 from clas12_wiremap.ui import QtGui, uic
 from clas12_wiremap.ui import Sidebar, CrateTab, DBTab, TBTab, WireMaps, SetRunDialogue
 from clas12_wiremap.ui.dcrb_tab import DCRB
@@ -14,6 +15,7 @@ class MainWindow(QtGui.QMainWindow):
         curdir = os.path.dirname(os.path.realpath(__file__))
         uic.loadUi(os.path.join(curdir,'MainWindow.ui'), self)
         self.dcwires = DCWires()
+        self.loadRun(1)
         #self.dcwires.initialize_session()
 
 
@@ -134,9 +136,9 @@ class MainWindow(QtGui.QMainWindow):
     def sendCrateArray(*args):
         crate_id = main_window.crate.currentIndex()
         crate_status = main_window.crate.get_crate()[0]
-        supply_board_status = main_window.crate.get_supply_board()
-        subslot_status = main_window.crate.get_subslots()
-        channel_status = main_window.crate.get_channels()
+        supply_board_status = main_window.crate.get_supply_board()[crate_id]
+        subslot_status = main_window.crate.get_subslots()[crate_id]
+        channel_status = main_window.crate.get_channels()[crate_id]
 
         dcw = main_window.dcwires
         mask = np.zeros((6,6,6,112), dtype=np.bool)
@@ -146,8 +148,7 @@ class MainWindow(QtGui.QMainWindow):
                     mask |= (crate_status & dcw.crate_id==crate_id) \
                         & (sb & dcw.slot_id==sb_i) \
                         & (ss & dcw.subslot_id==ss_i) \
-                        & (ch & dcw.channel_id==cd_i)
-        
+                        & (ch & dcw.subslot_channel_id==ch_i)
         main_window.wiremaps.mask = mask
         
         
