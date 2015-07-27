@@ -2,7 +2,7 @@ import numpy as np
 from matplotlib import pyplot, cm, colors, colorbar
 
 def transform(a):
-    a.shape = (6,6*6,112)
+    a = a.copy().reshape(6,6*6,112)
     a[3:,:,...] = a[3:,::-1,...]
     a.shape = (2,3,6,6,112)
     a = np.rollaxis(a,2,1)
