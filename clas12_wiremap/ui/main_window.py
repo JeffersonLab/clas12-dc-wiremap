@@ -31,7 +31,9 @@ class MainWindow(QtGui.QMainWindow):
         
         CrateTab.stateChanged = self.sendCrateArray
         TBTab.stateChanged = self.sendTBArray
-        
+        DBTab.stateChanged = self.sendDBArray
+        STBTab.stateChanged = self.sendSTBArray
+        DCRB.stateChanged = self.sendDCRBArray
 
         self.crate = CrateTab()
         self.crate.setMinimumWidth(750)
@@ -130,8 +132,23 @@ class MainWindow(QtGui.QMainWindow):
 
                    
     def sendCrateArray(*args):
-        return main_window.crate.get_subslots(),
-        main_window.crate.get_channels()
+        crate_id = main_window.crate.currentIndex()
+        crate_status = main_window.crate.get_crate()[0]
+        supply_board_status = main_window.crate.get_supply_board()
+        subslot_status = main_window.crate.get_subslots()
+        channel_status = main_window.crate.get_channels()
+
+        dcw = main_window.dcwires
+        mask = np.zeros((6,6,6,112), dtype=np.bool)
+        for sb_i,sb in enumerate(supply_board_status):
+            for ss_i,ss in enumerate(subslot_status[sb_i]):
+                for ch_i,ch in enumerate(channel_status[sb_i][ss_i]):
+                    mask |= (crate_status & dcw.crate_id==crate_id) \
+                        & (sb & dcw.slot_id==sb_i) \
+                        & (ss & dcw.subslot_id==ss_i) \
+                        & (ch & dcw.channel_id==cd_i)
+        
+        main_window.wiremaps.mask = mask
         
         
     def sendTBArray(*args):
@@ -140,13 +157,26 @@ class MainWindow(QtGui.QMainWindow):
         main_window.tboard.get_boards(), 
         main_window.tboard.get_halfs()
        
-    
-    
+    def sendDBArray(*args):
+        return main_window.dboard.get_sector(),
+        main_window.dboard.get_super_layer(),
+        main_window.dboard.get_direction(),
+        main_window.dboard.get_box(),
+        main_window.dboard.get_quad(),
+        main_window.dboard.get_doublet()
+        
+    def sendSTBArray(*args):
+        return main_window.stb.get_board(),
+        main_window.stb.get_superlayer(),
+        main_window.stb.get_sector()
+        
+    def sendDCRBArray(*args):
+        print(main_window.dcrb.get_board())
+        print(main_window.dcrb.get_superlayer())
+        print(main_window.dcrb.get_sector())
+        
 if __name__ == '__main__':
     import sys
     app = QtGui.QApplication(sys.argv)
     main_window = MainWindow()
-    #palette    = QtGui.QPalette()
-    #palette.setBrush(QtGui.QPalette.Background,QtGui.QBrush(QtGui.QPixmap("grass.jpg")))
-    #main_window.setPalette(palette)
     sys.exit(app.exec_())
