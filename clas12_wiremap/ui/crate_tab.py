@@ -61,6 +61,7 @@ class CrateTab(QtGui.QTabWidget):
                         self.channels[-1][-1][-1].append(getattr(self,ch_fmt.format(**fmt)))
 
         for ct_id,ct in enumerate(self.crates):
+            ct.clicked.connect(self.stateChanged)
 
             supply_boards = self.supply_boards[ct_id]
             def _ct(_,ct=ct,sbs=supply_boards):
@@ -69,8 +70,8 @@ class CrateTab(QtGui.QTabWidget):
 
             for sb_id,sb in enumerate(supply_boards):
                 ct.clicked.connect(sb.setChecked)
-                ct.clicked.connect(self.stateChanged)
                 sb.clicked.connect(_ct)
+                sb.clicked.connect(self.stateChanged)
 
                 subslots = self.subslots[ct_id][sb_id]
                 def _sb(_,sb=sb,sss=subslots):
@@ -78,31 +79,39 @@ class CrateTab(QtGui.QTabWidget):
                     sb.setChecked(chkd)
 
                 for ss_id,ss in enumerate(subslots):
-                    sb.clicked.connect(ss.setChecked)
-                    ct.clicked.connect(ss.setChecked)
-                    sb.clicked.connect(self.stateChanged)
-                    ct.clicked.connect(self.stateChanged)
+                    def _ss(ckd,ss=ss):
+                        was_blocked = ss.signalsBlocked()
+                        ss.blockSignals(True)
+                        ss.setChecked(ckd)
+                        ss.blockSignals(was_blocked)
+                    sb.clicked.connect(_ss)
+                    ct.clicked.connect(_ss)
                     ss.clicked.connect(_sb)
                     ss.clicked.connect(_ct)
+                    ss.clicked.connect(self.stateChanged)
 
                     channels = self.channels[ct_id][sb_id][ss_id]
                     def _ss(_,ss=ss,chs=channels):
                         chkd = any([c.isChecked() for c in chs])
+                        
+                        was_blocked = ss.signalsBlocked()
+                        ss.blockSignals(True)
                         ss.setChecked(chkd)
+                        ss.blockSignals(was_blocked)
 
-                    for ch in channels:
-                        ss.clicked.connect(ch.setChecked)
-                        sb.clicked.connect(ch.setChecked)
-                        ct.clicked.connect(ch.setChecked)
+                    for ch_id,ch in enumerate(channels):
+                        def _ch(ckd,ch=ch):
+                            was_blocked = ch.signalsBlocked()
+                            ch.blockSignals(True)
+                            ch.setChecked(ckd)
+                            ch.blockSignals(was_blocked)
+                        ss.clicked.connect(_ch)
+                        sb.clicked.connect(_ch)
+                        ct.clicked.connect(_ch)
                         ch.clicked.connect(_ss)
                         ch.clicked.connect(_sb)
                         ch.clicked.connect(_ct)
-                        ss.clicked.connect(self.stateChanged)
-                        sb.clicked.connect(self.stateChanged)
-                        ct.clicked.connect(self.stateChanged)
                         ch.clicked.connect(self.stateChanged)
-                    
-                        
                         
                         
                           
