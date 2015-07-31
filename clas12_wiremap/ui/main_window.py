@@ -95,8 +95,7 @@ class MainWindow(QtGui.QMainWindow):
             self.wiremaps.data = data
 
         #self.sidebar.post_update = update_wiremap
-        
-             
+                     
         for i in [self.dboard, self.tboard, self.dcrb, self.stb]:
             i.currentChanged.connect(lambda x: self.wiremaps.setCurrentIndex(x+1))
             
@@ -150,6 +149,7 @@ class MainWindow(QtGui.QMainWindow):
                         & (ss & dcw.subslot_id==ss_i) \
                         & (ch & dcw.subslot_channel_id==ch_i)
         main_window.wiremaps.mask = mask
+        print('complete')
         
         
     def sendTBArray(*args):
