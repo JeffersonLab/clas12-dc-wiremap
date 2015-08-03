@@ -2,12 +2,15 @@ from __future__ import print_function, division
 
 import os
 
+import numpy as np
+
 from clas12_wiremap.ui import QtGui, uic
 from clas12_wiremap import initialize_session, dc_fill_tables, dc_find_connections
 
 class CrateTab(QtGui.QTabWidget):
     def __init__(self, parent=None):
         super(QtGui.QTabWidget, self).__init__(parent)
+        self.parent = parent
         curdir = os.path.dirname(os.path.realpath(__file__))
         uic.loadUi(os.path.join(curdir,'CrateTab.ui'), self)
         self.init_buttons()
@@ -61,7 +64,7 @@ class CrateTab(QtGui.QTabWidget):
                         self.channels[-1][-1][-1].append(getattr(self,ch_fmt.format(**fmt)))
 
         for ct_id,ct in enumerate(self.crates):
-            ct.clicked.connect(self.stateChanged)
+            ct.clicked.connect(self.sendCrateArray)
 
             supply_boards = self.supply_boards[ct_id]
             def _ct(_,ct=ct,sbs=supply_boards):
@@ -71,7 +74,7 @@ class CrateTab(QtGui.QTabWidget):
             for sb_id,sb in enumerate(supply_boards):
                 ct.clicked.connect(sb.setChecked)
                 sb.clicked.connect(_ct)
-                sb.clicked.connect(self.stateChanged)
+                sb.clicked.connect(self.sendCrateArray)
 
                 subslots = self.subslots[ct_id][sb_id]
                 def _sb(_,sb=sb,sss=subslots):
@@ -88,12 +91,12 @@ class CrateTab(QtGui.QTabWidget):
                     ct.clicked.connect(_ss)
                     ss.clicked.connect(_sb)
                     ss.clicked.connect(_ct)
-                    ss.clicked.connect(self.stateChanged)
+                    ss.clicked.connect(self.sendCrateArray)
 
                     channels = self.channels[ct_id][sb_id][ss_id]
                     def _ss(_,ss=ss,chs=channels):
                         chkd = any([c.isChecked() for c in chs])
-                        
+
                         was_blocked = ss.signalsBlocked()
                         ss.blockSignals(True)
                         ss.setChecked(chkd)
@@ -111,62 +114,62 @@ class CrateTab(QtGui.QTabWidget):
                         ch.clicked.connect(_ss)
                         ch.clicked.connect(_sb)
                         ch.clicked.connect(_ct)
-                        ch.clicked.connect(self.stateChanged)
-                        
-                        
-                          
+                        ch.clicked.connect(self.sendCrateArray)
+
+
+
     def get_crate(self):
 
         fmt = 'crate{crate}'
 
         buttons = []
         for crate in range(1,5):
-                          
-            opts = {    'crate' : crate                             
+
+            opts = {    'crate' : crate
                         }
-            b = getattr(self,fmt.format(**opts)) 
+            b = getattr(self,fmt.format(**opts))
             buttons += [b.isChecked()]
 
-        return buttons   
-        
-                         
+        return buttons
+
+
     def get_supply_board(self):
 
         fmt = 'crate{crate}_SB{supply_board}'
 
         buttons = []
         for crate in range(1,5):
-                
+
             sb_buttons = []
             if crate in range(1,3):
                 slots = range(1,6)
             else:
-                slots = range(1, 11) 
-            for supply_board in slots:                             
-                    
-                          
+                slots = range(1, 11)
+            for supply_board in slots:
+
+
                 opts = {    'crate' : crate,
-                                'supply_board' : supply_board                               
+                                'supply_board' : supply_board
                         }
-                b = getattr(self,fmt.format(**opts))    
-                    
+                b = getattr(self,fmt.format(**opts))
+
                 sb_buttons += [b.isChecked()]
             buttons += [sb_buttons]
 
         return buttons
-                        
+
     def get_subslots(self):
 
         fmt = 'crate{crate}_SB{supply_board}_subslot{subslot}'
 
         buttons = []
         for crate in range(1,5):
-                
+
             sb_buttons = []
             if crate in range(1,3):
                 slots = range(1,6)
             else:
-                slots = range(1, 11) 
+                slots = range(1, 11)
             for supply_board in slots:
 
                 ss_buttons = []
@@ -175,32 +178,32 @@ class CrateTab(QtGui.QTabWidget):
                 else:
                     subslots = range(1,7)
                 for subslot in subslots:
-                        
-                    
-                          
+
+
+
                     opts = {    'crate' : crate,
                                 'supply_board' : supply_board,
                                 'subslot' : subslot
                                 }
-                    b = getattr(self,fmt.format(**opts))                       
+                    b = getattr(self,fmt.format(**opts))
                     ss_buttons += [b.isChecked()]
                 sb_buttons += [ss_buttons]
             buttons += [sb_buttons]
 
         return buttons
-                            
+
     def get_channels(self):
 
         fmt = 'crate{crate}_SB{supply_board}_subslot{subslot}_{channel}'
 
         buttons = []
         for crate in range(1,5):
-                
+
             sb_buttons = []
             if crate in range(1,3):
                 slots = range(1,6)
             else:
-                slots = range(1, 11) 
+                slots = range(1, 11)
             for supply_board in slots:
 
                 ss_buttons = []
@@ -209,10 +212,10 @@ class CrateTab(QtGui.QTabWidget):
                 else:
                     subslots = range(1,7)
                 for subslot in subslots:
-                        
-                    ch_buttons = []                    
+
+                    ch_buttons = []
                     for channel in range(1,9):
-                            
+
                         opts = {    'crate' : crate,
                                     'supply_board' : supply_board,
                                     'subslot' : subslot,
@@ -225,8 +228,30 @@ class CrateTab(QtGui.QTabWidget):
             buttons += [sb_buttons]
 
         return buttons
-                        
-    
+
+
+    def sendCrateArray(self,*args):
+        main_window = self.parent
+        dcw = main_window.dcwires
+        wiremaps = main_window.wiremaps
+
+        crate_id            = self.currentIndex()
+        crate_status        = self.get_crate()[0]
+        supply_board_status = self.get_supply_board()[crate_id]
+        subslot_status      = self.get_subslots()[crate_id]
+        channel_status      = self.get_channels()[crate_id]
+
+        mask = np.zeros((6,6,6,112), dtype=np.bool)
+        for sb_i,sb in enumerate(supply_board_status):
+            for ss_i,ss in enumerate(subslot_status[sb_i]):
+                for ch_i,ch in enumerate(channel_status[sb_i][ss_i]):
+                    mask |= (crate_status & dcw.crate_id==crate_id) \
+                        & (sb & dcw.slot_id==sb_i) \
+                        & (ss & dcw.subslot_id==ss_i) \
+                        & (ch & dcw.subslot_channel_id==ch_i)
+
+        wiremaps.mask = mask
+        print('complete')
 
 
 if __name__ == '__main__':

@@ -17,14 +17,14 @@ class STBTab(QtGui.QTabWidget):
         sector_fmt     = 'sc{sector}'
         superlayer_fmt = 'sc{sector}_sl{superlayer}'
         board_fmt      = 'sc{sector}_sl{superlayer}_b{board}'
- 
+
 
         self.sectors = []
         self.superlayers = []
         self.boards = []
-        
+
         for sector_id in range(1,7):
-        
+
             fmt = dict(sector=sector_id)
 
             self.sectors.append(getattr(self,sector_fmt.format(**fmt)))
@@ -38,14 +38,14 @@ class STBTab(QtGui.QTabWidget):
 
                 self.superlayers[-1].append(getattr(self,superlayer_fmt.format(**fmt)))
                 self.boards[-1].append([])
-            
+
                 board_ids = range(1,8)
 
                 for board_id in board_ids:
                     fmt.update(board=board_id)
 
                     self.boards[-1][-1].append(getattr(self,board_fmt.format(**fmt)))
-                  
+
 
         for sector_id,sector in enumerate(self.sectors):
 
@@ -79,22 +79,22 @@ class STBTab(QtGui.QTabWidget):
 
         buttons = []
         for sector in range(1,7):
-            
+
             opts = {
                         'sector' : sector
                     }
-            b = getattr(self,fmt.format(**opts))            
+            b = getattr(self,fmt.format(**opts))
             buttons += [b.isChecked()]
 
         return buttons
-        
+
     def get_superlayer(self):
 
         fmt = 'sc{sector}_sl{super_layer}'
 
         buttons = []
         for sector in range(1,7):
-            
+
             sl_buttons = []
             for super_layer in range(1,7):
                 opts = {
@@ -113,7 +113,7 @@ class STBTab(QtGui.QTabWidget):
 
         buttons = []
         for sector in range(1,7):
-            
+
             sl_buttons = []
             for super_layer in range(1,7):
 
@@ -131,8 +131,7 @@ class STBTab(QtGui.QTabWidget):
         return buttons
 
     def stateChanged(self):
-
-        print('hello')
+        raise NotImplemented('This needs to be implemented in MainWindow')
 
 if __name__ == '__main__':
     import sys

@@ -4,7 +4,7 @@ import sys
 import os
 import numpy as np
 from clas12_wiremap.ui import QtGui, uic
-from clas12_wiremap.ui import Sidebar, CrateTab, DBTab, TBTab, WireMaps, SetRunDialogue
+from clas12_wiremap.ui import Sidebar, CrateTab, DBTab, TBTab, DCWireStack, SetRunDialogue
 from clas12_wiremap.ui.dcrb_tab import DCRB
 from clas12_wiremap.ui.stb_tab import STBTab
 from clas12_wiremap import initialize_session, DCWires
@@ -29,15 +29,14 @@ class MainWindow(QtGui.QMainWindow):
 
         ### Explorer Tabs
         self.explorer_tabs = QtGui.QTabWidget()
-        
-        
-        CrateTab.stateChanged = self.sendCrateArray
+
+
         TBTab.stateChanged = self.sendTBArray
         DBTab.stateChanged = self.sendDBArray
         STBTab.stateChanged = self.sendSTBArray
         DCRB.stateChanged = self.sendDCRBArray
 
-        self.crate = CrateTab()
+        self.crate = CrateTab(self)
         self.crate.setMinimumWidth(750)
         self.crate.setMaximumHeight(1000)
         crate_vbox = QtGui.QVBoxLayout(self.crate)
@@ -82,7 +81,7 @@ class MainWindow(QtGui.QMainWindow):
         #self.chooser_holder.setLayout(sidebar_vbox)
 
         ### Wiremap
-        self.wiremaps = WireMaps()
+        self.wiremaps = DCWireStack(self)
         wmap_vbox = QtGui.QVBoxLayout()
         wmap_vbox.addWidget(self.wiremaps)
         self.wiremap_holder.setLayout(wmap_vbox)
@@ -95,18 +94,18 @@ class MainWindow(QtGui.QMainWindow):
             self.wiremaps.data = data
 
         #self.sidebar.post_update = update_wiremap
-                     
+
         for i in [self.dboard, self.tboard, self.dcrb, self.stb]:
             i.currentChanged.connect(lambda x: self.wiremaps.setCurrentIndex(x+1))
-            
-            
-            
+
+
+
         def f(i):
             if (i == 0):
                 self.wiremaps.setCurrentIndex(0)
             else:
                 self.wiremaps.setCurrentIndex(self.explorer_tabs.currentWidget().currentIndex() + 1)
-                
+
         self.explorer_tabs.currentChanged.connect(f)
         self.setModeExplorer()
         self.show()
@@ -131,33 +130,13 @@ class MainWindow(QtGui.QMainWindow):
         self.dcwires.run = runnumber
         self.dcwires.fetch_data()
 
-                   
-    def sendCrateArray(*args):
-        crate_id = main_window.crate.currentIndex()
-        crate_status = main_window.crate.get_crate()[0]
-        supply_board_status = main_window.crate.get_supply_board()[crate_id]
-        subslot_status = main_window.crate.get_subslots()[crate_id]
-        channel_status = main_window.crate.get_channels()[crate_id]
 
-        dcw = main_window.dcwires
-        mask = np.zeros((6,6,6,112), dtype=np.bool)
-        for sb_i,sb in enumerate(supply_board_status):
-            for ss_i,ss in enumerate(subslot_status[sb_i]):
-                for ch_i,ch in enumerate(channel_status[sb_i][ss_i]):
-                    mask |= (crate_status & dcw.crate_id==crate_id) \
-                        & (sb & dcw.slot_id==sb_i) \
-                        & (ss & dcw.subslot_id==ss_i) \
-                        & (ch & dcw.subslot_channel_id==ch_i)
-        main_window.wiremaps.mask = mask
-        print('complete')
-        
-        
     def sendTBArray(*args):
-        return main_window.tboard.get_sectors(), 
-        main_window.tboard.get_superlayers(), 
-        main_window.tboard.get_boards(), 
+        return main_window.tboard.get_sectors(),
+        main_window.tboard.get_superlayers(),
+        main_window.tboard.get_boards(),
         main_window.tboard.get_halfs()
-       
+
     def sendDBArray(*args):
         return main_window.dboard.get_sector(),
         main_window.dboard.get_super_layer(),
@@ -165,17 +144,17 @@ class MainWindow(QtGui.QMainWindow):
         main_window.dboard.get_box(),
         main_window.dboard.get_quad(),
         main_window.dboard.get_doublet()
-        
+
     def sendSTBArray(*args):
         return main_window.stb.get_board(),
         main_window.stb.get_superlayer(),
         main_window.stb.get_sector()
-        
+
     def sendDCRBArray(*args):
         print(main_window.dcrb.get_board())
         print(main_window.dcrb.get_superlayer())
         print(main_window.dcrb.get_sector())
-        
+
 if __name__ == '__main__':
     import sys
     app = QtGui.QApplication(sys.argv)
